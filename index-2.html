@@ -6323,12 +6323,1047 @@
 
 }
 </style>
+<style>
 
+        .banner-carousel {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .banner-carousel .carousel-item {
+            width: 100%;
+        }
+
+        .banner-carousel img {
+            width: 100%;
+            height: 650px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .banner-carousel .carousel-caption {
+            bottom: 25%;
+            text-align: left;
+            left: 10%;
+            right: 10%;
+        }
+
+        .banner-carousel .carousel-caption h1 {
+            font-size: clamp(30px, 5vw, 65px);
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .banner-carousel .carousel-caption p {
+            font-size: clamp(16px, 2vw, 24px);
+            margin-bottom: 20px;
+        }
+
+        .banner-carousel .carousel-caption .btn {
+            padding: 12px 28px;
+            font-size: 16px;
+        }
+
+        .banner-carousel .carousel-control-prev,
+        .banner-carousel .carousel-control-next {
+            width: 60px;
+            height: 60px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            opacity: 1;
+        }
+
+        .banner-carousel .carousel-control-prev {
+            left: 25px;
+        }
+
+        .banner-carousel .carousel-control-next {
+            right: 25px;
+        }
+
+        .banner-carousel .carousel-indicators {
+            margin-bottom: 25px;
+        }
+
+        .banner-carousel .carousel-indicators button {
+            width: 35px;
+            height: 5px;
+            margin: 0 5px;
+        }
+
+    </style>
+ <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        /* =========================
+           TOP GREEN BAR
+        ========================= */
+
+        .top-header {
+            background: #237b2b;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+        }
+
+        .top-header-container {
+            width: 100%;
+            max-width: 1250px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        .top-header-content {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 35px;
+        }
+
+        .contact-details {
+            color: #ffffff;
+            font-size: 18px;
+            white-space: nowrap;
+        }
+
+        .social-icons {
+            display: flex;
+            align-items: center;
+            gap: 7px;
+        }
+
+        .social-icons a {
+            width: 25px;
+            height: 25px;
+            border: 1px solid rgba(255,255,255,0.8);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .social-icons a:hover {
+            background: #ffffff;
+            color: #237b2b;
+        }
+
+
+        /* =========================
+           MAIN NAVBAR
+        ========================= */
+
+        .main-navbar {
+            background: #ffffff;
+            min-height: 92px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+        }
+
+        .navbar-container {
+            width: 100%;
+            max-width: 1250px;
+            margin: auto;
+            padding: 0 20px;
+        }
+
+        .navbar-content {
+            min-height: 92px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+
+        /* =========================
+           LOGO
+        ========================= */
+
+        .logo {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+        .logo img {
+            width: 300px;
+            height: auto;
+            display: block;
+        }
+
+
+        /* =========================
+           DESKTOP MENU
+        ========================= */
+
+        .desktop-menu {
+            display: flex;
+            align-items: center;
+            gap: 31px;
+        }
+
+        .desktop-menu a {
+            color: #222222;
+            text-decoration: none;
+            font-size: 18px;
+            white-space: nowrap;
+            transition: 0.3s;
+        }
+
+        .desktop-menu a:hover {
+            color: #237b2b;
+        }
+
+
+        /* =========================
+           MOBILE MENU BUTTON
+        ========================= */
+
+        .menu-button {
+            width: 45px;
+            height: 40px;
+            border: 1px solid #237b2b;
+            background: #ffffff;
+            color: #237b2b;
+            border-radius: 4px;
+            font-size: 22px;
+            display: none;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu-button:hover {
+            background: #237b2b;
+            color: #ffffff;
+        }
+
+
+        /* =========================
+           OFFCANVAS
+        ========================= */
+
+        .offcanvas {
+            width: 300px !important;
+        }
+
+        .offcanvas-header {
+            background: #237b2b;
+            color: #ffffff;
+            padding: 18px 20px;
+        }
+
+        .offcanvas-title {
+            font-size: 22px;
+            font-weight: 600;
+        }
+
+        .offcanvas-header .btn-close {
+            filter: brightness(0) invert(1);
+            opacity: 1;
+        }
+
+        .offcanvas-body {
+            padding: 20px;
+        }
+
+        .mobile-menu {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .mobile-menu a {
+            text-decoration: none;
+            color: #222222;
+            font-size: 17px;
+            padding: 14px 5px;
+            border-bottom: 1px solid #eeeeee;
+            transition: 0.3s;
+        }
+
+        .mobile-menu a:hover {
+            color: #237b2b;
+            padding-left: 10px;
+        }
+
+
+        /* =========================
+           TABLET
+        ========================= */
+
+        @media (max-width: 1199px) {
+
+            .desktop-menu {
+                gap: 18px;
+            }
+
+            .desktop-menu a {
+                font-size: 16px;
+            }
+
+            .logo img {
+                width: 260px;
+            }
+
+        }
+
+
+        /* =========================
+           MOBILE / TABLET
+        ========================= */
+
+        @media (max-width: 991px) {
+
+            .top-header {
+                min-height: auto;
+                padding: 8px 0;
+            }
+
+            .top-header-content {
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 10px 20px;
+            }
+
+            .contact-details {
+                font-size: 15px;
+                text-align: center;
+            }
+
+            .social-icons {
+                gap: 5px;
+            }
+
+            .main-navbar {
+                min-height: 75px;
+            }
+
+            .navbar-content {
+                min-height: 75px;
+            }
+
+            .logo img {
+                width: 240px;
+            }
+
+            .desktop-menu {
+                display: none;
+            }
+
+            .menu-button {
+                display: flex;
+            }
+
+        }
+
+
+        /* =========================
+           SMALL MOBILE
+        ========================= */
+
+        @media (max-width: 575px) {
+
+            .top-header {
+                padding: 7px 0;
+            }
+
+            .top-header-container {
+                padding: 0 10px;
+            }
+
+            .top-header-content {
+                gap: 6px 12px;
+            }
+
+            .contact-details {
+                font-size: 12px;
+            }
+
+            .social-icons a {
+                width: 22px;
+                height: 22px;
+                font-size: 11px;
+            }
+
+            .navbar-container {
+                padding: 0 15px;
+            }
+
+            .main-navbar {
+                min-height: 68px;
+            }
+
+            .navbar-content {
+                min-height: 68px;
+            }
+
+            .logo img {
+                width: 205px;
+            }
+
+            .menu-button {
+                width: 42px;
+                height: 38px;
+                font-size: 20px;
+            }
+
+            .offcanvas {
+                width: 280px !important;
+            }
+
+        }
+/* =====================================================
+   WARANGAL FOOTER FIRST COLUMN
+===================================================== */
+
+.warangal-footer-column {
+    width: 100%;
+}
+
+
+/* =====================================================
+   FOOTER LOGO
+===================================================== */
+
+.warangal-footer-logo-wrap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    text-decoration: none;
+
+    margin-bottom: 28px;
+}
+
+
+/* MAIN LOGO */
+
+.warangal-footer-main-logo {
+    display: block;
+
+    width: 190px;
+    max-width: 100%;
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/* =====================================================
+   HEADING
+===================================================== */
+
+.warangal-footer-heading {
+    position: relative;
+
+    margin: 0 0 20px;
+
+    padding-bottom: 10px;
+
+    color: #ffffff;
+
+    font-size: 19px;
+    line-height: 1.2;
+
+    font-weight: 700;
+
+    letter-spacing: 0.8px;
+}
+
+
+/* SMALL UNDERLINE */
+
+.warangal-footer-heading::after {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 45px;
+    height: 2px;
+
+    background: #ffffff;
+}
+
+
+/* =====================================================
+   ADDRESS
+===================================================== */
+
+.warangal-footer-address {
+    margin-bottom: 22px;
+}
+
+
+.warangal-footer-address p {
+    margin: 0 0 9px;
+
+    color: rgba(255,255,255,0.90);
+
+    font-size: 15px;
+    line-height: 1.65;
+
+    font-weight: 400;
+}
+
+
+.warangal-footer-address strong {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+.warangal-footer-address a {
+    color: rgba(255,255,255,0.90);
+
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+
+.warangal-footer-address a:hover {
+    color: #ffffff;
+}
+
+
+/* =====================================================
+   SOCIAL ICONS
+===================================================== */
+
+.warangal-footer-social {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 22px;
+    margin-bottom: 25px;
+}
+
+
+.warangal-footer-social a {
+    width: 38px;
+    height: 38px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid rgba(255,255,255,0.50);
+
+    border-radius: 50%;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    transition: all 0.3s ease;
+}
+
+
+.warangal-footer-social a:hover {
+    background: #ffffff;
+
+    color: #23752d;
+
+    border-color: #ffffff;
+
+    transform: translateY(-3px);
+}
+
+
+/* =====================================================
+   MAP
+===================================================== */
+
+.warangal-footer-map {
+    width: 100%;
+
+    max-width: 250px;
+
+    overflow: hidden;
+
+    border-radius: 6px;
+}
+
+
+.warangal-footer-map img {
+    display: block;
+
+    width: 100%;
+    height: 130px;
+
+    object-fit: cover;
+
+    transition: transform 0.4s ease;
+}
+
+
+.warangal-footer-map:hover img {
+    transform: scale(1.05);
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 991px) {
+
+    .warangal-footer-main-logo {
+        width: 170px;
+    }
+
+    .warangal-footer-heading {
+        font-size: 18px;
+    }
+
+    .warangal-footer-address p {
+        font-size: 14px;
+    }
+
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 767px) {
+
+    .warangal-footer-column {
+        text-align: left;
+        margin-bottom: 40px;
+    }
+
+
+    .warangal-footer-logo-wrap {
+        margin-bottom: 22px;
+    }
+
+
+    .warangal-footer-main-logo {
+        width: 175px;
+    }
+
+
+    .warangal-footer-heading {
+        font-size: 18px;
+    }
+
+
+    .warangal-footer-social {
+        justify-content: flex-start;
+    }
+
+
+    .warangal-footer-map {
+        max-width: 100%;
+    }
+
+
+    .warangal-footer-map img {
+        height: 170px;
+    }
+
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 480px) {
+
+    .warangal-footer-main-logo {
+        width: 155px;
+    }
+
+
+    .warangal-footer-address p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    .warangal-footer-social a {
+        width: 36px;
+        height: 36px;
+
+        font-size: 14px;
+    }
+
+
+    .warangal-footer-map img {
+        height: 150px;
+    }
+
+}
+    </style>
 
 </head>
 
 
 <body>
+
+
+
+
+
+    <!-- =====================================
+         TOP HEADER
+    ====================================== -->
+
+    <header class="top-header">
+
+        <div class="top-header-container">
+
+            <div class="top-header-content">
+
+                <div class="contact-details">
+                    +91- 870- 2459128 | waldioabu@gmail.com
+                </div>
+
+                <div class="social-icons">
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" aria-label="X">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+
+                    <a href="#" aria-label="YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================
+         MAIN NAVBAR
+    ====================================== -->
+
+    <nav class="main-navbar">
+
+        <div class="navbar-container">
+
+            <div class="navbar-content">
+
+
+                <!-- LOGO -->
+
+                <a href="#" class="logo">
+
+                    <img src="logo2.jpeg"
+                        alt="Diocese of Warangal">
+
+                </a>
+
+
+                <!-- DESKTOP MENU -->
+
+                <div class="desktop-menu">
+
+                    <a href="#">Home</a>
+
+                    <a href="#">About us</a>
+
+                    <a href="#">Committees</a>
+
+                    <a href="#">Institutions</a>
+
+                    <a href="#">Hospitals</a>
+
+                    <a href="#">Our Priests</a>
+
+                    <a href="#">Gallery</a>
+
+                    <a href="#">Contact Us</a>
+
+                </div>
+
+
+                <!-- MOBILE MENU BUTTON -->
+
+                <button class="menu-button"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#mobileMenu"
+                    aria-controls="mobileMenu">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- =====================================
+         OFFCANVAS MOBILE MENU
+    ====================================== -->
+
+    <div class="offcanvas offcanvas-end"
+        tabindex="-1"
+        id="mobileMenu"
+        aria-labelledby="mobileMenuLabel">
+
+
+        <div class="offcanvas-header">
+
+            <h5 class="offcanvas-title"
+                id="mobileMenuLabel">
+
+                Diocese of Warangal
+
+            </h5>
+
+            <button type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close">
+            </button>
+
+        </div>
+
+
+        <div class="offcanvas-body">
+
+            <div class="mobile-menu">
+
+                <a href="#">
+                    Home
+                </a>
+
+                <a href="#">
+                    About us
+                </a>
+
+                <a href="#">
+                    Committees
+                </a>
+
+                <a href="#">
+                    Institutions
+                </a>
+
+                <a href="#">
+                    Hospitals
+                </a>
+
+                <a href="#">
+                    Our Priests
+                </a>
+
+                <a href="#">
+                    Gallery
+                </a>
+
+                <a href="#">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Banner Carousel -->
+
+    <section class="banner-carousel">
+
+        <div id="bannerCarousel"
+            class="carousel slide carousel-fade"
+            data-bs-ride="carousel"
+            data-bs-interval="4000">
+
+            <!-- Indicators -->
+
+            <div class="carousel-indicators">
+
+                <button type="button"
+                    data-bs-target="#bannerCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1">
+                </button>
+
+                <button type="button"
+                    data-bs-target="#bannerCarousel"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2">
+                </button>
+
+                <button type="button"
+                    data-bs-target="#bannerCarousel"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3">
+                </button>
+
+            </div>
+
+
+            <!-- Carousel Items -->
+
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+
+                <div class="carousel-item active">
+
+                    <img src="Catholic-Festival-Clergy-Portrait.png"
+                        alt="Banner 1">
+
+                    <!-- <div class="carousel-caption">
+
+                        <h1>Welcome to Our Website</h1>
+
+                        <p>
+                            Discover quality services and
+                            unforgettable experiences.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Learn More
+                        </a>
+
+                    </div> -->
+
+                </div>
+
+
+                <!-- Slide 2 -->
+
+                <div class="carousel-item">
+
+                    <img src="Catholic-Festival-Clergy-Portrait.png"
+                        alt="Banner 2">
+<!-- 
+                    <div class="carousel-caption">
+
+                        <h1>Experience Excellence</h1>
+
+                        <p>
+                            We provide the best solutions
+                            for your needs.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Explore Now
+                        </a>
+
+                    </div> -->
+
+                </div>
+
+
+                <!-- Slide 3 -->
+
+                <div class="carousel-item">
+
+                    <img src="Catholic-Festival-Clergy-Portrait.png"
+                        alt="Banner 3">
+<!-- 
+                    <div class="carousel-caption">
+
+                        <h1>Make Every Moment Special</h1>
+
+                        <p>
+                            Quality, commitment and
+                            excellence in everything we do.
+                        </p>
+
+                        <a href="#" class="btn btn-primary">
+                            Contact Us
+                        </a>
+
+                    </div> -->
+
+                </div>
+
+            </div>
+
+
+            <!-- Previous Button -->
+
+            <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#bannerCarousel"
+                data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon"
+                    aria-hidden="true">
+                </span>
+
+                <span class="visually-hidden">
+                    Previous
+                </span>
+
+            </button>
+
+
+            <!-- Next Button -->
+
+            <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#bannerCarousel"
+                data-bs-slide="next">
+
+                <span class="carousel-control-next-icon"
+                    aria-hidden="true">
+                </span>
+
+                <span class="visually-hidden">
+                    Next
+                </span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+
 
 
 <section class="dow-about-section">
@@ -7465,7 +8500,7 @@
                                 <div class="warangal-archive-image-wrap">
 
                                     <img
-                                        src="assets/images/archive1.jpg"
+                                        src="Grand-Red-and-Beige-Cathedral-Cutout.png"
                                         class="warangal-archive-image"
                                         alt=""
                                     >
@@ -7508,7 +8543,7 @@
                                 <div class="warangal-archive-image-wrap">
 
                                     <img
-                                        src="assets/images/archive2.jpg"
+                                        src="jubliee.jpeg"
                                         class="warangal-archive-image"
                                         alt=""
                                     >
@@ -7562,7 +8597,7 @@
                                 <div class="warangal-archive-image-wrap">
 
                                     <img
-                                        src="assets/images/archive3.jpg"
+                                        src="Catholic-Festival-Clergy-Portrait.png"
                                         class="warangal-archive-image"
                                         alt=""
                                     >
@@ -7603,7 +8638,7 @@
                                 <div class="warangal-archive-image-wrap">
 
                                     <img
-                                        src="assets/images/archive4.jpg"
+                                        src="https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=900&q=82"
                                         class="warangal-archive-image"
                                         alt=""
                                     >
@@ -7692,7 +8727,7 @@
                         <div class="warangal-archive-image-wrap">
 
                             <img
-                                src="assets/images/archive1.jpg"
+                                src="Grand-Red-and-Beige-Cathedral-Cutout.png"
                                 class="warangal-archive-image"
                                 alt=""
                             >
@@ -7737,7 +8772,7 @@
                         <div class="warangal-archive-image-wrap">
 
                             <img
-                                src="assets/images/archive2.jpg"
+                                src="jubliee.jpeg"
                                 class="warangal-archive-image"
                                 alt=""
                             >
@@ -9033,97 +10068,77 @@
 
             <div class="col-12 col-md-6 col-lg-3">
 
-                <div class="warangal-footer-column">
+    <div class="warangal-footer-column">
 
-                    <!-- Logo -->
-                    <a href="#" class="warangal-footer-logo-wrap">
-
-                        <div class="warangal-footer-logo-icon">
-                            <span>W</span>
-                        </div>
-
-                        <div class="warangal-footer-logo-text">
-
-                            <h3>
-                                DIOCESE OF WARANGAL
-                            </h3>
-
-                            <p>
-                                FAITH · SERVICE · COMMUNION
-                            </p>
-
-                        </div>
-
-                    </a>
+        
+        <!-- Address Heading -->
+        <h5 class="warangal-footer-heading">
+            ADDRESS
+        </h5>
 
 
-                    <!-- Address Heading -->
-                    <h5 class="warangal-footer-heading">
-                        ADDRESS
-                    </h5>
+        <!-- Address -->
+        <div class="warangal-footer-address">
+
+            <p>
+                Bishop's House, Fatimanagar, Kazipet
+            </p>
+
+            <p>
+                Warangal – 506004, Telangana, India
+            </p>
+
+            <p>
+                <strong>Phone:</strong>
+
+                <a href="tel:+918702459128">
+                    +91 870 245 9128
+                </a>
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+
+                <a href="mailto:wgldiocese@gmail.com">
+                    wgldiocese@gmail.com
+                </a>
+            </p>
+
+        </div>
 
 
-                    <!-- Address -->
-                    <div class="warangal-footer-address">
+        <!-- Social Icons -->
+        <div class="warangal-footer-social">
 
-                        <p>
-                            Bishop's House, Fatimanagar, Kazipet
-                        </p>
+            <a href="#" aria-label="Facebook">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
 
-                        <p>
-                            Warangal – 506004, Telangana, India
-                        </p>
+            <a href="#" aria-label="YouTube">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
 
-                        <p>
-                            <strong>Phone:</strong>
-                            <a href="tel:+918702459128">
-                                +91 870 245 9128
-                            </a>
-                        </p>
+            <a href="#" aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
 
-                        <p>
-                            <strong>Email:</strong>
-                            <a href="mailto:wgldiocese@gmail.com">
-                                wgldiocese@gmail.com
-                            </a>
-                        </p>
-
-                    </div>
+        </div>
 
 
-                    <!-- Social Icons -->
-                    <div class="warangal-footer-social">
+        <!-- Map -->
+        <div class="warangal-footer-map">
 
-                        <a href="#" aria-label="Facebook">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
+            <img
+                src="assets/images/footer-map.jpg"
+                alt="Diocese of Warangal Map"
+                class="img-fluid"
+            >
 
-                        <a href="#" aria-label="YouTube">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
+        </div>
 
-                        <a href="#" aria-label="Instagram">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
+    </div>
 
-                    </div>
-
-
-                    <!-- Map Image -->
-                    <div class="warangal-footer-map">
-
-                        <img
-                            src="assets/images/footer-map.jpg"
-                            alt="Diocese of Warangal Map"
-                            class="img-fluid"
-                        >
-
-                    </div>
-
-                </div>
-
-            </div>
-
+</div>
 
 
             <!-- =================================================
@@ -9253,24 +10268,25 @@
                     </p>
 
 
-                    <!-- Bottom Logo -->
-                    <div class="warangal-footer-about-logo">
+               <!-- Logo -->
+        <a href="index.html" class="warangal-footer-logo-wrap">
 
-                        <div class="warangal-footer-logo-icon warangal-footer-about-icon">
-                            <span>W</span>
-                        </div>
+            <img
+                src="logo2.jpeg"
+                alt="Diocese of Warangal"
+                class="warangal-footer-main-logo"
+            >
 
-                        <div>
+        </a>
 
-                            <h3>
-                                DIOCESE OF
-                                <br>
-                                WARANGAL
-                            </h3>
 
-                        </div>
 
-                    </div>
+
+
+
+
+
+
 
                 </div>
 
