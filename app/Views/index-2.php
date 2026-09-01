@@ -13,40 +13,34 @@
     <!-- Bootstrap 5 CSS -->
     <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-    >
+        rel="stylesheet">
 
-<!-- Font Awesome -->
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
->
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <!-- Google Font -->
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet"
-    >
+        rel="stylesheet">
 
- <link
+    <link
         href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-        rel="stylesheet"
-    >
-    
+        rel="stylesheet">
+
     <!-- AOS CSS -->
     <link
         href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-        rel="stylesheet"
-    >
-<style>
-.warangal-blue-line {
-    width: 100%;
-    height: 6px;
-    background-color: #07559b;
-}
+        rel="stylesheet">
+    <style>
+        .warangal-blue-line {
+            width: 100%;
+            height: 6px;
+            background-color: #07559b;
+        }
     </style>
 
     <style>
-
         * {
             margin: 0;
             padding: 0;
@@ -674,1018 +668,1016 @@
             }
 
         }
-
     </style>
-<style>
-    /* ==========================================================
+    <style>
+        /* ==========================================================
    MAIN ROW
 ========================================================== */
 
-.warangal-intention-main-row {
-    display: flex;
-    flex-wrap: nowrap;
-    min-height: 282px;
-}
+        .warangal-intention-main-row {
+            display: flex;
+            flex-wrap: nowrap;
+            min-height: 282px;
+        }
 
 
-/* ==========================================================
+        /* ==========================================================
    FIXED IMAGE COLUMN
 ========================================================== */
 
-.warangal-bishop-column {
-    flex: 0 0 220px;
-    width: 220px;
-    max-width: 220px;
+        .warangal-bishop-column {
+            flex: 0 0 220px;
+            width: 220px;
+            max-width: 220px;
 
-    padding: 0;
+            padding: 0;
 
-    position: relative;
+            position: relative;
 
-    overflow: hidden;
-}
+            overflow: hidden;
+        }
 
 
-/* ==========================================================
+        /* ==========================================================
    FIXED IMAGE WRAPPER
 ========================================================== */
 
-.warangal-bishop-image-wrapper {
-    width: 220px;
-    height: 282px;
+        .warangal-bishop-image-wrapper {
+            width: 220px;
+            height: 282px;
 
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
 
-    overflow: hidden;
-}
-
-
-/* LEFT BACKGROUND */
-
-.warangal-left-bishop {
-    background: #9fdcf3;
-}
+            overflow: hidden;
+        }
 
 
-/* RIGHT BACKGROUND */
+        /* LEFT BACKGROUND */
 
-.warangal-right-bishop {
-    background: #d2e981;
-}
+        .warangal-left-bishop {
+            background: #9fdcf3;
+        }
 
 
-/* ==========================================================
+        /* RIGHT BACKGROUND */
+
+        .warangal-right-bishop {
+            background: #d2e981;
+        }
+
+
+        /* ==========================================================
    FIXED IMAGE SIZE
 ========================================================== */
 
-.warangal-bishop-image {
-    display: block;
+        .warangal-bishop-image {
+            display: block;
 
-    width: 220px;
-    height: 282px;
+            width: 220px;
+            height: 282px;
 
-    min-width: 220px;
-    max-width: 220px;
+            min-width: 220px;
+            max-width: 220px;
 
-    min-height: 282px;
-    max-height: 282px;
+            min-height: 282px;
+            max-height: 282px;
 
-    object-fit: cover;
-    object-position: center top;
+            object-fit: cover;
+            object-position: center top;
 
-    flex-shrink: 0;
-}
+            flex-shrink: 0;
+        }
 
 
-/* ==========================================================
+        /* ==========================================================
    CONTENT
 ========================================================== */
 
-.warangal-intention-content-column {
-    flex: 1 1 0;
-    width: auto;
+        .warangal-intention-content-column {
+            flex: 1 1 0;
+            width: auto;
 
-    background: #eef8ff;
-}
-
-
-.warangal-intention-content-inner {
-    width: 100%;
-    height: 282px;
-
-    padding: 28px 30px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
+            background: #eef8ff;
+        }
 
 
-.warangal-intention-divider {
-    border-right: 1px solid #d2e2ed;
-}
+        .warangal-intention-content-inner {
+            width: 100%;
+            height: 282px;
+
+            padding: 28px 30px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
 
 
-/* ==========================================================
+        .warangal-intention-divider {
+            border-right: 1px solid #d2e2ed;
+        }
+
+
+        /* ==========================================================
    TYPOGRAPHY
 ========================================================== */
 
-.warangal-intention-label {
-    margin: 0 0 10px;
+        .warangal-intention-label {
+            margin: 0 0 10px;
 
-    color: #c41f26;
+            color: #c41f26;
 
-    font-size: 17px;
-    font-weight: 700;
+            font-size: 17px;
+            font-weight: 700;
 
-    line-height: 1.3;
+            line-height: 1.3;
 
-    text-transform: uppercase;
-}
-
-
-.warangal-intention-title {
-    margin: 0 0 10px;
-
-    color: #073c72;
-
-    font-family: 'Libre Baskerville', serif;
-
-    font-size: 24px;
-    font-weight: 700;
-
-    line-height: 1.4;
-}
+            text-transform: uppercase;
+        }
 
 
-.warangal-intention-description {
-    margin: 0;
+        .warangal-intention-title {
+            margin: 0 0 10px;
 
-    color: #556575;
+            color: #073c72;
 
-    font-size: 14px;
-    font-weight: 400;
+            font-family: 'Libre Baskerville', serif;
 
-    line-height: 1.75;
-}
+            font-size: 24px;
+            font-weight: 700;
+
+            line-height: 1.4;
+        }
 
 
-/* ==========================================================
+        .warangal-intention-description {
+            margin: 0;
+
+            color: #556575;
+
+            font-size: 14px;
+            font-weight: 400;
+
+            line-height: 1.75;
+        }
+
+
+        /* ==========================================================
    1200 - 1399
 ========================================================== */
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
 
-    .warangal-bishop-column {
-        flex: 0 0 200px;
-        width: 200px;
-        max-width: 200px;
-    }
-
-
-    .warangal-bishop-image-wrapper,
-    .warangal-bishop-image {
-        width: 200px;
-
-        min-width: 200px;
-        max-width: 200px;
-
-        height: 270px;
-
-        min-height: 270px;
-        max-height: 270px;
-    }
+            .warangal-bishop-column {
+                flex: 0 0 200px;
+                width: 200px;
+                max-width: 200px;
+            }
 
 
-    .warangal-intention-main-row {
-        min-height: 270px;
-    }
+            .warangal-bishop-image-wrapper,
+            .warangal-bishop-image {
+                width: 200px;
+
+                min-width: 200px;
+                max-width: 200px;
+
+                height: 270px;
+
+                min-height: 270px;
+                max-height: 270px;
+            }
 
 
-    .warangal-intention-content-inner {
-        height: 270px;
-
-        padding: 27px 25px;
-    }
+            .warangal-intention-main-row {
+                min-height: 270px;
+            }
 
 
-    .warangal-intention-label {
-        font-size: 15px;
-    }
+            .warangal-intention-content-inner {
+                height: 270px;
+
+                padding: 27px 25px;
+            }
 
 
-    .warangal-intention-title {
-        font-size: 21px;
-    }
+            .warangal-intention-label {
+                font-size: 15px;
+            }
 
 
-    .warangal-intention-description {
-        font-size: 13px;
-    }
-
-}
+            .warangal-intention-title {
+                font-size: 21px;
+            }
 
 
-/* ==========================================================
+            .warangal-intention-description {
+                font-size: 13px;
+            }
+
+        }
+
+
+        /* ==========================================================
    992 - 1199
 ========================================================== */
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+        @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    .warangal-bishop-column {
-        flex: 0 0 175px;
-        width: 175px;
-        max-width: 175px;
-    }
-
-
-    .warangal-bishop-image-wrapper,
-    .warangal-bishop-image {
-        width: 175px;
-
-        min-width: 175px;
-        max-width: 175px;
-
-        height: 250px;
-
-        min-height: 250px;
-        max-height: 250px;
-    }
+            .warangal-bishop-column {
+                flex: 0 0 175px;
+                width: 175px;
+                max-width: 175px;
+            }
 
 
-    .warangal-intention-main-row {
-        min-height: 250px;
-    }
+            .warangal-bishop-image-wrapper,
+            .warangal-bishop-image {
+                width: 175px;
+
+                min-width: 175px;
+                max-width: 175px;
+
+                height: 250px;
+
+                min-height: 250px;
+                max-height: 250px;
+            }
 
 
-    .warangal-intention-content-inner {
-        height: 250px;
-
-        padding: 24px 20px;
-    }
+            .warangal-intention-main-row {
+                min-height: 250px;
+            }
 
 
-    .warangal-intention-label {
-        font-size: 13px;
-    }
+            .warangal-intention-content-inner {
+                height: 250px;
+
+                padding: 24px 20px;
+            }
 
 
-    .warangal-intention-title {
-        font-size: 18px;
-    }
+            .warangal-intention-label {
+                font-size: 13px;
+            }
 
 
-    .warangal-intention-description {
-        font-size: 12px;
-
-        line-height: 1.65;
-    }
-
-}
+            .warangal-intention-title {
+                font-size: 18px;
+            }
 
 
-/* ==========================================================
+            .warangal-intention-description {
+                font-size: 12px;
+
+                line-height: 1.65;
+            }
+
+        }
+
+
+        /* ==========================================================
    TABLET
    768 - 991
 ========================================================== */
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+        @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .warangal-intention-main-row {
-        flex-wrap: wrap;
-    }
-
-
-    .warangal-bishop-column {
-        flex: 0 0 220px;
-
-        width: 220px;
-        max-width: 220px;
-
-        margin: 0 auto;
-    }
+            .warangal-intention-main-row {
+                flex-wrap: wrap;
+            }
 
 
-    .warangal-bishop-image-wrapper,
-    .warangal-bishop-image {
-        width: 220px;
+            .warangal-bishop-column {
+                flex: 0 0 220px;
 
-        min-width: 220px;
-        max-width: 220px;
+                width: 220px;
+                max-width: 220px;
 
-        height: 282px;
-
-        min-height: 282px;
-        max-height: 282px;
-    }
+                margin: 0 auto;
+            }
 
 
-    .warangal-intention-content-column {
-        flex: 0 0 calc(100% - 220px);
+            .warangal-bishop-image-wrapper,
+            .warangal-bishop-image {
+                width: 220px;
 
-        width: calc(100% - 220px);
-    }
+                min-width: 220px;
+                max-width: 220px;
 
+                height: 282px;
 
-    .warangal-intention-content-inner {
-        height: 282px;
-
-        padding: 28px 25px;
-    }
-
-
-    .warangal-intention-divider {
-        border-right: none;
-    }
+                min-height: 282px;
+                max-height: 282px;
+            }
 
 
-    .warangal-intention-label {
-        font-size: 15px;
-    }
+            .warangal-intention-content-column {
+                flex: 0 0 calc(100% - 220px);
+
+                width: calc(100% - 220px);
+            }
 
 
-    .warangal-intention-title {
-        font-size: 21px;
-    }
+            .warangal-intention-content-inner {
+                height: 282px;
+
+                padding: 28px 25px;
+            }
 
 
-    .warangal-intention-description {
-        font-size: 13.5px;
-    }
-
-}
+            .warangal-intention-divider {
+                border-right: none;
+            }
 
 
-/* ==========================================================
+            .warangal-intention-label {
+                font-size: 15px;
+            }
+
+
+            .warangal-intention-title {
+                font-size: 21px;
+            }
+
+
+            .warangal-intention-description {
+                font-size: 13.5px;
+            }
+
+        }
+
+
+        /* ==========================================================
    MOBILE
    BELOW 768
 ========================================================== */
 
-@media (max-width: 767.98px) {
+        @media (max-width: 767.98px) {
 
-    .warangal-intention-main-row {
-        display: flex;
-        flex-direction: column;
+            .warangal-intention-main-row {
+                display: flex;
+                flex-direction: column;
 
-        min-height: auto;
-    }
-
-
-    .warangal-bishop-column {
-        width: 100%;
-        max-width: 100%;
-
-        flex: 0 0 auto;
-
-        display: flex;
-        justify-content: center;
-    }
+                min-height: auto;
+            }
 
 
-    /*
+            .warangal-bishop-column {
+                width: 100%;
+                max-width: 100%;
+
+                flex: 0 0 auto;
+
+                display: flex;
+                justify-content: center;
+            }
+
+
+            /*
        Image itself remains controlled and does not
        become full-screen width
     */
 
-    .warangal-bishop-image-wrapper {
-        width: 220px;
-        height: 282px;
+            .warangal-bishop-image-wrapper {
+                width: 220px;
+                height: 282px;
 
-        margin: 0 auto;
-    }
-
-
-    .warangal-bishop-image {
-        width: 220px;
-
-        min-width: 220px;
-        max-width: 220px;
-
-        height: 282px;
-
-        min-height: 282px;
-        max-height: 282px;
-
-        object-fit: cover;
-        object-position: center top;
-    }
+                margin: 0 auto;
+            }
 
 
-    .warangal-left-bishop {
-        background: #9fdcf3;
-    }
+            .warangal-bishop-image {
+                width: 220px;
+
+                min-width: 220px;
+                max-width: 220px;
+
+                height: 282px;
+
+                min-height: 282px;
+                max-height: 282px;
+
+                object-fit: cover;
+                object-position: center top;
+            }
 
 
-    .warangal-right-bishop {
-        background: #d2e981;
-    }
+            .warangal-left-bishop {
+                background: #9fdcf3;
+            }
 
 
-    .warangal-intention-content-column {
-        width: 100%;
-
-        flex: 0 0 100%;
-    }
+            .warangal-right-bishop {
+                background: #d2e981;
+            }
 
 
-    .warangal-intention-content-inner {
-        width: 100%;
-        height: auto;
+            .warangal-intention-content-column {
+                width: 100%;
 
-        min-height: 210px;
-
-        padding: 26px 22px;
-    }
+                flex: 0 0 100%;
+            }
 
 
-    .warangal-intention-divider {
-        border-right: none;
+            .warangal-intention-content-inner {
+                width: 100%;
+                height: auto;
 
-        border-bottom: 1px solid #d2e2ed;
-    }
+                min-height: 210px;
 
-
-    .warangal-intention-label {
-        font-size: 14px;
-    }
+                padding: 26px 22px;
+            }
 
 
-    .warangal-intention-title {
-        font-size: 20px;
-    }
+            .warangal-intention-divider {
+                border-right: none;
+
+                border-bottom: 1px solid #d2e2ed;
+            }
 
 
-    .warangal-intention-description {
-        font-size: 13px;
-    }
-
-}
+            .warangal-intention-label {
+                font-size: 14px;
+            }
 
 
-/* ==========================================================
+            .warangal-intention-title {
+                font-size: 20px;
+            }
+
+
+            .warangal-intention-description {
+                font-size: 13px;
+            }
+
+        }
+
+
+        /* ==========================================================
    SMALL MOBILE
 ========================================================== */
 
-@media (max-width: 575.98px) {
+        @media (max-width: 575.98px) {
 
-    .warangal-bishop-image-wrapper {
-        width: 190px;
-        height: 245px;
-    }
-
-
-    .warangal-bishop-image {
-        width: 190px;
-
-        min-width: 190px;
-        max-width: 190px;
-
-        height: 245px;
-
-        min-height: 245px;
-        max-height: 245px;
-    }
+            .warangal-bishop-image-wrapper {
+                width: 190px;
+                height: 245px;
+            }
 
 
-    .warangal-intention-content-inner {
-        min-height: auto;
+            .warangal-bishop-image {
+                width: 190px;
 
-        padding: 24px 18px;
-    }
+                min-width: 190px;
+                max-width: 190px;
 
+                height: 245px;
 
-    .warangal-intention-label {
-        font-size: 13px;
-    }
-
-
-    .warangal-intention-title {
-        font-size: 19px;
-    }
+                min-height: 245px;
+                max-height: 245px;
+            }
 
 
-    .warangal-intention-description {
-        font-size: 12.5px;
+            .warangal-intention-content-inner {
+                min-height: auto;
 
-        line-height: 1.7;
-    }
-
-}
+                padding: 24px 18px;
+            }
 
 
-/* ==========================================================
+            .warangal-intention-label {
+                font-size: 13px;
+            }
+
+
+            .warangal-intention-title {
+                font-size: 19px;
+            }
+
+
+            .warangal-intention-description {
+                font-size: 12.5px;
+
+                line-height: 1.7;
+            }
+
+        }
+
+
+        /* ==========================================================
    VERY SMALL MOBILE
 ========================================================== */
 
-@media (max-width: 380px) {
+        @media (max-width: 380px) {
 
-    .warangal-bishop-image-wrapper {
-        width: 170px;
-        height: 220px;
-    }
+            .warangal-bishop-image-wrapper {
+                width: 170px;
+                height: 220px;
+            }
 
 
-    .warangal-bishop-image {
-        width: 170px;
+            .warangal-bishop-image {
+                width: 170px;
 
-        min-width: 170px;
-        max-width: 170px;
+                min-width: 170px;
+                max-width: 170px;
 
-        height: 220px;
+                height: 220px;
 
-        min-height: 220px;
-        max-height: 220px;
-    }
+                min-height: 220px;
+                max-height: 220px;
+            }
 
-}
-</style>
-<style>
-
-    /* =========================================================
+        }
+    </style>
+    <style>
+        /* =========================================================
    WARANGAL ENGAGEMENT BAR
 ========================================================= */
 
-.warangal-engagement-bar {
-    width: 100%;
-    background: #fff1d4;
+        .warangal-engagement-bar {
+            width: 100%;
+            background: #fff1d4;
 
-    padding: 10px 20px;
+            padding: 10px 20px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-/* INNER WRAPPER */
-
-.warangal-engagement-inner {
-    width: 100%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    flex-wrap: wrap;
-
-    gap: 28px;
-}
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
 
-/* TEXT LINKS */
+        /* INNER WRAPPER */
 
-.warangal-engagement-link {
-    color: #b80000;
+        .warangal-engagement-inner {
+            width: 100%;
 
-    font-size: 14px;
-    font-weight: 700;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-    text-transform: uppercase;
-    text-decoration: none;
+            flex-wrap: wrap;
 
-    line-height: 1.4;
-
-    transition: all 0.3s ease;
-}
+            gap: 28px;
+        }
 
 
-.warangal-engagement-link:hover {
-    color: #07559b;
-}
+        /* TEXT LINKS */
+
+        .warangal-engagement-link {
+            color: #b80000;
+
+            font-size: 14px;
+            font-weight: 700;
+
+            text-transform: uppercase;
+            text-decoration: none;
+
+            line-height: 1.4;
+
+            transition: all 0.3s ease;
+        }
 
 
-/* CLICK BUTTON */
-
-.warangal-click-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    min-width: 120px;
-
-    padding: 12px 22px;
-
-    background: #bd1f27;
-
-    border: 1px solid #bd1f27;
-    border-radius: 3px;
-
-    color: #ffffff;
-
-    font-size: 12px;
-    font-weight: 700;
-
-    text-decoration: none;
-
-    transition: all 0.3s ease;
-}
+        .warangal-engagement-link:hover {
+            color: #07559b;
+        }
 
 
-.warangal-click-button:hover {
-    background: #07559b;
-    border-color: #07559b;
+        /* CLICK BUTTON */
 
-    color: #ffffff;
+        .warangal-click-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
 
-    transform: translateY(-2px);
-}
+            min-width: 120px;
+
+            padding: 12px 22px;
+
+            background: #bd1f27;
+
+            border: 1px solid #bd1f27;
+            border-radius: 3px;
+
+            color: #ffffff;
+
+            font-size: 12px;
+            font-weight: 700;
+
+            text-decoration: none;
+
+            transition: all 0.3s ease;
+        }
 
 
-/* =========================================================
+        .warangal-click-button:hover {
+            background: #07559b;
+            border-color: #07559b;
+
+            color: #ffffff;
+
+            transform: translateY(-2px);
+        }
+
+
+        /* =========================================================
    LAPTOP
    992px - 1199px
 ========================================================= */
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+        @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    .warangal-engagement-bar {
-        padding: 10px 15px;
-    }
+            .warangal-engagement-bar {
+                padding: 10px 15px;
+            }
 
-    .warangal-engagement-inner {
-        gap: 20px;
-    }
+            .warangal-engagement-inner {
+                gap: 20px;
+            }
 
-    .warangal-engagement-link {
-        font-size: 9px;
-    }
+            .warangal-engagement-link {
+                font-size: 9px;
+            }
 
-    .warangal-click-button {
-        min-width: 110px;
-        padding: 10px 18px;
-        font-size: 11px;
-    }
+            .warangal-click-button {
+                min-width: 110px;
+                padding: 10px 18px;
+                font-size: 11px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    TABLET
    768px - 991px
 ========================================================= */
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+        @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .warangal-engagement-bar {
-        padding: 15px 20px;
-    }
+            .warangal-engagement-bar {
+                padding: 15px 20px;
+            }
 
-    .warangal-engagement-inner {
-        gap: 16px 20px;
-    }
+            .warangal-engagement-inner {
+                gap: 16px 20px;
+            }
 
-    .warangal-engagement-link {
-        font-size: 9.5px;
-        text-align: center;
-    }
+            .warangal-engagement-link {
+                font-size: 9.5px;
+                text-align: center;
+            }
 
-    .warangal-click-button {
-        min-width: 115px;
-        padding: 10px 18px;
-        font-size: 11px;
-    }
+            .warangal-click-button {
+                min-width: 115px;
+                padding: 10px 18px;
+                font-size: 11px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    MOBILE
    BELOW 768px
 ========================================================= */
 
-@media (max-width: 767.98px) {
+        @media (max-width: 767.98px) {
 
-    .warangal-engagement-bar {
-        padding: 18px 15px;
-    }
+            .warangal-engagement-bar {
+                padding: 18px 15px;
+            }
 
-    .warangal-engagement-inner {
-        flex-direction: column;
+            .warangal-engagement-inner {
+                flex-direction: column;
 
-        width: 100%;
+                width: 100%;
 
-        gap: 12px;
-    }
+                gap: 12px;
+            }
 
-    .warangal-engagement-link {
-        width: 100%;
+            .warangal-engagement-link {
+                width: 100%;
 
-        text-align: center;
+                text-align: center;
 
-        font-size: 10px;
-    }
+                font-size: 10px;
+            }
 
-    .warangal-click-button {
-        min-width: 120px;
+            .warangal-click-button {
+                min-width: 120px;
 
-        padding: 10px 20px;
+                padding: 10px 20px;
 
-        font-size: 11px;
-    }
+                font-size: 11px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    SMALL MOBILE
    BELOW 576px
 ========================================================= */
 
-@media (max-width: 575.98px) {
+        @media (max-width: 575.98px) {
 
-    .warangal-engagement-bar {
-        padding: 16px 12px;
-    }
+            .warangal-engagement-bar {
+                padding: 16px 12px;
+            }
 
-    .warangal-engagement-inner {
-        gap: 10px;
-    }
+            .warangal-engagement-inner {
+                gap: 10px;
+            }
 
-    .warangal-engagement-link {
-        font-size: 9px;
-        line-height: 1.5;
-    }
+            .warangal-engagement-link {
+                font-size: 9px;
+                line-height: 1.5;
+            }
 
-    .warangal-click-button {
-        min-width: 110px;
+            .warangal-click-button {
+                min-width: 110px;
 
-        padding: 9px 16px;
+                padding: 9px 16px;
 
-        font-size: 10px;
-    }
+                font-size: 10px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    VERY SMALL MOBILE
 ========================================================= */
 
-@media (max-width: 380px) {
+        @media (max-width: 380px) {
 
-    .warangal-engagement-link {
-        font-size: 8.5px;
-    }
+            .warangal-engagement-link {
+                font-size: 8.5px;
+            }
 
-    .warangal-click-button {
-        min-width: 105px;
+            .warangal-click-button {
+                min-width: 105px;
 
-        padding: 8px 14px;
+                padding: 8px 14px;
 
-        font-size: 10px;
-    }
+                font-size: 10px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    MISSION STRIP
 ========================================================= */
 
-.warangal-mission-strip {
-    width: 100%;
-    background: #ffffff;
+        .warangal-mission-strip {
+            width: 100%;
+            background: #ffffff;
 
-    border-top: 3px solid #07559b;
+            border-top: 3px solid #07559b;
 
-    padding: 38px 0;
+            padding: 38px 0;
 
-    overflow: hidden;
-}
+            overflow: hidden;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    MISSION CARD
 ========================================================= */
 
-.warangal-mission-card {
-    width: 100%;
+        .warangal-mission-card {
+            width: 100%;
 
-    background: #ffe1b5;
+            background: #ffe1b5;
 
-    border-radius: 50px;
+            border-radius: 50px;
 
-    padding: 16px 25px;
+            padding: 16px 25px;
 
-    text-align: center;
+            text-align: center;
 
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    HEADING
 ========================================================= */
 
-.warangal-mission-title {
-    margin: 0 0 4px;
+        .warangal-mission-title {
+            margin: 0 0 4px;
 
-    font-family: Georgia, "Times New Roman", serif;
+            font-family: Georgia, "Times New Roman", serif;
 
-    font-size: 18px;
-    font-weight: 700;
+            font-size: 18px;
+            font-weight: 700;
 
-    line-height: 1.3;
+            line-height: 1.3;
 
-    color: #08457c;
-}
+            color: #08457c;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    DESCRIPTION
 ========================================================= */
 
-.warangal-mission-text {
-    margin: 0;
+        .warangal-mission-text {
+            margin: 0;
 
-    color: #4f4f4f;
+            color: #4f4f4f;
 
-    font-size: 14px;
-    font-weight: 400;
+            font-size: 14px;
+            font-weight: 400;
 
-    line-height: 1.5;
-}
+            line-height: 1.5;
+        }
 
 
 
-/* =========================================================
+        /* =========================================================
    LARGE DESKTOP
    1400px+
 ========================================================= */
 
-@media (min-width: 1400px) {
+        @media (min-width: 1400px) {
 
-    .warangal-mission-strip {
-        padding: 38px 0;
-    }
+            .warangal-mission-strip {
+                padding: 38px 0;
+            }
 
-    .warangal-mission-card {
-        min-height: 70px;
-        padding: 15px 30px;
-    }
+            .warangal-mission-card {
+                min-height: 70px;
+                padding: 15px 30px;
+            }
 
-    .warangal-mission-title {
-        font-size: 18px;
-    }
+            .warangal-mission-title {
+                font-size: 18px;
+            }
 
-    .warangal-mission-text {
-        font-size: 14px;
-    }
+            .warangal-mission-text {
+                font-size: 14px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    LAPTOP
    1200px - 1399px
 ========================================================= */
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
 
-    .warangal-mission-strip {
-        padding: 34px 0;
-    }
+            .warangal-mission-strip {
+                padding: 34px 0;
+            }
 
-    .warangal-mission-card {
-        padding: 15px 25px;
-    }
+            .warangal-mission-card {
+                padding: 15px 25px;
+            }
 
-    .warangal-mission-title {
-        font-size: 17px;
-    }
+            .warangal-mission-title {
+                font-size: 17px;
+            }
 
-    .warangal-mission-text {
-        font-size: 9.5px;
-    }
+            .warangal-mission-text {
+                font-size: 9.5px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    TABLET / SMALL LAPTOP
    768px - 1199px
 ========================================================= */
 
-@media (min-width: 768px) and (max-width: 1199.98px) {
+        @media (min-width: 768px) and (max-width: 1199.98px) {
 
-    .warangal-mission-strip {
-        padding: 30px 0;
-    }
+            .warangal-mission-strip {
+                padding: 30px 0;
+            }
 
-    .warangal-mission-card {
-        border-radius: 40px;
+            .warangal-mission-card {
+                border-radius: 40px;
 
-        padding: 15px 22px;
-    }
+                padding: 15px 22px;
+            }
 
-    .warangal-mission-title {
-        font-size: 16px;
-    }
+            .warangal-mission-title {
+                font-size: 16px;
+            }
 
-    .warangal-mission-text {
-        font-size: 9.5px;
-    }
+            .warangal-mission-text {
+                font-size: 9.5px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    LARGE MOBILE
    576px - 767px
 ========================================================= */
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+        @media (min-width: 576px) and (max-width: 767.98px) {
 
-    .warangal-mission-strip {
-        padding: 26px 0;
-    }
+            .warangal-mission-strip {
+                padding: 26px 0;
+            }
 
-    .warangal-mission-card {
-        border-radius: 35px;
+            .warangal-mission-card {
+                border-radius: 35px;
 
-        padding: 15px 20px;
-    }
+                padding: 15px 20px;
+            }
 
-    .warangal-mission-title {
-        font-size: 15px;
-    }
+            .warangal-mission-title {
+                font-size: 15px;
+            }
 
-    .warangal-mission-text {
-        font-size: 9px;
-    }
+            .warangal-mission-text {
+                font-size: 9px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    MOBILE
    BELOW 576px
 ========================================================= */
 
-@media (max-width: 575.98px) {
+        @media (max-width: 575.98px) {
 
-    .warangal-mission-strip {
-        padding: 22px 12px;
+            .warangal-mission-strip {
+                padding: 22px 12px;
 
-        border-top-width: 3px;
-    }
+                border-top-width: 3px;
+            }
 
-    .warangal-mission-card {
-        width: 100%;
+            .warangal-mission-card {
+                width: 100%;
 
-        border-radius: 30px;
+                border-radius: 30px;
 
-        padding: 14px 18px;
-    }
+                padding: 14px 18px;
+            }
 
-    .warangal-mission-title {
-        font-size: 14px;
+            .warangal-mission-title {
+                font-size: 14px;
 
-        line-height: 1.4;
-    }
+                line-height: 1.4;
+            }
 
-    .warangal-mission-text {
-        font-size: 8.5px;
+            .warangal-mission-text {
+                font-size: 8.5px;
 
-        line-height: 1.5;
-    }
+                line-height: 1.5;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    VERY SMALL MOBILE
    BELOW 380px
 ========================================================= */
 
-@media (max-width: 380px) {
+        @media (max-width: 380px) {
 
-    .warangal-mission-strip {
-        padding: 18px 10px;
-    }
+            .warangal-mission-strip {
+                padding: 18px 10px;
+            }
 
-    .warangal-mission-card {
-        border-radius: 24px;
+            .warangal-mission-card {
+                border-radius: 24px;
 
-        padding: 13px 14px;
-    }
+                padding: 13px 14px;
+            }
 
-    .warangal-mission-title {
-        font-size: 13px;
-    }
+            .warangal-mission-title {
+                font-size: 13px;
+            }
 
-    .warangal-mission-text {
-        font-size: 8px;
-    }
+            .warangal-mission-text {
+                font-size: 8px;
+            }
 
-}
- 
+        }
+
 
         /* ==========================================================
            ARCHIVES SECTION
@@ -1847,25 +1839,25 @@
 
         /* category */
 
-       .warangal-archive-category {
-    margin: 0 0 8px;
-    color: #dda121;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.4;
-    text-transform: uppercase;
-}
+        .warangal-archive-category {
+            margin: 0 0 8px;
+            color: #dda121;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1.4;
+            text-transform: uppercase;
+        }
 
 
         /* title */
-.warangal-archive-title {
-    margin: 0 0 7px;
-    color: #023c72;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 21px;
-    font-weight: 400;
-    line-height: 1.45;
-}
+        .warangal-archive-title {
+            margin: 0 0 7px;
+            color: #023c72;
+            font-family: 'Libre Baskerville', serif;
+            font-size: 21px;
+            font-weight: 400;
+            line-height: 1.45;
+        }
 
 
         /* text */
@@ -2268,857 +2260,849 @@
    FAITH IN ACTION SECTION
 ========================================================= */
 
-.faith-action-section {
-    width: 100%;
-    background: #fff1d4;
+        .faith-action-section {
+            width: 100%;
+            background: #fff1d4;
 
-    border-top: 6px solid #0758a4;
-    border-bottom: 6px solid #0758a4;
+            border-top: 6px solid #0758a4;
+            border-bottom: 6px solid #0758a4;
 
-    padding: 72px 0 74px;
+            padding: 72px 0 74px;
 
-    overflow: hidden;
-}
-
-
-.faith-action-container {
-    max-width: 1200px;
-}
+            overflow: hidden;
+        }
 
 
-/* =========================================================
+        .faith-action-container {
+            max-width: 1200px;
+        }
+
+
+        /* =========================================================
    HEADING
 ========================================================= */
 
-.faith-action-heading {
-    display: flex;
-    align-items: center;
+        .faith-action-heading {
+            display: flex;
+            align-items: center;
 
-    gap: 12px;
+            gap: 12px;
 
-    margin-bottom: 32px;
-}
-
-
-.faith-action-cross {
-    color: #d6d9dd;
-
-    font-family: Georgia, serif;
-
-    font-size: 31px;
-    font-weight: 300;
-
-    line-height: 1;
-}
+            margin-bottom: 32px;
+        }
 
 
-.faith-action-heading h2 {
-    margin: 0;
+        .faith-action-cross {
+            color: #d6d9dd;
 
-    color: #bc1f26;
+            font-family: Georgia, serif;
 
-    font-size: 36px;
-    font-weight: 700;
+            font-size: 31px;
+            font-weight: 300;
 
-    line-height: 1.2;
-}
+            line-height: 1;
+        }
 
 
-/* =========================================================
+        .faith-action-heading h2 {
+            margin: 0;
+
+            color: #bc1f26;
+
+            font-size: 36px;
+            font-weight: 700;
+
+            line-height: 1.2;
+        }
+
+
+        /* =========================================================
    CARD
 ========================================================= */
 
-.faith-action-card {
-    position: relative;
+        .faith-action-card {
+            position: relative;
 
-    display: block;
+            display: block;
 
-    width: 100%;
-    height: 185px;
+            width: 100%;
+            height: 185px;
 
-    overflow: hidden;
+            overflow: hidden;
 
-    border-radius: 2px;
+            border-radius: 2px;
 
-    text-decoration: none;
+            text-decoration: none;
 
-    background: #222;
-}
+            background: #222;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    IMAGE
 ========================================================= */
 
-.faith-action-image {
-    position: absolute;
+        .faith-action-image {
+            position: absolute;
 
-    inset: 0;
+            inset: 0;
 
-    width: 100%;
-    height: 100%;
+            width: 100%;
+            height: 100%;
 
-    object-fit: cover;
-    object-position: center;
+            object-fit: cover;
+            object-position: center;
 
-    transition: transform 0.65s ease;
+            transition: transform 0.65s ease;
 
-    will-change: transform;
-}
+            will-change: transform;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    IMAGE ZOOM ON HOVER
 ========================================================= */
 
-.faith-action-card:hover .faith-action-image {
-    transform: scale(1.12);
-}
+        .faith-action-card:hover .faith-action-image {
+            transform: scale(1.12);
+        }
 
 
-/* =========================================================
+        /* =========================================================
    DARK OVERLAY
 ========================================================= */
 
-.faith-action-overlay {
-    position: absolute;
+        .faith-action-overlay {
+            position: absolute;
 
-    inset: 0;
+            inset: 0;
 
-    background:
-        linear-gradient(
-            90deg,
-            rgba(0, 0, 0, 0.58) 0%,
-            rgba(0, 0, 0, 0.30) 45%,
-            rgba(0, 0, 0, 0.13) 100%
-        );
+            background:
+                linear-gradient(90deg,
+                    rgba(0, 0, 0, 0.58) 0%,
+                    rgba(0, 0, 0, 0.30) 45%,
+                    rgba(0, 0, 0, 0.13) 100%);
 
-    z-index: 1;
+            z-index: 1;
 
-    transition: background 0.4s ease;
-}
+            transition: background 0.4s ease;
+        }
 
 
-.faith-action-card:hover .faith-action-overlay {
-    background:
-        linear-gradient(
-            90deg,
-            rgba(0, 0, 0, 0.68) 0%,
-            rgba(0, 0, 0, 0.38) 45%,
-            rgba(0, 0, 0, 0.20) 100%
-        );
-}
+        .faith-action-card:hover .faith-action-overlay {
+            background:
+                linear-gradient(90deg,
+                    rgba(0, 0, 0, 0.68) 0%,
+                    rgba(0, 0, 0, 0.38) 45%,
+                    rgba(0, 0, 0, 0.20) 100%);
+        }
 
 
-/* =========================================================
+        /* =========================================================
    CONTENT
 ========================================================= */
 
-.faith-action-content {
-    position: relative;
-    top: 90px;
-    z-index: 3;
+        .faith-action-content {
+            position: relative;
+            top: 90px;
+            z-index: 3;
 
-    height: 100%;
+            height: 100%;
 
-    padding: 25px 20px;
+            padding: 25px 20px;
 
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    RED LABEL
 ========================================================= */
 
-.faith-action-label {
-    display: inline-block;
+        .faith-action-label {
+            display: inline-block;
 
-    background: #ca2130;
+            background: #ca2130;
 
-    color: #ffffff;
+            color: #ffffff;
 
-    padding: 5px 10px;
+            padding: 5px 10px;
 
-    margin-bottom: 10px;
+            margin-bottom: 10px;
 
-    font-size: 9px;
-    font-weight: 700;
+            font-size: 9px;
+            font-weight: 700;
 
-    line-height: 1.2;
+            line-height: 1.2;
 
-    text-transform: uppercase;
-}
+            text-transform: uppercase;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    CARD TITLE
 ========================================================= */
 
-.faith-action-content h3 {
-    margin: 0;
+        .faith-action-content h3 {
+            margin: 0;
 
-    color: #ffffff;
+            color: #ffffff;
 
-    font-family: Georgia, "Times New Roman", serif;
+            font-family: Georgia, "Times New Roman", serif;
 
-    font-size: 20px;
-    font-weight: 700;
+            font-size: 20px;
+            font-weight: 700;
 
-    line-height: 1.3;
+            line-height: 1.3;
 
-    transition: transform 0.35s ease;
-}
-
-
-.faith-action-card:hover .faith-action-content h3 {
-    transform: translateX(4px);
-}
+            transition: transform 0.35s ease;
+        }
 
 
-/* =========================================================
+        .faith-action-card:hover .faith-action-content h3 {
+            transform: translateX(4px);
+        }
+
+
+        /* =========================================================
    LARGE DESKTOP
 ========================================================= */
 
-@media (min-width: 1400px) {
+        @media (min-width: 1400px) {
 
-    .faith-action-container {
-        max-width: 1200px;
-    }
+            .faith-action-container {
+                max-width: 1200px;
+            }
 
-    .faith-action-section {
-        padding: 75px 0;
-    }
+            .faith-action-section {
+                padding: 75px 0;
+            }
 
-    .faith-action-card {
-        height: 185px;
-    }
+            .faith-action-card {
+                height: 185px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    1200px - 1399px
 ========================================================= */
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
 
-    .faith-action-container {
-        max-width: 1110px;
-    }
+            .faith-action-container {
+                max-width: 1110px;
+            }
 
-    .faith-action-section {
-        padding: 65px 0;
-    }
+            .faith-action-section {
+                padding: 65px 0;
+            }
 
-    .faith-action-heading h2 {
-        font-size: 32px;
-    }
+            .faith-action-heading h2 {
+                font-size: 32px;
+            }
 
-    .faith-action-card {
-        height: 175px;
-    }
+            .faith-action-card {
+                height: 175px;
+            }
 
-    .faith-action-content h3 {
-        font-size: 19px;
-    }
+            .faith-action-content h3 {
+                font-size: 19px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    992px - 1199px
 ========================================================= */
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+        @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    .faith-action-section {
-        padding: 58px 0;
-    }
+            .faith-action-section {
+                padding: 58px 0;
+            }
 
-    .faith-action-heading {
-        margin-bottom: 28px;
-    }
+            .faith-action-heading {
+                margin-bottom: 28px;
+            }
 
-    .faith-action-heading h2 {
-        font-size: 29px;
-    }
+            .faith-action-heading h2 {
+                font-size: 29px;
+            }
 
-    .faith-action-cross {
-        font-size: 27px;
-    }
+            .faith-action-cross {
+                font-size: 27px;
+            }
 
-    .faith-action-card {
-        height: 165px;
-    }
+            .faith-action-card {
+                height: 165px;
+            }
 
-    .faith-action-content {
-        padding: 22px 18px;
-    }
+            .faith-action-content {
+                padding: 22px 18px;
+            }
 
-    .faith-action-label {
-        font-size: 8px;
-        padding: 5px 8px;
-    }
+            .faith-action-label {
+                font-size: 8px;
+                padding: 5px 8px;
+            }
 
-    .faith-action-content h3 {
-        font-size: 17px;
-    }
+            .faith-action-content h3 {
+                font-size: 17px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    TABLET
    768px - 991px
 ========================================================= */
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+        @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .faith-action-section {
-        padding: 52px 0;
-    }
+            .faith-action-section {
+                padding: 52px 0;
+            }
 
-    .faith-action-heading {
-        margin-bottom: 27px;
-    }
+            .faith-action-heading {
+                margin-bottom: 27px;
+            }
 
-    .faith-action-heading h2 {
-        font-size: 28px;
-    }
+            .faith-action-heading h2 {
+                font-size: 28px;
+            }
 
-    .faith-action-card {
-        height: 185px;
-    }
+            .faith-action-card {
+                height: 185px;
+            }
 
-    .faith-action-content {
-        padding: 24px 19px;
-    }
+            .faith-action-content {
+                padding: 24px 19px;
+            }
 
-    .faith-action-content h3 {
-        font-size: 19px;
-    }
+            .faith-action-content h3 {
+                font-size: 19px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    MOBILE
    BELOW 768px
 ========================================================= */
 
-@media (max-width: 767.98px) {
+        @media (max-width: 767.98px) {
 
-    .faith-action-section {
-        padding: 45px 0;
+            .faith-action-section {
+                padding: 45px 0;
 
-        border-top-width: 4px;
-        border-bottom-width: 4px;
-    }
+                border-top-width: 4px;
+                border-bottom-width: 4px;
+            }
 
-    .faith-action-container {
-        padding-left: 18px;
-        padding-right: 18px;
-    }
+            .faith-action-container {
+                padding-left: 18px;
+                padding-right: 18px;
+            }
 
-    .faith-action-heading {
-        margin-bottom: 25px;
+            .faith-action-heading {
+                margin-bottom: 25px;
 
-        gap: 8px;
-    }
+                gap: 8px;
+            }
 
-    .faith-action-cross {
-        font-size: 25px;
-    }
+            .faith-action-cross {
+                font-size: 25px;
+            }
 
-    .faith-action-heading h2 {
-        font-size: 26px;
-    }
+            .faith-action-heading h2 {
+                font-size: 26px;
+            }
 
-    .faith-action-card {
-        height: 220px;
-    }
+            .faith-action-card {
+                height: 220px;
+            }
 
-    .faith-action-content {
-        padding: 25px 20px;
-    }
+            .faith-action-content {
+                padding: 25px 20px;
+            }
 
-    .faith-action-label {
-        font-size: 9px;
-    }
+            .faith-action-label {
+                font-size: 9px;
+            }
 
-    .faith-action-content h3 {
-        font-size: 21px;
-    }
+            .faith-action-content h3 {
+                font-size: 21px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    SMALL MOBILE
 ========================================================= */
 
-@media (max-width: 575.98px) {
+        @media (max-width: 575.98px) {
 
-    .faith-action-section {
-        padding: 38px 0;
-    }
+            .faith-action-section {
+                padding: 38px 0;
+            }
 
-    .faith-action-heading h2 {
-        font-size: 23px;
-    }
+            .faith-action-heading h2 {
+                font-size: 23px;
+            }
 
-    .faith-action-card {
-        height: 200px;
-    }
+            .faith-action-card {
+                height: 200px;
+            }
 
-    .faith-action-content {
-        padding: 22px 17px;
-    }
+            .faith-action-content {
+                padding: 22px 17px;
+            }
 
-    .faith-action-content h3 {
-        font-size: 19px;
-    }
+            .faith-action-content h3 {
+                font-size: 19px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    VERY SMALL MOBILE
 ========================================================= */
 
-@media (max-width: 380px) {
+        @media (max-width: 380px) {
 
-    .faith-action-container {
-        padding-left: 14px;
-        padding-right: 14px;
-    }
+            .faith-action-container {
+                padding-left: 14px;
+                padding-right: 14px;
+            }
 
-    .faith-action-heading h2 {
-        font-size: 21px;
-    }
+            .faith-action-heading h2 {
+                font-size: 21px;
+            }
 
-    .faith-action-cross {
-        font-size: 22px;
-    }
+            .faith-action-cross {
+                font-size: 22px;
+            }
 
-    .faith-action-card {
-        height: 180px;
-    }
+            .faith-action-card {
+                height: 180px;
+            }
 
-    .faith-action-label {
-        font-size: 8px;
+            .faith-action-label {
+                font-size: 8px;
 
-        padding: 4px 7px;
-    }
+                padding: 4px 7px;
+            }
 
-    .faith-action-content h3 {
-        font-size: 17px;
-    }
+            .faith-action-content h3 {
+                font-size: 17px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    NEWS & UPCOMING EVENTS SECTION
 ========================================================= */
 
-.warangal-news-events-section {
-    width: 100%;
-    background: #ffffff;
-    padding: 75px 0 45px;
-    overflow: hidden;
-}
+        .warangal-news-events-section {
+            width: 100%;
+            background: #ffffff;
+            padding: 75px 0 45px;
+            overflow: hidden;
+        }
 
-.warangal-news-events-container {
-    max-width: 1360px;
-}
+        .warangal-news-events-container {
+            max-width: 1360px;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    HEADING
 ========================================================= */
 
-.warangal-news-events-heading {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 38px;
-}
+        .warangal-news-events-heading {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 38px;
+        }
 
-.warangal-news-events-cross {
-    color: #d7d9de;
-    font-family: Georgia, serif;
-    font-size: 31px;
-    line-height: 1;
-    font-weight: 300;
-}
+        .warangal-news-events-cross {
+            color: #d7d9de;
+            font-family: Georgia, serif;
+            font-size: 31px;
+            line-height: 1;
+            font-weight: 300;
+        }
 
-.warangal-news-events-heading h2 {
-    margin: 0;
-    color: #bc1f26;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.2;
-}
+        .warangal-news-events-heading h2 {
+            margin: 0;
+            color: #bc1f26;
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    CARD
 ========================================================= */
 
-.warangal-news-card {
-    display: block;
-    text-decoration: none;
-    width: 100%;
-}
+        .warangal-news-card {
+            display: block;
+            text-decoration: none;
+            width: 100%;
+        }
 
-.warangal-news-image-wrap {
-    position: relative;
-    width: 100%;
-    height: 245px;
-    overflow: hidden;
-    background: #ddd;
-}
+        .warangal-news-image-wrap {
+            position: relative;
+            width: 100%;
+            height: 245px;
+            overflow: hidden;
+            background: #ddd;
+        }
 
-.warangal-news-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    display: block;
-    transition: transform 0.65s ease;
-    will-change: transform;
-}
+        .warangal-news-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            display: block;
+            transition: transform 0.65s ease;
+            will-change: transform;
+        }
 
-/* SAME ZOOM EFFECT */
-.warangal-news-card:hover .warangal-news-image {
-    transform: scale(1.12);
-}
+        /* SAME ZOOM EFFECT */
+        .warangal-news-card:hover .warangal-news-image {
+            transform: scale(1.12);
+        }
 
 
-/* =========================================================
+        /* =========================================================
    DATE BADGE
 ========================================================= */
 
-.warangal-news-date {
-    position: absolute;
-    left: 14px;
-    bottom: 14px;
+        .warangal-news-date {
+            position: absolute;
+            left: 14px;
+            bottom: 14px;
 
-    background: #c92027;
-    color: #ffffff;
+            background: #c92027;
+            color: #ffffff;
 
-    padding: 8px 14px;
+            padding: 8px 14px;
 
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 1.2;
-    text-transform: uppercase;
-}
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 1.2;
+            text-transform: uppercase;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    CONTENT
 ========================================================= */
 
-.warangal-news-content {
-    padding: 16px 12px 0;
-}
+        .warangal-news-content {
+            padding: 16px 12px 0;
+        }
 
-.warangal-news-category {
-    margin: 0 0 8px;
-    color: #d69d1d;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.4;
-    text-transform: uppercase;
-}
+        .warangal-news-category {
+            margin: 0 0 8px;
+            color: #d69d1d;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1.4;
+            text-transform: uppercase;
+        }
 
-.warangal-news-title {
-    margin: 0 0 8px;
-    color: #083d74;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 23px;
-    font-weight: 500;
-    line-height: 1.35;
-}
+        .warangal-news-title {
+            margin: 0 0 8px;
+            color: #083d74;
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 23px;
+            font-weight: 500;
+            line-height: 1.35;
+        }
 
-.warangal-news-description {
-    margin: 0;
-    color: #485766;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 1.65;
-}
+        .warangal-news-description {
+            margin: 0;
+            color: #485766;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 1.65;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    DOTS
 ========================================================= */
 
-.warangal-news-dots {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 7px;
-    margin-top: 42px;
-}
+        .warangal-news-dots {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 7px;
+            margin-top: 42px;
+        }
 
-.warangal-news-dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #bfc5cb;
-    display: inline-block;
-}
+        .warangal-news-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: #bfc5cb;
+            display: inline-block;
+        }
 
-.warangal-news-dot.active {
-    background: #b82027;
-}
+        .warangal-news-dot.active {
+            background: #b82027;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    1200 - 1399
 ========================================================= */
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
 
-    .warangal-news-events-container {
-        max-width: 1180px;
-    }
+            .warangal-news-events-container {
+                max-width: 1180px;
+            }
 
-    .warangal-news-events-heading h2 {
-        font-size: 33px;
-    }
+            .warangal-news-events-heading h2 {
+                font-size: 33px;
+            }
 
-    .warangal-news-image-wrap {
-        height: 225px;
-    }
+            .warangal-news-image-wrap {
+                height: 225px;
+            }
 
-    .warangal-news-title {
-        font-size: 21px;
-    }
+            .warangal-news-title {
+                font-size: 21px;
+            }
 
-    .warangal-news-description {
-        font-size: 14px;
-    }
+            .warangal-news-description {
+                font-size: 14px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    992 - 1199
 ========================================================= */
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+        @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    .warangal-news-events-section {
-        padding: 65px 0 40px;
-    }
+            .warangal-news-events-section {
+                padding: 65px 0 40px;
+            }
 
-    .warangal-news-events-heading {
-        margin-bottom: 32px;
-    }
+            .warangal-news-events-heading {
+                margin-bottom: 32px;
+            }
 
-    .warangal-news-events-heading h2 {
-        font-size: 30px;
-    }
+            .warangal-news-events-heading h2 {
+                font-size: 30px;
+            }
 
-    .warangal-news-events-cross {
-        font-size: 28px;
-    }
+            .warangal-news-events-cross {
+                font-size: 28px;
+            }
 
-    .warangal-news-image-wrap {
-        height: 210px;
-    }
+            .warangal-news-image-wrap {
+                height: 210px;
+            }
 
-    .warangal-news-category {
-        font-size: 13px;
-    }
+            .warangal-news-category {
+                font-size: 13px;
+            }
 
-    .warangal-news-title {
-        font-size: 20px;
-    }
+            .warangal-news-title {
+                font-size: 20px;
+            }
 
-    .warangal-news-description {
-        font-size: 13.5px;
-    }
+            .warangal-news-description {
+                font-size: 13.5px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    TABLET
    768 - 991
 ========================================================= */
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+        @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .warangal-news-events-section {
-        padding: 55px 0 38px;
-    }
+            .warangal-news-events-section {
+                padding: 55px 0 38px;
+            }
 
-    .warangal-news-events-heading {
-        margin-bottom: 28px;
-    }
+            .warangal-news-events-heading {
+                margin-bottom: 28px;
+            }
 
-    .warangal-news-events-heading h2 {
-        font-size: 28px;
-    }
+            .warangal-news-events-heading h2 {
+                font-size: 28px;
+            }
 
-    .warangal-news-image-wrap {
-        height: 240px;
-    }
+            .warangal-news-image-wrap {
+                height: 240px;
+            }
 
-    .warangal-news-title {
-        font-size: 22px;
-    }
+            .warangal-news-title {
+                font-size: 22px;
+            }
 
-    .warangal-news-description {
-        font-size: 14px;
-    }
+            .warangal-news-description {
+                font-size: 14px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    MOBILE
    BELOW 768
 ========================================================= */
 
-@media (max-width: 767.98px) {
+        @media (max-width: 767.98px) {
 
-    .warangal-news-events-section {
-        padding: 45px 0 35px;
-    }
+            .warangal-news-events-section {
+                padding: 45px 0 35px;
+            }
 
-    .warangal-news-events-container {
-        padding-left: 18px;
-        padding-right: 18px;
-    }
+            .warangal-news-events-container {
+                padding-left: 18px;
+                padding-right: 18px;
+            }
 
-    .warangal-news-events-heading {
-        gap: 8px;
-        margin-bottom: 24px;
-    }
+            .warangal-news-events-heading {
+                gap: 8px;
+                margin-bottom: 24px;
+            }
 
-    .warangal-news-events-cross {
-        font-size: 24px;
-    }
+            .warangal-news-events-cross {
+                font-size: 24px;
+            }
 
-    .warangal-news-events-heading h2 {
-        font-size: 26px;
-    }
+            .warangal-news-events-heading h2 {
+                font-size: 26px;
+            }
 
-    .warangal-news-image-wrap {
-        height: 230px;
-    }
+            .warangal-news-image-wrap {
+                height: 230px;
+            }
 
-    .warangal-news-date {
-        left: 12px;
-        bottom: 12px;
-        padding: 7px 12px;
-        font-size: 11px;
-    }
+            .warangal-news-date {
+                left: 12px;
+                bottom: 12px;
+                padding: 7px 12px;
+                font-size: 11px;
+            }
 
-    .warangal-news-content {
-        padding: 14px 8px 0;
-    }
+            .warangal-news-content {
+                padding: 14px 8px 0;
+            }
 
-    .warangal-news-category {
-        font-size: 12px;
-    }
+            .warangal-news-category {
+                font-size: 12px;
+            }
 
-    .warangal-news-title {
-        font-size: 21px;
-    }
+            .warangal-news-title {
+                font-size: 21px;
+            }
 
-    .warangal-news-description {
-        font-size: 14px;
-    }
+            .warangal-news-description {
+                font-size: 14px;
+            }
 
-    .warangal-news-dots {
-        margin-top: 32px;
-    }
+            .warangal-news-dots {
+                margin-top: 32px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    SMALL MOBILE
 ========================================================= */
 
-@media (max-width: 575.98px) {
+        @media (max-width: 575.98px) {
 
-    .warangal-news-events-section {
-        padding: 38px 0 30px;
-    }
+            .warangal-news-events-section {
+                padding: 38px 0 30px;
+            }
 
-    .warangal-news-events-heading h2 {
-        font-size: 23px;
-    }
+            .warangal-news-events-heading h2 {
+                font-size: 23px;
+            }
 
-    .warangal-news-image-wrap {
-        height: 210px;
-    }
+            .warangal-news-image-wrap {
+                height: 210px;
+            }
 
-    .warangal-news-title {
-        font-size: 19px;
-    }
+            .warangal-news-title {
+                font-size: 19px;
+            }
 
-    .warangal-news-description {
-        font-size: 13px;
-    }
+            .warangal-news-description {
+                font-size: 13px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    VERY SMALL MOBILE
 ========================================================= */
 
-@media (max-width: 380px) {
+        @media (max-width: 380px) {
 
-    .warangal-news-events-container {
-        padding-left: 14px;
-        padding-right: 14px;
-    }
+            .warangal-news-events-container {
+                padding-left: 14px;
+                padding-right: 14px;
+            }
 
-    .warangal-news-events-heading h2 {
-        font-size: 21px;
-    }
+            .warangal-news-events-heading h2 {
+                font-size: 21px;
+            }
 
-    .warangal-news-events-cross {
-        font-size: 21px;
-    }
+            .warangal-news-events-cross {
+                font-size: 21px;
+            }
 
-    .warangal-news-image-wrap {
-        height: 185px;
-    }
+            .warangal-news-image-wrap {
+                height: 185px;
+            }
 
-    .warangal-news-date {
-        font-size: 10px;
-        padding: 6px 10px;
-    }
+            .warangal-news-date {
+                font-size: 10px;
+                padding: 6px 10px;
+            }
 
-    .warangal-news-title {
-        font-size: 17px;
-    }
+            .warangal-news-title {
+                font-size: 17px;
+            }
 
-    .warangal-news-description {
-        font-size: 12.5px;
-    }
+            .warangal-news-description {
+                font-size: 12.5px;
+            }
 
-}
-
-
-
+        }
     </style>
-<style>
-
+    <style>
         /* =========================================================
            GLOBAL
         ========================================================= */
@@ -3347,12 +3331,10 @@
             background: #c91720;
 
             transform:
-                translate(-50%, -50%)
-                scale(1.08);
+                translate(-50%, -50%) scale(1.08);
 
             box-shadow:
-                0 8px 20px
-                rgba(0, 0, 0, 0.22);
+                0 8px 20px rgba(0, 0, 0, 0.22);
         }
 
 
@@ -3718,2613 +3700,2588 @@
             }
 
         }
-
     </style>
 
 
 
-<style>
-    /* =========================================================
+    <style>
+        /* =========================================================
    COMMUNITIES & INSTITUTIONS
 ========================================================= */
 
-.warangal-communities-section {
-    width: 100%;
-    background: #ffffff;
-    padding: 55px 0 65px;
-    overflow: hidden;
-}
+        .warangal-communities-section {
+            width: 100%;
+            background: #ffffff;
+            padding: 55px 0 65px;
+            overflow: hidden;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    HEADING
 ========================================================= */
 
-.warangal-communities-heading-container {
-    max-width: 1320px;
-}
+        .warangal-communities-heading-container {
+            max-width: 1320px;
+        }
 
 
-.warangal-communities-heading {
-    display: flex;
-    align-items: center;
+        .warangal-communities-heading {
+            display: flex;
+            align-items: center;
 
-    gap: 12px;
+            gap: 12px;
 
-    margin-bottom: 38px;
-}
-
-
-.warangal-communities-cross {
-    color: #d7dadd;
-
-    font-family: Georgia, serif;
-
-    font-size: 31px;
-
-    line-height: 1;
-}
+            margin-bottom: 38px;
+        }
 
 
-.warangal-communities-heading h2 {
-    margin: 0;
+        .warangal-communities-cross {
+            color: #d7dadd;
 
-    color: #b82027;
+            font-family: Georgia, serif;
 
-    font-size: 38px;
-    font-weight: 700;
+            font-size: 31px;
 
-    line-height: 1.2;
-}
+            line-height: 1;
+        }
 
 
-/* =========================================================
+        .warangal-communities-heading h2 {
+            margin: 0;
+
+            color: #b82027;
+
+            font-size: 38px;
+            font-weight: 700;
+
+            line-height: 1.2;
+        }
+
+
+        /* =========================================================
    MARQUEE STAGE
 ========================================================= */
 
-.warangal-communities-marquee-stage {
-    width: 100%;
-    overflow: hidden;
-}
+        .warangal-communities-marquee-stage {
+            width: 100%;
+            overflow: hidden;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    EACH ROW
 ========================================================= */
 
-.warangal-community-marquee-row {
-    width: 100%;
-    overflow: hidden;
-}
+        .warangal-community-marquee-row {
+            width: 100%;
+            overflow: hidden;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    TRACK
 ========================================================= */
 
-.warangal-community-track {
-    display: flex;
+        .warangal-community-track {
+            display: flex;
 
-    width: max-content;
+            width: max-content;
 
-    will-change: transform;
-}
+            will-change: transform;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    GROUP
 ========================================================= */
 
-.warangal-community-group {
-    display: flex;
+        .warangal-community-group {
+            display: flex;
 
-    flex-shrink: 0;
+            flex-shrink: 0;
 
-    gap: 2px;
-}
+            gap: 2px;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    CARDS
 ========================================================= */
 
-.warangal-community-card {
-    position: relative;
+        .warangal-community-card {
+            position: relative;
 
-    display: block;
+            display: block;
 
-    flex: 0 0 300px;
+            flex: 0 0 300px;
 
-    width: 300px;
-    height: 182px;
+            width: 300px;
+            height: 182px;
 
-    overflow: hidden;
+            overflow: hidden;
 
-    background: #222222;
+            background: #222222;
 
-    text-decoration: none;
+            text-decoration: none;
 
-    cursor: pointer;
-}
+            cursor: pointer;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    IMAGE
 ========================================================= */
 
-.warangal-community-card img {
-    width: 100%;
-    height: 100%;
+        .warangal-community-card img {
+            width: 100%;
+            height: 100%;
 
-    display: block;
+            display: block;
 
-    object-fit: cover;
-    object-position: center;
+            object-fit: cover;
+            object-position: center;
 
-    transition:
-        transform 0.55s ease,
-        filter 0.4s ease;
-}
-
-
-/* slight image zoom */
-
-.warangal-community-card:hover img {
-    transform: scale(1.07);
-
-    filter: brightness(0.88);
-}
+            transition:
+                transform 0.55s ease,
+                filter 0.4s ease;
+        }
 
 
-/* =========================================================
+        /* slight image zoom */
+
+        .warangal-community-card:hover img {
+            transform: scale(1.07);
+
+            filter: brightness(0.88);
+        }
+
+
+        /* =========================================================
    RED LABEL
 ========================================================= */
 
-.warangal-community-label {
-    position: absolute;
+        .warangal-community-label {
+            position: absolute;
 
-    left: 10px;
-    bottom: 10px;
+            left: 10px;
+            bottom: 10px;
 
-    z-index: 3;
+            z-index: 3;
 
-    display: inline-block;
+            display: inline-block;
 
-    max-width: calc(100% - 20px);
+            max-width: calc(100% - 20px);
 
-    padding: 8px 12px;
+            padding: 8px 12px;
 
-    background: #c82029;
+            background: #c82029;
 
-    color: #ffffff;
+            color: #ffffff;
 
-    font-size: 11px;
-    font-weight: 700;
+            font-size: 11px;
+            font-weight: 700;
 
-    line-height: 1.2;
+            line-height: 1.2;
 
-    white-space: nowrap;
+            white-space: nowrap;
 
-    overflow: hidden;
+            overflow: hidden;
 
-    text-overflow: ellipsis;
-}
+            text-overflow: ellipsis;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    TOP ROW
    LEFT → RIGHT
 ========================================================= */
 
-.warangal-community-track-ltr {
-    animation:
-        warangalCommunityLeftToRight
-        32s
-        linear
-        infinite;
-}
+        .warangal-community-track-ltr {
+            animation:
+                warangalCommunityLeftToRight 32s linear infinite;
+        }
 
 
-/*
+        /*
     Start with first group shifted left,
     then move towards zero.
 */
 
-@keyframes warangalCommunityLeftToRight {
+        @keyframes warangalCommunityLeftToRight {
 
-    from {
-        transform: translateX(-50%);
-    }
+            from {
+                transform: translateX(-50%);
+            }
 
-    to {
-        transform: translateX(0);
-    }
+            to {
+                transform: translateX(0);
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    BOTTOM ROW
    RIGHT → LEFT
 ========================================================= */
 
-.warangal-community-track-rtl {
-    animation:
-        warangalCommunityRightToLeft
-        32s
-        linear
-        infinite;
-}
+        .warangal-community-track-rtl {
+            animation:
+                warangalCommunityRightToLeft 32s linear infinite;
+        }
 
 
-@keyframes warangalCommunityRightToLeft {
+        @keyframes warangalCommunityRightToLeft {
 
-    from {
-        transform: translateX(0);
-    }
+            from {
+                transform: translateX(0);
+            }
 
-    to {
-        transform: translateX(-50%);
-    }
+            to {
+                transform: translateX(-50%);
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    PAUSE ON HOVER
 
    Hover ANY image/card and marquee stops.
    When cursor leaves, animation continues.
 ========================================================= */
-/* Upper row hover → only upper row stops */
-.warangal-community-marquee-row:hover
-.warangal-community-track {
-    animation-play-state: paused;
-}
+        /* Upper row hover → only upper row stops */
+        .warangal-community-marquee-row:hover .warangal-community-track {
+            animation-play-state: paused;
+        }
 
-/* =========================================================
+        /* =========================================================
    1400+
 ========================================================= */
 
-@media (min-width: 1400px) {
+        @media (min-width: 1400px) {
 
-    .warangal-communities-heading-container {
-        max-width: 1320px;
-    }
+            .warangal-communities-heading-container {
+                max-width: 1320px;
+            }
 
-    .warangal-community-card {
-        flex-basis: 300px;
+            .warangal-community-card {
+                flex-basis: 300px;
 
-        width: 300px;
-        height: 182px;
-    }
+                width: 300px;
+                height: 182px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    1200 - 1399
 ========================================================= */
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
 
-    .warangal-communities-section {
-        padding: 50px 0 58px;
-    }
+            .warangal-communities-section {
+                padding: 50px 0 58px;
+            }
 
-    .warangal-communities-heading h2 {
-        font-size: 34px;
-    }
+            .warangal-communities-heading h2 {
+                font-size: 34px;
+            }
 
-    .warangal-community-card {
-        flex-basis: 275px;
+            .warangal-community-card {
+                flex-basis: 275px;
 
-        width: 275px;
-        height: 170px;
-    }
+                width: 275px;
+                height: 170px;
+            }
 
-    .warangal-community-label {
-        font-size: 10px;
+            .warangal-community-label {
+                font-size: 10px;
 
-        padding: 7px 10px;
-    }
+                padding: 7px 10px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    992 - 1199
 ========================================================= */
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+        @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    .warangal-communities-heading {
-        margin-bottom: 32px;
-    }
+            .warangal-communities-heading {
+                margin-bottom: 32px;
+            }
 
-    .warangal-communities-heading h2 {
-        font-size: 31px;
-    }
+            .warangal-communities-heading h2 {
+                font-size: 31px;
+            }
 
-    .warangal-communities-cross {
-        font-size: 27px;
-    }
+            .warangal-communities-cross {
+                font-size: 27px;
+            }
 
-    .warangal-community-card {
-        flex-basis: 250px;
+            .warangal-community-card {
+                flex-basis: 250px;
 
-        width: 250px;
-        height: 155px;
-    }
+                width: 250px;
+                height: 155px;
+            }
 
-    .warangal-community-label {
-        left: 8px;
-        bottom: 8px;
+            .warangal-community-label {
+                left: 8px;
+                bottom: 8px;
 
-        font-size: 9px;
+                font-size: 9px;
 
-        padding: 7px 9px;
-    }
+                padding: 7px 9px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    TABLET
 ========================================================= */
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+        @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .warangal-communities-section {
-        padding: 45px 0 50px;
-    }
+            .warangal-communities-section {
+                padding: 45px 0 50px;
+            }
 
-    .warangal-communities-heading {
-        margin-bottom: 28px;
-    }
+            .warangal-communities-heading {
+                margin-bottom: 28px;
+            }
 
-    .warangal-communities-heading h2 {
-        font-size: 28px;
-    }
+            .warangal-communities-heading h2 {
+                font-size: 28px;
+            }
 
-    .warangal-community-card {
-        flex-basis: 235px;
+            .warangal-community-card {
+                flex-basis: 235px;
 
-        width: 235px;
-        height: 150px;
-    }
+                width: 235px;
+                height: 150px;
+            }
 
-    .warangal-community-label {
-        font-size: 9px;
+            .warangal-community-label {
+                font-size: 9px;
 
-        padding: 6px 9px;
-    }
+                padding: 6px 9px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    MOBILE
 ========================================================= */
 
-@media (max-width: 767.98px) {
+        @media (max-width: 767.98px) {
 
-    .warangal-communities-section {
-        padding: 40px 0 45px;
-    }
+            .warangal-communities-section {
+                padding: 40px 0 45px;
+            }
 
-    .warangal-communities-heading-container {
-        padding-left: 18px;
-        padding-right: 18px;
-    }
+            .warangal-communities-heading-container {
+                padding-left: 18px;
+                padding-right: 18px;
+            }
 
-    .warangal-communities-heading {
-        gap: 8px;
+            .warangal-communities-heading {
+                gap: 8px;
 
-        margin-bottom: 25px;
-    }
+                margin-bottom: 25px;
+            }
 
-    .warangal-communities-heading h2 {
-        font-size: 25px;
-    }
+            .warangal-communities-heading h2 {
+                font-size: 25px;
+            }
 
-    .warangal-communities-cross {
-        font-size: 23px;
-    }
+            .warangal-communities-cross {
+                font-size: 23px;
+            }
 
-    .warangal-community-card {
-        flex-basis: 220px;
+            .warangal-community-card {
+                flex-basis: 220px;
 
-        width: 220px;
-        height: 140px;
-    }
+                width: 220px;
+                height: 140px;
+            }
 
-    .warangal-community-label {
-        left: 7px;
-        bottom: 7px;
+            .warangal-community-label {
+                left: 7px;
+                bottom: 7px;
 
-        max-width: calc(100% - 14px);
+                max-width: calc(100% - 14px);
 
-        padding: 6px 8px;
+                padding: 6px 8px;
 
-        font-size: 8.5px;
-    }
+                font-size: 8.5px;
+            }
 
-    /*
+            /*
        Slightly slower on smaller screens.
     */
 
-    .warangal-community-track-ltr,
-    .warangal-community-track-rtl {
-        animation-duration: 28s;
-    }
+            .warangal-community-track-ltr,
+            .warangal-community-track-rtl {
+                animation-duration: 28s;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    SMALL MOBILE
 ========================================================= */
 
-@media (max-width: 575.98px) {
+        @media (max-width: 575.98px) {
 
-    .warangal-communities-section {
-        padding: 35px 0 40px;
-    }
+            .warangal-communities-section {
+                padding: 35px 0 40px;
+            }
 
-    .warangal-communities-heading h2 {
-        font-size: 22px;
-    }
+            .warangal-communities-heading h2 {
+                font-size: 22px;
+            }
 
-    .warangal-communities-cross {
-        font-size: 20px;
-    }
+            .warangal-communities-cross {
+                font-size: 20px;
+            }
 
-    .warangal-community-card {
-        flex-basis: 195px;
+            .warangal-community-card {
+                flex-basis: 195px;
 
-        width: 195px;
-        height: 125px;
-    }
+                width: 195px;
+                height: 125px;
+            }
 
-    .warangal-community-label {
-        font-size: 8px;
+            .warangal-community-label {
+                font-size: 8px;
 
-        padding: 5px 7px;
-    }
+                padding: 5px 7px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    VERY SMALL MOBILE
 ========================================================= */
 
-@media (max-width: 380px) {
+        @media (max-width: 380px) {
 
-    .warangal-communities-heading-container {
-        padding-left: 14px;
-        padding-right: 14px;
-    }
+            .warangal-communities-heading-container {
+                padding-left: 14px;
+                padding-right: 14px;
+            }
 
-    .warangal-communities-heading h2 {
-        font-size: 19px;
-    }
+            .warangal-communities-heading h2 {
+                font-size: 19px;
+            }
 
-    .warangal-community-card {
-        flex-basis: 175px;
+            .warangal-community-card {
+                flex-basis: 175px;
 
-        width: 175px;
-        height: 115px;
-    }
+                width: 175px;
+                height: 115px;
+            }
 
-}
-</style>
+        }
+    </style>
 
-<style>
-
-/* =========================================================
+    <style>
+        /* =========================================================
    CONNECT / NEWSLETTER SECTION
 ========================================================= */
 
-.warangal-connect-section {
-    width: 100%;
-    background: #ffe2b8;
-    padding: 65px 0;
-    overflow: hidden;
-}
+        .warangal-connect-section {
+            width: 100%;
+            background: #ffe2b8;
+            padding: 65px 0;
+            overflow: hidden;
+        }
 
 
-.warangal-connect-container {
-    max-width: 1320px;
-}
+        .warangal-connect-container {
+            max-width: 1320px;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    LEFT CONTENT
 ========================================================= */
 
-.warangal-connect-content {
-    width: 100%;
-}
+        .warangal-connect-content {
+            width: 100%;
+        }
 
 
-/* SMALL TITLE */
+        /* SMALL TITLE */
 
-.warangal-connect-small-title {
-    margin: 0 0 13px;
+        .warangal-connect-small-title {
+            margin: 0 0 13px;
 
-    color: #505050;
+            color: #505050;
 
-    font-size: 14px;
-    font-weight: 700;
+            font-size: 14px;
+            font-weight: 700;
 
-    line-height: 1.4;
+            line-height: 1.4;
 
-    letter-spacing: 0.6px;
+            letter-spacing: 0.6px;
 
-    text-transform: uppercase;
-}
-
-
-/* MAIN TITLE */
-
-.warangal-connect-title {
-    margin: 0 0 15px;
-
-    color: #bb2028;
-
-    font-family: Georgia, "Times New Roman", serif;
-
-    font-size: 32px;
-    font-weight: 500;
-
-    line-height: 1.3;
-}
+            text-transform: uppercase;
+        }
 
 
-/* TEXT */
+        /* MAIN TITLE */
 
-.warangal-connect-main-text {
-    margin: 0 0 5px;
+        .warangal-connect-title {
+            margin: 0 0 15px;
 
-    color: #404040;
+            color: #bb2028;
 
-    font-size: 15px;
-    font-weight: 500;
+            font-family: Georgia, "Times New Roman", serif;
 
-    line-height: 1.6;
-}
+            font-size: 32px;
+            font-weight: 500;
 
-
-.warangal-connect-description {
-    margin: 0;
-
-    color: #555555;
-
-    font-size: 14px;
-    font-weight: 400;
-
-    line-height: 1.7;
-}
+            line-height: 1.3;
+        }
 
 
-/* =========================================================
+        /* TEXT */
+
+        .warangal-connect-main-text {
+            margin: 0 0 5px;
+
+            color: #404040;
+
+            font-size: 15px;
+            font-weight: 500;
+
+            line-height: 1.6;
+        }
+
+
+        .warangal-connect-description {
+            margin: 0;
+
+            color: #555555;
+
+            font-size: 14px;
+            font-weight: 400;
+
+            line-height: 1.7;
+        }
+
+
+        /* =========================================================
    BUTTONS
 ========================================================= */
 
-.warangal-connect-buttons {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+        .warangal-connect-buttons {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
 
-    gap: 14px;
+            gap: 14px;
 
-    margin-top: 22px;
-}
-
-
-.warangal-connect-btn {
-    min-width: 105px;
-
-    padding: 12px 24px;
-
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 3px;
-
-    color: #ffffff;
-
-    font-size: 15px;
-    font-weight: 700;
-
-    line-height: 1.4;
-
-    text-decoration: none;
-
-    transition:
-        transform 0.3s ease,
-        background 0.3s ease,
-        box-shadow 0.3s ease;
-}
+            margin-top: 22px;
+        }
 
 
-.warangal-connect-btn-red {
-    background: #be2028;
-}
+        .warangal-connect-btn {
+            min-width: 105px;
+
+            padding: 12px 24px;
+
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            border-radius: 3px;
+
+            color: #ffffff;
+
+            font-size: 15px;
+            font-weight: 700;
+
+            line-height: 1.4;
+
+            text-decoration: none;
+
+            transition:
+                transform 0.3s ease,
+                background 0.3s ease,
+                box-shadow 0.3s ease;
+        }
 
 
-.warangal-connect-btn-blue {
-    background: #075aac;
-}
+        .warangal-connect-btn-red {
+            background: #be2028;
+        }
 
 
-.warangal-connect-btn:hover {
-    color: #ffffff;
-
-    transform: translateY(-2px);
-
-    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
-}
+        .warangal-connect-btn-blue {
+            background: #075aac;
+        }
 
 
-.warangal-connect-btn-red:hover {
-    background: #991920;
-}
+        .warangal-connect-btn:hover {
+            color: #ffffff;
+
+            transform: translateY(-2px);
+
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+        }
 
 
-.warangal-connect-btn-blue:hover {
-    background: #064786;
-}
+        .warangal-connect-btn-red:hover {
+            background: #991920;
+        }
 
 
-/* =========================================================
+        .warangal-connect-btn-blue:hover {
+            background: #064786;
+        }
+
+
+        /* =========================================================
    NEWSLETTER SIDE
 ========================================================= */
 
-.warangal-newsletter-wrap {
-    width: 100%;
+        .warangal-newsletter-wrap {
+            width: 100%;
 
-    padding-left: 42px;
+            padding-left: 42px;
 
-    border-left: 1px solid rgba(190, 32, 40, 0.28);
-}
-
-
-.warangal-newsletter-content {
-    width: 100%;
-}
+            border-left: 1px solid rgba(190, 32, 40, 0.28);
+        }
 
 
-/* =========================================================
+        .warangal-newsletter-content {
+            width: 100%;
+        }
+
+
+        /* =========================================================
    NEWSLETTER HEADING
 ========================================================= */
 
-.warangal-newsletter-heading {
-    display: flex;
-    align-items: center;
+        .warangal-newsletter-heading {
+            display: flex;
+            align-items: center;
 
-    gap: 9px;
+            gap: 9px;
 
-    margin-bottom: 12px;
-}
-
-
-.warangal-newsletter-heading i {
-    color: #075aac;
-
-    font-size: 24px;
-
-    line-height: 1;
-}
+            margin-bottom: 12px;
+        }
 
 
-.warangal-newsletter-heading h3 {
-    margin: 0;
+        .warangal-newsletter-heading i {
+            color: #075aac;
 
-    color: #063d72;
+            font-size: 24px;
 
-    font-family: Georgia, "Times New Roman", serif;
-
-    font-size: 23px;
-    font-weight: 500;
-
-    line-height: 1.3;
-}
+            line-height: 1;
+        }
 
 
-.warangal-newsletter-text {
-    margin: 0 0 14px;
+        .warangal-newsletter-heading h3 {
+            margin: 0;
 
-    color: #414141;
+            color: #063d72;
 
-    font-size: 15px;
-    font-weight: 400;
+            font-family: Georgia, "Times New Roman", serif;
 
-    line-height: 1.5;
-}
+            font-size: 23px;
+            font-weight: 500;
+
+            line-height: 1.3;
+        }
 
 
-/* =========================================================
+        .warangal-newsletter-text {
+            margin: 0 0 14px;
+
+            color: #414141;
+
+            font-size: 15px;
+            font-weight: 400;
+
+            line-height: 1.5;
+        }
+
+
+        /* =========================================================
    FORM
 ========================================================= */
 
-.warangal-newsletter-form {
-    width: 100%;
+        .warangal-newsletter-form {
+            width: 100%;
 
-    display: flex;
-    align-items: stretch;
+            display: flex;
+            align-items: stretch;
 
-    gap: 12px;
-}
-
-
-.warangal-newsletter-input {
-    flex: 1 1 auto;
-
-    height: 48px;
-
-    padding: 10px 15px;
-
-    background: #ffffff;
-
-    border: 1px solid #dfdfdf;
-
-    border-radius: 4px;
-
-    color: #333333;
-
-    font-size: 14px;
-
-    box-shadow: none !important;
-}
+            gap: 12px;
+        }
 
 
-.warangal-newsletter-input::placeholder {
-    color: #8b8b8b;
-}
+        .warangal-newsletter-input {
+            flex: 1 1 auto;
+
+            height: 48px;
+
+            padding: 10px 15px;
+
+            background: #ffffff;
+
+            border: 1px solid #dfdfdf;
+
+            border-radius: 4px;
+
+            color: #333333;
+
+            font-size: 14px;
+
+            box-shadow: none !important;
+        }
 
 
-.warangal-newsletter-input:focus {
-    border-color: #075aac;
-}
+        .warangal-newsletter-input::placeholder {
+            color: #8b8b8b;
+        }
 
 
-/* SUBSCRIBE BUTTON */
-
-.warangal-newsletter-button {
-    min-width: 125px;
-
-    height: 48px;
-
-    padding: 10px 22px;
-
-    border: none;
-    border-radius: 3px;
-
-    background: #be2028;
-
-    color: #ffffff;
-
-    font-size: 14px;
-    font-weight: 700;
-
-    transition:
-        background 0.3s ease,
-        transform 0.3s ease,
-        box-shadow 0.3s ease;
-}
+        .warangal-newsletter-input:focus {
+            border-color: #075aac;
+        }
 
 
-.warangal-newsletter-button:hover {
-    background: #991920;
+        /* SUBSCRIBE BUTTON */
 
-    transform: translateY(-2px);
+        .warangal-newsletter-button {
+            min-width: 125px;
 
-    box-shadow: 0 7px 16px rgba(0, 0, 0, 0.12);
-}
+            height: 48px;
+
+            padding: 10px 22px;
+
+            border: none;
+            border-radius: 3px;
+
+            background: #be2028;
+
+            color: #ffffff;
+
+            font-size: 14px;
+            font-weight: 700;
+
+            transition:
+                background 0.3s ease,
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+        }
 
 
-/* =========================================================
+        .warangal-newsletter-button:hover {
+            background: #991920;
+
+            transform: translateY(-2px);
+
+            box-shadow: 0 7px 16px rgba(0, 0, 0, 0.12);
+        }
+
+
+        /* =========================================================
    LARGE DESKTOP
 ========================================================= */
 
-@media (min-width: 1400px) {
+        @media (min-width: 1400px) {
 
-    .warangal-connect-container {
-        max-width: 1320px;
-    }
+            .warangal-connect-container {
+                max-width: 1320px;
+            }
 
-    .warangal-connect-section {
-        padding: 68px 0;
-    }
+            .warangal-connect-section {
+                padding: 68px 0;
+            }
 
-    .warangal-connect-title {
-        font-size: 34px;
-    }
+            .warangal-connect-title {
+                font-size: 34px;
+            }
 
-    .warangal-newsletter-heading h3 {
-        font-size: 24px;
-    }
+            .warangal-newsletter-heading h3 {
+                font-size: 24px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    1200px - 1399px
 ========================================================= */
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
 
-    .warangal-connect-container {
-        max-width: 1140px;
-    }
+            .warangal-connect-container {
+                max-width: 1140px;
+            }
 
-    .warangal-connect-section {
-        padding: 60px 0;
-    }
+            .warangal-connect-section {
+                padding: 60px 0;
+            }
 
-    .warangal-connect-title {
-        font-size: 30px;
-    }
+            .warangal-connect-title {
+                font-size: 30px;
+            }
 
-    .warangal-connect-small-title {
-        font-size: 13px;
-    }
+            .warangal-connect-small-title {
+                font-size: 13px;
+            }
 
-    .warangal-newsletter-wrap {
-        padding-left: 35px;
-    }
+            .warangal-newsletter-wrap {
+                padding-left: 35px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    992px - 1199px
 ========================================================= */
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+        @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    .warangal-connect-section {
-        padding: 55px 0;
-    }
+            .warangal-connect-section {
+                padding: 55px 0;
+            }
 
-    .warangal-connect-title {
-        font-size: 28px;
-    }
+            .warangal-connect-title {
+                font-size: 28px;
+            }
 
-    .warangal-connect-main-text {
-        font-size: 14px;
-    }
+            .warangal-connect-main-text {
+                font-size: 14px;
+            }
 
-    .warangal-connect-description {
-        font-size: 13px;
-    }
+            .warangal-connect-description {
+                font-size: 13px;
+            }
 
-    .warangal-newsletter-wrap {
-        padding-left: 28px;
-    }
+            .warangal-newsletter-wrap {
+                padding-left: 28px;
+            }
 
-    .warangal-newsletter-heading h3 {
-        font-size: 21px;
-    }
+            .warangal-newsletter-heading h3 {
+                font-size: 21px;
+            }
 
-    .warangal-newsletter-form {
-        gap: 10px;
-    }
+            .warangal-newsletter-form {
+                gap: 10px;
+            }
 
-    .warangal-newsletter-button {
-        min-width: 110px;
-    }
+            .warangal-newsletter-button {
+                min-width: 110px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    TABLET
    768px - 991px
 ========================================================= */
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+        @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .warangal-connect-section {
-        padding: 50px 0;
-    }
+            .warangal-connect-section {
+                padding: 50px 0;
+            }
 
-    .warangal-connect-title {
-        font-size: 29px;
-    }
+            .warangal-connect-title {
+                font-size: 29px;
+            }
 
-    .warangal-connect-content {
-        text-align: center;
-    }
+            .warangal-connect-content {
+                text-align: center;
+            }
 
-    .warangal-connect-buttons {
-        justify-content: center;
-    }
+            .warangal-connect-buttons {
+                justify-content: center;
+            }
 
-    .warangal-newsletter-wrap {
-        margin-top: 15px;
+            .warangal-newsletter-wrap {
+                margin-top: 15px;
 
-        padding-left: 0;
-        padding-top: 30px;
+                padding-left: 0;
+                padding-top: 30px;
 
-        border-left: 0;
-        border-top: 1px solid rgba(190, 32, 40, 0.25);
-    }
+                border-left: 0;
+                border-top: 1px solid rgba(190, 32, 40, 0.25);
+            }
 
-    .warangal-newsletter-content {
-        max-width: 680px;
+            .warangal-newsletter-content {
+                max-width: 680px;
 
-        margin: 0 auto;
-    }
+                margin: 0 auto;
+            }
 
-    .warangal-newsletter-heading {
-        justify-content: center;
-    }
+            .warangal-newsletter-heading {
+                justify-content: center;
+            }
 
-    .warangal-newsletter-text {
-        text-align: center;
-    }
+            .warangal-newsletter-text {
+                text-align: center;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    MOBILE
 ========================================================= */
 
-@media (max-width: 767.98px) {
+        @media (max-width: 767.98px) {
 
-    .warangal-connect-section {
-        padding: 42px 0;
-    }
+            .warangal-connect-section {
+                padding: 42px 0;
+            }
 
-    .warangal-connect-container {
-        padding-left: 18px;
-        padding-right: 18px;
-    }
+            .warangal-connect-container {
+                padding-left: 18px;
+                padding-right: 18px;
+            }
 
-    .warangal-connect-content {
-        text-align: center;
-    }
+            .warangal-connect-content {
+                text-align: center;
+            }
 
-    .warangal-connect-small-title {
-        font-size: 12px;
-    }
+            .warangal-connect-small-title {
+                font-size: 12px;
+            }
 
-    .warangal-connect-title {
-        font-size: 27px;
+            .warangal-connect-title {
+                font-size: 27px;
 
-        margin-bottom: 13px;
-    }
+                margin-bottom: 13px;
+            }
 
-    .warangal-connect-main-text {
-        font-size: 14px;
-    }
+            .warangal-connect-main-text {
+                font-size: 14px;
+            }
 
-    .warangal-connect-description {
-        font-size: 13px;
-    }
+            .warangal-connect-description {
+                font-size: 13px;
+            }
 
-    .warangal-connect-buttons {
-        justify-content: center;
+            .warangal-connect-buttons {
+                justify-content: center;
 
-        margin-top: 20px;
-    }
+                margin-top: 20px;
+            }
 
-    .warangal-newsletter-wrap {
-        margin-top: 12px;
+            .warangal-newsletter-wrap {
+                margin-top: 12px;
 
-        padding-left: 0;
-        padding-top: 28px;
+                padding-left: 0;
+                padding-top: 28px;
 
-        border-left: 0;
-        border-top: 1px solid rgba(190, 32, 40, 0.25);
-    }
+                border-left: 0;
+                border-top: 1px solid rgba(190, 32, 40, 0.25);
+            }
 
-    .warangal-newsletter-heading {
-        justify-content: center;
-    }
+            .warangal-newsletter-heading {
+                justify-content: center;
+            }
 
-    .warangal-newsletter-heading h3 {
-        font-size: 21px;
-    }
+            .warangal-newsletter-heading h3 {
+                font-size: 21px;
+            }
 
-    .warangal-newsletter-text {
-        text-align: center;
+            .warangal-newsletter-text {
+                text-align: center;
 
-        font-size: 12.5px;
-    }
+                font-size: 12.5px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    SMALL MOBILE
 ========================================================= */
 
-@media (max-width: 575.98px) {
+        @media (max-width: 575.98px) {
 
-    .warangal-connect-section {
-        padding: 36px 0;
-    }
+            .warangal-connect-section {
+                padding: 36px 0;
+            }
 
-    .warangal-connect-title {
-        font-size: 24px;
-    }
+            .warangal-connect-title {
+                font-size: 24px;
+            }
 
-    .warangal-connect-buttons {
-        gap: 10px;
-    }
+            .warangal-connect-buttons {
+                gap: 10px;
+            }
 
-    .warangal-connect-btn {
-        min-width: 105px;
+            .warangal-connect-btn {
+                min-width: 105px;
 
-        padding: 11px 18px;
+                padding: 11px 18px;
 
-        font-size: 13px;
-    }
+                font-size: 13px;
+            }
 
-    .warangal-newsletter-form {
-        flex-direction: column;
+            .warangal-newsletter-form {
+                flex-direction: column;
 
-        gap: 10px;
-    }
+                gap: 10px;
+            }
 
-    .warangal-newsletter-input {
-        width: 100%;
-        height: 46px;
-    }
+            .warangal-newsletter-input {
+                width: 100%;
+                height: 46px;
+            }
 
-    .warangal-newsletter-button {
-        width: 100%;
-        height: 46px;
+            .warangal-newsletter-button {
+                width: 100%;
+                height: 46px;
 
-        font-size: 13px;
-    }
+                font-size: 13px;
+            }
 
-}
+        }
 
 
-/* =========================================================
+        /* =========================================================
    VERY SMALL MOBILE
 ========================================================= */
 
-@media (max-width: 380px) {
+        @media (max-width: 380px) {
 
-    .warangal-connect-container {
-        padding-left: 14px;
-        padding-right: 14px;
-    }
+            .warangal-connect-container {
+                padding-left: 14px;
+                padding-right: 14px;
+            }
 
-    .warangal-connect-title {
-        font-size: 21px;
-    }
+            .warangal-connect-title {
+                font-size: 21px;
+            }
 
-    .warangal-connect-main-text {
-        font-size: 13px;
-    }
+            .warangal-connect-main-text {
+                font-size: 13px;
+            }
 
-    .warangal-connect-description {
-        font-size: 12px;
-    }
+            .warangal-connect-description {
+                font-size: 12px;
+            }
 
-    .warangal-connect-buttons {
-        flex-direction: column;
-    }
+            .warangal-connect-buttons {
+                flex-direction: column;
+            }
 
-    .warangal-connect-btn {
-        width: 100%;
-    }
+            .warangal-connect-btn {
+                width: 100%;
+            }
 
-    .warangal-newsletter-heading h3 {
-        font-size: 19px;
-    }
+            .warangal-newsletter-heading h3 {
+                font-size: 19px;
+            }
 
-}
-</style>
-<style>
-    /* =========================================================
+        }
+    </style>
+    <style>
+        /* =========================================================
    FOOTER
 ========================================================= */
 
-.warangal-footer {
-    width: 100%;
-    position: relative;
+        .warangal-footer {
+            width: 100%;
+            position: relative;
 
-    background: #292a2c;
+            background: #292a2c;
 
-    color: #ffffff;
+            color: #ffffff;
 
-    padding-top: 55px;
-}
-
-
-.warangal-footer-container {
-    max-width: 1320px;
-
-    padding-bottom: 45px;
-}
+            padding-top: 55px;
+        }
 
 
-/* =========================================================
+        .warangal-footer-container {
+            max-width: 1320px;
+
+            padding-bottom: 45px;
+        }
+
+
+        /* =========================================================
    COLUMN
 ========================================================= */
 
-.warangal-footer-column {
-    width: 100%;
-}
+        .warangal-footer-column {
+            width: 100%;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    LOGO
 ========================================================= */
 
-.warangal-footer-logo-wrap {
-    display: inline-flex;
-    align-items: center;
+        .warangal-footer-logo-wrap {
+            display: inline-flex;
+            align-items: center;
 
-    gap: 10px;
+            gap: 10px;
 
-    margin-bottom: 20px;
+            margin-bottom: 20px;
 
-    text-decoration: none;
-}
-
-
-.warangal-footer-logo-icon {
-    position: relative;
-
-    width: 40px;
-    height: 48px;
-
-    flex-shrink: 0;
-
-    background: #0865b8;
-
-    clip-path: polygon(
-        50% 0,
-        100% 18%,
-        88% 80%,
-        50% 100%,
-        12% 80%,
-        0 18%
-    );
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+            text-decoration: none;
+        }
 
 
-.warangal-footer-logo-icon span {
-    margin-top: 10px;
+        .warangal-footer-logo-icon {
+            position: relative;
 
-    color: #ffffff;
+            width: 40px;
+            height: 48px;
 
-    font-size: 12px;
-    font-weight: 700;
-}
+            flex-shrink: 0;
 
+            background: #0865b8;
 
-.warangal-footer-logo-text h3 {
-    margin: 0;
+            clip-path: polygon(50% 0,
+                    100% 18%,
+                    88% 80%,
+                    50% 100%,
+                    12% 80%,
+                    0 18%);
 
-    color: #ffffff;
-
-    font-family: Georgia, "Times New Roman", serif;
-
-    font-size: 17px;
-    font-weight: 700;
-
-    line-height: 1.25;
-}
-
-
-.warangal-footer-logo-text p {
-    margin: 2px 0 0;
-
-    color: #0759a7;
-
-    font-size: 8px;
-    font-weight: 500;
-
-    letter-spacing: 0.7px;
-}
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
 
-/* =========================================================
+        .warangal-footer-logo-icon span {
+            margin-top: 10px;
+
+            color: #ffffff;
+
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+
+        .warangal-footer-logo-text h3 {
+            margin: 0;
+
+            color: #ffffff;
+
+            font-family: Georgia, "Times New Roman", serif;
+
+            font-size: 17px;
+            font-weight: 700;
+
+            line-height: 1.25;
+        }
+
+
+        .warangal-footer-logo-text p {
+            margin: 2px 0 0;
+
+            color: #0759a7;
+
+            font-size: 8px;
+            font-weight: 500;
+
+            letter-spacing: 0.7px;
+        }
+
+
+        /* =========================================================
    HEADINGS
 ========================================================= */
 
-.warangal-footer-heading {
-    margin: 0 0 16px;
+        .warangal-footer-heading {
+            margin: 0 0 16px;
 
-    color: #ffc600;
+            color: #ffc600;
 
-    font-size: 14px;
-    font-weight: 700;
+            font-size: 14px;
+            font-weight: 700;
 
-    line-height: 1.4;
+            line-height: 1.4;
 
-    text-transform: uppercase;
-}
+            text-transform: uppercase;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    ADDRESS
 ========================================================= */
 
-.warangal-footer-address {
-    margin-bottom: 17px;
-}
+        .warangal-footer-address {
+            margin-bottom: 17px;
+        }
 
 
-.warangal-footer-address p {
-    margin: 0 0 5px;
+        .warangal-footer-address p {
+            margin: 0 0 5px;
 
-    color: #ffffff;
+            color: #ffffff;
 
-    font-size: 13px;
-    font-weight: 400;
+            font-size: 13px;
+            font-weight: 400;
 
-    line-height: 1.55;
-}
-
-
-.warangal-footer-address strong {
-    font-weight: 600;
-}
+            line-height: 1.55;
+        }
 
 
-.warangal-footer-address a {
-    color: #ffffff;
-
-    text-decoration: none;
-
-    transition: color 0.25s ease;
-}
+        .warangal-footer-address strong {
+            font-weight: 600;
+        }
 
 
-.warangal-footer-address a:hover {
-    color: #ffc600;
-}
+        .warangal-footer-address a {
+            color: #ffffff;
+
+            text-decoration: none;
+
+            transition: color 0.25s ease;
+        }
 
 
-/* =========================================================
+        .warangal-footer-address a:hover {
+            color: #ffc600;
+        }
+
+
+        /* =========================================================
    SOCIAL ICONS
 ========================================================= */
 
-.warangal-footer-social {
-    display: flex;
-    align-items: center;
+        .warangal-footer-social {
+            display: flex;
+            align-items: center;
 
-    gap: 10px;
+            gap: 10px;
 
-    margin-bottom: 18px;
-}
-
-
-.warangal-footer-social a {
-    width: 34px;
-    height: 34px;
-
-    border: 1px solid #767676;
-
-    border-radius: 50%;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    color: #ffffff;
-
-    font-size: 13px;
-
-    text-decoration: none;
-
-    transition: all 0.3s ease;
-}
+            margin-bottom: 18px;
+        }
 
 
-.warangal-footer-social a:hover {
-    background: #0759a7;
+        .warangal-footer-social a {
+            width: 34px;
+            height: 34px;
 
-    border-color: #0759a7;
+            border: 1px solid #767676;
 
-    transform: translateY(-3px);
-}
+            border-radius: 50%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: #ffffff;
+
+            font-size: 13px;
+
+            text-decoration: none;
+
+            transition: all 0.3s ease;
+        }
 
 
-/* =========================================================
+        .warangal-footer-social a:hover {
+            background: #0759a7;
+
+            border-color: #0759a7;
+
+            transform: translateY(-3px);
+        }
+
+
+        /* =========================================================
    MAP IMAGE
 ========================================================= */
 
-.warangal-footer-map {
-    width: 100%;
-    max-width: 385px;
+        .warangal-footer-map {
+            width: 100%;
+            max-width: 385px;
 
-    height: 90px;
+            height: 90px;
 
-    padding: 3px;
+            padding: 3px;
 
-    background: #ffffff;
+            background: #ffffff;
 
-    overflow: hidden;
-}
-
-
-.warangal-footer-map img {
-    width: 100%;
-    height: 100%;
-
-    display: block;
-
-    object-fit: cover;
-    object-position: center;
-}
+            overflow: hidden;
+        }
 
 
-/* =========================================================
+        .warangal-footer-map img {
+            width: 100%;
+            height: 100%;
+
+            display: block;
+
+            object-fit: cover;
+            object-position: center;
+        }
+
+
+        /* =========================================================
    LINKS
 ========================================================= */
 
-.warangal-footer-links {
-    margin: 0;
-    padding: 0;
+        .warangal-footer-links {
+            margin: 0;
+            padding: 0;
 
-    list-style: none;
-}
-
-
-.warangal-footer-links li {
-    margin-bottom: 6px;
-}
+            list-style: none;
+        }
 
 
-.warangal-footer-links a {
-    display: inline-block;
-
-    position: relative;
-
-    color: #ffffff;
-
-    font-size: 13px;
-    font-weight: 400;
-
-    line-height: 1.45;
-
-    text-decoration: none;
-
-    transition:
-        color 0.3s ease,
-        transform 0.3s ease;
-}
+        .warangal-footer-links li {
+            margin-bottom: 6px;
+        }
 
 
-.warangal-footer-links a:hover {
-    color: #ffc600;
+        .warangal-footer-links a {
+            display: inline-block;
 
-    transform: translateX(5px);
-}
+            position: relative;
+
+            color: #ffffff;
+
+            font-size: 13px;
+            font-weight: 400;
+
+            line-height: 1.45;
+
+            text-decoration: none;
+
+            transition:
+                color 0.3s ease,
+                transform 0.3s ease;
+        }
 
 
-/* =========================================================
+        .warangal-footer-links a:hover {
+            color: #ffc600;
+
+            transform: translateX(5px);
+        }
+
+
+        /* =========================================================
    ABOUT
 ========================================================= */
 
-.warangal-footer-about-text {
-    max-width: 440px;
+        .warangal-footer-about-text {
+            max-width: 440px;
 
-    margin: 0 0 27px;
+            margin: 0 0 27px;
 
-    color: #ffffff;
+            color: #ffffff;
 
-    font-size: 13px;
-    font-weight: 400;
+            font-size: 13px;
+            font-weight: 400;
 
-    line-height: 1.7;
-}
+            line-height: 1.7;
+        }
 
 
-/* =========================================================
+        /* =========================================================
    ABOUT LOGO
 ========================================================= */
 
-.warangal-footer-about-logo {
-    display: flex;
+        .warangal-footer-about-logo {
+            display: flex;
 
-    align-items: center;
+            align-items: center;
 
-    gap: 14px;
-}
-
-
-.warangal-footer-about-icon {
-    width: 43px;
-    height: 52px;
-}
+            gap: 14px;
+        }
 
 
-.warangal-footer-about-logo h3 {
-    margin: 0;
-
-    color: #ffffff;
-
-    font-family: Georgia, "Times New Roman", serif;
-
-    font-size: 20px;
-    font-weight: 700;
-
-    line-height: 1.25;
-}
+        .warangal-footer-about-icon {
+            width: 43px;
+            height: 52px;
+        }
 
 
-/* =========================================================
+        .warangal-footer-about-logo h3 {
+            margin: 0;
+
+            color: #ffffff;
+
+            font-family: Georgia, "Times New Roman", serif;
+
+            font-size: 20px;
+            font-weight: 700;
+
+            line-height: 1.25;
+        }
+
+
+        /* =========================================================
    BOTTOM BAR
 ========================================================= */
 
-.warangal-footer-bottom {
-    width: 100%;
+        .warangal-footer-bottom {
+            width: 100%;
 
-    background: #074982;
+            background: #074982;
 
-    padding: 13px 0;
-}
-
-
-.warangal-footer-bottom-container {
-    max-width: 1320px;
-}
+            padding: 13px 0;
+        }
 
 
-.warangal-footer-bottom p {
-    margin: 0;
-
-    color: #ffffff;
-
-    font-size: 11px;
-    font-weight: 400;
-
-    line-height: 1.5;
-}
+        .warangal-footer-bottom-container {
+            max-width: 1320px;
+        }
 
 
-.warangal-footer-designed {
-    text-align: right;
-}
+        .warangal-footer-bottom p {
+            margin: 0;
+
+            color: #ffffff;
+
+            font-size: 11px;
+            font-weight: 400;
+
+            line-height: 1.5;
+        }
 
 
-/* =========================================================
+        .warangal-footer-designed {
+            text-align: right;
+        }
+
+
+        /* =========================================================
    SCROLL TO TOP
 ========================================================= */
 
-.warangal-footer-scroll-top {
-    position: fixed;
+        .warangal-footer-scroll-top {
+            position: fixed;
 
-    right: 22px;
-    bottom: 20px;
+            right: 22px;
+            bottom: 20px;
 
-    width: 45px;
-    height: 45px;
+            width: 45px;
+            height: 45px;
 
-    border: none;
+            border: none;
 
-    border-radius: 50%;
+            border-radius: 50%;
 
-    background: #c8212a;
+            background: #c8212a;
 
-    color: #ffffff;
+            color: #ffffff;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-    font-size: 16px;
+            font-size: 16px;
 
-    cursor: pointer;
+            cursor: pointer;
 
-    z-index: 999;
+            z-index: 999;
 
-    box-shadow:
-        0 7px 20px
-        rgba(0, 0, 0, 0.22);
+            box-shadow:
+                0 7px 20px rgba(0, 0, 0, 0.22);
 
-    transition:
-        background 0.3s ease,
-        transform 0.3s ease;
-}
-
-
-.warangal-footer-scroll-top:hover {
-    background: #0759a7;
-
-    transform: translateY(-4px);
-}
+            transition:
+                background 0.3s ease,
+                transform 0.3s ease;
+        }
 
 
-/* =========================================================
+        .warangal-footer-scroll-top:hover {
+            background: #0759a7;
+
+            transform: translateY(-4px);
+        }
+
+
+        /* =========================================================
    LARGE DESKTOP 1400+
 ========================================================= */
 
-@media (min-width: 1400px) {
+        @media (min-width: 1400px) {
 
-    .warangal-footer-container {
-        max-width: 1320px;
-    }
-
-
-    .warangal-footer {
-        padding-top: 60px;
-    }
+            .warangal-footer-container {
+                max-width: 1320px;
+            }
 
 
-    .warangal-footer-heading {
-        font-size: 14px;
-    }
+            .warangal-footer {
+                padding-top: 60px;
+            }
 
 
-    .warangal-footer-address p,
-    .warangal-footer-links a,
-    .warangal-footer-about-text {
-        font-size: 13px;
-    }
-
-}
+            .warangal-footer-heading {
+                font-size: 14px;
+            }
 
 
-/* =========================================================
+            .warangal-footer-address p,
+            .warangal-footer-links a,
+            .warangal-footer-about-text {
+                font-size: 13px;
+            }
+
+        }
+
+
+        /* =========================================================
    1200 - 1399
 ========================================================= */
 
-@media (min-width: 1200px) and (max-width: 1399.98px) {
+        @media (min-width: 1200px) and (max-width: 1399.98px) {
 
-    .warangal-footer-container {
-        max-width: 1140px;
-    }
-
-
-    .warangal-footer-logo-text h3 {
-        font-size: 15px;
-    }
+            .warangal-footer-container {
+                max-width: 1140px;
+            }
 
 
-    .warangal-footer-heading {
-        font-size: 13px;
-    }
+            .warangal-footer-logo-text h3 {
+                font-size: 15px;
+            }
 
 
-    .warangal-footer-address p,
-    .warangal-footer-links a,
-    .warangal-footer-about-text {
-        font-size: 12px;
-    }
+            .warangal-footer-heading {
+                font-size: 13px;
+            }
 
 
-    .warangal-footer-about-logo h3 {
-        font-size: 18px;
-    }
+            .warangal-footer-address p,
+            .warangal-footer-links a,
+            .warangal-footer-about-text {
+                font-size: 12px;
+            }
 
-}
+
+            .warangal-footer-about-logo h3 {
+                font-size: 18px;
+            }
+
+        }
 
 
-/* =========================================================
+        /* =========================================================
    992 - 1199
 ========================================================= */
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
+        @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    .warangal-footer {
-        padding-top: 50px;
-    }
-
-
-    .warangal-footer-container {
-        padding-bottom: 40px;
-    }
+            .warangal-footer {
+                padding-top: 50px;
+            }
 
 
-    .warangal-footer-heading {
-        margin-bottom: 13px;
-
-        font-size: 12px;
-    }
+            .warangal-footer-container {
+                padding-bottom: 40px;
+            }
 
 
-    .warangal-footer-address p,
-    .warangal-footer-links a,
-    .warangal-footer-about-text {
-        font-size: 11.5px;
-    }
+            .warangal-footer-heading {
+                margin-bottom: 13px;
+
+                font-size: 12px;
+            }
 
 
-    .warangal-footer-map {
-        height: 80px;
-    }
+            .warangal-footer-address p,
+            .warangal-footer-links a,
+            .warangal-footer-about-text {
+                font-size: 11.5px;
+            }
 
-}
+
+            .warangal-footer-map {
+                height: 80px;
+            }
+
+        }
 
 
-/* =========================================================
+        /* =========================================================
    TABLET
    768 - 991
 ========================================================= */
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+        @media (min-width: 768px) and (max-width: 991.98px) {
 
-    .warangal-footer {
-        padding-top: 48px;
-    }
-
-
-    .warangal-footer-container {
-        padding-bottom: 38px;
-    }
+            .warangal-footer {
+                padding-top: 48px;
+            }
 
 
-    .warangal-footer-heading {
-        margin-top: 5px;
-
-        font-size: 13px;
-    }
+            .warangal-footer-container {
+                padding-bottom: 38px;
+            }
 
 
-    .warangal-footer-address p,
-    .warangal-footer-links a,
-    .warangal-footer-about-text {
-        font-size: 12.5px;
-    }
+            .warangal-footer-heading {
+                margin-top: 5px;
+
+                font-size: 13px;
+            }
 
 
-    .warangal-footer-map {
-        max-width: 100%;
-
-        height: 105px;
-    }
-
-
-    .warangal-footer-about {
-        margin-top: 15px;
-    }
-
-}
+            .warangal-footer-address p,
+            .warangal-footer-links a,
+            .warangal-footer-about-text {
+                font-size: 12.5px;
+            }
 
 
-/* =========================================================
+            .warangal-footer-map {
+                max-width: 100%;
+
+                height: 105px;
+            }
+
+
+            .warangal-footer-about {
+                margin-top: 15px;
+            }
+
+        }
+
+
+        /* =========================================================
    MOBILE
 ========================================================= */
 
-@media (max-width: 767.98px) {
+        @media (max-width: 767.98px) {
 
-    .warangal-footer {
-        padding-top: 42px;
-    }
-
-
-    .warangal-footer-container {
-        padding-left: 20px;
-        padding-right: 20px;
-
-        padding-bottom: 35px;
-    }
+            .warangal-footer {
+                padding-top: 42px;
+            }
 
 
-    .warangal-footer-logo-wrap {
-        margin-bottom: 20px;
-    }
+            .warangal-footer-container {
+                padding-left: 20px;
+                padding-right: 20px;
+
+                padding-bottom: 35px;
+            }
 
 
-    .warangal-footer-logo-text h3 {
-        font-size: 17px;
-    }
+            .warangal-footer-logo-wrap {
+                margin-bottom: 20px;
+            }
 
 
-    .warangal-footer-heading {
-        margin-bottom: 12px;
-
-        font-size: 13px;
-    }
+            .warangal-footer-logo-text h3 {
+                font-size: 17px;
+            }
 
 
-    .warangal-footer-address p {
-        font-size: 12.5px;
-    }
+            .warangal-footer-heading {
+                margin-bottom: 12px;
+
+                font-size: 13px;
+            }
 
 
-    .warangal-footer-links a {
-        font-size: 12.5px;
-    }
+            .warangal-footer-address p {
+                font-size: 12.5px;
+            }
 
 
-    .warangal-footer-about-text {
-        max-width: 100%;
-
-        font-size: 12.5px;
-    }
+            .warangal-footer-links a {
+                font-size: 12.5px;
+            }
 
 
-    .warangal-footer-map {
-        max-width: 450px;
+            .warangal-footer-about-text {
+                max-width: 100%;
 
-        height: 110px;
-    }
-
-
-    .warangal-footer-bottom {
-        padding: 14px 0;
-    }
+                font-size: 12.5px;
+            }
 
 
-    .warangal-footer-bottom p {
-        font-size: 10.5px;
+            .warangal-footer-map {
+                max-width: 450px;
 
-        text-align: center;
-    }
-
-
-    .warangal-footer-designed {
-        text-align: center;
-    }
+                height: 110px;
+            }
 
 
-    .warangal-footer-scroll-top {
-        width: 42px;
-        height: 42px;
-
-        right: 15px;
-        bottom: 15px;
-    }
-
-}
+            .warangal-footer-bottom {
+                padding: 14px 0;
+            }
 
 
-/* =========================================================
+            .warangal-footer-bottom p {
+                font-size: 10.5px;
+
+                text-align: center;
+            }
+
+
+            .warangal-footer-designed {
+                text-align: center;
+            }
+
+
+            .warangal-footer-scroll-top {
+                width: 42px;
+                height: 42px;
+
+                right: 15px;
+                bottom: 15px;
+            }
+
+        }
+
+
+        /* =========================================================
    SMALL MOBILE
 ========================================================= */
 
-@media (max-width: 575.98px) {
+        @media (max-width: 575.98px) {
 
-    .warangal-footer {
-        padding-top: 36px;
-    }
-
-
-    .warangal-footer-logo-text h3 {
-        font-size: 15px;
-    }
+            .warangal-footer {
+                padding-top: 36px;
+            }
 
 
-    .warangal-footer-logo-icon {
-        width: 37px;
-        height: 45px;
-    }
+            .warangal-footer-logo-text h3 {
+                font-size: 15px;
+            }
 
 
-    .warangal-footer-heading {
-        font-size: 12px;
-    }
+            .warangal-footer-logo-icon {
+                width: 37px;
+                height: 45px;
+            }
 
 
-    .warangal-footer-address p,
-    .warangal-footer-links a,
-    .warangal-footer-about-text {
-        font-size: 12px;
-    }
+            .warangal-footer-heading {
+                font-size: 12px;
+            }
 
 
-    .warangal-footer-about-logo h3 {
-        font-size: 17px;
-    }
+            .warangal-footer-address p,
+            .warangal-footer-links a,
+            .warangal-footer-about-text {
+                font-size: 12px;
+            }
 
 
-    .warangal-footer-map {
-        height: 100px;
-    }
-
-}
+            .warangal-footer-about-logo h3 {
+                font-size: 17px;
+            }
 
 
-/* =========================================================
+            .warangal-footer-map {
+                height: 100px;
+            }
+
+        }
+
+
+        /* =========================================================
    VERY SMALL MOBILE
 ========================================================= */
 
-@media (max-width: 380px) {
+        @media (max-width: 380px) {
 
-    .warangal-footer-container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-
-    .warangal-footer-logo-text h3 {
-        font-size: 14px;
-    }
+            .warangal-footer-container {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
 
 
-    .warangal-footer-links a,
-    .warangal-footer-address p,
-    .warangal-footer-about-text {
-        font-size: 11.5px;
-    }
+            .warangal-footer-logo-text h3 {
+                font-size: 14px;
+            }
 
 
-    .warangal-footer-social a {
-        width: 31px;
-        height: 31px;
+            .warangal-footer-links a,
+            .warangal-footer-address p,
+            .warangal-footer-about-text {
+                font-size: 11.5px;
+            }
 
-        font-size: 11px;
-    }
 
-}
+            .warangal-footer-social a {
+                width: 31px;
+                height: 31px;
 
-</style>
+                font-size: 11px;
+            }
 
-<style>
-    /* ======================================================
+        }
+    </style>
+
+    <style>
+        /* ======================================================
    BISHOP OF WARANGAL
 ====================================================== */
-/* ==========================================
+        /* ==========================================
    BISHOP UPDATES VERTICAL MARQUEE
 ========================================== */
 
-.warangal-updates-marquee {
-    width: 100%;
-    height: 410px;
+        .warangal-updates-marquee {
+            width: 100%;
+            height: 410px;
 
-    overflow: hidden;
+            overflow: hidden;
 
-    position: relative;
-}
-
-
-/* MOVING TRACK */
-
-.warangal-updates-track {
-    display: flex;
-    flex-direction: column;
-
-    animation: warangalBishopMarquee 18s linear infinite;
-}
+            position: relative;
+        }
 
 
-/* PAUSE ON HOVER */
+        /* MOVING TRACK */
 
-.warangal-updates-marquee:hover .warangal-updates-track {
-    animation-play-state: paused;
-}
+        .warangal-updates-track {
+            display: flex;
+            flex-direction: column;
 
-
-/* MARQUEE ANIMATION */
-
-@keyframes warangalBishopMarquee {
-
-    from {
-        transform: translateY(0);
-    }
-
-    to {
-        transform: translateY(-50%);
-    }
-
-}
+            animation: warangalBishopMarquee 18s linear infinite;
+        }
 
 
-/* UPDATE ROW */
+        /* PAUSE ON HOVER */
 
-.warangal-update-item {
-    flex-shrink: 0;
-
-    min-height: 103px;
-
-    display: grid;
-
-    grid-template-columns: 42px 1fr;
-
-    align-items: center;
-
-    column-gap: 15px;
-
-    border-top: 1px solid rgba(255,255,255,0.55);
-
-    padding: 12px 0;
-}
+        .warangal-updates-marquee:hover .warangal-updates-track {
+            animation-play-state: paused;
+        }
 
 
-/* DATE BOX */
+        /* MARQUEE ANIMATION */
 
-.warangal-update-date {
-    width: 40px;
-    height: 52px;
+        @keyframes warangalBishopMarquee {
 
-    border: 1px solid rgba(255,255,255,0.8);
+            from {
+                transform: translateY(0);
+            }
 
-    display: flex;
-    flex-direction: column;
+            to {
+                transform: translateY(-50%);
+            }
 
-    justify-content: center;
-    align-items: center;
-
-    color: #fff;
-
-    line-height: 1;
-}
+        }
 
 
-.warangal-update-date strong {
-    font-size: 19px;
-    font-weight: 700;
-}
+        /* UPDATE ROW */
+
+        .warangal-update-item {
+            flex-shrink: 0;
+
+            min-height: 103px;
+
+            display: grid;
+
+            grid-template-columns: 42px 1fr;
+
+            align-items: center;
+
+            column-gap: 15px;
+
+            border-top: 1px solid rgba(255, 255, 255, 0.55);
+
+            padding: 12px 0;
+        }
 
 
-.warangal-update-date span {
-    font-size: 9px;
-    margin-top: 3px;
-}
+        /* DATE BOX */
+
+        .warangal-update-date {
+            width: 40px;
+            height: 52px;
+
+            border: 1px solid rgba(255, 255, 255, 0.8);
+
+            display: flex;
+            flex-direction: column;
+
+            justify-content: center;
+            align-items: center;
+
+            color: #fff;
+
+            line-height: 1;
+        }
 
 
-.warangal-update-date small {
-    font-size: 7px;
-    margin-top: 2px;
-}
+        .warangal-update-date strong {
+            font-size: 19px;
+            font-weight: 700;
+        }
 
 
-/* UPDATE TEXT */
-
-.warangal-update-item p {
-    margin: 0;
-
-    color: #fff;
-
-    font-size: 15px;
-    line-height: 1.3;
-}
+        .warangal-update-date span {
+            font-size: 9px;
+            margin-top: 3px;
+        }
 
 
-/* MOBILE */
-
-@media (max-width: 767px) {
-
-    .warangal-updates-marquee {
-        height: 360px;
-    }
-
-    .warangal-updates-track {
-        animation-duration: 20s;
-    }
-
-    .warangal-update-item {
-        min-height: 90px;
-
-        grid-template-columns: 40px 1fr;
-
-        column-gap: 12px;
-    }
-
-    .warangal-update-item p {
-        font-size: 13px;
-    }
-
-}
-.warangal-bishop-section {
-    width: 100%;
-    min-height: 665px;
-    background:
-        linear-gradient(
-            rgba(255, 246, 218, 0.88),
-            rgba(255, 240, 190, 0.88)
-        ),
-        url("assets/images/church-bg.jpg");
-
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
-    overflow: hidden;
-}
+        .warangal-update-date small {
+            font-size: 7px;
+            margin-top: 2px;
+        }
 
 
-/* MAIN LAYOUT */
+        /* UPDATE TEXT */
 
-.warangal-bishop-main {
-    width: 100%;
-    min-height: 665px;
+        .warangal-update-item p {
+            margin: 0;
 
-    display: grid;
-    grid-template-columns: 64.7% 35.3%;
+            color: #fff;
 
-    align-items: start;
-}
+            font-size: 15px;
+            line-height: 1.3;
+        }
 
 
-/* ======================================================
+        /* MOBILE */
+
+        @media (max-width: 767px) {
+
+            .warangal-updates-marquee {
+                height: 360px;
+            }
+
+            .warangal-updates-track {
+                animation-duration: 20s;
+            }
+
+            .warangal-update-item {
+                min-height: 90px;
+
+                grid-template-columns: 40px 1fr;
+
+                column-gap: 12px;
+            }
+
+            .warangal-update-item p {
+                font-size: 13px;
+            }
+
+        }
+
+        .warangal-bishop-section {
+            width: 100%;
+            min-height: 665px;
+            background:
+                linear-gradient(rgba(255, 246, 218, 0.88),
+                    rgba(255, 240, 190, 0.88)),
+                url("assets/images/church-bg.jpg");
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            overflow: hidden;
+        }
+
+
+        /* MAIN LAYOUT */
+
+        .warangal-bishop-main {
+            width: 100%;
+            min-height: 665px;
+
+            display: grid;
+            grid-template-columns: 64.7% 35.3%;
+
+            align-items: start;
+        }
+
+
+        /* ======================================================
    LEFT SIDE
 ====================================================== */
 
-.warangal-bishop-left {
-    padding-top: 82px;
-    padding-left: clamp(40px, 17.5vw, 280px);
-    padding-right: 40px;
-}
+        .warangal-bishop-left {
+            padding-top: 82px;
+            padding-left: clamp(40px, 17.5vw, 280px);
+            padding-right: 40px;
+        }
 
 
-/* HEADING */
+        /* HEADING */
 
-.warangal-bishop-heading {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+        .warangal-bishop-heading {
+            display: flex;
+            align-items: center;
+            gap: 16px;
 
-    margin-bottom: 68px;
-}
+            margin-bottom: 68px;
+        }
 
-.warangal-cross {
-    color: #147b23;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 1;
-}
+        .warangal-cross {
+            color: #147b23;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1;
+        }
 
-.warangal-bishop-heading h2 {
-    margin: 0;
+        .warangal-bishop-heading h2 {
+            margin: 0;
 
-    color: #a40909;
+            color: #a40909;
 
-    font-size: 36px;
-    line-height: 1.2;
-    font-weight: 700;
-}
-
-
-/* PROFILE */
-
-.warangal-bishop-profile {
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-}
+            font-size: 36px;
+            line-height: 1.2;
+            font-weight: 700;
+        }
 
 
-/* IMAGE */
+        /* PROFILE */
 
-.warangal-bishop-image {
-    width: 255px;
-    min-width: 255px;
-    height: 330px;
-
-    overflow: hidden;
-}
-
-.warangal-bishop-image img {
-    width: 100%;
-    height: 100%;
-
-    object-fit: cover;
-    object-position: center top;
-
-    display: block;
-}
+        .warangal-bishop-profile {
+            display: flex;
+            align-items: flex-start;
+            gap: 30px;
+        }
 
 
-/* CONTENT */
+        /* IMAGE */
 
-.warangal-bishop-content {
-    max-width: 470px;
-}
+        .warangal-bishop-image {
+            width: 255px;
+            min-width: 255px;
+            height: 330px;
 
-.warangal-bishop-content h3 {
-    margin: 0 0 3px;
+            overflow: hidden;
+        }
 
-    color: #a40b0b;
+        .warangal-bishop-image img {
+            width: 100%;
+            height: 100%;
 
-    font-size: 27px;
-    line-height: 1.25;
-    font-weight: 700;
-}
+            object-fit: cover;
+            object-position: center top;
 
-.warangal-bishop-content h5 {
-    margin: 0 0 20px;
-
-    font-size: 20px;
-    font-weight: 400;
-
-    color: #333;
-}
-
-.warangal-bishop-content p {
-    margin: 0 0 45px;
-
-    color: #303030;
-
-    font-size: 18px;
-    line-height: 1.75;
-
-    text-align: justify;
-}
+            display: block;
+        }
 
 
-/* BUTTON */
+        /* CONTENT */
 
-.warangal-bishop-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+        .warangal-bishop-content {
+            max-width: 470px;
+        }
 
-    min-height: 36px;
+        .warangal-bishop-content h3 {
+            margin: 0 0 3px;
 
-    padding: 7px 16px;
+            color: #a40b0b;
 
-    background: #a60b06;
-    color: #fff;
+            font-size: 27px;
+            line-height: 1.25;
+            font-weight: 700;
+        }
 
-    text-decoration: none;
+        .warangal-bishop-content h5 {
+            margin: 0 0 20px;
 
-    font-size: 15px;
-    font-weight: 500;
+            font-size: 20px;
+            font-weight: 400;
 
-    transition: 0.3s ease;
-}
+            color: #333;
+        }
 
-.warangal-bishop-btn:hover {
-    background: #7f0704;
-    color: #fff;
-}
+        .warangal-bishop-content p {
+            margin: 0 0 45px;
+
+            color: #303030;
+
+            font-size: 18px;
+            line-height: 1.75;
+
+            text-align: justify;
+        }
 
 
-/* ======================================================
+        /* BUTTON */
+
+        .warangal-bishop-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+
+            min-height: 36px;
+
+            padding: 7px 16px;
+
+            background: #a60b06;
+            color: #fff;
+
+            text-decoration: none;
+
+            font-size: 15px;
+            font-weight: 500;
+
+            transition: 0.3s ease;
+        }
+
+        .warangal-bishop-btn:hover {
+            background: #7f0704;
+            color: #fff;
+        }
+
+
+        /* ======================================================
    RIGHT GREEN PANEL
 ====================================================== */
 
-.warangal-bishop-updates {
-    width: 100%;
-    height: 600px;
-    margin-top: 69px;
-    background: #26772d;
-    position: relative;
-    overflow: hidden;
-    border-top-left-radius: 125px;
-}
+        .warangal-bishop-updates {
+            width: 100%;
+            height: 600px;
+            margin-top: 69px;
+            background: #26772d;
+            position: relative;
+            overflow: hidden;
+            border-top-left-radius: 125px;
+        }
 
 
-/* INNER */
+        /* INNER */
 
-.warangal-updates-inner {
-    height: 100%;
+        .warangal-updates-inner {
+            height: 100%;
 
-    position: relative;
+            position: relative;
 
-    padding:
-        66px
-        235px
-        30px
-        46px;
-}
+            padding:
+                66px 235px 30px 46px;
+        }
 
 
-/* UPDATES HEADING */
+        /* UPDATES HEADING */
 
-.warangal-updates-heading {
-    display: flex;
-    align-items: center;
+        .warangal-updates-heading {
+            display: flex;
+            align-items: center;
 
-    gap: 14px;
+            gap: 14px;
 
-    margin-bottom: 22px;
-}
+            margin-bottom: 22px;
+        }
 
-.warangal-updates-heading span {
-    color: #fff;
+        .warangal-updates-heading span {
+            color: #fff;
 
-    font-size: 36px;
-    line-height: 1;
-}
+            font-size: 36px;
+            line-height: 1;
+        }
 
-.warangal-updates-heading h3 {
-    margin: 0;
+        .warangal-updates-heading h3 {
+            margin: 0;
 
-    color: #fff;
+            color: #fff;
 
-    font-size: 33px;
-    font-weight: 700;
-}
-
-
-/* UPDATE ROW */
-
-.warangal-update-item {
-    display: grid;
-
-    grid-template-columns: 38px 1fr;
-
-    column-gap: 15px;
-
-    align-items: center;
-
-    min-height: 105px;
-
-    border-top: 1px solid rgba(255, 255, 255, 0.55);
-}
+            font-size: 33px;
+            font-weight: 700;
+        }
 
 
-/* DATE */
+        /* UPDATE ROW */
 
-.warangal-update-date {
-    width: 38px;
-    min-height: 49px;
+        .warangal-update-item {
+            display: grid;
 
-    border: 1px solid rgba(255, 255, 255, 0.8);
+            grid-template-columns: 38px 1fr;
 
-    display: flex;
-    flex-direction: column;
+            column-gap: 15px;
 
-    align-items: center;
-    justify-content: center;
+            align-items: center;
 
-    color: #fff;
+            min-height: 105px;
 
-    line-height: 1;
-}
-
-.warangal-update-date strong {
-    font-size: 19px;
-    font-weight: 700;
-}
-
-.warangal-update-date span {
-    margin-top: 2px;
-
-    font-size: 9px;
-}
-
-.warangal-update-date small {
-    margin-top: 2px;
-
-    font-size: 7px;
-}
+            border-top: 1px solid rgba(255, 255, 255, 0.55);
+        }
 
 
-/* UPDATE TEXT */
+        /* DATE */
 
-.warangal-update-item p {
-    margin: 0;
+        .warangal-update-date {
+            width: 38px;
+            min-height: 49px;
 
-    color: #fff;
+            border: 1px solid rgba(255, 255, 255, 0.8);
 
-    font-size: 15px;
-    line-height: 1.25;
+            display: flex;
+            flex-direction: column;
 
-    font-weight: 400;
-}
+            align-items: center;
+            justify-content: center;
 
-.warangal-update-item p strong {
-    font-weight: 800;
-}
+            color: #fff;
+
+            line-height: 1;
+        }
+
+        .warangal-update-date strong {
+            font-size: 19px;
+            font-weight: 700;
+        }
+
+        .warangal-update-date span {
+            margin-top: 2px;
+
+            font-size: 9px;
+        }
+
+        .warangal-update-date small {
+            margin-top: 2px;
+
+            font-size: 7px;
+        }
 
 
-/* ======================================================
+        /* UPDATE TEXT */
+
+        .warangal-update-item p {
+            margin: 0;
+
+            color: #fff;
+
+            font-size: 15px;
+            line-height: 1.25;
+
+            font-weight: 400;
+        }
+
+        .warangal-update-item p strong {
+            font-weight: 800;
+        }
+
+
+        /* ======================================================
    LOGO
 ====================================================== */
 
-.warangal-diocese-logo {
-    position: absolute;
+        .warangal-diocese-logo {
+            position: absolute;
 
-    top: 70px;
-    right: 76px;
+            top: 70px;
+            right: 76px;
 
-    width: 96px;
-    height: 96px;
+            width: 96px;
+            height: 96px;
 
-    border-radius: 50%;
+            border-radius: 50%;
 
-    background: #fff;
+            background: #fff;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
-    overflow: hidden;
+            overflow: hidden;
 
-    z-index: 3;
-}
+            z-index: 3;
+        }
 
-.warangal-diocese-logo img {
-    width: 80%;
-    height: 80%;
+        .warangal-diocese-logo img {
+            width: 80%;
+            height: 80%;
 
-    object-fit: contain;
-}
+            object-fit: contain;
+        }
 
 
-/* ======================================================
+        /* ======================================================
    VERTICAL DIOCESE TITLE
 ====================================================== */
 
-.warangal-vertical-title {
-    position: absolute;
-    right: -21px;
-    top: 287px;
-    color: #fff;
-    font-size: 48px;
-    line-height: 0.92;
-    font-weight: 800;
-    white-space: nowrap;
-    transform: rotate(90deg);
-    transform-origin: center;
-}
+        .warangal-vertical-title {
+            position: absolute;
+            right: -21px;
+            top: 287px;
+            color: #fff;
+            font-size: 48px;
+            line-height: 0.92;
+            font-weight: 800;
+            white-space: nowrap;
+            transform: rotate(90deg);
+            transform-origin: center;
+        }
 
-/* ======================================================
+        /* ======================================================
    LARGE LAPTOP
 ====================================================== */
 
-@media (max-width: 1399px) {
+        @media (max-width: 1399px) {
 
-    .warangal-bishop-left {
-        padding-left: 100px;
-    }
+            .warangal-bishop-left {
+                padding-left: 100px;
+            }
 
-    .warangal-bishop-heading {
-        margin-bottom: 50px;
-    }
+            .warangal-bishop-heading {
+                margin-bottom: 50px;
+            }
 
-    .warangal-bishop-content p {
-        font-size: 15px;
-    }
+            .warangal-bishop-content p {
+                font-size: 15px;
+            }
 
-    .warangal-updates-inner {
-        padding-right: 190px;
-    }
+            .warangal-updates-inner {
+                padding-right: 190px;
+            }
 
-    .warangal-vertical-title {
-        font-size: 40px;
-    }
+            .warangal-vertical-title {
+                font-size: 40px;
+            }
 
-}
+        }
 
 
-/* ======================================================
+        /* ======================================================
    TABLET
 ====================================================== */
 
-@media (max-width: 991px) {
+        @media (max-width: 991px) {
 
-    .warangal-bishop-section,
-    .warangal-bishop-main {
-        min-height: auto;
-    }
+            .warangal-bishop-section,
+            .warangal-bishop-main {
+                min-height: auto;
+            }
 
-    .warangal-bishop-main {
-        display: block;
-    }
-
-
-    /* LEFT */
-
-    .warangal-bishop-left {
-        padding: 60px 40px;
-    }
-
-    .warangal-bishop-heading {
-        margin-bottom: 40px;
-    }
-
-    .warangal-bishop-profile {
-        justify-content: center;
-    }
+            .warangal-bishop-main {
+                display: block;
+            }
 
 
-    /* RIGHT */
+            /* LEFT */
 
-    .warangal-bishop-updates {
-        height: auto;
+            .warangal-bishop-left {
+                padding: 60px 40px;
+            }
 
-        margin-top: 0;
+            .warangal-bishop-heading {
+                margin-bottom: 40px;
+            }
 
-        border-top-left-radius: 90px;
-    }
-
-    .warangal-updates-inner {
-        min-height: 560px;
-
-        padding:
-            70px
-            220px
-            40px
-            60px;
-    }
-
-}
+            .warangal-bishop-profile {
+                justify-content: center;
+            }
 
 
-/* ======================================================
+            /* RIGHT */
+
+            .warangal-bishop-updates {
+                height: auto;
+
+                margin-top: 0;
+
+                border-top-left-radius: 90px;
+            }
+
+            .warangal-updates-inner {
+                min-height: 560px;
+
+                padding:
+                    70px 220px 40px 60px;
+            }
+
+        }
+
+
+        /* ======================================================
    MOBILE
 ====================================================== */
 
-@media (max-width: 767px) {
+        @media (max-width: 767px) {
 
-    .warangal-bishop-left {
-        padding: 45px 20px;
-    }
-
-
-    /* HEADING */
-
-    .warangal-bishop-heading {
-        gap: 10px;
-
-        margin-bottom: 32px;
-    }
-
-    .warangal-cross {
-        font-size: 34px;
-    }
-
-    .warangal-bishop-heading h2 {
-        font-size: 27px;
-    }
+            .warangal-bishop-left {
+                padding: 45px 20px;
+            }
 
 
-    /* PROFILE */
+            /* HEADING */
 
-    .warangal-bishop-profile {
-        flex-direction: column;
+            .warangal-bishop-heading {
+                gap: 10px;
 
-        align-items: center;
+                margin-bottom: 32px;
+            }
 
-        gap: 24px;
-    }
+            .warangal-cross {
+                font-size: 34px;
+            }
 
-    .warangal-bishop-image {
-        width: min(100%, 310px);
-        min-width: 0;
-
-        height: 380px;
-    }
-
-    .warangal-bishop-content {
-        max-width: 100%;
-    }
-
-    .warangal-bishop-content h3 {
-        font-size: 23px;
-    }
-
-    .warangal-bishop-content h5 {
-        font-size: 17px;
-
-        margin-bottom: 20px;
-    }
-
-    .warangal-bishop-content p {
-        font-size: 15px;
-
-        line-height: 1.7;
-
-        margin-bottom: 30px;
-
-        text-align: left;
-    }
+            .warangal-bishop-heading h2 {
+                font-size: 27px;
+            }
 
 
-    /* GREEN */
+            /* PROFILE */
 
-    .warangal-bishop-updates {
-        border-top-left-radius: 70px;
-    }
+            .warangal-bishop-profile {
+                flex-direction: column;
 
-    .warangal-updates-inner {
-        min-height: auto;
+                align-items: center;
 
-        padding:
-            60px
-            25px
-            45px;
-    }
+                gap: 24px;
+            }
 
-    .warangal-updates-heading {
-        padding-right: 80px;
-    }
+            .warangal-bishop-image {
+                width: min(100%, 310px);
+                min-width: 0;
 
-    .warangal-updates-heading h3 {
-        font-size: 22px;
-    }
+                height: 380px;
+            }
 
+            .warangal-bishop-content {
+                max-width: 100%;
+            }
 
-    /* UPDATE ITEMS */
+            .warangal-bishop-content h3 {
+                font-size: 23px;
+            }
 
-    .warangal-update-item {
-        grid-template-columns: 45px 1fr;
+            .warangal-bishop-content h5 {
+                font-size: 17px;
 
-        column-gap: 14px;
+                margin-bottom: 20px;
+            }
 
-        min-height: 105px;
-    }
+            .warangal-bishop-content p {
+                font-size: 15px;
 
-    .warangal-update-date {
-        width: 40px;
-    }
+                line-height: 1.7;
 
-    .warangal-update-item p {
-        font-size: 13px;
-    }
+                margin-bottom: 30px;
 
-
-    /* LOGO */
-
-    .warangal-diocese-logo {
-        top: 35px;
-        right: 22px;
-
-        width: 70px;
-        height: 70px;
-    }
+                text-align: left;
+            }
 
 
-    /* REMOVE VERTICAL TEXT MOBILE */
+            /* GREEN */
 
-    .warangal-vertical-title {
-        position: static;
+            .warangal-bishop-updates {
+                border-top-left-radius: 70px;
+            }
 
-        margin-top: 30px;
+            .warangal-updates-inner {
+                min-height: auto;
 
-        transform: none;
+                padding:
+                    60px 25px 45px;
+            }
 
-        white-space: normal;
+            .warangal-updates-heading {
+                padding-right: 80px;
+            }
 
-        text-align: center;
-
-        font-size: 32px;
-        line-height: 1;
-
-        opacity: 0.15;
-    }
-
-}
+            .warangal-updates-heading h3 {
+                font-size: 22px;
+            }
 
 
-/* ======================================================
+            /* UPDATE ITEMS */
+
+            .warangal-update-item {
+                grid-template-columns: 45px 1fr;
+
+                column-gap: 14px;
+
+                min-height: 105px;
+            }
+
+            .warangal-update-date {
+                width: 40px;
+            }
+
+            .warangal-update-item p {
+                font-size: 13px;
+            }
+
+
+            /* LOGO */
+
+            .warangal-diocese-logo {
+                top: 35px;
+                right: 22px;
+
+                width: 70px;
+                height: 70px;
+            }
+
+
+            /* REMOVE VERTICAL TEXT MOBILE */
+
+            .warangal-vertical-title {
+                position: static;
+
+                margin-top: 30px;
+
+                transform: none;
+
+                white-space: normal;
+
+                text-align: center;
+
+                font-size: 32px;
+                line-height: 1;
+
+                opacity: 0.15;
+            }
+
+        }
+
+
+        /* ======================================================
    SMALL MOBILE
 ====================================================== */
 
-@media (max-width: 480px) {
+        @media (max-width: 480px) {
 
-    .warangal-bishop-left {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
+            .warangal-bishop-left {
+                padding-left: 16px;
+                padding-right: 16px;
+            }
 
-    .warangal-bishop-heading h2 {
-        font-size: 24px;
-    }
+            .warangal-bishop-heading h2 {
+                font-size: 24px;
+            }
 
-    .warangal-cross {
-        font-size: 31px;
-    }
+            .warangal-cross {
+                font-size: 31px;
+            }
 
-    .warangal-bishop-image {
-        height: 350px;
-    }
+            .warangal-bishop-image {
+                height: 350px;
+            }
 
-    .warangal-bishop-content h3 {
-        font-size: 21px;
-    }
+            .warangal-bishop-content h3 {
+                font-size: 21px;
+            }
 
-    .warangal-bishop-updates {
-        border-top-left-radius: 55px;
-    }
+            .warangal-bishop-updates {
+                border-top-left-radius: 55px;
+            }
 
-    .warangal-updates-inner {
-        padding:
-            55px
-            18px
-            35px;
-    }
+            .warangal-updates-inner {
+                padding:
+                    55px 18px 35px;
+            }
 
-}
-</style>
-<style>
-
+        }
+    </style>
+    <style>
         .banner-carousel {
             width: 100%;
             overflow: hidden;
@@ -6392,10 +6349,8 @@
             height: 5px;
             margin: 0 5px;
         }
-
     </style>
- <style>
-
+    <style>
         * {
             margin: 0;
             padding: 0;
@@ -6446,7 +6401,7 @@
         .social-icons a {
             width: 25px;
             height: 25px;
-            border: 1px solid rgba(255,255,255,0.8);
+            border: 1px solid rgba(255, 255, 255, 0.8);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -6469,7 +6424,7 @@
         .main-navbar {
             background: #ffffff;
             min-height: 92px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
         }
 
         .navbar-container {
@@ -6723,298 +6678,299 @@
             }
 
         }
-/* =====================================================
+
+        /* =====================================================
    WARANGAL FOOTER FIRST COLUMN
 ===================================================== */
 
-.warangal-footer-column {
-    width: 100%;
-}
+        .warangal-footer-column {
+            width: 100%;
+        }
 
 
-/* =====================================================
+        /* =====================================================
    FOOTER LOGO
 ===================================================== */
 
-.warangal-footer-logo-wrap {
-    display: inline-flex;
-    align-items: center;
-    justify-content: flex-start;
+        .warangal-footer-logo-wrap {
+            display: inline-flex;
+            align-items: center;
+            justify-content: flex-start;
 
-    text-decoration: none;
+            text-decoration: none;
 
-    margin-bottom: 28px;
-}
-
-
-/* MAIN LOGO */
-
-.warangal-footer-main-logo {
-    display: block;
-
-    width: 190px;
-    max-width: 100%;
-    height: auto;
-
-    object-fit: contain;
-}
+            margin-bottom: 28px;
+        }
 
 
-/* =====================================================
+        /* MAIN LOGO */
+
+        .warangal-footer-main-logo {
+            display: block;
+
+            width: 190px;
+            max-width: 100%;
+            height: auto;
+
+            object-fit: contain;
+        }
+
+
+        /* =====================================================
    HEADING
 ===================================================== */
 
-.warangal-footer-heading {
-    position: relative;
+        .warangal-footer-heading {
+            position: relative;
 
-    margin: 0 0 20px;
+            margin: 0 0 20px;
 
-    padding-bottom: 10px;
+            padding-bottom: 10px;
 
-    color: #ffffff;
+            color: #ffffff;
 
-    font-size: 19px;
-    line-height: 1.2;
+            font-size: 19px;
+            line-height: 1.2;
 
-    font-weight: 700;
+            font-weight: 700;
 
-    letter-spacing: 0.8px;
-}
-
-
-/* SMALL UNDERLINE */
-
-.warangal-footer-heading::after {
-    content: "";
-
-    position: absolute;
-
-    left: 0;
-    bottom: 0;
-
-    width: 45px;
-    height: 2px;
-
-    background: #ffffff;
-}
+            letter-spacing: 0.8px;
+        }
 
 
-/* =====================================================
+        /* SMALL UNDERLINE */
+
+        .warangal-footer-heading::after {
+            content: "";
+
+            position: absolute;
+
+            left: 0;
+            bottom: 0;
+
+            width: 45px;
+            height: 2px;
+
+            background: #ffffff;
+        }
+
+
+        /* =====================================================
    ADDRESS
 ===================================================== */
 
-.warangal-footer-address {
-    margin-bottom: 22px;
-}
+        .warangal-footer-address {
+            margin-bottom: 22px;
+        }
 
 
-.warangal-footer-address p {
-    margin: 0 0 9px;
+        .warangal-footer-address p {
+            margin: 0 0 9px;
 
-    color: rgba(255,255,255,0.90);
+            color: rgba(255, 255, 255, 0.90);
 
-    font-size: 15px;
-    line-height: 1.65;
+            font-size: 15px;
+            line-height: 1.65;
 
-    font-weight: 400;
-}
-
-
-.warangal-footer-address strong {
-    color: #ffffff;
-    font-weight: 600;
-}
+            font-weight: 400;
+        }
 
 
-.warangal-footer-address a {
-    color: rgba(255,255,255,0.90);
-
-    text-decoration: none;
-
-    transition: 0.3s ease;
-}
+        .warangal-footer-address strong {
+            color: #ffffff;
+            font-weight: 600;
+        }
 
 
-.warangal-footer-address a:hover {
-    color: #ffffff;
-}
+        .warangal-footer-address a {
+            color: rgba(255, 255, 255, 0.90);
+
+            text-decoration: none;
+
+            transition: 0.3s ease;
+        }
 
 
-/* =====================================================
+        .warangal-footer-address a:hover {
+            color: #ffffff;
+        }
+
+
+        /* =====================================================
    SOCIAL ICONS
 ===================================================== */
 
-.warangal-footer-social {
-    display: flex;
-    align-items: center;
+        .warangal-footer-social {
+            display: flex;
+            align-items: center;
 
-    gap: 10px;
+            gap: 10px;
 
-    margin-top: 22px;
-    margin-bottom: 25px;
-}
-
-
-.warangal-footer-social a {
-    width: 38px;
-    height: 38px;
-
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-
-    border: 1px solid rgba(255,255,255,0.50);
-
-    border-radius: 50%;
-
-    color: #ffffff;
-
-    text-decoration: none;
-
-    font-size: 15px;
-
-    transition: all 0.3s ease;
-}
+            margin-top: 22px;
+            margin-bottom: 25px;
+        }
 
 
-.warangal-footer-social a:hover {
-    background: #ffffff;
+        .warangal-footer-social a {
+            width: 38px;
+            height: 38px;
 
-    color: #23752d;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
 
-    border-color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.50);
 
-    transform: translateY(-3px);
-}
+            border-radius: 50%;
+
+            color: #ffffff;
+
+            text-decoration: none;
+
+            font-size: 15px;
+
+            transition: all 0.3s ease;
+        }
 
 
-/* =====================================================
+        .warangal-footer-social a:hover {
+            background: #ffffff;
+
+            color: #23752d;
+
+            border-color: #ffffff;
+
+            transform: translateY(-3px);
+        }
+
+
+        /* =====================================================
    MAP
 ===================================================== */
 
-.warangal-footer-map {
-    width: 100%;
+        .warangal-footer-map {
+            width: 100%;
 
-    max-width: 250px;
+            max-width: 250px;
 
-    overflow: hidden;
+            overflow: hidden;
 
-    border-radius: 6px;
-}
-
-
-.warangal-footer-map img {
-    display: block;
-
-    width: 100%;
-    height: 130px;
-
-    object-fit: cover;
-
-    transition: transform 0.4s ease;
-}
+            border-radius: 6px;
+        }
 
 
-.warangal-footer-map:hover img {
-    transform: scale(1.05);
-}
+        .warangal-footer-map img {
+            display: block;
+
+            width: 100%;
+            height: 130px;
+
+            object-fit: cover;
+
+            transition: transform 0.4s ease;
+        }
 
 
-/* =====================================================
+        .warangal-footer-map:hover img {
+            transform: scale(1.05);
+        }
+
+
+        /* =====================================================
    TABLET
 ===================================================== */
 
-@media (max-width: 991px) {
+        @media (max-width: 991px) {
 
-    .warangal-footer-main-logo {
-        width: 170px;
-    }
+            .warangal-footer-main-logo {
+                width: 170px;
+            }
 
-    .warangal-footer-heading {
-        font-size: 18px;
-    }
+            .warangal-footer-heading {
+                font-size: 18px;
+            }
 
-    .warangal-footer-address p {
-        font-size: 14px;
-    }
+            .warangal-footer-address p {
+                font-size: 14px;
+            }
 
-}
+        }
 
 
-/* =====================================================
+        /* =====================================================
    MOBILE
 ===================================================== */
 
-@media (max-width: 767px) {
+        @media (max-width: 767px) {
 
-    .warangal-footer-column {
-        text-align: left;
-        margin-bottom: 40px;
-    }
-
-
-    .warangal-footer-logo-wrap {
-        margin-bottom: 22px;
-    }
+            .warangal-footer-column {
+                text-align: left;
+                margin-bottom: 40px;
+            }
 
 
-    .warangal-footer-main-logo {
-        width: 175px;
-    }
+            .warangal-footer-logo-wrap {
+                margin-bottom: 22px;
+            }
 
 
-    .warangal-footer-heading {
-        font-size: 18px;
-    }
+            .warangal-footer-main-logo {
+                width: 175px;
+            }
 
 
-    .warangal-footer-social {
-        justify-content: flex-start;
-    }
+            .warangal-footer-heading {
+                font-size: 18px;
+            }
 
 
-    .warangal-footer-map {
-        max-width: 100%;
-    }
+            .warangal-footer-social {
+                justify-content: flex-start;
+            }
 
 
-    .warangal-footer-map img {
-        height: 170px;
-    }
-
-}
+            .warangal-footer-map {
+                max-width: 100%;
+            }
 
 
-/* =====================================================
+            .warangal-footer-map img {
+                height: 170px;
+            }
+
+        }
+
+
+        /* =====================================================
    SMALL MOBILE
 ===================================================== */
 
-@media (max-width: 480px) {
+        @media (max-width: 480px) {
 
-    .warangal-footer-main-logo {
-        width: 155px;
-    }
-
-
-    .warangal-footer-address p {
-        font-size: 14px;
-        line-height: 1.6;
-    }
+            .warangal-footer-main-logo {
+                width: 155px;
+            }
 
 
-    .warangal-footer-social a {
-        width: 36px;
-        height: 36px;
-
-        font-size: 14px;
-    }
+            .warangal-footer-address p {
+                font-size: 14px;
+                line-height: 1.6;
+            }
 
 
-    .warangal-footer-map img {
-        height: 150px;
-    }
+            .warangal-footer-social a {
+                width: 36px;
+                height: 36px;
 
-}
+                font-size: 14px;
+            }
+
+
+            .warangal-footer-map img {
+                height: 150px;
+            }
+
+        }
     </style>
 
 </head>
@@ -7086,7 +7042,7 @@
 
                 <a href="#" class="logo">
 
-                    <img src="assets/logo2.jpeg"
+                    <img src="assets/img/logo2.png"
                         alt="Diocese of Warangal">
 
                 </a>
@@ -7249,7 +7205,7 @@
 
                 <div class="carousel-item active">
 
-                    <img src="assets/Catholic-Festival-Clergy-Portrait.png"
+                    <img src="assets/img/Catholic-Festival-Clergy-Portrait-new.png"
                         alt="Banner 1">
 
                     <!-- <div class="carousel-caption">
@@ -7276,7 +7232,7 @@
 
                     <img src="assets/Catholic-Festival-Clergy-Portrait.png"
                         alt="Banner 2">
-<!-- 
+                    <!-- 
                     <div class="carousel-caption">
 
                         <h1>Experience Excellence</h1>
@@ -7301,7 +7257,7 @@
 
                     <img src="assets/Catholic-Festival-Clergy-Portrait.png"
                         alt="Banner 3">
-<!-- 
+                    <!-- 
                     <div class="carousel-caption">
 
                         <h1>Make Every Moment Special</h1>
@@ -7366,147 +7322,142 @@
 
 
 
-<section class="dow-about-section">
+    <section class="dow-about-section">
 
-    <div class="container dow-about-container">
+        <div class="container dow-about-container">
 
-        <div class="row align-items-center g-4 g-lg-5">
-
-
-            <!-- LEFT CONTENT -->
-
-            <div class="col-12 col-lg-6">
-
-                <div class="dow-about-content">
+            <div class="row align-items-center g-4 g-lg-5">
 
 
-                    <!-- Heading -->
-                    <div
-                        class="dow-about-heading-wrap"
-                        data-aos="fade-right"
-                        data-aos-duration="900"
-                        data-aos-delay="100"
-                        data-aos-offset="100"
-                    >
+                <!-- LEFT CONTENT -->
 
-                        <div class="dow-heading-cross">
+                <div class="col-12 col-lg-6">
 
-                            <span class="dow-heading-cross-top"></span>
+                    <div class="dow-about-content">
+
+
+                        <!-- Heading -->
+                        <div
+                            class="dow-about-heading-wrap"
+                            data-aos="fade-right"
+                            data-aos-duration="900"
+                            data-aos-delay="100"
+                            data-aos-offset="100">
+
+                            <div class="dow-heading-cross">
+
+                                <span class="dow-heading-cross-top"></span>
+
+                            </div>
+
+
+                            <div class="dow-about-heading-text">
+
+                                <h3>Welcome to</h3>
+
+                                <h2>Diocese of Warangal</h2>
+
+                            </div>
 
                         </div>
 
 
-                        <div class="dow-about-heading-text">
+                        <!-- Description -->
+                        <div
+                            class="dow-about-description"
+                            data-aos="fade-up"
+                            data-aos-duration="1000"
+                            data-aos-delay="200"
+                            data-aos-offset="100">
 
-                            <h3>Welcome to</h3>
+                            <p>
+                                After the bifurcation of Vijayawada Diocese,
+                                Hyderabad Diocese was left with the districts
+                                of Telangana region only. Let us restrict our
+                                view to only those that formed Warangal Diocese.
 
-                            <h2>Diocese of Warangal</h2>
+                                The Hyderabad-Vijayawada Railway line work had
+                                brought a good number of Catholic employees to
+                                the main Railway junctions and stations like
+                                Kazipet, Dornakal and Khammam.
+
+                                The Baptism register kept at Kazipet reveals
+                                the presence of Catholic community there since
+                                1887. It was a mixed community of Anglo-Indians,
+                                Telugus and Tamils, settled at the Kazipet
+                                Railway Junction.
+
+                                Between 1890 and 1930 a good number of Catholic
+                                families migrated from Guntur and other parts
+                                of Coastal Andhra to Telangana in search of
+                                cultivable land for their livelihood.
+
+                                They got settled wherever they found fertile
+                                black cotton soil. The early Missionaries
+                                helped these migrant traditional Catholic
+                                communities in their settlements and took care
+                                of their spiritual needs.
+                            </p>
 
                         </div>
 
-                    </div>
 
+                        <!-- Button -->
+                        <div
+                            class="dow-about-button-wrapper"
+                            data-aos="fade-up"
+                            data-aos-duration="900"
+                            data-aos-delay="300"
+                            data-aos-offset="70">
 
-                    <!-- Description -->
-                    <div
-                        class="dow-about-description"
-                        data-aos="fade-up"
-                        data-aos-duration="1000"
-                        data-aos-delay="200"
-                        data-aos-offset="100"
-                    >
+                            <a href="#" class="dow-about-btn">
 
-                        <p>
-                            After the bifurcation of Vijayawada Diocese,
-                            Hyderabad Diocese was left with the districts
-                            of Telangana region only. Let us restrict our
-                            view to only those that formed Warangal Diocese.
+                                Learn more
 
-                            The Hyderabad-Vijayawada Railway line work had
-                            brought a good number of Catholic employees to
-                            the main Railway junctions and stations like
-                            Kazipet, Dornakal and Khammam.
+                            </a>
 
-                            The Baptism register kept at Kazipet reveals
-                            the presence of Catholic community there since
-                            1887. It was a mixed community of Anglo-Indians,
-                            Telugus and Tamils, settled at the Kazipet
-                            Railway Junction.
+                        </div>
 
-                            Between 1890 and 1930 a good number of Catholic
-                            families migrated from Guntur and other parts
-                            of Coastal Andhra to Telangana in search of
-                            cultivable land for their livelihood.
-
-                            They got settled wherever they found fertile
-                            black cotton soil. The early Missionaries
-                            helped these migrant traditional Catholic
-                            communities in their settlements and took care
-                            of their spiritual needs.
-                        </p>
 
                     </div>
-
-
-                    <!-- Button -->
-                    <div
-                        class="dow-about-button-wrapper"
-                        data-aos="fade-up"
-                        data-aos-duration="900"
-                        data-aos-delay="300"
-                        data-aos-offset="70"
-                    >
-
-                        <a href="#" class="dow-about-btn">
-
-                            Learn more
-
-                        </a>
-
-                    </div>
-
 
                 </div>
 
-            </div>
+
+
+                <!-- RIGHT IMAGE -->
+
+                <div class="col-12 col-lg-6 dow-about-image-column">
+
+
+                    <div
+                        class="dow-about-image-area"
+                        data-aos="fade-left"
+                        data-aos-duration="1100"
+                        data-aos-delay="200"
+                        data-aos-offset="120">
 
 
 
-            <!-- RIGHT IMAGE -->
-
-            <div class="col-12 col-lg-6 dow-about-image-column">
 
 
-                <div
-                    class="dow-about-image-area"
-                    data-aos="fade-left"
-                    data-aos-duration="1100"
-                    data-aos-delay="200"
-                    data-aos-offset="120"
-                >
 
 
-                 
+
+                        <div class="dow-about-image-wrapper">
+
+                            <img
+                                src="assets/welcome-church.jpg"
+                                alt="Diocese of Warangal Church"
+                                class="img-fluid dow-about-main-image">
+
+                        </div>
 
 
-                  
 
 
-                    <div class="dow-about-image-wrapper">
-
-                        <img
-                            src="assets/welcome-church.jpg"
-                            alt="Diocese of Warangal Church"
-                            class="img-fluid dow-about-main-image"
-                        >
-
-                    </div>
 
 
-                   
-
-
-                  
 
                         <div class="dow-white-cross"></div>
 
@@ -7520,234 +7471,140 @@
 
         </div>
 
-    </div>
-
-</section>
-
-
-<div class="warangal-blue-line"></div>
-
-<section class="warangal-intention-section">
-
-    <div class="container-fluid p-0">
-
-        <div class="row g-0 warangal-intention-main-row">
-
-
-            <!-- LEFT IMAGE -->
-            <div
-                class="col-12 col-md-auto warangal-bishop-column"
-                data-aos="fade-right"
-                data-aos-duration="900"
-                data-aos-offset="80"
-            >
-
-                <div class="warangal-bishop-image-wrapper warangal-left-bishop">
-
-                    <img
-                        src="http://warangaldiocese.com/images/bishop2.png"
-                        alt="Bishop"
-                        class="warangal-bishop-image"
-                    >
-
-                </div>
-
-            </div>
-
-
-
-            <!-- LEFT CONTENT -->
-            <div class="col-12 col-md warangal-intention-content-column">
-
-                <div
-                    class="warangal-intention-content-inner warangal-intention-divider"
-                    data-aos="fade-up"
-                    data-aos-duration="900"
-                    data-aos-delay="100"
-                    data-aos-offset="80"
-                >
-
-                    <h6 class="warangal-intention-label">
-                        POPE'S INTENTION · AUGUST 2026
-                    </h6>
-
-                    <h2 class="warangal-intention-title">
-                        For Fragile Societies
-                    </h2>
-
-                    <p class="warangal-intention-description">
-                        We pray that societies affected by conflict may find
-                        paths of dialogue, reconciliation and lasting peace
-                        through the dignity of every person.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-
-            <!-- RIGHT CONTENT -->
-            <div class="col-12 col-md warangal-intention-content-column">
-
-                <div
-                    class="warangal-intention-content-inner"
-                    data-aos="fade-up"
-                    data-aos-duration="900"
-                    data-aos-delay="200"
-                    data-aos-offset="80"
-                >
-
-                    <h6 class="warangal-intention-label">
-                        POPE'S INTENTION · AUGUST 2026
-                    </h6>
-
-                    <h2 class="warangal-intention-title">
-                        For Families and Young People
-                    </h2>
-
-                    <p class="warangal-intention-description">
-                        May families become schools of hope, accompanying
-                        young people as they discover their vocation and place
-                        their gifts at the service of all.
-                    </p>
-
-                </div>
-
-            </div>
-
-
-
-            <!-- RIGHT IMAGE -->
-            <div
-                class="col-12 col-md-auto warangal-bishop-column"
-                data-aos="fade-left"
-                data-aos-duration="900"
-                data-aos-offset="80"
-            >
-
-                <div class="warangal-bishop-image-wrapper warangal-right-bishop">
-
-                    <img
-                        src="https://www.warangaldiocese.com/images/bishop3.png"
-                        alt="Archbishop"
-                        class="warangal-bishop-image"
-                    >
-
-                </div>
-
-            </div>
-
         </div>
 
+    </section>
 
-        <!-- BOTTOM BAR -->
-        <div class="warangal-engagement-bar">
 
-            <div
-                class="warangal-engagement-inner"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-offset="40"
-            >
+    <div class="warangal-blue-line"></div>
 
-                <a href="#" class="warangal-engagement-link">
-                    Archbishop's Engagements
-                </a>
+    <section class="warangal-intention-section">
 
-                <a href="#" class="warangal-engagement-link">
-                    Archbishop's Upcoming Engagements
-                </a>
+        <div class="container-fluid p-0">
 
-                <a href="#" class="warangal-click-button">
-                    CLICK HERE
-                </a>
+            <div class="row g-0 warangal-intention-main-row">
+
+
+                <!-- LEFT IMAGE -->
+                <div
+                    class="col-12 col-md-auto warangal-bishop-column"
+                    data-aos="fade-right"
+                    data-aos-duration="900"
+                    data-aos-offset="80">
+
+                    <div class="warangal-bishop-image-wrapper warangal-left-bishop">
+
+                        <img
+                            src="assets/img/pope-leo-14.png"
+                            alt="Bishop"
+                            class="warangal-bishop-image">
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- LEFT CONTENT -->
+                <div class="col-12 col-md warangal-intention-content-column">
+
+                    <div
+                        class="warangal-intention-content-inner warangal-intention-divider"
+                        data-aos="fade-up"
+                        data-aos-duration="900"
+                        data-aos-delay="100"
+                        data-aos-offset="80">
+
+                        <h6 class="warangal-intention-label">
+                            POPE'S INTENTION · SEPTEMBER 2026
+                        </h6>
+
+                        <h2 class="warangal-intention-title">
+                            For Fragile Societies
+                        </h2>
+
+                        <p class="warangal-intention-description">
+                            We pray that societies affected by conflict may find
+                            paths of dialogue, reconciliation and lasting peace
+                            through the dignity of every person.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- RIGHT CONTENT -->
+                <div class="col-12 col-md warangal-intention-content-column">
+
+                    <div
+                        class="warangal-intention-content-inner"
+                        data-aos="fade-up"
+                        data-aos-duration="900"
+                        data-aos-delay="200"
+                        data-aos-offset="80">
+
+                        <h6 class="warangal-intention-label">
+                            POPE'S INTENTION · SEPTEMBER 2026
+                        </h6>
+
+                        <h2 class="warangal-intention-title">
+                            For Families and Young People
+                        </h2>
+
+                        <p class="warangal-intention-description">
+                            May families become schools of hope, accompanying
+                            young people as they discover their vocation and place
+                            their gifts at the service of all.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- RIGHT IMAGE -->
+                <div
+                    class="col-12 col-md-auto warangal-bishop-column"
+                    data-aos="fade-left"
+                    data-aos-duration="900"
+                    data-aos-offset="80">
+
+                    <div class="warangal-bishop-image-wrapper warangal-right-bishop">
+
+                        <img
+                            src="assets/img/bishop-img-index.png"
+                            alt="Archbishop"
+                            class="warangal-bishop-image">
+
+                    </div>
+
+                </div>
 
             </div>
 
-        </div>
 
-    </div>
-<div class="warangal-blue-line"></div>
-
-</section>
-
-<!-- ================= MISSION STRIP ================= -->
-<section class="warangal-mission-strip">
-
-    <div class="container">
-
-        <div class="row justify-content-center">
-
-            <div class="col-12 col-sm-11 col-md-10 col-lg-8">
+            <!-- BOTTOM BAR -->
+            <div class="warangal-engagement-bar">
 
                 <div
-                    class="warangal-mission-card"
-                    data-aos="zoom-in"
+                    class="warangal-engagement-inner"
+                    data-aos="fade-up"
                     data-aos-duration="800"
-                    data-aos-offset="40"
-                >
+                    data-aos-offset="40">
 
-                    <h3 class="warangal-mission-title">
-                        Together in Faith. Together in Service.
-                    </h3>
+                    <a href="#" class="warangal-engagement-link">
+                        Archbishop's Engagements
+                    </a>
 
-                    <p class="warangal-mission-text">
-                        Be part of the Diocese of Warangal's mission to spread faith, hope and love.
-                    </p>
+                    <a href="#" class="warangal-engagement-link">
+                        Archbishop's Upcoming Engagements
+                    </a>
 
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-<!-- ==========================================================
-     BISHOP OF WARANGAL
-========================================================== -->
-
-<section class="warangal-bishop-section">
-
-    <div class="warangal-bishop-main">
-
-        <!-- ================= LEFT SIDE ================= -->
-        <div class="warangal-bishop-left">
-
-            <!-- Heading -->
-            <div class="warangal-bishop-heading">
-                <span class="warangal-cross">✝</span>
-                <h2>Bishop of Warangal</h2>
-            </div>
-
-            <!-- Bishop Content -->
-            <div class="warangal-bishop-profile">
-
-                <div class="warangal-bishop-image">
-                    <img src="https://ksandbox.in/diocese2/public/assets/images/bishops/vijay-paul-reddy.jpg"
-                         alt="Bishop of Warangal">
-                </div>
-
-                <div class="warangal-bishop-content">
-
-                    <h3>Most. Rev. Dr. D. Vijaya Paul</h3>
-
-                    <h5>From 2026</h5>
-
-                    <p>
-                        Let us restrict our view to only those that formed
-                        Warangal Diocese. The Hyderabad- Vijayawada Railway
-                        line work had brought a good number of Catholic
-                        employees to the main Railway junctions and stations
-                        like Kazipet, Dornakal and Khammam.
-                    </p>
-
-                    <a href="#" class="warangal-bishop-btn">
-                        Bishop Message
+                    <a href="#" class="warangal-click-button">
+                        CLICK HERE
                     </a>
 
                 </div>
@@ -7755,1625 +7612,86 @@
             </div>
 
         </div>
+        <div class="warangal-blue-line"></div>
+
+    </section>
+
+    <!-- ================= MISSION STRIP ================= -->
+    <section class="warangal-mission-strip">
+
+        <div class="container">
+
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-sm-11 col-md-10 col-lg-8">
+
+                    <div
+                        class="warangal-mission-card"
+                        data-aos="zoom-in"
+                        data-aos-duration="800"
+                        data-aos-offset="40">
+
+                        <h3 class="warangal-mission-title">
+                            Together in Faith. Together in Service.
+                        </h3>
+
+                        <p class="warangal-mission-text">
+                            Be part of the Diocese of Warangal's mission to spread faith, hope and love.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
 
-        <!-- ================= RIGHT SIDE ================= -->
-        <div class="warangal-bishop-updates">
+    <!-- ==========================================================
+     BISHOP OF WARANGAL
+========================================================== -->
 
-            <div class="warangal-updates-inner">
+    <section class="warangal-bishop-section">
+
+        <div class="warangal-bishop-main">
+
+            <!-- ================= LEFT SIDE ================= -->
+            <div class="warangal-bishop-left">
 
                 <!-- Heading -->
-                <div class="warangal-updates-heading">
-
-                    <span>✝</span>
-
-                    <h3>Bishop Updates</h3>
-
+                <div class="warangal-bishop-heading">
+                    <span class="warangal-cross">✝</span>
+                    <h2>Bishop of Warangal</h2>
                 </div>
 
-<div class="warangal-updates-marquee">
-
-    <div class="warangal-updates-track">
-
-        <!-- UPDATE 1 -->
-        <div class="warangal-update-item">
-            <div class="warangal-update-date">
-                <strong>20</strong>
-                <span>SEPT</span>
-                <small>2025</small>
-            </div>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore
-                <strong>AUGUST</strong>
-            </p>
-        </div>
-
-
-        <!-- UPDATE 2 -->
-        <div class="warangal-update-item">
-            <div class="warangal-update-date">
-                <strong>28</strong>
-                <span>SEPT</span>
-                <small>2025</small>
-            </div>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
-
-
-        <!-- UPDATE 3 -->
-        <div class="warangal-update-item">
-            <div class="warangal-update-date">
-                <strong>01</strong>
-                <span>OCT</span>
-                <small>2025</small>
-            </div>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
-
-
-        <!-- UPDATE 4 -->
-        <div class="warangal-update-item">
-            <div class="warangal-update-date">
-                <strong>15</strong>
-                <span>OCT</span>
-                <small>2025</small>
-            </div>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
-
-
-        <!-- DUPLICATE ITEMS FOR SMOOTH LOOP -->
-
-        <div class="warangal-update-item">
-            <div class="warangal-update-date">
-                <strong>20</strong>
-                <span>SEPT</span>
-                <small>2025</small>
-            </div>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore
-                <strong>AUGUST</strong>
-            </p>
-        </div>
-
-
-        <div class="warangal-update-item">
-            <div class="warangal-update-date">
-                <strong>28</strong>
-                <span>SEPT</span>
-                <small>2025</small>
-            </div>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
-
-
-        <div class="warangal-update-item">
-            <div class="warangal-update-date">
-                <strong>01</strong>
-                <span>OCT</span>
-                <small>2025</small>
-            </div>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
-
-
-        <div class="warangal-update-item">
-            <div class="warangal-update-date">
-                <strong>15</strong>
-                <span>OCT</span>
-                <small>2025</small>
-            </div>
-
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-        </div>
-
-    </div>
-
-</div>
-
-                <!-- Diocese Logo -->
-                <div class="warangal-diocese-logo">
-                    <img src="assets/logo.jpeg"
-                         alt="Diocese of Warangal">
-                </div>
-
-
-                <!-- Vertical Text -->
-                <div class="warangal-vertical-title">
-                    DIOCESE OF<br>WARANGAL
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<section class="warangal-archives-section">
-
-    <div class="container warangal-archives-container">
-
-
-        <!-- ================= HEADING ================= -->
-
-        <div
-            class="warangal-archives-heading"
-            data-aos="fade-right"
-            data-aos-duration="800"
-            data-aos-offset="70"
-        >
-
-            <span class="warangal-archives-cross">
-                †
-            </span>
-
-            <h2>
-                Archives of Service
-            </h2>
-
-        </div>
-
-
-
-        <!-- ========================================================
-             DESKTOP / LARGE SCREEN CAROUSEL
-             3 CARDS PER SLIDE
-        ========================================================= -->
-
-        <div
-            id="warangalArchivesDesktop"
-            class="carousel slide warangal-archives-carousel d-none d-lg-block"
-            data-bs-ride="carousel"
-            data-bs-interval="4500"
-            data-bs-pause="hover"
-            data-bs-touch="true"
-        >
-
-
-            <div class="carousel-inner">
-
-
-                <!-- =================================================
-                     SLIDE 1
-                ================================================== -->
-
-                <div class="carousel-item active">
-
-                    <div class="row g-3">
-
-
-                        <!-- CARD 1 -->
-
-                        <div class="col-lg-4">
-
-                            <article
-                                class="warangal-archive-card"
-                                data-aos="fade-up"
-                                data-aos-duration="800"
-                            >
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="assets/Grand-Red-and-Beige-Cathedral-Cutout.png"
-                                        alt="Our Lady of Fatima Cathedral"
-                                        class="warangal-archive-image"
-                                    >
-
-                                </div>
-
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        Our Heritage · Diocese
-                                    </p>
-
-
-                                    <h3 class="warangal-archive-title">
-                                        Our Lady of Fatima Cathedral
-                                    </h3>
-
-
-                                    <p class="warangal-archive-description">
-                                        A spiritual home where generations have gathered
-                                        for worship, celebration and the sacraments.
-                                    </p>
-
-
-                                    <a href="#" class="warangal-archive-link">
-
-                                        DISCOVER
-
-                                        <span class="warangal-archive-arrow">
-                                            →
-                                        </span>
-
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-
-
-                        <!-- CARD 2 -->
-
-                        <div class="col-lg-4">
-
-                            <article
-                                class="warangal-archive-card"
-                                data-aos="fade-up"
-                                data-aos-duration="800"
-                                data-aos-delay="100"
-                            >
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="assets/jubliee.jpeg"
-                                        alt="Catholic Jubilee Pilgrim Church"
-                                        class="warangal-archive-image"
-                                    >
-
-                                </div>
-
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        Living Faith · Community
-                                    </p>
-
-
-                                    <h3 class="warangal-archive-title">
-                                        Catholic Jubilee Pilgrim Church
-                                    </h3>
-
-
-                                    <p class="warangal-archive-description">
-                                        Remembering the people and places whose witness
-                                        built a strong, compassionate local Church.
-                                    </p>
-
-
-                                    <a href="#" class="warangal-archive-link">
-
-                                        DISCOVER
-
-                                        <span class="warangal-archive-arrow">
-                                            →
-                                        </span>
-
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-
-
-                        <!-- CARD 3 -->
-
-                        <div class="col-lg-4">
-
-                            <article
-                                class="warangal-archive-card"
-                                data-aos="fade-up"
-                                data-aos-duration="800"
-                                data-aos-delay="200"
-                            >
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="assets/Catholic-Festival-Clergy-Portrait.png"
-                                        alt="Community Spiritual Centres"
-                                        class="warangal-archive-image"
-                                    >
-
-                                </div>
-
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        Mission · Formation
-                                    </p>
-
-
-                                    <h3 class="warangal-archive-title">
-                                        Community Spiritual Centres
-                                    </h3>
-
-
-                                    <p class="warangal-archive-description">
-                                        Places of prayer, formation and welcome that help
-                                        the faithful encounter Christ and one another.
-                                    </p>
-
-
-                                    <a href="#" class="warangal-archive-link">
-
-                                        DISCOVER
-
-                                        <span class="warangal-archive-arrow">
-                                            →
-                                        </span>
-
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-
+                <!-- Bishop Content -->
+                <div class="warangal-bishop-profile">
+
+                    <div class="warangal-bishop-image">
+                        <img src="assets/img/bishop-about.png"
+                            alt="Bishop of Warangal">
                     </div>
 
-                </div>
+                    <div class="warangal-bishop-content">
 
+                        <h3>Most. Rev. Dr. D. Vijaya Paul</h3>
 
+                        <h5>From 2026</h5>
 
-                <!-- =================================================
-                     SLIDE 2
-                ================================================== -->
-
-                <div class="carousel-item">
-
-                    <div class="row g-3">
-
-
-                        <div class="col-lg-4">
-
-                            <article class="warangal-archive-card">
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=900&q=82"
-                                        alt="Mission Communities"
-                                        class="warangal-archive-image"
-                                    >
-
-                                </div>
-
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        Faith · Mission
-                                    </p>
-
-                                    <h3 class="warangal-archive-title">
-                                        Mission Communities
-                                    </h3>
-
-                                    <p class="warangal-archive-description">
-                                        Remembering the communities that carried faith,
-                                        education and service across the Diocese.
-                                    </p>
-
-                                    <a href="#" class="warangal-archive-link">
-                                        DISCOVER
-                                        <span class="warangal-archive-arrow">→</span>
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-
-
-                        <div class="col-lg-4">
-
-                            <article class="warangal-archive-card">
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="assets/pastoral.jpeg"
-                                        alt="Pastoral Heritage"
-                                        class="warangal-archive-image"
-                                    >
-
-                                </div>
-
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        Pastoral · Heritage
-                                    </p>
-
-                                    <h3 class="warangal-archive-title">
-                                        Pastoral Heritage
-                                    </h3>
-
-                                    <p class="warangal-archive-description">
-                                        Stories of shepherds and faithful who strengthened
-                                        the spiritual life of Warangal.
-                                    </p>
-
-                                    <a href="#" class="warangal-archive-link">
-                                        DISCOVER
-                                        <span class="warangal-archive-arrow">→</span>
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-
-
-                        <div class="col-lg-4">
-
-                            <article class="warangal-archive-card">
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="assets/education.jpeg"
-                                        alt="Catholic Education"
-                                        class="warangal-archive-image"
-                                    >
-
-                                </div>
-
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        Education · Service
-                                    </p>
-
-                                    <h3 class="warangal-archive-title">
-                                        Catholic Education
-                                    </h3>
-
-                                    <p class="warangal-archive-description">
-                                        Celebrating institutions that shaped generations
-                                        through education, character and service.
-                                    </p>
-
-                                    <a href="#" class="warangal-archive-link">
-                                        DISCOVER
-                                        <span class="warangal-archive-arrow">→</span>
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-
-
-                <!-- =================================================
-                     SLIDE 3
-                ================================================== -->
-
-                <div class="carousel-item">
-
-                    <div class="row g-3">
-
-
-                        <div class="col-lg-4">
-
-                            <article class="warangal-archive-card">
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="assets/parish.jpeg"
-                                        alt="Parish Heritage"
-                                        class="warangal-archive-image"
-                                    >
-
-                                </div>
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        Parish · Heritage
-                                    </p>
-
-                                    <h3 class="warangal-archive-title">
-                                        Parish Heritage
-                                    </h3>
-
-                                    <p class="warangal-archive-description">
-                                        Exploring churches and communities that form the
-                                        living heritage of the Diocese.
-                                    </p>
-
-                                    <a href="#" class="warangal-archive-link">
-                                        DISCOVER
-                                        <span class="warangal-archive-arrow">→</span>
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-
-
-                        <div class="col-lg-4">
-
-                            <article class="warangal-archive-card">
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="assets/works-for-mercy.jpeg"
-                                        alt="Works of Mercy"
-                                        class="warangal-archive-image"
-                                    >
-
-                                </div>
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        Charity · Community
-                                    </p>
-
-                                    <h3 class="warangal-archive-title">
-                                        Works of Mercy
-                                    </h3>
-
-                                    <p class="warangal-archive-description">
-                                        Celebrating compassionate ministries serving people
-                                        with dignity, care and hope.
-                                    </p>
-
-                                    <a href="#" class="warangal-archive-link">
-                                        DISCOVER
-                                        <span class="warangal-archive-arrow">→</span>
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-
-
-                        <div class="col-lg-4">
-
-                            <article class="warangal-archive-card">
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="assets/cath.jpeg"
-                                        alt="Faith Through Generations"
-                                        class="warangal-archive-image"
-                                    >
-
-                                </div>
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        History · Faith
-                                    </p>
-
-                                    <h3 class="warangal-archive-title">
-                                        Faith Through Generations
-                                    </h3>
-
-                                    <p class="warangal-archive-description">
-                                        Preserving memories and stories that continue to
-                                        inspire the Diocese today.
-                                    </p>
-
-                                    <a href="#" class="warangal-archive-link">
-                                        DISCOVER
-                                        <span class="warangal-archive-arrow">→</span>
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-
-            </div>
-
-
-
-            <!-- DOTS -->
-
-            <div class="carousel-indicators warangal-archives-carousel-indicators">
-
-                <button
-                    type="button"
-                    data-bs-target="#warangalArchivesDesktop"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1">
-                </button>
-
-                <button
-                    type="button"
-                    data-bs-target="#warangalArchivesDesktop"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2">
-                </button>
-
-                <button
-                    type="button"
-                    data-bs-target="#warangalArchivesDesktop"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3">
-                </button>
-
-            </div>
-
-
-        </div>
-
-
-
-        <!-- ========================================================
-             TABLET CAROUSEL
-             2 CARDS PER SLIDE
-        ========================================================= -->
-
-        <div
-            id="warangalArchivesTablet"
-            class="carousel slide warangal-archives-carousel d-none d-md-block d-lg-none"
-            data-bs-ride="carousel"
-            data-bs-interval="4500"
-            data-bs-pause="hover"
-            data-bs-touch="true"
-        >
-
-            <div class="carousel-inner">
-
-
-                <!-- TABLET SLIDE 1 -->
-
-                <div class="carousel-item active">
-
-                    <div class="row g-3">
-
-
-                        <div class="col-6">
-
-                            <article class="warangal-archive-card">
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="assets/Grand-Red-and-Beige-Cathedral-Cutout.png"
-                                        class="warangal-archive-image"
-                                        alt=""
-                                    >
-
-                                </div>
-
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        Our Heritage · Diocese
-                                    </p>
-
-                                    <h3 class="warangal-archive-title">
-                                        Our Lady of Fatima Cathedral
-                                    </h3>
-
-                                    <p class="warangal-archive-description">
-                                        A spiritual home where generations have gathered
-                                        for worship, celebration and the sacraments.
-                                    </p>
-
-                                    <a href="#" class="warangal-archive-link">
-                                        DISCOVER
-                                        <span class="warangal-archive-arrow">→</span>
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-
-
-                        <div class="col-6">
-
-                            <article class="warangal-archive-card">
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="assets/jubliee.jpeg"
-                                        class="warangal-archive-image"
-                                        alt=""
-                                    >
-
-                                </div>
-
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        Living Faith · Community
-                                    </p>
-
-                                    <h3 class="warangal-archive-title">
-                                        Catholic Jubilee Pilgrim Church
-                                    </h3>
-
-                                    <p class="warangal-archive-description">
-                                        Remembering the people and places whose witness
-                                        built a strong compassionate local Church.
-                                    </p>
-
-                                    <a href="#" class="warangal-archive-link">
-                                        DISCOVER
-                                        <span class="warangal-archive-arrow">→</span>
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-
-                    </div>
-
-                </div>
-
-
-
-                <!-- TABLET SLIDE 2 -->
-
-                <div class="carousel-item">
-
-                    <div class="row g-3">
-
-                        <div class="col-6">
-
-                            <article class="warangal-archive-card">
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="assets/Catholic-Festival-Clergy-Portrait.png"
-                                        class="warangal-archive-image"
-                                        alt=""
-                                    >
-
-                                </div>
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        Mission · Formation
-                                    </p>
-
-                                    <h3 class="warangal-archive-title">
-                                        Community Spiritual Centres
-                                    </h3>
-
-                                    <p class="warangal-archive-description">
-                                        Places of prayer and formation that help the
-                                        faithful encounter Christ.
-                                    </p>
-
-                                    <a href="#" class="warangal-archive-link">
-                                        DISCOVER
-                                        <span class="warangal-archive-arrow">→</span>
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-
-                        <div class="col-6">
-
-                            <article class="warangal-archive-card">
-
-                                <div class="warangal-archive-image-wrap">
-
-                                    <img
-                                        src="https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=900&q=82"
-                                        class="warangal-archive-image"
-                                        alt=""
-                                    >
-
-                                </div>
-
-                                <div class="warangal-archive-content">
-
-                                    <p class="warangal-archive-category">
-                                        Faith · Mission
-                                    </p>
-
-                                    <h3 class="warangal-archive-title">
-                                        Mission Communities
-                                    </h3>
-
-                                    <p class="warangal-archive-description">
-                                        Remembering communities that carried faith and
-                                        service across the Diocese.
-                                    </p>
-
-                                    <a href="#" class="warangal-archive-link">
-                                        DISCOVER
-                                        <span class="warangal-archive-arrow">→</span>
-                                    </a>
-
-                                </div>
-
-                            </article>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-
-            </div>
-
-
-            <div class="carousel-indicators warangal-archives-carousel-indicators">
-
-                <button
-                    type="button"
-                    data-bs-target="#warangalArchivesTablet"
-                    data-bs-slide-to="0"
-                    class="active">
-                </button>
-
-                <button
-                    type="button"
-                    data-bs-target="#warangalArchivesTablet"
-                    data-bs-slide-to="1">
-                </button>
-
-            </div>
-
-        </div>
-
-
-
-        <!-- ========================================================
-             MOBILE CAROUSEL
-             1 CARD PER SLIDE
-        ========================================================= -->
-
-        <div
-            id="warangalArchivesMobile"
-            class="carousel slide warangal-archives-carousel d-md-none"
-            data-bs-ride="carousel"
-            data-bs-interval="4000"
-            data-bs-pause="hover"
-            data-bs-touch="true"
-        >
-
-
-            <div class="carousel-inner">
-
-
-                <!-- MOBILE 1 -->
-
-                <div class="carousel-item active">
-
-                    <article class="warangal-archive-card">
-
-                        <div class="warangal-archive-image-wrap">
-
-                            <img
-                                src="assets/Grand-Red-and-Beige-Cathedral-Cutout.png"
-                                class="warangal-archive-image"
-                                alt=""
-                            >
-
-                        </div>
-
-
-                        <div class="warangal-archive-content">
-
-                            <p class="warangal-archive-category">
-                                Our Heritage · Diocese
-                            </p>
-
-                            <h3 class="warangal-archive-title">
-                                Our Lady of Fatima Cathedral
-                            </h3>
-
-                            <p class="warangal-archive-description">
-                                A spiritual home where generations have gathered
-                                for worship, celebration and the sacraments.
-                            </p>
-
-                            <a href="#" class="warangal-archive-link">
-                                DISCOVER
-                                <span class="warangal-archive-arrow">→</span>
-                            </a>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-
-
-                <!-- MOBILE 2 -->
-
-                <div class="carousel-item">
-
-                    <article class="warangal-archive-card">
-
-                        <div class="warangal-archive-image-wrap">
-
-                            <img
-                                src="assets/jubliee.jpeg"
-                                class="warangal-archive-image"
-                                alt=""
-                            >
-
-                        </div>
-
-
-                        <div class="warangal-archive-content">
-
-                            <p class="warangal-archive-category">
-                                Living Faith · Community
-                            </p>
-
-                            <h3 class="warangal-archive-title">
-                                Catholic Jubilee Pilgrim Church
-                            </h3>
-
-                            <p class="warangal-archive-description">
-                                Remembering the people and places whose witness
-                                built a strong compassionate local Church.
-                            </p>
-
-                            <a href="#" class="warangal-archive-link">
-                                DISCOVER
-                                <span class="warangal-archive-arrow">→</span>
-                            </a>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-
-
-                <!-- MOBILE 3 -->
-
-                <div class="carousel-item">
-
-                    <article class="warangal-archive-card">
-
-                        <div class="warangal-archive-image-wrap">
-
-                            <img
-                                src="assets/Catholic-Festival-Clergy-Portrait.png"
-                                class="warangal-archive-image"
-                                alt=""
-                            >
-
-                        </div>
-
-
-                        <div class="warangal-archive-content">
-
-                            <p class="warangal-archive-category">
-                                Mission · Formation
-                            </p>
-
-                            <h3 class="warangal-archive-title">
-                                Community Spiritual Centres
-                            </h3>
-
-                            <p class="warangal-archive-description">
-                                Places of prayer and formation that help the faithful
-                                encounter Christ and one another.
-                            </p>
-
-                            <a href="#" class="warangal-archive-link">
-                                DISCOVER
-                                <span class="warangal-archive-arrow">→</span>
-                            </a>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-
-            </div>
-
-
-
-            <!-- MOBILE DOTS -->
-
-            <div class="carousel-indicators warangal-archives-carousel-indicators">
-
-                <button
-                    type="button"
-                    data-bs-target="#warangalArchivesMobile"
-                    data-bs-slide-to="0"
-                    class="active">
-                </button>
-
-                <button
-                    type="button"
-                    data-bs-target="#warangalArchivesMobile"
-                    data-bs-slide-to="1">
-                </button>
-
-                <button
-                    type="button"
-                    data-bs-target="#warangalArchivesMobile"
-                    data-bs-slide-to="2">
-                </button>
-
-            </div>
-
-
-        </div>
-
-
-    </div>
-
-</section>
-
-
-<!-- ================================
-     FAITH IN ACTION SECTION
-================================ -->
-
-<section class="faith-action-section">
-
-    <div class="container faith-action-container">
-
-
-        <!-- HEADING -->
-        <div
-            class="faith-action-heading"
-            data-aos="fade-right"
-            data-aos-duration="800"
-            data-aos-offset="70"
-        >
-
-            <span class="faith-action-cross">†</span>
-
-            <h2>Faith in Action</h2>
-
-        </div>
-
-
-
-        <!-- CARDS -->
-        <div class="row g-3">
-
-
-            <!-- CARD 1 -->
-            <div
-                class="col-12 col-md-6 col-lg-4"
-                data-aos="fade-up"
-                data-aos-duration="800"
-            >
-
-                <a href="#" class="faith-action-card">
-
-                    <img
-                        src="assets/paual.jpeg"
-                        alt="Archbishop Message"
-                        class="faith-action-image"
-                    >
-
-                    <div class="faith-action-overlay"></div>
-
-
-                    <div class="faith-action-content">
-
-                        <span class="faith-action-label">
-                            Monthly Message
-                        </span>
-
-                        <h3>
-                            Archbishop's Message
-                        </h3>
-
-                    </div>
-
-                </a>
-
-            </div>
-
-
-
-            <!-- CARD 2 -->
-            <div
-                class="col-12 col-md-6 col-lg-4"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="100"
-            >
-
-                <a href="#" class="faith-action-card">
-
-                    <img
-                        src="assets/Shepherd’s-Call-diocesan-newsletter.png"
-                        alt="Shepherd's Call"
-                        class="faith-action-image"
-                    >
-
-                    <div class="faith-action-overlay"></div>
-
-
-                    <div class="faith-action-content">
-
-                        <span class="faith-action-label">
-                            Newsletter
-                        </span>
-
-                        <h3>
-                            Shepherd's Call
-                        </h3>
-
-                    </div>
-
-                </a>
-
-            </div>
-
-
-
-            <!-- CARD 3 -->
-            <div
-                class="col-12 col-md-6 col-lg-4"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-            >
-
-                <a href="#" class="faith-action-card">
-
-                    <img
-                        src="https://images.unsplash.com/photo-1491396023581-4344e51fec5c?auto=format&fit=crop&w=900&q=80"
-                        alt="Guidance and Wisdom"
-                        class="faith-action-image"
-                    >
-
-                    <div class="faith-action-overlay"></div>
-
-
-                    <div class="faith-action-content">
-
-                        <span class="faith-action-label">
-                            College Consultors
-                        </span>
-
-                        <h3>
-                            Guidance &amp; Wisdom
-                        </h3>
-
-                    </div>
-
-                </a>
-
-            </div>
-
-
-
-            <!-- CARD 4 -->
-            <div
-                class="col-12 col-md-6 col-lg-4"
-                data-aos="fade-up"
-                data-aos-duration="800"
-            >
-
-                <a href="#" class="faith-action-card">
-
-                    <img
-                        src="assets/leader.jpeg"
-                        alt="Leadership and Excellence"
-                        class="faith-action-image"
-                    >
-
-                    <div class="faith-action-overlay"></div>
-
-
-                    <div class="faith-action-content">
-
-                        <span class="faith-action-label">
-                            Deaneries
-                        </span>
-
-                        <h3>
-                            Leadership &amp; Excellence
-                        </h3>
-
-                    </div>
-
-                </a>
-
-            </div>
-
-
-
-            <!-- CARD 5 -->
-            <div
-                class="col-12 col-md-6 col-lg-4"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="100"
-            >
-
-                <a href="#" class="faith-action-card">
-
-                    <img
-                        src="assets/parish.jpeg"
-                        alt="Find a Parish Near You"
-                        class="faith-action-image"
-                    >
-
-                    <div class="faith-action-overlay"></div>
-
-
-                    <div class="faith-action-content">
-
-                        <span class="faith-action-label">
-                            Parishes
-                        </span>
-
-                        <h3>
-                            Find a Parish Near You
-                        </h3>
-
-                    </div>
-
-                </a>
-
-            </div>
-
-
-
-            <!-- CARD 6 -->
-            <div
-                class="col-12 col-md-6 col-lg-4"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-            >
-
-                <a href="#" class="faith-action-card">
-
-                    <img
-                        src="assets/youth.jpeg"
-                        alt="Youth Commission"
-                        class="faith-action-image"
-                    >
-
-                    <div class="faith-action-overlay"></div>
-
-
-                    <div class="faith-action-content">
-
-                        <span class="faith-action-label">
-                            Youth Events
-                        </span>
-
-                        <h3>
-                            Youth Commission
-                        </h3>
-
-                    </div>
-
-                </a>
-
-            </div>
-
-
-        </div>
-
-    </div>
-
-</section>
-
-
-
-<section class="warangal-news-events-section">
-
-    <div class="container warangal-news-events-container">
-
-        <!-- Heading -->
-        <div 
-            class="warangal-news-events-heading"
-            data-aos="fade-right"
-            data-aos-duration="800"
-            data-aos-offset="70"
-        >
-            <span class="warangal-news-events-cross">†</span>
-            <h2>News & Upcoming Events</h2>
-        </div>
-
-
-        <!-- Cards -->
-        <div class="row g-4">
-
-            <!-- Card 1 -->
-            <div 
-                class="col-12 col-md-6 col-lg-4"
-                data-aos="fade-up"
-                data-aos-duration="800"
-            >
-                <a href="#" class="warangal-news-card">
-
-                    <div class="warangal-news-image-wrap">
-
-                        <img
-                            src="https://www.warangaldiocese.com/Bishop%20with%20Diocesan%20priests%20at%20Italy/1.jpg"
-                            alt="Jubilee Celebrations"
-                            class="warangal-news-image"
-                        >
-
-                        <div class="warangal-news-date">
-                            20 AUG 2026
-                        </div>
-
-                    </div>
-
-                    <div class="warangal-news-content">
-
-                        <p class="warangal-news-category">
-                            Diocesan Life
+                        <p>
+                            Let us restrict our view to only those that formed
+                            Warangal Diocese. The Hyderabad- Vijayawada Railway
+                            line work had brought a good number of Catholic
+                            employees to the main Railway junctions and stations
+                            like Kazipet, Dornakal and Khammam.
                         </p>
 
-                        <h3 class="warangal-news-title">
-                            Jubilee Celebrations
-                        </h3>
-
-                        <p class="warangal-news-description">
-                            A joyful gathering of clergy, religious and faithful in thanksgiving
-                            for the Diocese's journey.
-                        </p>
-
-                    </div>
-
-                </a>
-            </div>
-
-
-
-            <!-- Card 2 -->
-            <div 
-                class="col-12 col-md-6 col-lg-4"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="100"
-            >
-                <a href="#" class="warangal-news-card">
-
-                    <div class="warangal-news-image-wrap">
-
-                        <img
-                            src="https://www.warangaldiocese.com/fathimafeast/3.png"
-                            alt="Students Seminar 2026"
-                            class="warangal-news-image"
-                        >
-
-                        <div class="warangal-news-date">
-                            15 SEP 2026
-                        </div>
-
-                    </div>
-
-                    <div class="warangal-news-content">
-
-                        <p class="warangal-news-category">
-                            Education
-                        </p>
-
-                        <h3 class="warangal-news-title">
-                            Students Seminar 2026
-                        </h3>
-
-                        <p class="warangal-news-description">
-                            Young people meet for prayer, learning and fellowship in our Catholic
-                            institutions.
-                        </p>
-
-                    </div>
-
-                </a>
-            </div>
-
-
-
-            <!-- Card 3 -->
-            <div 
-                class="col-12 col-md-6 col-lg-4"
-                data-aos="fade-up"
-                data-aos-duration="800"
-                data-aos-delay="200"
-            >
-                <a href="#" class="warangal-news-card">
-
-                    <div class="warangal-news-image-wrap">
-
-                        <img
-                            src="assets/church.jpeg"
-                            alt="Christmas Celebrations"
-                            class="warangal-news-image"
-                        >
-
-                        <div class="warangal-news-date">
-                            18 DEC 2026
-                        </div>
-
-                    </div>
-
-                    <div class="warangal-news-content">
-
-                        <p class="warangal-news-category">
-                            Celebration
-                        </p>
-
-                        <h3 class="warangal-news-title">
-                            Christmas Celebrations
-                        </h3>
-
-                        <p class="warangal-news-description">
-                            Parishes prepare to welcome the season of hope through worship,
-                            carols and service.
-                        </p>
-
-                    </div>
-
-                </a>
-            </div>
-
-        </div>
-
-
-        <!-- Dots -->
-        <div class="warangal-news-dots">
-            <span class="warangal-news-dot active"></span>
-            <span class="warangal-news-dot"></span>
-            <span class="warangal-news-dot"></span>
-        </div>
-
-    </div>
-
-</section>
-
-
-
-
-<section class="warangal-video-gallery-section">
-
-    <div class="container warangal-video-gallery-container">
-
-
-        <!-- HEADING -->
-        <div
-            class="warangal-video-gallery-heading"
-            data-aos="fade-right"
-            data-aos-duration="800"
-            data-aos-offset="70"
-        >
-
-            <span class="warangal-video-gallery-cross">
-                †
-            </span>
-
-            <h2>
-                Video Gallery
-            </h2>
-
-        </div>
-
-
-
-        <!-- =====================================================
-             GALLERY
-        ====================================================== -->
-
-        <div class="row g-0 warangal-video-gallery-row">
-
-
-            <!-- =================================================
-                 LARGE LEFT VIDEO
-            ================================================== -->
-
-            <div
-                class="col-12 col-lg-8 pe-lg-2"
-                data-aos="fade-right"
-                data-aos-duration="900"
-            >
-
-                <div
-                    class="warangal-video-card warangal-video-card-large"
-                    data-bs-toggle="modal"
-                    data-bs-target="#warangalVideoModal1"
-                >
-
-                    <img
-                        src="https://www.warangaldiocese.com/fathimafeast/1.png"
-                        alt="Diocese Video"
-                        class="warangal-video-image"
-                    >
-
-                    <div class="warangal-video-overlay"></div>
-
-
-                    <div class="warangal-video-play">
-
-                        <i class="bi bi-play-fill"></i>
+                        <a href="#" class="warangal-bishop-btn">
+                            Bishop Message
+                        </a>
 
                     </div>
 
@@ -9382,330 +7700,1060 @@
             </div>
 
 
+            <!-- ================= RIGHT SIDE ================= -->
+            <div class="warangal-bishop-updates">
 
-            <!-- =================================================
-                 RIGHT VIDEOS
-            ================================================== -->
+                <div class="warangal-updates-inner">
 
-            <div
-                class="col-12 col-lg-4 ps-lg-2"
-                data-aos="fade-left"
-                data-aos-duration="900"
-                data-aos-delay="100"
-            >
+                  
+                    <div class="warangal-updates-heading">
 
-                <div class="warangal-video-right-stack">
+                        <span>✝</span>
 
-
-                    <!-- VIDEO 2 -->
-
-                    <div
-                        class="warangal-video-card warangal-video-card-small"
-                        data-bs-toggle="modal"
-                        data-bs-target="#warangalVideoModal2"
-                    >
-
-                        <img
-                            src="https://www.warangaldiocese.com/fathimafeast/5.png"
-                            alt="Diocese Gathering"
-                            class="warangal-video-image"
-                        >
-
-                        <div class="warangal-video-overlay"></div>
-
-
-                        <div class="warangal-video-play">
-
-                            <i class="bi bi-play-fill"></i>
-
-                        </div>
+                        <h3>Bishop Updates</h3>
 
                     </div>
 
+                    <div class="warangal-updates-marquee">
+
+                        <!-- <div class="warangal-updates-track">
+
+                           
+                            <div class="warangal-update-item">
+                                <div class="warangal-update-date">
+                                    <strong>20</strong>
+                                    <span>SEPT</span>
+                                    <small>2025</small>
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore
+                                    <strong>AUGUST</strong>
+                                </p>
+                            </div>
 
 
-                    <!-- VIDEO 3 -->
+                            
+                            <div class="warangal-update-item">
+                                <div class="warangal-update-date">
+                                    <strong>28</strong>
+                                    <span>SEPT</span>
+                                    <small>2025</small>
+                                </div>
 
-                    <div
-                        class="warangal-video-card warangal-video-card-small"
-                        data-bs-toggle="modal"
-                        data-bs-target="#warangalVideoModal3"
-                    >
-
-                        <img
-                            src="https://www.warangaldiocese.com/fathimafeast/2.png"
-                            alt="Diocese Event"
-                            class="warangal-video-image"
-                        >
-
-                        <div class="warangal-video-overlay"></div>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
 
 
-                        <div class="warangal-video-play">
+                            
+                            <div class="warangal-update-item">
+                                <div class="warangal-update-date">
+                                    <strong>01</strong>
+                                    <span>OCT</span>
+                                    <small>2025</small>
+                                </div>
 
-                            <i class="bi bi-play-fill"></i>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
 
+
+                           
+                            <div class="warangal-update-item">
+                                <div class="warangal-update-date">
+                                    <strong>15</strong>
+                                    <span>OCT</span>
+                                    <small>2025</small>
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+
+
+                           
+
+                            <div class="warangal-update-item">
+                                <div class="warangal-update-date">
+                                    <strong>20</strong>
+                                    <span>SEPT</span>
+                                    <small>2025</small>
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore
+                                    <strong>AUGUST</strong>
+                                </p>
+                            </div>
+
+
+                            <div class="warangal-update-item">
+                                <div class="warangal-update-date">
+                                    <strong>28</strong>
+                                    <span>SEPT</span>
+                                    <small>2025</small>
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+
+
+                            <div class="warangal-update-item">
+                                <div class="warangal-update-date">
+                                    <strong>01</strong>
+                                    <span>OCT</span>
+                                    <small>2025</small>
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+
+
+                            <div class="warangal-update-item">
+                                <div class="warangal-update-date">
+                                    <strong>15</strong>
+                                    <span>OCT</span>
+                                    <small>2025</small>
+                                </div>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                </p>
+                            </div>
+
+                        </div> -->
+
+
+
+
+                        <div class="warangal-updates-track">
+
+                        <!-- UPDATE 1 -->
+                        <div class="warangal-update-item">
+                            <div class="warangal-update-date">
+                                <strong>09</strong>
+                                <span>MAY</span>
+                                <small>2026</small>
+                            </div>
+
+                            <p>
+                                Pope Leo XIV appointed
+                                <strong>Rev. Vijaya Paul Reddy Duggimpudi</strong>
+                                as the new Bishop of the Diocese of Warangal.
+                            </p>
+                        </div>
+
+
+                        <!-- UPDATE 2 -->
+                        <div class="warangal-update-item">
+                            <div class="warangal-update-date">
+                                <strong>01</strong>
+                                <span>JUN</span>
+                                <small>2026</small>
+                            </div>
+
+                            <p>
+                                Warangal clergy gathered for a
+                                <strong>Recollection and Preparatory Meeting</strong>
+                                ahead of the Episcopal Ordination of the Bishop-elect.
+                            </p>
+                        </div>
+
+
+                        <!-- UPDATE 3 -->
+                        <div class="warangal-update-item">
+                            <div class="warangal-update-date">
+                                <strong>03</strong>
+                                <span>JUL</span>
+                                <small>2026</small>
+                            </div>
+
+                            <p>
+                                <strong>Most Rev. Dr. Duggimpudi Vijaya Paul</strong>
+                                was episcopally ordained and solemnly installed as
+                                Bishop of Warangal at Our Lady of Fatima Cathedral Campus.
+                            </p>
+                        </div>
+
+
+                        <!-- UPDATE 4 -->
+                        <div class="warangal-update-item">
+                            <div class="warangal-update-date">
+                                <strong>04</strong>
+                                <span>AUG</span>
+                                <small>2026</small>
+                            </div>
+
+                            <p>
+                                Our Lady of Fatima Cathedral marked
+                                <strong>one month of the Episcopal Ordination</strong>
+                                of Most Rev. Dr. Duggimpudi Vijaya Paul,
+                                Bishop of Warangal.
+                            </p>
+                        </div>
+
+
+
+                        <!-- ========================= -->
+                        <!-- DUPLICATE FOR SMOOTH LOOP -->
+                        <!-- ========================= -->
+
+
+                        <div class="warangal-update-item">
+                            <div class="warangal-update-date">
+                                <strong>09</strong>
+                                <span>MAY</span>
+                                <small>2026</small>
+                            </div>
+
+                            <p>
+                                Pope Leo XIV appointed
+                                <strong>Rev. Vijaya Paul Reddy Duggimpudi</strong>
+                                as the new Bishop of the Diocese of Warangal.
+                            </p>
+                        </div>
+
+
+                        <div class="warangal-update-item">
+                            <div class="warangal-update-date">
+                                <strong>01</strong>
+                                <span>JUN</span>
+                                <small>2026</small>
+                            </div>
+
+                            <p>
+                                Warangal clergy gathered for a
+                                <strong>Recollection and Preparatory Meeting</strong>
+                                ahead of the Episcopal Ordination of the Bishop-elect.
+                            </p>
+                        </div>
+
+
+                        <div class="warangal-update-item">
+                            <div class="warangal-update-date">
+                                <strong>03</strong>
+                                <span>JUL</span>
+                                <small>2026</small>
+                            </div>
+
+                            <p>
+                                <strong>Most Rev. Dr. Duggimpudi Vijaya Paul</strong>
+                                was episcopally ordained and solemnly installed as
+                                Bishop of Warangal at Our Lady of Fatima Cathedral Campus.
+                            </p>
+                        </div>
+
+
+                        <div class="warangal-update-item">
+                            <div class="warangal-update-date">
+                                <strong>04</strong>
+                                <span>AUG</span>
+                                <small>2026</small>
+                            </div>
+
+                            <p>
+                                Our Lady of Fatima Cathedral marked
+                                <strong>one month of the Episcopal Ordination</strong>
+                                of Most Rev. Dr. Duggimpudi Vijaya Paul,
+                                Bishop of Warangal.
+                            </p>
                         </div>
 
                     </div>
+                    </div>
 
+                    <!-- Diocese Logo -->
+                    <div class="warangal-diocese-logo">
+                        <img src="assets/img/about-sec-logo.webp"
+                            alt="Diocese of Warangal">
+                    </div>
+
+
+                    <!-- Vertical Text -->
+                    <div class="warangal-vertical-title">
+                        DIOCESE OF<br>WARANGAL
+                    </div>
 
                 </div>
 
             </div>
 
-
         </div>
 
-    </div>
+    </section>
 
-</section>
+    <section class="warangal-archives-section">
 
-
-
-
-<section class="warangal-communities-section">
-
-    <div class="container-fluid p-0">
+        <div class="container warangal-archives-container">
 
 
-        <!-- ================= HEADING ================= -->
-
-        <div class="container warangal-communities-heading-container">
+            <!-- ================= HEADING ================= -->
 
             <div
-                class="warangal-communities-heading"
+                class="warangal-archives-heading"
                 data-aos="fade-right"
                 data-aos-duration="800"
-            >
+                data-aos-offset="70">
 
-                <span class="warangal-communities-cross">†</span>
+                <span class="warangal-archives-cross">
+                    †
+                </span>
 
                 <h2>
-                    Communities &amp; Institutions
+                    Archives of Service
                 </h2>
 
             </div>
 
-        </div>
+
+
+            <!-- ========================================================
+             DESKTOP / LARGE SCREEN CAROUSEL
+             3 CARDS PER SLIDE
+        ========================================================= -->
+
+            <div
+                id="warangalArchivesDesktop"
+                class="carousel slide warangal-archives-carousel d-none d-lg-block"
+                data-bs-ride="carousel"
+                data-bs-interval="4500"
+                data-bs-pause="hover"
+                data-bs-touch="true">
+
+
+                <div class="carousel-inner">
+
+
+                    <!-- =================================================
+                     SLIDE 1
+                ================================================== -->
+
+                    <div class="carousel-item active">
+
+                        <div class="row g-3">
+
+
+                            <!-- CARD 1 -->
+
+                            <div class="col-lg-4">
+
+                                <article
+                                    class="warangal-archive-card"
+                                    data-aos="fade-up"
+                                    data-aos-duration="800">
+
+                                    <div class="warangal-archive-image-wrap">
+
+                                        <img
+                                            src="assets/Grand-Red-and-Beige-Cathedral-Cutout.png"
+                                            alt="Our Lady of Fatima Cathedral"
+                                            class="warangal-archive-image">
+
+                                    </div>
+
+
+                                    <div class="warangal-archive-content">
+
+                                        <p class="warangal-archive-category">
+                                            Our Heritage · Diocese
+                                        </p>
+
+
+                                        <h3 class="warangal-archive-title">
+                                            Our Lady of Fatima Cathedral
+                                        </h3>
+
+
+                                        <p class="warangal-archive-description">
+                                            A spiritual home where generations have gathered
+                                            for worship, celebration and the sacraments.
+                                        </p>
+
+
+                                        <a href="#" class="warangal-archive-link">
+
+                                            DISCOVER
+
+                                            <span class="warangal-archive-arrow">
+                                                →
+                                            </span>
+
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
 
 
 
-        <!-- =====================================================
-             MARQUEE AREA
-        ====================================================== -->
+                            <!-- CARD 2 -->
 
-        <div class="warangal-communities-marquee-stage">
+                            <div class="col-lg-4">
 
+                                <article
+                                    class="warangal-archive-card"
+                                    data-aos="fade-up"
+                                    data-aos-duration="800"
+                                    data-aos-delay="100">
 
-            <!-- =================================================
-                 TOP ROW
-                 LEFT TO RIGHT
-            ================================================== -->
+                                    <div class="warangal-archive-image-wrap">
 
-            <div class="warangal-community-marquee-row">
+                                        <img
+                                            src="assets/jubliee.jpeg"
+                                            alt="Catholic Jubilee Pilgrim Church"
+                                            class="warangal-archive-image">
 
-                <div class="warangal-community-track warangal-community-track-ltr">
-
-
-                    <!-- ================= GROUP 1 ================= -->
-
-                    <div class="warangal-community-group">
+                                    </div>
 
 
-                        <!-- CARD 1 -->
-                        <a href="#" class="warangal-community-card">
+                                    <div class="warangal-archive-content">
 
-                            <img
-                                src="https://images.unsplash.com/photo-1532798442725-41036acc7489?auto=format&fit=crop&w=700&q=78"
-                                alt="Fatima Nagar Church"
-                            >
-
-                            <span class="warangal-community-label">
-                                Fatima Nagar Church
-                            </span>
-
-                        </a>
+                                        <p class="warangal-archive-category">
+                                            Living Faith · Community
+                                        </p>
 
 
-
-                        <!-- CARD 2 -->
-                        <a href="#" class="warangal-community-card">
-
-                            <img
-                                src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=700&q=78"
-                                alt="Fatima Degree College"
-                            >
-
-                            <span class="warangal-community-label">
-                                Fatima Degree College
-                            </span>
-
-                        </a>
+                                        <h3 class="warangal-archive-title">
+                                            Catholic Jubilee Pilgrim Church
+                                        </h3>
 
 
+                                        <p class="warangal-archive-description">
+                                            Remembering the people and places whose witness
+                                            built a strong, compassionate local Church.
+                                        </p>
 
-                        <!-- CARD 3 -->
-                        <a href="#" class="warangal-community-card">
 
-                            <img
-                                src="https://www.warangaldiocese.com/fathimafeast/2.png"
-                                alt="St. Francis School"
-                            >
+                                        <a href="#" class="warangal-archive-link">
 
-                            <span class="warangal-community-label">
-                                St. Francis School
-                            </span>
+                                            DISCOVER
 
-                        </a>
+                                            <span class="warangal-archive-arrow">
+                                                →
+                                            </span>
+
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
 
 
 
-                        <!-- CARD 4 -->
-                        <a href="#" class="warangal-community-card">
+                            <!-- CARD 3 -->
 
-                            <img
-                                src="https://images.unsplash.com/photo-1590579491624-f98f36d4c763?auto=format&fit=crop&w=700&q=78"
-                                alt="St. Joseph's High School"
-                            >
+                            <div class="col-lg-4">
 
-                            <span class="warangal-community-label">
-                                St. Joseph's High School
-                            </span>
+                                <article
+                                    class="warangal-archive-card"
+                                    data-aos="fade-up"
+                                    data-aos-duration="800"
+                                    data-aos-delay="200">
 
-                        </a>
+                                    <div class="warangal-archive-image-wrap">
 
+                                        <img
+                                            src="assets/Catholic-Festival-Clergy-Portrait.png"
+                                            alt="Community Spiritual Centres"
+                                            class="warangal-archive-image">
 
-
-                        <!-- CARD 5 -->
-                        <a href="#" class="warangal-community-card">
-
-                            <img
-                                src="https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?auto=format&fit=crop&w=700&q=78"
-                                alt="Christu Jyothi Institute"
-                            >
-
-                            <span class="warangal-community-label">
-                                Christu Jyothi Institute
-                            </span>
-
-                        </a>
+                                    </div>
 
 
+                                    <div class="warangal-archive-content">
 
-                        <!-- CARD 6 -->
-                        <a href="#" class="warangal-community-card">
+                                        <p class="warangal-archive-category">
+                                            Mission · Formation
+                                        </p>
 
-                            <img
-                                src="https://www.warangaldiocese.com/images/gallery/5.png"
-                                alt="Kazipet Parish"
-                            >
 
-                            <span class="warangal-community-label">
-                                Kazipet Parish
-                            </span>
+                                        <h3 class="warangal-archive-title">
+                                            Community Spiritual Centres
+                                        </h3>
 
-                        </a>
 
+                                        <p class="warangal-archive-description">
+                                            Places of prayer, formation and welcome that help
+                                            the faithful encounter Christ and one another.
+                                        </p>
+
+
+                                        <a href="#" class="warangal-archive-link">
+
+                                            DISCOVER
+
+                                            <span class="warangal-archive-arrow">
+                                                →
+                                            </span>
+
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+
+
+                        </div>
 
                     </div>
 
 
 
                     <!-- =================================================
-                         DUPLICATE GROUP
-                         REQUIRED FOR SEAMLESS LOOP
-                    ================================================== -->
+                     SLIDE 2
+                ================================================== -->
 
-                    <div class="warangal-community-group" aria-hidden="true">
+                    <div class="carousel-item">
 
-
-                        <a href="#" class="warangal-community-card">
-
-                            <img
-                                src="https://images.unsplash.com/photo-1532798442725-41036acc7489?auto=format&fit=crop&w=700&q=78"
-                                alt=""
-                            >
-
-                            <span class="warangal-community-label">
-                                Fatima Nagar Church
-                            </span>
-
-                        </a>
+                        <div class="row g-3">
 
 
-                        <a href="#" class="warangal-community-card">
+                            <div class="col-lg-4">
 
-                            <img
-                                src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=700&q=78"
-                                alt=""
-                            >
+                                <article class="warangal-archive-card">
 
-                            <span class="warangal-community-label">
-                                Fatima Degree College
-                            </span>
+                                    <div class="warangal-archive-image-wrap">
 
-                        </a>
+                                        <img
+                                            src="https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=900&q=82"
+                                            alt="Mission Communities"
+                                            class="warangal-archive-image">
 
-
-                        <a href="#" class="warangal-community-card">
-
-                            <img
-                                src="https://www.warangaldiocese.com/fathimafeast/2.png"
-                                alt=""
-                            >
-
-                            <span class="warangal-community-label">
-                                St. Francis School
-                            </span>
-
-                        </a>
+                                    </div>
 
 
-                        <a href="#" class="warangal-community-card">
+                                    <div class="warangal-archive-content">
 
-                            <img
-                                src="https://images.unsplash.com/photo-1590579491624-f98f36d4c763?auto=format&fit=crop&w=700&q=78"
-                                alt=""
-                            >
+                                        <p class="warangal-archive-category">
+                                            Faith · Mission
+                                        </p>
 
-                            <span class="warangal-community-label">
-                                St. Joseph's High School
-                            </span>
+                                        <h3 class="warangal-archive-title">
+                                            Mission Communities
+                                        </h3>
 
-                        </a>
+                                        <p class="warangal-archive-description">
+                                            Remembering the communities that carried faith,
+                                            education and service across the Diocese.
+                                        </p>
+
+                                        <a href="#" class="warangal-archive-link">
+                                            DISCOVER
+                                            <span class="warangal-archive-arrow">→</span>
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
 
 
-                        <a href="#" class="warangal-community-card">
 
-                            <img
-                                src="https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?auto=format&fit=crop&w=700&q=78"
-                                alt=""
-                            >
+                            <div class="col-lg-4">
 
-                            <span class="warangal-community-label">
-                                Christu Jyothi Institute
-                            </span>
+                                <article class="warangal-archive-card">
 
-                        </a>
+                                    <div class="warangal-archive-image-wrap">
+
+                                        <img
+                                            src="assets/pastoral.jpeg"
+                                            alt="Pastoral Heritage"
+                                            class="warangal-archive-image">
+
+                                    </div>
 
 
-                        <a href="#" class="warangal-community-card">
+                                    <div class="warangal-archive-content">
 
-                            <img
-                                src="https://www.warangaldiocese.com/images/gallery/5.png"
-                                alt=""
-                            >
+                                        <p class="warangal-archive-category">
+                                            Pastoral · Heritage
+                                        </p>
 
-                            <span class="warangal-community-label">
-                                Kazipet Parish
-                            </span>
+                                        <h3 class="warangal-archive-title">
+                                            Pastoral Heritage
+                                        </h3>
 
-                        </a>
+                                        <p class="warangal-archive-description">
+                                            Stories of shepherds and faithful who strengthened
+                                            the spiritual life of Warangal.
+                                        </p>
 
+                                        <a href="#" class="warangal-archive-link">
+                                            DISCOVER
+                                            <span class="warangal-archive-arrow">→</span>
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+
+
+
+                            <div class="col-lg-4">
+
+                                <article class="warangal-archive-card">
+
+                                    <div class="warangal-archive-image-wrap">
+
+                                        <img
+                                            src="assets/education.jpeg"
+                                            alt="Catholic Education"
+                                            class="warangal-archive-image">
+
+                                    </div>
+
+
+                                    <div class="warangal-archive-content">
+
+                                        <p class="warangal-archive-category">
+                                            Education · Service
+                                        </p>
+
+                                        <h3 class="warangal-archive-title">
+                                            Catholic Education
+                                        </h3>
+
+                                        <p class="warangal-archive-description">
+                                            Celebrating institutions that shaped generations
+                                            through education, character and service.
+                                        </p>
+
+                                        <a href="#" class="warangal-archive-link">
+                                            DISCOVER
+                                            <span class="warangal-archive-arrow">→</span>
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+
+
+                        </div>
 
                     </div>
 
+
+
+                    <!-- =================================================
+                     SLIDE 3
+                ================================================== -->
+
+                    <div class="carousel-item">
+
+                        <div class="row g-3">
+
+
+                            <div class="col-lg-4">
+
+                                <article class="warangal-archive-card">
+
+                                    <div class="warangal-archive-image-wrap">
+
+                                        <img
+                                            src="assets/parish.jpeg"
+                                            alt="Parish Heritage"
+                                            class="warangal-archive-image">
+
+                                    </div>
+
+                                    <div class="warangal-archive-content">
+
+                                        <p class="warangal-archive-category">
+                                            Parish · Heritage
+                                        </p>
+
+                                        <h3 class="warangal-archive-title">
+                                            Parish Heritage
+                                        </h3>
+
+                                        <p class="warangal-archive-description">
+                                            Exploring churches and communities that form the
+                                            living heritage of the Diocese.
+                                        </p>
+
+                                        <a href="#" class="warangal-archive-link">
+                                            DISCOVER
+                                            <span class="warangal-archive-arrow">→</span>
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+
+
+
+                            <div class="col-lg-4">
+
+                                <article class="warangal-archive-card">
+
+                                    <div class="warangal-archive-image-wrap">
+
+                                        <img
+                                            src="assets/works-for-mercy.jpeg"
+                                            alt="Works of Mercy"
+                                            class="warangal-archive-image">
+
+                                    </div>
+
+                                    <div class="warangal-archive-content">
+
+                                        <p class="warangal-archive-category">
+                                            Charity · Community
+                                        </p>
+
+                                        <h3 class="warangal-archive-title">
+                                            Works of Mercy
+                                        </h3>
+
+                                        <p class="warangal-archive-description">
+                                            Celebrating compassionate ministries serving people
+                                            with dignity, care and hope.
+                                        </p>
+
+                                        <a href="#" class="warangal-archive-link">
+                                            DISCOVER
+                                            <span class="warangal-archive-arrow">→</span>
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+
+
+
+                            <div class="col-lg-4">
+
+                                <article class="warangal-archive-card">
+
+                                    <div class="warangal-archive-image-wrap">
+
+                                        <img
+                                            src="assets/cath.jpeg"
+                                            alt="Faith Through Generations"
+                                            class="warangal-archive-image">
+
+                                    </div>
+
+                                    <div class="warangal-archive-content">
+
+                                        <p class="warangal-archive-category">
+                                            History · Faith
+                                        </p>
+
+                                        <h3 class="warangal-archive-title">
+                                            Faith Through Generations
+                                        </h3>
+
+                                        <p class="warangal-archive-description">
+                                            Preserving memories and stories that continue to
+                                            inspire the Diocese today.
+                                        </p>
+
+                                        <a href="#" class="warangal-archive-link">
+                                            DISCOVER
+                                            <span class="warangal-archive-arrow">→</span>
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- DOTS -->
+
+                <div class="carousel-indicators warangal-archives-carousel-indicators">
+
+                    <button
+                        type="button"
+                        data-bs-target="#warangalArchivesDesktop"
+                        data-bs-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="Slide 1">
+                    </button>
+
+                    <button
+                        type="button"
+                        data-bs-target="#warangalArchivesDesktop"
+                        data-bs-slide-to="1"
+                        aria-label="Slide 2">
+                    </button>
+
+                    <button
+                        type="button"
+                        data-bs-target="#warangalArchivesDesktop"
+                        data-bs-slide-to="2"
+                        aria-label="Slide 3">
+                    </button>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- ========================================================
+             TABLET CAROUSEL
+             2 CARDS PER SLIDE
+        ========================================================= -->
+
+            <div
+                id="warangalArchivesTablet"
+                class="carousel slide warangal-archives-carousel d-none d-md-block d-lg-none"
+                data-bs-ride="carousel"
+                data-bs-interval="4500"
+                data-bs-pause="hover"
+                data-bs-touch="true">
+
+                <div class="carousel-inner">
+
+
+                    <!-- TABLET SLIDE 1 -->
+
+                    <div class="carousel-item active">
+
+                        <div class="row g-3">
+
+
+                            <div class="col-6">
+
+                                <article class="warangal-archive-card">
+
+                                    <div class="warangal-archive-image-wrap">
+
+                                        <img
+                                            src="assets/Grand-Red-and-Beige-Cathedral-Cutout.png"
+                                            class="warangal-archive-image"
+                                            alt="">
+
+                                    </div>
+
+
+                                    <div class="warangal-archive-content">
+
+                                        <p class="warangal-archive-category">
+                                            Our Heritage · Diocese
+                                        </p>
+
+                                        <h3 class="warangal-archive-title">
+                                            Our Lady of Fatima Cathedral
+                                        </h3>
+
+                                        <p class="warangal-archive-description">
+                                            A spiritual home where generations have gathered
+                                            for worship, celebration and the sacraments.
+                                        </p>
+
+                                        <a href="#" class="warangal-archive-link">
+                                            DISCOVER
+                                            <span class="warangal-archive-arrow">→</span>
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+
+
+
+                            <div class="col-6">
+
+                                <article class="warangal-archive-card">
+
+                                    <div class="warangal-archive-image-wrap">
+
+                                        <img
+                                            src="assets/jubliee.jpeg"
+                                            class="warangal-archive-image"
+                                            alt="">
+
+                                    </div>
+
+
+                                    <div class="warangal-archive-content">
+
+                                        <p class="warangal-archive-category">
+                                            Living Faith · Community
+                                        </p>
+
+                                        <h3 class="warangal-archive-title">
+                                            Catholic Jubilee Pilgrim Church
+                                        </h3>
+
+                                        <p class="warangal-archive-description">
+                                            Remembering the people and places whose witness
+                                            built a strong compassionate local Church.
+                                        </p>
+
+                                        <a href="#" class="warangal-archive-link">
+                                            DISCOVER
+                                            <span class="warangal-archive-arrow">→</span>
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- TABLET SLIDE 2 -->
+
+                    <div class="carousel-item">
+
+                        <div class="row g-3">
+
+                            <div class="col-6">
+
+                                <article class="warangal-archive-card">
+
+                                    <div class="warangal-archive-image-wrap">
+
+                                        <img
+                                            src="assets/Catholic-Festival-Clergy-Portrait.png"
+                                            class="warangal-archive-image"
+                                            alt="">
+
+                                    </div>
+
+                                    <div class="warangal-archive-content">
+
+                                        <p class="warangal-archive-category">
+                                            Mission · Formation
+                                        </p>
+
+                                        <h3 class="warangal-archive-title">
+                                            Community Spiritual Centres
+                                        </h3>
+
+                                        <p class="warangal-archive-description">
+                                            Places of prayer and formation that help the
+                                            faithful encounter Christ.
+                                        </p>
+
+                                        <a href="#" class="warangal-archive-link">
+                                            DISCOVER
+                                            <span class="warangal-archive-arrow">→</span>
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+
+
+                            <div class="col-6">
+
+                                <article class="warangal-archive-card">
+
+                                    <div class="warangal-archive-image-wrap">
+
+                                        <img
+                                            src="https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=900&q=82"
+                                            class="warangal-archive-image"
+                                            alt="">
+
+                                    </div>
+
+                                    <div class="warangal-archive-content">
+
+                                        <p class="warangal-archive-category">
+                                            Faith · Mission
+                                        </p>
+
+                                        <h3 class="warangal-archive-title">
+                                            Mission Communities
+                                        </h3>
+
+                                        <p class="warangal-archive-description">
+                                            Remembering communities that carried faith and
+                                            service across the Diocese.
+                                        </p>
+
+                                        <a href="#" class="warangal-archive-link">
+                                            DISCOVER
+                                            <span class="warangal-archive-arrow">→</span>
+                                        </a>
+
+                                    </div>
+
+                                </article>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+
+                <div class="carousel-indicators warangal-archives-carousel-indicators">
+
+                    <button
+                        type="button"
+                        data-bs-target="#warangalArchivesTablet"
+                        data-bs-slide-to="0"
+                        class="active">
+                    </button>
+
+                    <button
+                        type="button"
+                        data-bs-target="#warangalArchivesTablet"
+                        data-bs-slide-to="1">
+                    </button>
 
                 </div>
 
@@ -9713,328 +8761,1677 @@
 
 
 
-            <!-- =================================================
-                 BOTTOM ROW
-                 RIGHT TO LEFT
-            ================================================== -->
+            <!-- ========================================================
+             MOBILE CAROUSEL
+             1 CARD PER SLIDE
+        ========================================================= -->
 
-            <div class="warangal-community-marquee-row">
-
-                <div class="warangal-community-track warangal-community-track-rtl">
-
-
-                    <!-- ================= GROUP 1 ================= -->
-
-                    <div class="warangal-community-group">
-
-
-                        <!-- CARD 1 -->
-                        <a href="#" class="warangal-community-card">
-
-                            <img
-                                src="https://www.warangaldiocese.com/images/gallery/9.jpg"
-                                alt="Pastoral Centre"
-                            >
-
-                            <span class="warangal-community-label">
-                                Pastoral Centre
-                            </span>
-
-                        </a>
+            <div
+                id="warangalArchivesMobile"
+                class="carousel slide warangal-archives-carousel d-md-none"
+                data-bs-ride="carousel"
+                data-bs-interval="4000"
+                data-bs-pause="hover"
+                data-bs-touch="true">
 
 
-
-                        <!-- CARD 2 -->
-                        <a href="#" class="warangal-community-card">
-
-                            <img
-                                src="https://www.warangaldiocese.com/fathimafeast/3.png"
-                                alt="Our Lady of Fatima Community"
-                            >
-
-                            <span class="warangal-community-label">
-                                Our Lady of Fatima Community
-                            </span>
-
-                        </a>
+                <div class="carousel-inner">
 
 
+                    <!-- MOBILE 1 -->
 
-                        <!-- CARD 3 -->
-                        <a href="#" class="warangal-community-card">
+                    <div class="carousel-item active">
 
-                            <img
-                                src="https://images.unsplash.com/photo-1491396023581-4344e51fec5c?auto=format&fit=crop&w=700&q=78"
-                                alt="Parish Communities"
-                            >
+                        <article class="warangal-archive-card">
 
-                            <span class="warangal-community-label">
-                                Parish Communities
-                            </span>
+                            <div class="warangal-archive-image-wrap">
 
-                        </a>
+                                <img
+                                    src="assets/Grand-Red-and-Beige-Cathedral-Cutout.png"
+                                    class="warangal-archive-image"
+                                    alt="">
 
-
-
-                        <!-- CARD 4 -->
-                        <a href="#" class="warangal-community-card">
-
-                            <img
-                                src="https://www.warangaldiocese.com/Canonanization%20of%20%20Blessed%20Mother%20Teresa%20Vatican%20City/4.jpg"
-                                alt="Social Service Society"
-                            >
-
-                            <span class="warangal-community-label">
-                                Social Service Society
-                            </span>
-
-                        </a>
+                            </div>
 
 
+                            <div class="warangal-archive-content">
 
-                        <!-- CARD 5 -->
-                        <a href="#" class="warangal-community-card">
+                                <p class="warangal-archive-category">
+                                    Our Heritage · Diocese
+                                </p>
 
-                            <img
-                                src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=78"
-                                alt="Diocesan Youth Movement"
-                            >
+                                <h3 class="warangal-archive-title">
+                                    Our Lady of Fatima Cathedral
+                                </h3>
 
-                            <span class="warangal-community-label">
-                                Diocesan Youth Movement
-                            </span>
+                                <p class="warangal-archive-description">
+                                    A spiritual home where generations have gathered
+                                    for worship, celebration and the sacraments.
+                                </p>
 
-                        </a>
+                                <a href="#" class="warangal-archive-link">
+                                    DISCOVER
+                                    <span class="warangal-archive-arrow">→</span>
+                                </a>
 
+                            </div>
 
-
-                        <!-- CARD 6 -->
-                        <a href="#" class="warangal-community-card">
-
-                            <img
-                                src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=700&q=78"
-                                alt="Education Mission"
-                            >
-
-                            <span class="warangal-community-label">
-                                Education Mission
-                            </span>
-
-                        </a>
-
+                        </article>
 
                     </div>
 
 
 
-                    <!-- ================= DUPLICATE ================= -->
+                    <!-- MOBILE 2 -->
 
-                    <div class="warangal-community-group" aria-hidden="true">
+                    <div class="carousel-item">
 
+                        <article class="warangal-archive-card">
 
-                        <a href="#" class="warangal-community-card">
+                            <div class="warangal-archive-image-wrap">
 
-                            <img
-                                src="https://www.warangaldiocese.com/images/gallery/9.jpg"
-                                alt=""
-                            >
+                                <img
+                                    src="assets/jubliee.jpeg"
+                                    class="warangal-archive-image"
+                                    alt="">
 
-                            <span class="warangal-community-label">
-                                Pastoral Centre
-                            </span>
-
-                        </a>
+                            </div>
 
 
-                        <a href="#" class="warangal-community-card">
+                            <div class="warangal-archive-content">
 
-                            <img
-                                src="https://www.warangaldiocese.com/fathimafeast/3.png"
-                                alt=""
-                            >
+                                <p class="warangal-archive-category">
+                                    Living Faith · Community
+                                </p>
 
-                            <span class="warangal-community-label">
-                                Our Lady of Fatima Community
-                            </span>
+                                <h3 class="warangal-archive-title">
+                                    Catholic Jubilee Pilgrim Church
+                                </h3>
 
-                        </a>
+                                <p class="warangal-archive-description">
+                                    Remembering the people and places whose witness
+                                    built a strong compassionate local Church.
+                                </p>
 
+                                <a href="#" class="warangal-archive-link">
+                                    DISCOVER
+                                    <span class="warangal-archive-arrow">→</span>
+                                </a>
 
-                        <a href="#" class="warangal-community-card">
+                            </div>
 
-                            <img
-                                src="https://images.unsplash.com/photo-1491396023581-4344e51fec5c?auto=format&fit=crop&w=700&q=78"
-                                alt=""
-                            >
+                        </article>
 
-                            <span class="warangal-community-label">
-                                Parish Communities
-                            </span>
-
-                        </a>
-
-
-                        <a href="#" class="warangal-community-card">
-
-                            <img
-                                src="https://www.warangaldiocese.com/Canonanization%20of%20%20Blessed%20Mother%20Teresa%20Vatican%20City/4.jpg"
-                                alt=""
-                            >
-
-                            <span class="warangal-community-label">
-                                Social Service Society
-                            </span>
-
-                        </a>
+                    </div>
 
 
-                        <a href="#" class="warangal-community-card">
 
-                            <img
-                                src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=78"
-                                alt=""
-                            >
+                    <!-- MOBILE 3 -->
 
-                            <span class="warangal-community-label">
-                                Diocesan Youth Movement
-                            </span>
+                    <div class="carousel-item">
 
-                        </a>
+                        <article class="warangal-archive-card">
+
+                            <div class="warangal-archive-image-wrap">
+
+                                <img
+                                    src="assets/Catholic-Festival-Clergy-Portrait.png"
+                                    class="warangal-archive-image"
+                                    alt="">
+
+                            </div>
 
 
-                        <a href="#" class="warangal-community-card">
+                            <div class="warangal-archive-content">
 
-                            <img
-                                src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=700&q=78"
-                                alt=""
-                            >
+                                <p class="warangal-archive-category">
+                                    Mission · Formation
+                                </p>
 
-                            <span class="warangal-community-label">
-                                Education Mission
-                            </span>
+                                <h3 class="warangal-archive-title">
+                                    Community Spiritual Centres
+                                </h3>
 
-                        </a>
+                                <p class="warangal-archive-description">
+                                    Places of prayer and formation that help the faithful
+                                    encounter Christ and one another.
+                                </p>
 
+                                <a href="#" class="warangal-archive-link">
+                                    DISCOVER
+                                    <span class="warangal-archive-arrow">→</span>
+                                </a>
+
+                            </div>
+
+                        </article>
 
                     </div>
 
 
                 </div>
+
+
+
+                <!-- MOBILE DOTS -->
+
+                <div class="carousel-indicators warangal-archives-carousel-indicators">
+
+                    <button
+                        type="button"
+                        data-bs-target="#warangalArchivesMobile"
+                        data-bs-slide-to="0"
+                        class="active">
+                    </button>
+
+                    <button
+                        type="button"
+                        data-bs-target="#warangalArchivesMobile"
+                        data-bs-slide-to="1">
+                    </button>
+
+                    <button
+                        type="button"
+                        data-bs-target="#warangalArchivesMobile"
+                        data-bs-slide-to="2">
+                    </button>
+
+                </div>
+
 
             </div>
 
 
         </div>
 
-
-    </div>
-
-</section>
-
-<section class="warangal-connect-section">
-
-    <div class="container warangal-connect-container">
-
-        <div class="row align-items-center g-4 g-lg-5">
+    </section>
 
 
-            <!-- =========================================
-                 LEFT CONTENT
-            ========================================== -->
+    <!-- ================================
+     FAITH IN ACTION SECTION
+================================ -->
 
+    <section class="faith-action-section">
+
+        <div class="container faith-action-container">
+
+
+            <!-- HEADING -->
             <div
-                class="col-12 col-lg-6"
+                class="faith-action-heading"
                 data-aos="fade-right"
-                data-aos-duration="900"
-            >
+                data-aos-duration="800"
+                data-aos-offset="70">
 
-                <div class="warangal-connect-content">
+                <span class="faith-action-cross">†</span>
 
-                    <p class="warangal-connect-small-title">
-                        STAY CLOSE TO OUR MISSION
-                    </p>
-
-                    <h2 class="warangal-connect-title">
-                        Connect With the Diocese
-                    </h2>
-
-                    <p class="warangal-connect-main-text">
-                        Together in Faith. Together in Service.
-                    </p>
-
-                    <p class="warangal-connect-description">
-                        Be part of the Diocese of Warangal's mission to spread faith,
-                        hope and love.
-                    </p>
-
-
-                    <!-- BUTTONS -->
-
-                    <div class="warangal-connect-buttons">
-
-                        <a href="#" class="warangal-connect-btn warangal-connect-btn-red">
-                            Join Us
-                        </a>
-
-                        <a href="#" class="warangal-connect-btn warangal-connect-btn-blue">
-                            Donate Now
-                        </a>
-
-                    </div>
-
-                </div>
+                <h2>Faith in Action</h2>
 
             </div>
 
 
 
-            <!-- =========================================
-                 RIGHT NEWSLETTER
-            ========================================== -->
+            <!-- CARDS -->
+            <div class="row g-3" style="
+    background-color: white;
+    padding: 1rem;">
 
-            <div
-                class="col-12 col-lg-6"
-                data-aos="fade-left"
-                data-aos-duration="900"
-                data-aos-delay="100"
-            >
 
-                <div class="warangal-newsletter-wrap">
+                <!-- CARD 1 -->
+                <div
+                    class="col-12 col-md-6 col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-duration="800">
 
-                    <div class="warangal-newsletter-content">
+                    <a href="#" class="faith-action-card">
 
-                        <div class="warangal-newsletter-heading">
+                        <img
+                            src="assets/paual.jpeg"
+                            alt="Archbishop Message"
+                            class="faith-action-image">
 
-                            <i class="bi bi-envelope-paper"></i>
+                        <div class="faith-action-overlay"></div>
+
+
+                        <div class="faith-action-content">
+
+                            <span class="faith-action-label">
+                                Monthly Message
+                            </span>
 
                             <h3>
-                                Newsletters
+                                Archbishop's Message
                             </h3>
 
                         </div>
 
-                        <p class="warangal-newsletter-text">
-                            Receive diocesan news and upcoming events
+                    </a>
+
+                </div>
+
+
+
+                <!-- CARD 2 -->
+                <div
+                    class="col-12 col-md-6 col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="100">
+
+                    <a href="#" class="faith-action-card">
+
+                        <img
+                            src="assets/Shepherd’s-Call-diocesan-newsletter.png"
+                            alt="Shepherd's Call"
+                            class="faith-action-image">
+
+                        <div class="faith-action-overlay"></div>
+
+
+                        <div class="faith-action-content">
+
+                            <span class="faith-action-label">
+                                Newsletter
+                            </span>
+
+                            <h3>
+                                Shepherd's Call
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- CARD 3 -->
+                <div
+                    class="col-12 col-md-6 col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="200">
+
+                    <a href="#" class="faith-action-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1491396023581-4344e51fec5c?auto=format&fit=crop&w=900&q=80"
+                            alt="Guidance and Wisdom"
+                            class="faith-action-image">
+
+                        <div class="faith-action-overlay"></div>
+
+
+                        <div class="faith-action-content">
+
+                            <span class="faith-action-label">
+                                College Consultors
+                            </span>
+
+                            <h3>
+                                Guidance &amp; Wisdom
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- CARD 4 -->
+                <div
+                    class="col-12 col-md-6 col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-duration="800">
+
+                    <a href="#" class="faith-action-card">
+
+                        <img
+                            src="assets/leader.jpeg"
+                            alt="Leadership and Excellence"
+                            class="faith-action-image">
+
+                        <div class="faith-action-overlay"></div>
+
+
+                        <div class="faith-action-content">
+
+                            <span class="faith-action-label">
+                                Deaneries
+                            </span>
+
+                            <h3>
+                                Leadership &amp; Excellence
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- CARD 5 -->
+                <div
+                    class="col-12 col-md-6 col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="100">
+
+                    <a href="#" class="faith-action-card">
+
+                        <img
+                            src="assets/parish.jpeg"
+                            alt="Find a Parish Near You"
+                            class="faith-action-image">
+
+                        <div class="faith-action-overlay"></div>
+
+
+                        <div class="faith-action-content">
+
+                            <span class="faith-action-label">
+                                Parishes
+                            </span>
+
+                            <h3>
+                                Find a Parish Near You
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- CARD 6 -->
+                <div
+                    class="col-12 col-md-6 col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="200">
+
+                    <a href="#" class="faith-action-card">
+
+                        <img
+                            src="assets/youth.jpeg"
+                            alt="Youth Commission"
+                            class="faith-action-image">
+
+                        <div class="faith-action-overlay"></div>
+
+
+                        <div class="faith-action-content">
+
+                            <span class="faith-action-label">
+                                Youth Events
+                            </span>
+
+                            <h3>
+                                Youth Commission
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+                </div>
+                <!-- CARD 7 -->
+                <div
+                    class="col-12 col-md-6 col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-duration="800">
+
+                    <a href="#" class="faith-action-card">
+
+                        <img
+                            src="assets/img/priests.png"
+                            alt="Leadership and Excellence"
+                            class="faith-action-image">
+
+                        <div class="faith-action-overlay"></div>
+
+
+                        <div class="faith-action-content">
+
+                            <span class="faith-action-label">
+                                CLERGY
+                            </span>
+
+                            <h3>
+                                Meet Our Priests
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+
+                <!-- CARD 8 -->
+                <div
+                    class="col-12 col-md-6 col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="100">
+
+                    <a href="#" class="faith-action-card">
+
+                        <img
+                            src="assets/img/commissions.png"
+                            alt="Find a Parish Near You"
+                            class="faith-action-image">
+
+                        <div class="faith-action-overlay"></div>
+
+
+                        <div class="faith-action-content">
+
+                            <span class="faith-action-label">
+                                COMMISSIONS
+                            </span>
+
+                            <h3>
+                                Serving Through Ministry
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+
+                <!-- CARD 9 -->
+                <div
+                    class="col-12 col-md-6 col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="100">
+
+                    <a href="#" class="faith-action-card">
+
+                        <img
+                            src="assets/img/institutions.png"
+                            alt="Find a Parish Near You"
+                            class="faith-action-image">
+
+                        <div class="faith-action-overlay"></div>
+
+
+                        <div class="faith-action-content">
+
+                            <span class="faith-action-label">
+                                INSTITUTIONS
+                            </span>
+
+                            <h3>
+                                Faith in Education & Service
+                            </h3>
+
+                        </div>
+
+                    </a>
+
+                </div>
+
+                <!-- card close -->
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="warangal-news-events-section">
+
+        <div class="container warangal-news-events-container">
+
+            <!-- Heading -->
+            <div
+                class="warangal-news-events-heading"
+                data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-offset="70">
+                <span class="warangal-news-events-cross">†</span>
+                <h2>News & Upcoming Events</h2>
+            </div>
+
+
+            <!-- Cards -->
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+                <div
+                    class="col-12 col-md-6 col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-duration="800">
+                    <a href="#" class="warangal-news-card">
+
+                        <div class="warangal-news-image-wrap">
+
+                            <img
+                                src="assets/img/bishop-house-opening.jpeg"
+                                alt="Jubilee Celebrations"
+                                class="warangal-news-image">
+
+                            <div class="warangal-news-date">
+                                03 July 2026
+                            </div>
+
+                        </div>
+
+                        <div class="warangal-news-content">
+
+                            <p class="warangal-news-category">
+                                Bishop House Opening 
+                            </p>
+
+                            <h3 class="warangal-news-title">
+                                Jubilee Celebrations
+                            </h3>
+
+                            <p class="warangal-news-description">
+                                A joyful gathering of clergy, religious and faithful in thanksgiving
+                                for the Diocese's journey.
+                            </p>
+
+                        </div>
+
+                    </a>
+                </div>
+
+
+
+                <!-- Card 2 -->
+                <div
+                    class="col-12 col-md-6 col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="100">
+                    <a href="#" class="warangal-news-card">
+
+                        <div class="warangal-news-image-wrap">
+
+                            <img
+                                src="https://www.warangaldiocese.com/fathimafeast/3.png"
+                                alt="Students Seminar 2026"
+                                class="warangal-news-image">
+
+                            <div class="warangal-news-date">
+                                15 May 2026
+                            </div>
+
+                        </div>
+
+                        <div class="warangal-news-content">
+
+                            <p class="warangal-news-category">
+                                Education
+                            </p>
+
+                            <h3 class="warangal-news-title">
+                                Students Seminar 2026
+                            </h3>
+
+                            <p class="warangal-news-description">
+                                Young people meet for prayer, learning and fellowship in our Catholic
+                                institutions.
+                            </p>
+
+                        </div>
+
+                    </a>
+                </div>
+
+
+
+                <!-- Card 3 -->
+                <div
+                    class="col-12 col-md-6 col-lg-4"
+                    data-aos="fade-up"
+                    data-aos-duration="800"
+                    data-aos-delay="200">
+                    <a href="#" class="warangal-news-card">
+
+                        <div class="warangal-news-image-wrap">
+
+                            <img
+                                src="assets/church.jpeg"
+                                alt="Christmas Celebrations"
+                                class="warangal-news-image">
+
+                            <div class="warangal-news-date">
+                                25 DEC 2026
+                            </div>
+
+                        </div>
+
+                        <div class="warangal-news-content">
+
+                            <p class="warangal-news-category">
+                                Celebration
+                            </p>
+
+                            <h3 class="warangal-news-title">
+                                Christmas Celebrations
+                            </h3>
+
+                            <p class="warangal-news-description">
+                                Parishes prepare to welcome the season of hope through worship,
+                                carols and service.
+                            </p>
+
+                        </div>
+
+                    </a>
+                </div>
+
+            </div>
+
+
+            <!-- Dots -->
+            <div class="warangal-news-dots">
+                <span class="warangal-news-dot active"></span>
+                <span class="warangal-news-dot"></span>
+                <span class="warangal-news-dot"></span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="warangal-video-gallery-section">
+
+        <div class="container warangal-video-gallery-container">
+
+
+            <!-- HEADING -->
+            <div
+                class="warangal-video-gallery-heading"
+                data-aos="fade-right"
+                data-aos-duration="800"
+                data-aos-offset="70">
+
+                <span class="warangal-video-gallery-cross">
+                    †
+                </span>
+
+                <h2>
+                    Video Gallery
+                </h2>
+
+            </div>
+
+
+
+            <!-- =====================================================
+             GALLERY
+        ====================================================== -->
+
+            <div class="row g-0 warangal-video-gallery-row">
+
+
+                <!-- =================================================
+                 LARGE LEFT VIDEO
+            ================================================== -->
+
+                <div
+                    class="col-12 col-lg-8 pe-lg-2"
+                    data-aos="fade-right"
+                    data-aos-duration="900">
+
+                    <div
+                        class="warangal-video-card warangal-video-card-large"
+                        data-bs-toggle="modal"
+                        data-bs-target="#warangalVideoModal1">
+                       
+                        <img
+                            src="assets/img/youtube-thumbnail-1.png"
+                            alt="Diocese Video"
+                            class="warangal-video-image">
+
+                        <div class="warangal-video-overlay"></div>
+
+
+                        <div class="warangal-video-play">
+
+                            <i class="bi bi-play-fill"></i>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                 RIGHT VIDEOS
+            ================================================== -->
+
+                <div
+                    class="col-12 col-lg-4 ps-lg-2"
+                    data-aos="fade-left"
+                    data-aos-duration="900"
+                    data-aos-delay="100">
+
+                    <div class="warangal-video-right-stack">
+
+
+                        <!-- VIDEO 2 -->
+
+                        <div
+                            class="warangal-video-card warangal-video-card-small"
+                            data-bs-toggle="modal"
+                            data-bs-target="#warangalVideoModal2">
+                           <!-- https://www.warangaldiocese.com/fathimafeast/5.png  https://www.youtube.com/watch?v=hLNn0_eYGhk -->
+                            <img
+                                src="assets/img/youtube-thumbnail-2.png"
+                                alt="Diocese Gathering"
+                                class="warangal-video-image">
+
+                            <div class="warangal-video-overlay"></div>
+
+
+                            <div class="warangal-video-play">
+
+                                <i class="bi bi-play-fill"></i>
+
+                            </div>
+
+                        </div>
+
+
+
+                        <!-- VIDEO 3 -->
+
+                        <div
+                            class="warangal-video-card warangal-video-card-small"
+                            data-bs-toggle="modal"
+                            data-bs-target="#warangalVideoModal3">
+
+                            <img
+                                src="https://www.warangaldiocese.com/fathimafeast/2.png"
+                                alt="Diocese Event"
+                                class="warangal-video-image">
+
+                            <div class="warangal-video-overlay"></div>
+
+
+                            <div class="warangal-video-play">
+
+                                <i class="bi bi-play-fill"></i>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="warangal-communities-section">
+
+        <div class="container-fluid p-0">
+
+
+            <!-- ================= HEADING ================= -->
+
+            <div class="container warangal-communities-heading-container">
+
+                <div
+                    class="warangal-communities-heading"
+                    data-aos="fade-right"
+                    data-aos-duration="800">
+
+                    <span class="warangal-communities-cross">†</span>
+
+                    <h2>
+                        Communities &amp; Institutions
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- =====================================================
+             MARQUEE AREA
+        ====================================================== -->
+
+            <div class="warangal-communities-marquee-stage">
+
+
+                <!-- =================================================
+                 TOP ROW
+                 LEFT TO RIGHT
+            ================================================== -->
+
+                <div class="warangal-community-marquee-row">
+
+                    <div class="warangal-community-track warangal-community-track-ltr">
+
+
+                        <!-- ================= GROUP 1 ================= -->
+
+                        <div class="warangal-community-group">
+
+
+                            <!-- CARD 1 -->
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1532798442725-41036acc7489?auto=format&fit=crop&w=700&q=78"
+                                    alt="Fatima Nagar Church">
+
+                                <span class="warangal-community-label">
+                                    Fatima Nagar Church
+                                </span>
+
+                            </a>
+
+
+
+                            <!-- CARD 2 -->
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=700&q=78"
+                                    alt="Fatima Degree College">
+
+                                <span class="warangal-community-label">
+                                    Fatima Degree College
+                                </span>
+
+                            </a>
+
+
+
+                            <!-- CARD 3 -->
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://www.warangaldiocese.com/fathimafeast/2.png"
+                                    alt="St. Francis School">
+
+                                <span class="warangal-community-label">
+                                    St. Francis School
+                                </span>
+
+                            </a>
+
+
+
+                            <!-- CARD 4 -->
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1590579491624-f98f36d4c763?auto=format&fit=crop&w=700&q=78"
+                                    alt="St. Joseph's High School">
+
+                                <span class="warangal-community-label">
+                                    St. Joseph's High School
+                                </span>
+
+                            </a>
+
+
+
+                            <!-- CARD 5 -->
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?auto=format&fit=crop&w=700&q=78"
+                                    alt="Christu Jyothi Institute">
+
+                                <span class="warangal-community-label">
+                                    Christu Jyothi Institute
+                                </span>
+
+                            </a>
+
+
+
+                            <!-- CARD 6 -->
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://www.warangaldiocese.com/images/gallery/5.png"
+                                    alt="Kazipet Parish">
+
+                                <span class="warangal-community-label">
+                                    Kazipet Parish
+                                </span>
+
+                            </a>
+
+
+                        </div>
+
+
+
+                        <!-- =================================================
+                         DUPLICATE GROUP
+                         REQUIRED FOR SEAMLESS LOOP
+                    ================================================== -->
+
+                        <div class="warangal-community-group" aria-hidden="true">
+
+
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1532798442725-41036acc7489?auto=format&fit=crop&w=700&q=78"
+                                    alt="">
+
+                                <span class="warangal-community-label">
+                                    Fatima Nagar Church
+                                </span>
+
+                            </a>
+
+
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=700&q=78"
+                                    alt="">
+
+                                <span class="warangal-community-label">
+                                    Fatima Degree College
+                                </span>
+
+                            </a>
+
+
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://www.warangaldiocese.com/fathimafeast/2.png"
+                                    alt="">
+
+                                <span class="warangal-community-label">
+                                    St. Francis School
+                                </span>
+
+                            </a>
+
+
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1590579491624-f98f36d4c763?auto=format&fit=crop&w=700&q=78"
+                                    alt="">
+
+                                <span class="warangal-community-label">
+                                    St. Joseph's High School
+                                </span>
+
+                            </a>
+
+
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?auto=format&fit=crop&w=700&q=78"
+                                    alt="">
+
+                                <span class="warangal-community-label">
+                                    Christu Jyothi Institute
+                                </span>
+
+                            </a>
+
+
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://www.warangaldiocese.com/images/gallery/5.png"
+                                    alt="">
+
+                                <span class="warangal-community-label">
+                                    Kazipet Parish
+                                </span>
+
+                            </a>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                 BOTTOM ROW
+                 RIGHT TO LEFT
+            ================================================== -->
+
+                <div class="warangal-community-marquee-row">
+
+                    <div class="warangal-community-track warangal-community-track-rtl">
+
+
+                        <!-- ================= GROUP 1 ================= -->
+
+                        <div class="warangal-community-group">
+
+
+                            <!-- CARD 1 -->
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://www.warangaldiocese.com/images/gallery/9.jpg"
+                                    alt="Pastoral Centre">
+
+                                <span class="warangal-community-label">
+                                    Pastoral Centre
+                                </span>
+
+                            </a>
+
+
+
+                            <!-- CARD 2 -->
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://www.warangaldiocese.com/fathimafeast/3.png"
+                                    alt="Our Lady of Fatima Community">
+
+                                <span class="warangal-community-label">
+                                    Our Lady of Fatima Community
+                                </span>
+
+                            </a>
+
+
+
+                            <!-- CARD 3 -->
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1491396023581-4344e51fec5c?auto=format&fit=crop&w=700&q=78"
+                                    alt="Parish Communities">
+
+                                <span class="warangal-community-label">
+                                    Parish Communities
+                                </span>
+
+                            </a>
+
+
+
+                            <!-- CARD 4 -->
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://www.warangaldiocese.com/Canonanization%20of%20%20Blessed%20Mother%20Teresa%20Vatican%20City/4.jpg"
+                                    alt="Social Service Society">
+
+                                <span class="warangal-community-label">
+                                    Social Service Society
+                                </span>
+
+                            </a>
+
+
+
+                            <!-- CARD 5 -->
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=78"
+                                    alt="Diocesan Youth Movement">
+
+                                <span class="warangal-community-label">
+                                    Diocesan Youth Movement
+                                </span>
+
+                            </a>
+
+
+
+                            <!-- CARD 6 -->
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=700&q=78"
+                                    alt="Education Mission">
+
+                                <span class="warangal-community-label">
+                                    Education Mission
+                                </span>
+
+                            </a>
+
+
+                        </div>
+
+
+
+                        <!-- ================= DUPLICATE ================= -->
+
+                        <div class="warangal-community-group" aria-hidden="true">
+
+
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://www.warangaldiocese.com/images/gallery/9.jpg"
+                                    alt="">
+
+                                <span class="warangal-community-label">
+                                    Pastoral Centre
+                                </span>
+
+                            </a>
+
+
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://www.warangaldiocese.com/fathimafeast/3.png"
+                                    alt="">
+
+                                <span class="warangal-community-label">
+                                    Our Lady of Fatima Community
+                                </span>
+
+                            </a>
+
+
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1491396023581-4344e51fec5c?auto=format&fit=crop&w=700&q=78"
+                                    alt="">
+
+                                <span class="warangal-community-label">
+                                    Parish Communities
+                                </span>
+
+                            </a>
+
+
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://www.warangaldiocese.com/Canonanization%20of%20%20Blessed%20Mother%20Teresa%20Vatican%20City/4.jpg"
+                                    alt="">
+
+                                <span class="warangal-community-label">
+                                    Social Service Society
+                                </span>
+
+                            </a>
+
+
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=78"
+                                    alt="">
+
+                                <span class="warangal-community-label">
+                                    Diocesan Youth Movement
+                                </span>
+
+                            </a>
+
+
+                            <a href="#" class="warangal-community-card">
+
+                                <img
+                                    src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=700&q=78"
+                                    alt="">
+
+                                <span class="warangal-community-label">
+                                    Education Mission
+                                </span>
+
+                            </a>
+
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <section class="warangal-connect-section">
+
+        <div class="container warangal-connect-container">
+
+            <div class="row align-items-center g-4 g-lg-5">
+
+
+                <!-- =========================================
+                 LEFT CONTENT
+            ========================================== -->
+
+                <div
+                    class="col-12 col-lg-6"
+                    data-aos="fade-right"
+                    data-aos-duration="900">
+
+                    <div class="warangal-connect-content">
+
+                        <p class="warangal-connect-small-title">
+                            STAY CLOSE TO OUR MISSION
+                        </p>
+
+                        <h2 class="warangal-connect-title">
+                            Connect With the Diocese
+                        </h2>
+
+                        <p class="warangal-connect-main-text">
+                            Together in Faith. Together in Service.
+                        </p>
+
+                        <p class="warangal-connect-description">
+                            Be part of the Diocese of Warangal's mission to spread faith,
+                            hope and love.
                         </p>
 
 
-                        <form class="warangal-newsletter-form">
+                        <!-- BUTTONS -->
 
-                            <input
-                                type="email"
-                                class="form-control warangal-newsletter-input"
-                                placeholder="Your email address"
-                                required
-                            >
+                        <div class="warangal-connect-buttons">
 
-                            <button
-                                type="submit"
-                                class="warangal-newsletter-button"
-                            >
-                                Subscribe
-                            </button>
+                            <a href="#" class="warangal-connect-btn warangal-connect-btn-red">
+                                Join Us
+                            </a>
 
-                        </form>
+                            <a href="#" class="warangal-connect-btn warangal-connect-btn-blue">
+                                Donate Now
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =========================================
+                 RIGHT NEWSLETTER
+            ========================================== -->
+
+                <div
+                    class="col-12 col-lg-6"
+                    data-aos="fade-left"
+                    data-aos-duration="900"
+                    data-aos-delay="100">
+
+                    <div class="warangal-newsletter-wrap">
+
+                        <div class="warangal-newsletter-content">
+
+                            <div class="warangal-newsletter-heading">
+
+                                <i class="bi bi-envelope-paper"></i>
+
+                                <h3>
+                                    Newsletters
+                                </h3>
+
+                            </div>
+
+                            <p class="warangal-newsletter-text">
+                                Receive diocesan news and upcoming events
+                            </p>
+
+
+                            <form class="warangal-newsletter-form">
+
+                                <input
+                                    type="email"
+                                    class="form-control warangal-newsletter-input"
+                                    placeholder="Your email address"
+                                    required>
+
+                                <button
+                                    type="submit"
+                                    class="warangal-newsletter-button">
+                                    Subscribe
+                                </button>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================================
+     FOOTER
+========================================================= -->
+
+    <footer class="warangal-footer">
+
+        <div class="container warangal-footer-container">
+
+            <div class="row g-4 g-xl-5">
+
+
+                <!-- =================================================
+                 COLUMN 1
+                 LOGO + ADDRESS + SOCIAL + MAP
+            ================================================== -->
+
+                <div class="col-12 col-md-6 col-lg-3">
+
+                    <div class="warangal-footer-column">
+                       
+
+
+                        <!-- Address Heading -->
+                        <h5 class="warangal-footer-heading">
+                            ABOUT
+                        </h5>
+ <a href="index.html" class="warangal-footer-logo-wrap">
+
+                            <img
+                                src="assets/logo2.jpeg"
+                                alt="Diocese of Warangal"
+                                class="warangal-footer-main-logo">
+
+                        </a>
+
+                        <!-- Address -->
+                        <div class="warangal-footer-address">
+  <p>
+                            The Diocese of Warangal was erected in 1952 and
+                            serves the faithful through parishes, institutions,
+                            pastoral care and works of mercy.
+</p>
+                            <p>
+                                <strong>Phone:</strong>
+
+                                <a href="tel:+918702459128">
+                                    +91 870 245 9128
+                                </a>
+                            </p>
+
+                            <p>
+                                <strong>Email:</strong>
+
+                                <a href="mailto:wgldiocese@gmail.com">
+                                    wgldiocese@gmail.com
+                                </a>
+                            </p>
+
+                        </div>
+
+
+                        <!-- Social Icons -->
+                        <div class="warangal-footer-social">
+
+                            <a href="#" aria-label="Facebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+
+                            <a href="#" aria-label="YouTube">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+
+                            <a href="#" aria-label="Instagram">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+
+                        </div>
+
+
+                        <!-- Map -->
+                        <!-- <div class="warangal-footer-map"> -->
+
+                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.972426763119!2d79.52684397463997!3d17.980019785463575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334fb8ffffffff%3A0xb244f4d246bc24e0!2sRoman%20Catholic%20Diocese%20of%20Warangal!5e0!3m2!1sen!2sin!4v1788291524691!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe> -->
+                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.972536077413!2d79.5294189!3d17.980014699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334fb8ffffffff%3A0xb244f4d246bc24e0!2sRoman%20Catholic%20Diocese%20of%20Warangal!5e0!3m2!1sen!2sin!4v1788291757610!5m2!1sen!2sin" width="250" height="90" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe> -->
+
+
+                            <!-- <img
+                                src="assets/images/footer-map.jpg"
+                                alt="Diocese of Warangal Map"
+                                class="img-fluid"> -->
+
+                        <!-- </div> -->
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                 COLUMN 2
+                 QUICK LINKS
+            ================================================== -->
+
+                <div class="col-6 col-md-3 col-lg-2 offset-lg-1">
+
+                    <div class="warangal-footer-column">
+
+                        <h5 class="warangal-footer-heading">
+                            QUICK LINKS
+                        </h5>
+
+
+                        <ul class="warangal-footer-links">
+
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Bishop's Message</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Commissions</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Parishes</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Deaneries</a>
+                            </li>
+
+                            <li>
+                                <a href="#">News &amp; Events</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                 COLUMN 3
+                 USEFUL LINKS
+            ================================================== -->
+
+                <div class="col-6 col-md-3 col-lg-2">
+
+                    <div class="warangal-footer-column">
+
+                        <h5 class="warangal-footer-heading">
+                            USEFUL LINKS
+                        </h5>
+
+
+                        <ul class="warangal-footer-links">
+
+                            <li>
+                                <a href="#">Vatican</a>
+                            </li>
+
+                            <li>
+                                <a href="#">CBCI</a>
+                            </li>
+
+                            <li>
+                                <a href="#">CCBI</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Catholic Charities</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Catholic News</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Youth Ministry</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Catholic TV</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                 COLUMN 4
+                 ABOUT
+            ================================================== -->
+
+                <div class="col-12 col-md-6 col-lg-4">
+
+                    <div class="warangal-footer-column warangal-footer-about">
+
+                        <h5 class="warangal-footer-heading">
+                            ADDRESS
+                        </h5>
+
+
+                        <p class="warangal-footer-about-text">
+                            Bishop's House, Fatimanagar, Kazipet
+
+                            Warangal – 506004, Telangana, India
+                           
+
+                        </p>
+
+
+                        <!-- Logo -->
+                        <!-- <a href="index.html" class="warangal-footer-logo-wrap">
+
+                            <img
+                                src="assets/logo2.jpeg"
+                                alt="Diocese of Warangal"
+                                class="warangal-footer-main-logo">
+
+                        </a> -->
+
+
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.972426763119!2d79.52684397463997!3d17.980019785463575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334fb8ffffffff%3A0xb244f4d246bc24e0!2sRoman%20Catholic%20Diocese%20of%20Warangal!5e0!3m2!1sen!2sin!4v1788291524691!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                           
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =========================================================
+         BOTTOM BAR
+    ========================================================== -->
+
+        <div class="warangal-footer-bottom">
+
+            <div class="container warangal-footer-bottom-container">
+
+                <div class="row align-items-center gy-2">
+
+                    <div class="col-12 col-md-6">
+
+                        <h6>
+                            Copyright © 2026 Diocese of Warangal.
+                            All rights reserved.
+                        </h6>
+
+                    </div>
+
+
+                    <div class="col-12 col-md-6">
+
+                        <h6 class="warangal-footer-designed">
+                            Designed and Developed by Kakatiya Solutions
+                        </h6>
 
                     </div>
 
@@ -10042,256 +10439,65 @@
 
             </div>
 
-
         </div>
 
-    </div>
+    </footer>
 
-</section>
 
- 
-<!-- =========================================================
-     FOOTER
+
+    <!-- =========================================================
+     SCROLL TO TOP
 ========================================================= -->
 
-<footer class="warangal-footer">
+    <button
+        type="button"
+        class="warangal-footer-scroll-top"
+        id="warangalScrollTop"
+        aria-label="Scroll to top">
 
-    <div class="container warangal-footer-container">
+        <i class="fa-solid fa-arrow-up"></i>
 
-        <div class="row g-4 g-xl-5">
+    </button>
+    <!-- =========================================================
+     VIDEO MODAL 1
+========================================================= -->
 
+    <div
+        class="modal fade warangal-video-modal"
+        id="warangalVideoModal1"
+        tabindex="-1"
+        aria-hidden="true">
 
-            <!-- =================================================
-                 COLUMN 1
-                 LOGO + ADDRESS + SOCIAL + MAP
-            ================================================== -->
+        <div class="modal-dialog modal-dialog-centered modal-xl">
 
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="modal-content">
 
-    <div class="warangal-footer-column">
+                <div class="modal-header">
 
-        
-        <!-- Address Heading -->
-        <h5 class="warangal-footer-heading">
-            ADDRESS
-        </h5>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
 
-
-        <!-- Address -->
-        <div class="warangal-footer-address">
-
-            <p>
-                Bishop's House, Fatimanagar, Kazipet
-            </p>
-
-            <p>
-                Warangal – 506004, Telangana, India
-            </p>
-
-            <p>
-                <strong>Phone:</strong>
-
-                <a href="tel:+918702459128">
-                    +91 870 245 9128
-                </a>
-            </p>
-
-            <p>
-                <strong>Email:</strong>
-
-                <a href="mailto:wgldiocese@gmail.com">
-                    wgldiocese@gmail.com
-                </a>
-            </p>
-
-        </div>
+                </div>
 
 
-        <!-- Social Icons -->
-        <div class="warangal-footer-social">
+                <div class="modal-body">
 
-            <a href="#" aria-label="Facebook">
-                <i class="fa-brands fa-facebook-f"></i>
-            </a>
+                    <div class="warangal-video-responsive">
 
-            <a href="#" aria-label="YouTube">
-                <i class="fa-brands fa-youtube"></i>
-            </a>
+                        <iframe
+                            src="https://www.youtube.com/embed/v5eIjhomKPE?si=upPEGa7BZGb5MA0K"
+                            title="Video"
+                            allowfullscreen>
+                        </iframe>
 
-            <a href="#" aria-label="Instagram">
-                <i class="fa-brands fa-instagram"></i>
-            </a>
-
-        </div>
-
-
-        <!-- Map -->
-        <div class="warangal-footer-map">
-
-            <img
-                src="assets/images/footer-map.jpg"
-                alt="Diocese of Warangal Map"
-                class="img-fluid"
-            >
-
-        </div>
-
-    </div>
-
-</div>
-
-
-            <!-- =================================================
-                 COLUMN 2
-                 QUICK LINKS
-            ================================================== -->
-
-            <div class="col-6 col-md-3 col-lg-2 offset-lg-1">
-
-                <div class="warangal-footer-column">
-
-                    <h5 class="warangal-footer-heading">
-                        QUICK LINKS
-                    </h5>
-
-
-                    <ul class="warangal-footer-links">
-
-                        <li>
-                            <a href="#">About Us</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Bishop's Message</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Commissions</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Parishes</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Deaneries</a>
-                        </li>
-
-                        <li>
-                            <a href="#">News &amp; Events</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Contact Us</a>
-                        </li>
-
-                    </ul>
+                    </div>
 
                 </div>
 
             </div>
-
-
-
-            <!-- =================================================
-                 COLUMN 3
-                 USEFUL LINKS
-            ================================================== -->
-
-            <div class="col-6 col-md-3 col-lg-2">
-
-                <div class="warangal-footer-column">
-
-                    <h5 class="warangal-footer-heading">
-                        USEFUL LINKS
-                    </h5>
-
-
-                    <ul class="warangal-footer-links">
-
-                        <li>
-                            <a href="#">Vatican</a>
-                        </li>
-
-                        <li>
-                            <a href="#">CBCI</a>
-                        </li>
-
-                        <li>
-                            <a href="#">CCBI</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Catholic Charities</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Catholic News</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Youth Ministry</a>
-                        </li>
-
-                        <li>
-                            <a href="#">Catholic TV</a>
-                        </li>
-
-                    </ul>
-
-                </div>
-
-            </div>
-
-
-
-            <!-- =================================================
-                 COLUMN 4
-                 ABOUT
-            ================================================== -->
-
-            <div class="col-12 col-md-6 col-lg-4">
-
-                <div class="warangal-footer-column warangal-footer-about">
-
-                    <h5 class="warangal-footer-heading">
-                        ABOUT
-                    </h5>
-
-
-                    <p class="warangal-footer-about-text">
-
-                        The Diocese of Warangal was erected in 1952 and
-                        serves the faithful through parishes, institutions,
-                        pastoral care and works of mercy.
-
-                    </p>
-
-
-               <!-- Logo -->
-        <a href="index.html" class="warangal-footer-logo-wrap">
-
-            <img
-                src="assets/logo2.jpeg"
-                alt="Diocese of Warangal"
-                class="warangal-footer-main-logo"
-            >
-
-        </a>
-
-
-
-
-
-
-
-
-
-
-                </div>
-
-            </div>
-
 
         </div>
 
@@ -10300,142 +10506,41 @@
 
 
     <!-- =========================================================
-         BOTTOM BAR
-    ========================================================== -->
-
-    <div class="warangal-footer-bottom">
-
-        <div class="container warangal-footer-bottom-container">
-
-            <div class="row align-items-center gy-2">
-
-                <div class="col-12 col-md-6">
-
-                    <p>
-                        Copyright © 2026 Diocese of Warangal.
-                        All rights reserved.
-                    </p>
-
-                </div>
-
-
-                <div class="col-12 col-md-6">
-
-                    <p class="warangal-footer-designed">
-                        Designed with care for the diocesan community.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</footer>
-
-
-
-<!-- =========================================================
-     SCROLL TO TOP
-========================================================= -->
-
-<button
-    type="button"
-    class="warangal-footer-scroll-top"
-    id="warangalScrollTop"
-    aria-label="Scroll to top"
->
-
-    <i class="fa-solid fa-arrow-up"></i>
-
-</button>
-<!-- =========================================================
-     VIDEO MODAL 1
-========================================================= -->
-
-<div
-    class="modal fade warangal-video-modal"
-    id="warangalVideoModal1"
-    tabindex="-1"
-    aria-hidden="true"
->
-
-    <div class="modal-dialog modal-dialog-centered modal-xl">
-
-        <div class="modal-content">
-
-            <div class="modal-header">
-
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                ></button>
-
-            </div>
-
-
-            <div class="modal-body">
-
-                <div class="warangal-video-responsive">
-
-                    <iframe
-                        src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1"
-                        title="Video"
-                        allowfullscreen>
-                    </iframe>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-
-
-<!-- =========================================================
      VIDEO MODAL 2
 ========================================================= -->
 
-<div
-    class="modal fade warangal-video-modal"
-    id="warangalVideoModal2"
-    tabindex="-1"
-    aria-hidden="true"
->
+    <div
+        class="modal fade warangal-video-modal"
+        id="warangalVideoModal2"
+        tabindex="-1"
+        aria-hidden="true">
 
-    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
 
-        <div class="modal-content">
+            <div class="modal-content">
 
-            <div class="modal-header">
+                <div class="modal-header">
 
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                ></button>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
 
-            </div>
+                </div>
 
 
-            <div class="modal-body">
+                <div class="modal-body">
 
-                <div class="warangal-video-responsive">
+                    <div class="warangal-video-responsive">
 
-                    <iframe
-                        src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2"
-                        title="Video"
-                        allowfullscreen>
-                    </iframe>
+                        <iframe
+                            src="https://www.youtube.com/embed/hLNn0_eYGhk?si=t4rlCIkxJgoMs5DC"
+                            title="Video"
+                            allowfullscreen>
+                        </iframe>
+
+                    </div>
 
                 </div>
 
@@ -10445,46 +10550,44 @@
 
     </div>
 
-</div>
 
 
-
-<!-- =========================================================
+    <!-- =========================================================
      VIDEO MODAL 3
 ========================================================= -->
 
-<div
-    class="modal fade warangal-video-modal"
-    id="warangalVideoModal3"
-    tabindex="-1"
-    aria-hidden="true"
->
+    <div
+        class="modal fade warangal-video-modal"
+        id="warangalVideoModal3"
+        tabindex="-1"
+        aria-hidden="true">
 
-    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
 
-        <div class="modal-content">
+            <div class="modal-content">
 
-            <div class="modal-header">
+                <div class="modal-header">
 
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                ></button>
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
 
-            </div>
+                </div>
 
 
-            <div class="modal-body">
+                <div class="modal-body">
 
-                <div class="warangal-video-responsive">
+                    <div class="warangal-video-responsive">
 
-                    <iframe
-                        src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3"
-                        title="Video"
-                        allowfullscreen>
-                    </iframe>
+                        <iframe
+                            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3"
+                            title="Video"
+                            allowfullscreen>
+                        </iframe>
+
+                    </div>
 
                 </div>
 
@@ -10494,46 +10597,36 @@
 
     </div>
 
-</div>
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
 
 
-<!-- Bootstrap JS -->
-<script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
-</script>
+    <!-- AOS JS -->
+    <script
+        src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
 
 
-<!-- AOS JS -->
-<script
-    src="https://unpkg.com/aos@2.3.1/dist/aos.js">
-</script>
+    <script>
+        AOS.init({
 
+            duration: 1000,
 
-<script>
+            easing: 'ease-in-out',
 
-    AOS.init({
+            once: false,
 
-        duration: 1000,
+            mirror: true,
 
-        easing: 'ease-in-out',
+            offset: 100
 
-        once: false,
-
-        mirror: true,
-
-        offset: 100
-
-    });
-
-</script>
+        });
+    </script>
 
 
 </body>
 
 </html>
-
-
-
-
-
-
