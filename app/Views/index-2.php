@@ -7042,7 +7042,7 @@
 
                 <a href="#" class="logo">
 
-                    <img src="assets/logo2.jpeg"
+                    <img src="assets/img/logo2.png"
                         alt="Diocese of Warangal">
 
                 </a>
@@ -7516,7 +7516,7 @@
                         data-aos-offset="80">
 
                         <h6 class="warangal-intention-label">
-                            POPE'S INTENTION · AUGUST 2026
+                            POPE'S INTENTION · SEPTEMBER 2026
                         </h6>
 
                         <h2 class="warangal-intention-title">
@@ -7546,7 +7546,7 @@
                         data-aos-offset="80">
 
                         <h6 class="warangal-intention-label">
-                            POPE'S INTENTION · AUGUST 2026
+                            POPE'S INTENTION · SEPTEMBER 2026
                         </h6>
 
                         <h2 class="warangal-intention-title">
@@ -9497,9 +9497,9 @@
                         class="warangal-video-card warangal-video-card-large"
                         data-bs-toggle="modal"
                         data-bs-target="#warangalVideoModal1">
-
+                       
                         <img
-                            src="https://www.warangaldiocese.com/fathimafeast/1.png"
+                            src="assets/img/youtube-thumbnail-1.png"
                             alt="Diocese Video"
                             class="warangal-video-image">
 
@@ -9537,9 +9537,9 @@
                             class="warangal-video-card warangal-video-card-small"
                             data-bs-toggle="modal"
                             data-bs-target="#warangalVideoModal2">
-
+                           <!-- https://www.warangaldiocese.com/fathimafeast/5.png  https://www.youtube.com/watch?v=hLNn0_eYGhk -->
                             <img
-                                src="https://www.warangaldiocese.com/fathimafeast/5.png"
+                                src="assets/img/youtube-thumbnail-2.png"
                                 alt="Diocese Gathering"
                                 class="warangal-video-image">
 
@@ -10170,25 +10170,29 @@
                 <div class="col-12 col-md-6 col-lg-3">
 
                     <div class="warangal-footer-column">
+                       
 
 
                         <!-- Address Heading -->
                         <h5 class="warangal-footer-heading">
-                            ADDRESS
+                            ABOUT
                         </h5>
+ <a href="index.html" class="warangal-footer-logo-wrap">
 
+                            <img
+                                src="assets/logo2.jpeg"
+                                alt="Diocese of Warangal"
+                                class="warangal-footer-main-logo">
+
+                        </a>
 
                         <!-- Address -->
                         <div class="warangal-footer-address">
-
-                            <p>
-                                Bishop's House, Fatimanagar, Kazipet
-                            </p>
-
-                            <p>
-                                Warangal – 506004, Telangana, India
-                            </p>
-
+  <p>
+                            The Diocese of Warangal was erected in 1952 and
+                            serves the faithful through parishes, institutions,
+                            pastoral care and works of mercy.
+</p>
                             <p>
                                 <strong>Phone:</strong>
 
@@ -10227,14 +10231,18 @@
 
 
                         <!-- Map -->
-                        <div class="warangal-footer-map">
+                        <!-- <div class="warangal-footer-map"> -->
 
-                            <img
+                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.972426763119!2d79.52684397463997!3d17.980019785463575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334fb8ffffffff%3A0xb244f4d246bc24e0!2sRoman%20Catholic%20Diocese%20of%20Warangal!5e0!3m2!1sen!2sin!4v1788291524691!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe> -->
+                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.972536077413!2d79.5294189!3d17.980014699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334fb8ffffffff%3A0xb244f4d246bc24e0!2sRoman%20Catholic%20Diocese%20of%20Warangal!5e0!3m2!1sen!2sin!4v1788291757610!5m2!1sen!2sin" width="250" height="90" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe> -->
+
+
+                            <!-- <img
                                 src="assets/images/footer-map.jpg"
                                 alt="Diocese of Warangal Map"
-                                class="img-fluid">
+                                class="img-fluid"> -->
 
-                        </div>
+                        <!-- </div> -->
 
                     </div>
 
@@ -10355,31 +10363,32 @@
                     <div class="warangal-footer-column warangal-footer-about">
 
                         <h5 class="warangal-footer-heading">
-                            ABOUT
+                            ADDRESS
                         </h5>
 
 
                         <p class="warangal-footer-about-text">
+                            Bishop's House, Fatimanagar, Kazipet
 
-                            The Diocese of Warangal was erected in 1952 and
-                            serves the faithful through parishes, institutions,
-                            pastoral care and works of mercy.
+                            Warangal – 506004, Telangana, India
+                           
 
                         </p>
 
 
                         <!-- Logo -->
-                        <a href="index.html" class="warangal-footer-logo-wrap">
+                        <!-- <a href="index.html" class="warangal-footer-logo-wrap">
 
                             <img
                                 src="assets/logo2.jpeg"
                                 alt="Diocese of Warangal"
                                 class="warangal-footer-main-logo">
 
-                        </a>
+                        </a> -->
 
 
-
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.972426763119!2d79.52684397463997!3d17.980019785463575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334fb8ffffffff%3A0xb244f4d246bc24e0!2sRoman%20Catholic%20Diocese%20of%20Warangal!5e0!3m2!1sen!2sin!4v1788291524691!5m2!1sen!2sin" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                           
 
 
 
@@ -10410,19 +10419,19 @@
 
                     <div class="col-12 col-md-6">
 
-                        <p>
+                        <h6>
                             Copyright © 2026 Diocese of Warangal.
                             All rights reserved.
-                        </p>
+                        </h6>
 
                     </div>
 
 
                     <div class="col-12 col-md-6">
 
-                        <p class="warangal-footer-designed">
-                            Designed with care for the diocesan community.
-                        </p>
+                        <h6 class="warangal-footer-designed">
+                            Designed and Developed by Kakatiya Solutions
+                        </h6>
 
                     </div>
 
@@ -10479,7 +10488,7 @@
                     <div class="warangal-video-responsive">
 
                         <iframe
-                            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1"
+                            src="https://www.youtube.com/embed/v5eIjhomKPE?si=upPEGa7BZGb5MA0K"
                             title="Video"
                             allowfullscreen>
                         </iframe>
@@ -10526,7 +10535,7 @@
                     <div class="warangal-video-responsive">
 
                         <iframe
-                            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2"
+                            src="https://www.youtube.com/embed/hLNn0_eYGhk?si=t4rlCIkxJgoMs5DC"
                             title="Video"
                             allowfullscreen>
                         </iframe>
