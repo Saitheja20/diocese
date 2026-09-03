@@ -7696,7 +7696,7 @@ body {
 
                 <a href="#" class="logo">
 
-                    <img src="assets/img/logo2.png"
+                    <img src="assets/img/Warangal-Diasoses-logo.png"
                         alt="Diocese of Warangal">
 
                 </a>
@@ -8065,7 +8065,7 @@ body {
 
                 <div class="carousel-item">
 
-                    <img src="assets/Catholic-Festival-Clergy-Portrait.png"
+                    <img src="assets/img/webp-1.webp"
                         alt="Banner 2">
                     <!-- 
                     <div class="carousel-caption">
@@ -8090,7 +8090,7 @@ body {
 
                 <div class="carousel-item">
 
-                    <img src="assets/Catholic-Festival-Clergy-Portrait.png"
+                    <img src="assets/img/Webp 2.webp"
                         alt="Banner 3">
                     <!-- 
                     <div class="carousel-caption">
@@ -8431,12 +8431,12 @@ body {
                     data-aos-offset="40">
 
                     <a href="#" class="warangal-engagement-link">
-                        bishop's Engagements
+                        Bishop's Engagements
                     </a>
 
-                    <a href="#" class="warangal-engagement-link">
+                    <!-- <a href="#" class="warangal-engagement-link">
                         bishop's Upcoming Engagements
-                    </a>
+                    </a> -->
 
                     <a href="#" class="warangal-click-button">
                         CLICK HERE
@@ -8506,7 +8506,7 @@ body {
                 <div class="warangal-bishop-profile">
 
                     <div class="warangal-bishop-image">
-                        <img src="assets/img/bishop-about.png"
+                        <img src="assets/img/bishop-updates.jpeg"
                             alt="Bishop of Warangal">
                     </div>
 
@@ -11011,7 +11011,7 @@ body {
  <a href="index.html" class="warangal-footer-logo-wrap">
 
                             <img
-                                src="assets/logo2.jpeg"
+                                src="assets/img/Warangal-Diasoses-logo2.png"
                                 alt="Diocese of Warangal"
                                 class="warangal-footer-main-logo">
 
