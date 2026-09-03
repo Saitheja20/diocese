@@ -604,7 +604,7 @@
             }
 
             .dow-about-main-image {
-                height: auto;
+                height: 435px;
                 aspect-ratio: 0.9 / 1;
             }
 
@@ -670,6 +670,8 @@
         }
     </style>
     <style>
+
+
         /* ==========================================================
    MAIN ROW
 ========================================================== */
@@ -817,7 +819,7 @@
 
             color: #556575;
 
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 400;
 
             line-height: 1.75;
@@ -3967,10 +3969,9 @@
             }
 
             .warangal-community-card {
-                flex-basis: 300px;
-
-                width: 300px;
-                height: 182px;
+                   flex-basis: 320px;
+        width: 295px;
+        height: 230px;
             }
 
         }
@@ -4158,7 +4159,7 @@
                 flex-basis: 195px;
 
                 width: 195px;
-                height: 125px;
+                height: 150px;
             }
 
             .warangal-community-label {
@@ -4189,7 +4190,7 @@
                 flex-basis: 175px;
 
                 width: 175px;
-                height: 115px;
+                height: 125px;
             }
 
         }
@@ -5493,7 +5494,9 @@
             .warangal-footer-map {
                 height: 100px;
             }
-
+.warangal-footer-designed{
+    text-align:left;
+}
         }
 
 
@@ -6293,7 +6296,7 @@
 
         .banner-carousel img {
             width: 100%;
-            height: 650px;
+            height: 100%;
             object-fit: cover;
             display: block;
         }
@@ -6674,10 +6677,13 @@
             }
 
             .offcanvas {
-                width: 280px !important;
+                width: 100% !important;
             }
 
         }
+
+
+
 
         /* =====================================================
    WARANGAL FOOTER FIRST COLUMN
@@ -6971,8 +6977,656 @@
             }
 
         }
-    </style>
 
+        @media (max-width: 575.98px) {
+    .top-header {
+        display: none !important;
+    }
+}
+    </style>
+<style>/* =========================================
+   FIXED HEADER - DESKTOP
+========================================= */
+
+.top-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1050;
+}
+
+.main-navbar {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    z-index: 1040;
+}
+
+body {
+    padding-top: 142px;
+}
+
+
+/* =========================================
+   TABLET & MOBILE
+   HIDE TOP HEADER
+========================================= */
+
+@media (max-width: 991px) {
+
+    /* Hide green top bar */
+    .top-header {
+        display: none;
+    }
+
+    /* Navbar moves to very top */
+    .main-navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1050;
+    }
+
+    /* Only navbar height */
+    body {
+        padding-top: 75px;
+    }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 575px) {
+
+    .top-header {
+        display: none;
+    }
+
+    .main-navbar {
+        top: 0;
+    }
+
+    body {
+        padding-top: 68px;
+    }
+}
+</style>
+
+<style>/* ==============================
+   ABOUT US CLICK DROPDOWN
+============================== */
+
+.nav-dropdown {
+    position: relative;
+}
+
+.nav-dropdown-toggle {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #222;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.nav-dropdown-toggle i {
+    font-size: 11px;
+    transition: 0.3s ease;
+}
+
+.nav-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 18px);
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 220px;
+    background: #fff;
+
+    border-top: 3px solid #237b2b;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+
+    padding: 8px 0;
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: 0.25s ease;
+    z-index: 2000;
+}
+
+.nav-dropdown-menu a {
+    display: block;
+    padding: 11px 18px;
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-dropdown-menu a:hover {
+    background: #f3f8f3;
+    color: #237b2b;
+}
+
+/* OPEN */
+.nav-dropdown.active .nav-dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.nav-dropdown.active .nav-dropdown-toggle {
+    color: #237b2b;
+}
+
+.nav-dropdown.active .nav-dropdown-toggle i {
+    transform: rotate(180deg);
+}
+
+
+/* ==============================
+   MOBILE
+============================== */
+
+@media (max-width: 991px) {
+    .nav-dropdown {
+        display: none;
+    }
+}
+
+
+.offcanvas{
+    z-index:1050;
+}
+ /* =====================================
+    MOBILE ABOUT US DROPDOWN
+ ===================================== */
+
+.mobile-dropdown {
+    width: 100%;
+    border-bottom: 1px solid #eeeeee;
+
+}
+
+.mobile-dropdown-toggle {
+    width: 100%;
+    padding: 14px 5px;
+
+    border: 0;
+    background: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #222222;
+    font-size: 17px;
+    font-family: inherit;
+
+    cursor: pointer;
+    text-align: left;
+}
+
+.mobile-dropdown-toggle i {
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+/* SUB MENU */
+.mobile-dropdown-menu {
+    display: none;
+    padding: 0 0 5px 12px;
+}
+
+/* SUB MENU LINKS */
+.mobile-dropdown-menu a {
+    display: block;
+
+    padding: 11px 10px;
+
+    color: #555555;
+    font-size: 15px;
+
+    text-decoration: none;
+
+    border-bottom: 1px solid #f1f1f1;
+
+    transition: 0.3s ease;
+}
+
+.mobile-dropdown-menu a:hover {
+    color: #237b2b;
+    background: #f7faf7;
+    padding-left: 15px;
+}
+
+/* OPEN STATE */
+.mobile-dropdown.active .mobile-dropdown-menu {
+    display: block;
+}
+
+.mobile-dropdown.active .mobile-dropdown-toggle {
+    color: #237b2b;
+}
+
+.mobile-dropdown.active .mobile-dropdown-toggle i {
+    transform: rotate(180deg);
+}
+</style>
+
+
+
+<style>
+    /* mega menu */
+    /* =========================================
+   MEGA MENU
+========================================= */
+
+.mega-dropdown {
+    position: static;
+}
+
+.mega-dropdown-toggle {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    color: #222222;
+    text-decoration: none;
+
+    font-size: 18px;
+    white-space: nowrap;
+
+    cursor: pointer;
+}
+
+.mega-dropdown-toggle i {
+    font-size: 10px;
+    transition: transform 0.3s ease;
+}
+
+.mega-dropdown-toggle:hover {
+    color: #237b2b;
+}
+
+
+/* =========================================
+   MEGA MENU BOX
+========================================= */
+
+.mega-menu {
+    position: absolute;
+
+    top: 100%;
+    left: 0;
+
+    width: 100%;
+
+    background: #ffffff;
+
+    border-top: 3px solid #237b2b;
+
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transform: translateY(12px);
+
+    transition:
+        opacity 0.25s ease,
+        visibility 0.25s ease,
+        transform 0.25s ease;
+
+    z-index: 2000;
+}
+
+
+/* =========================================
+   MEGA MENU CONTAINER
+========================================= */
+
+.mega-menu-container {
+    width: 100%;
+    max-width: 1250px;
+
+    margin: auto;
+
+    padding: 30px 20px;
+
+    display: grid;
+
+    grid-template-columns:
+        1fr
+        1fr
+        1fr
+        1.2fr;
+
+    gap: 35px;
+}
+
+
+/* =========================================
+   COLUMNS
+========================================= */
+
+.mega-column {
+    padding-right: 25px;
+
+    border-right: 1px solid #eeeeee;
+}
+
+.mega-column h6 {
+    margin: 0 0 18px;
+
+    color: #237b2b;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+}
+
+.mega-column a {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 10px 0;
+
+    color: #333333;
+
+    font-size: 15px;
+
+    text-decoration: none;
+
+    transition: all 0.25s ease;
+}
+
+.mega-column a i {
+    width: 20px;
+
+    color: #237b2b;
+
+    font-size: 14px;
+
+    text-align: center;
+
+    transition: transform 0.25s ease;
+}
+
+.mega-column a:hover {
+    color: #237b2b;
+
+    padding-left: 5px;
+}
+
+.mega-column a:hover i {
+    transform: translateX(3px);
+}
+
+
+/* =========================================
+   FEATURE BOX
+========================================= */
+
+.mega-feature {
+    background: #f4f9f4;
+
+    border-radius: 8px;
+
+    padding: 24px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.mega-feature-icon {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+
+    background: #237b2b;
+    color: #ffffff;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 15px;
+
+    font-size: 20px;
+}
+
+.mega-feature h5 {
+    margin: 0 0 8px;
+
+    color: #222222;
+
+    font-size: 19px;
+}
+
+.mega-feature p {
+    margin: 0 0 18px;
+
+    color: #666666;
+
+    font-size: 14px;
+
+    line-height: 1.6;
+}
+
+.mega-feature > a {
+    display: inline-flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: #237b2b;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    text-decoration: none;
+}
+
+.mega-feature > a:hover {
+    gap: 12px;
+}
+
+
+/* =========================================
+   OPEN STATE
+========================================= */
+
+.mega-dropdown.active .mega-menu {
+    opacity: 1;
+
+    visibility: visible;
+
+    pointer-events: auto;
+
+    transform: translateY(0);
+}
+
+.mega-dropdown.active .mega-dropdown-toggle {
+    color: #237b2b;
+}
+
+.mega-dropdown.active
+.mega-dropdown-toggle i {
+    transform: rotate(180deg);
+}
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1199px) {
+
+    .mega-menu-container {
+        grid-template-columns:
+            1fr
+            1fr
+            1fr;
+
+        gap: 25px;
+    }
+
+    .mega-feature {
+        display: none;
+    }
+
+}
+/* =========================================
+   MOBILE MEGA MENU
+========================================= */
+
+.mobile-mega-dropdown {
+    width: 100%;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.mobile-mega-toggle {
+    width: 100%;
+
+    padding: 14px 5px;
+
+    border: none;
+
+    background: transparent;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    color: #222222;
+
+    font-size: 17px;
+
+    font-family: inherit;
+
+    cursor: pointer;
+
+    text-align: left;
+}
+
+.mobile-mega-toggle i {
+    font-size: 11px;
+
+    transition: transform 0.3s ease;
+}
+
+
+/* MOBILE MENU */
+
+.mobile-mega-menu {
+    display: none;
+
+    padding: 5px 0 10px 15px;
+
+    background: #fafafa;
+}
+
+
+/* OPEN */
+
+.mobile-mega-dropdown.active
+.mobile-mega-menu {
+    display: block;
+}
+
+.mobile-mega-dropdown.active
+.mobile-mega-toggle {
+    color: #237b2b;
+}
+
+.mobile-mega-dropdown.active
+.mobile-mega-toggle i {
+    transform: rotate(180deg);
+}
+
+
+/* SECTION */
+
+.mobile-mega-section {
+    padding: 8px 0 12px;
+}
+
+.mobile-mega-section h6 {
+    margin: 0 0 5px;
+
+    color: #237b2b;
+
+    font-size: 13px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+}
+
+.mobile-mega-section a {
+    display: block;
+
+    padding: 9px 10px;
+
+    color: #555555;
+
+    font-size: 15px;
+
+    text-decoration: none;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.mobile-mega-section a:hover {
+    color: #237b2b;
+
+    padding-left: 15px;
+}
+
+
+/* Desktop hide mobile version */
+
+@media (min-width: 992px) {
+
+    .mobile-mega-dropdown {
+        display: none;
+    }
+
+}
+
+
+/* Mobile hide desktop version */
+
+@media (max-width: 991px) {
+
+    .mega-dropdown {
+        display: none;
+    }
+
+}
+</style>
 </head>
 
 
@@ -6986,7 +7640,7 @@
          TOP HEADER
     ====================================== -->
 
-    <header class="top-header">
+    <header class="top-header ">
 
         <div class="top-header-container">
 
@@ -7054,11 +7708,128 @@
 
                     <a href="#">Home</a>
 
-                    <a href="#">About us</a>
+                <div class="nav-dropdown">
+    <a href="javascript:void(0);" class="nav-dropdown-toggle">
+        About us
+        <i class="fa-solid fa-chevron-down"></i>
+    </a>
 
+    <div class="nav-dropdown-menu">
+        <a href="#">About Diocese</a>
+        <a href="#">Our Bishop</a>
+        <a href="#">History</a>
+        <a href="#">Mission & Vision</a>
+        <a href="#">Administration</a>
+    </div>
+</div>
                     <a href="#">Committees</a>
 
-                    <a href="#">Institutions</a>
+                   <div class="mega-dropdown">
+
+    <a href="javascript:void(0);" class="mega-dropdown-toggle">
+        About us
+        <i class="fa-solid fa-chevron-down"></i>
+    </a>
+
+    <div class="mega-menu">
+
+        <div class="mega-menu-container">
+
+            <!-- COLUMN 1 -->
+            <div class="mega-column">
+
+                <h6>Diocese</h6>
+
+                <a href="#">
+                    <i class="fa-solid fa-church"></i>
+                    About Diocese
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    History
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-cross"></i>
+                    Mission & Vision
+                </a>
+
+            </div>
+
+
+            <!-- COLUMN 2 -->
+            <div class="mega-column">
+
+                <h6>Leadership</h6>
+
+                <a href="#">
+                    <i class="fa-solid fa-user-tie"></i>
+                    Our Bishop
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-users"></i>
+                    Committees
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-people-group"></i>
+                    Our Priests
+                </a>
+
+            </div>
+
+
+            <!-- COLUMN 3 -->
+            <div class="mega-column">
+
+                <h6>Administration</h6>
+
+                <a href="#">
+                    <i class="fa-solid fa-building"></i>
+                    Diocesan Administration
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-sitemap"></i>
+                    Departments
+                </a>
+
+                <a href="#">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                    Pastoral Services
+                </a>
+
+            </div>
+
+
+            <!-- FEATURE BOX -->
+            <div class="mega-feature">
+
+                <div class="mega-feature-icon">
+                    <i class="fa-solid fa-church"></i>
+                </div>
+
+                <h5>Diocese of Warangal</h5>
+
+                <p>
+                    Serving the people with faith, love,
+                    education and compassion.
+                </p>
+
+                <a href="#">
+                    Discover More
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
                     <a href="#">Hospitals</a>
 
@@ -7126,18 +7897,82 @@
                     Home
                 </a>
 
-                <a href="#">
-                    About us
-                </a>
+               <div class="mobile-dropdown">
+
+    <button type="button" class="mobile-dropdown-toggle">
+        <span>About us</span>
+        <i class="fa-solid fa-chevron-down"></i>
+    </button>
+
+    <div class="mobile-dropdown-menu">
+
+        <a href="#">About Diocese</a>
+
+        <a href="#">Our Bishop</a>
+
+        <a href="#">History</a>
+
+        <a href="#">Mission & Vision</a>
+
+        <a href="#">Administration</a>
+
+    </div>
+
+</div>
 
                 <a href="#">
                     Committees
                 </a>
+<div class="mobile-mega-dropdown">
 
-                <a href="#">
-                    Institutions
-                </a>
+    <button
+        type="button"
+        class="mobile-mega-toggle">
 
+        <span>About us</span>
+
+        <i class="fa-solid fa-chevron-down"></i>
+
+    </button>
+
+
+    <div class="mobile-mega-menu">
+
+        <div class="mobile-mega-section">
+
+            <h6>Diocese</h6>
+
+            <a href="#">About Diocese</a>
+            <a href="#">History</a>
+            <a href="#">Mission & Vision</a>
+
+        </div>
+
+
+        <div class="mobile-mega-section">
+
+            <h6>Leadership</h6>
+
+            <a href="#">Our Bishop</a>
+            <a href="#">Committees</a>
+            <a href="#">Our Priests</a>
+
+        </div>
+
+
+        <div class="mobile-mega-section">
+
+            <h6>Administration</h6>
+
+            <a href="#">Diocesan Administration</a>
+            <a href="#">Departments</a>
+            <a href="#">Pastoral Services</a>
+
+        </div>
+
+    </div>
+
+</div>
                 <a href="#">
                     Hospitals
                 </a>
@@ -7596,11 +8431,11 @@
                     data-aos-offset="40">
 
                     <a href="#" class="warangal-engagement-link">
-                        Archbishop's Engagements
+                        bishop's Engagements
                     </a>
 
                     <a href="#" class="warangal-engagement-link">
-                        Archbishop's Upcoming Engagements
+                        bishop's Upcoming Engagements
                     </a>
 
                     <a href="#" class="warangal-click-button">
@@ -7682,11 +8517,7 @@
                         <h5>From 2026</h5>
 
                         <p>
-                            Let us restrict our view to only those that formed
-                            Warangal Diocese. The Hyderabad- Vijayawada Railway
-                            line work had brought a good number of Catholic
-                            employees to the main Railway junctions and stations
-                            like Kazipet, Dornakal and Khammam.
+                            The Bishop of Warangal, entrusted with the pastoral leadership and spiritual guidance of the faithful in the Diocese. With deep faith, wisdom, and a strong commitment to service, he continues to guide the Diocese in its mission of proclaiming the Gospel and serving society.
                         </p>
 
                         <a href="#" class="warangal-bishop-btn">
@@ -8016,7 +8847,7 @@
                 </span>
 
                 <h2>
-                    Archives of Service
+                    Parishes
                 </h2>
 
             </div>
@@ -9363,7 +10194,7 @@
                         <div class="warangal-news-image-wrap">
 
                             <img
-                                src="https://www.warangaldiocese.com/fathimafeast/3.png"
+                                src="assets/img/seminar-students.JPG"
                                 alt="Students Seminar 2026"
                                 class="warangal-news-image">
 
@@ -9564,7 +10395,7 @@
                             data-bs-target="#warangalVideoModal3">
 
                             <img
-                                src="https://www.warangaldiocese.com/fathimafeast/2.png"
+                                src="assets/img/2.png"
                                 alt="Diocese Event"
                                 class="warangal-video-image">
 
@@ -9676,7 +10507,7 @@
                             <a href="#" class="warangal-community-card">
 
                                 <img
-                                    src="https://www.warangaldiocese.com/fathimafeast/2.png"
+                                    src="assets/img/2.png"
                                     alt="St. Francis School">
 
                                 <span class="warangal-community-label">
@@ -9772,7 +10603,7 @@
                             <a href="#" class="warangal-community-card">
 
                                 <img
-                                    src="https://www.warangaldiocese.com/fathimafeast/2.png"
+                                    src="assets/img/2.png"
                                     alt="">
 
                                 <span class="warangal-community-label">
@@ -9864,7 +10695,7 @@
                             <a href="#" class="warangal-community-card">
 
                                 <img
-                                    src="https://www.warangaldiocese.com/fathimafeast/3.png"
+                                    src="assets/img/3.png"
                                     alt="Our Lady of Fatima Community">
 
                                 <span class="warangal-community-label">
@@ -9894,7 +10725,7 @@
                             <a href="#" class="warangal-community-card">
 
                                 <img
-                                    src="https://www.warangaldiocese.com/Canonanization%20of%20%20Blessed%20Mother%20Teresa%20Vatican%20City/4.jpg"
+                                    src="assets/paual.jpeg"
                                     alt="Social Service Society">
 
                                 <span class="warangal-community-label">
@@ -9959,7 +10790,7 @@
                             <a href="#" class="warangal-community-card">
 
                                 <img
-                                    src="https://www.warangaldiocese.com/fathimafeast/3.png"
+                                    src="assets/img/3.png"
                                     alt="">
 
                                 <span class="warangal-community-label">
@@ -9985,7 +10816,7 @@
                             <a href="#" class="warangal-community-card">
 
                                 <img
-                                    src="https://www.warangaldiocese.com/Canonanization%20of%20%20Blessed%20Mother%20Teresa%20Vatican%20City/4.jpg"
+                                    src="assets/paual.jpeg"
                                     alt="">
 
                                 <span class="warangal-community-label">
@@ -10626,7 +11457,112 @@
         });
     </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
 
+    const dropdown = document.querySelector(".nav-dropdown");
+    const toggle = document.querySelector(".nav-dropdown-toggle");
+
+    if (toggle && dropdown) {
+
+        toggle.addEventListener("click", function (e) {
+
+            e.preventDefault();
+
+            dropdown.classList.toggle("active");
+
+        });
+
+    }
+
+    /* Close when clicking outside */
+    document.addEventListener("click", function (e) {
+
+        if (dropdown && !dropdown.contains(e.target)) {
+            dropdown.classList.remove("active");
+        }
+
+    });
+
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const mobileDropdown = document.querySelector(".mobile-dropdown");
+    const mobileToggle = document.querySelector(".mobile-dropdown-toggle");
+
+    if (mobileDropdown && mobileToggle) {
+
+        mobileToggle.addEventListener("click", function () {
+
+            mobileDropdown.classList.toggle("active");
+
+        });
+
+    }
+
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const megaDropdown =
+        document.querySelector(".mega-dropdown");
+
+    const megaToggle =
+        document.querySelector(".mega-dropdown-toggle");
+
+
+    if (megaToggle && megaDropdown) {
+
+        megaToggle.addEventListener("click", function (e) {
+
+            e.preventDefault();
+
+            megaDropdown.classList.toggle("active");
+
+        });
+
+
+        /* Close when clicking outside */
+
+        document.addEventListener("click", function (e) {
+
+            if (!megaDropdown.contains(e.target)) {
+
+                megaDropdown.classList.remove("active");
+
+            }
+
+        });
+
+    }
+
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const mobileMega =
+        document.querySelector(".mobile-mega-dropdown");
+
+    const mobileToggle =
+        document.querySelector(".mobile-mega-toggle");
+
+
+    if (mobileToggle && mobileMega) {
+
+        mobileToggle.addEventListener("click", function () {
+
+            mobileMega.classList.toggle("active");
+
+        });
+
+    }
+
+});
+</script>
 </body>
 
 </html>
