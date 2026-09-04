@@ -7223,410 +7223,6 @@ body {
 
 
 
-<style>
-    /* mega menu */
-    /* =========================================
-   MEGA MENU
-========================================= */
-
-.mega-dropdown {
-    position: static;
-}
-
-.mega-dropdown-toggle {
-    display: flex;
-    align-items: center;
-    gap: 7px;
-
-    color: #222222;
-    text-decoration: none;
-
-    font-size: 18px;
-    white-space: nowrap;
-
-    cursor: pointer;
-}
-
-.mega-dropdown-toggle i {
-    font-size: 10px;
-    transition: transform 0.3s ease;
-}
-
-.mega-dropdown-toggle:hover {
-    color: #237b2b;
-}
-
-
-/* =========================================
-   MEGA MENU BOX
-========================================= */
-
-.mega-menu {
-    position: absolute;
-
-    top: 100%;
-    left: 0;
-
-    width: 100%;
-
-    background: #ffffff;
-
-    border-top: 3px solid #237b2b;
-
-    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
-
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-
-    transform: translateY(12px);
-
-    transition:
-        opacity 0.25s ease,
-        visibility 0.25s ease,
-        transform 0.25s ease;
-
-    z-index: 2000;
-}
-
-
-/* =========================================
-   MEGA MENU CONTAINER
-========================================= */
-
-.mega-menu-container {
-    width: 100%;
-    max-width: 1250px;
-
-    margin: auto;
-
-    padding: 30px 20px;
-
-    display: grid;
-
-    grid-template-columns:
-        1fr
-        1fr
-        1fr
-        1.2fr;
-
-    gap: 35px;
-}
-
-
-/* =========================================
-   COLUMNS
-========================================= */
-
-.mega-column {
-    padding-right: 25px;
-
-    border-right: 1px solid #eeeeee;
-}
-
-.mega-column h6 {
-    margin: 0 0 18px;
-
-    color: #237b2b;
-
-    font-size: 16px;
-    font-weight: 700;
-
-    text-transform: uppercase;
-
-    letter-spacing: 0.5px;
-}
-
-.mega-column a {
-    display: flex;
-
-    align-items: center;
-
-    gap: 12px;
-
-    padding: 10px 0;
-
-    color: #333333;
-
-    font-size: 15px;
-
-    text-decoration: none;
-
-    transition: all 0.25s ease;
-}
-
-.mega-column a i {
-    width: 20px;
-
-    color: #237b2b;
-
-    font-size: 14px;
-
-    text-align: center;
-
-    transition: transform 0.25s ease;
-}
-
-.mega-column a:hover {
-    color: #237b2b;
-
-    padding-left: 5px;
-}
-
-.mega-column a:hover i {
-    transform: translateX(3px);
-}
-
-
-/* =========================================
-   FEATURE BOX
-========================================= */
-
-.mega-feature {
-    background: #f4f9f4;
-
-    border-radius: 8px;
-
-    padding: 24px;
-
-    display: flex;
-
-    flex-direction: column;
-
-    justify-content: center;
-}
-
-.mega-feature-icon {
-    width: 48px;
-    height: 48px;
-
-    border-radius: 50%;
-
-    background: #237b2b;
-    color: #ffffff;
-
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    margin-bottom: 15px;
-
-    font-size: 20px;
-}
-
-.mega-feature h5 {
-    margin: 0 0 8px;
-
-    color: #222222;
-
-    font-size: 19px;
-}
-
-.mega-feature p {
-    margin: 0 0 18px;
-
-    color: #666666;
-
-    font-size: 14px;
-
-    line-height: 1.6;
-}
-
-.mega-feature > a {
-    display: inline-flex;
-
-    align-items: center;
-
-    gap: 8px;
-
-    color: #237b2b;
-
-    font-size: 14px;
-    font-weight: 600;
-
-    text-decoration: none;
-}
-
-.mega-feature > a:hover {
-    gap: 12px;
-}
-
-
-/* =========================================
-   OPEN STATE
-========================================= */
-
-.mega-dropdown.active .mega-menu {
-    opacity: 1;
-
-    visibility: visible;
-
-    pointer-events: auto;
-
-    transform: translateY(0);
-}
-
-.mega-dropdown.active .mega-dropdown-toggle {
-    color: #237b2b;
-}
-
-.mega-dropdown.active
-.mega-dropdown-toggle i {
-    transform: rotate(180deg);
-}
-/* =========================================
-   TABLET
-========================================= */
-
-@media (max-width: 1199px) {
-
-    .mega-menu-container {
-        grid-template-columns:
-            1fr
-            1fr
-            1fr;
-
-        gap: 25px;
-    }
-
-    .mega-feature {
-        display: none;
-    }
-
-}
-/* =========================================
-   MOBILE MEGA MENU
-========================================= */
-
-.mobile-mega-dropdown {
-    width: 100%;
-
-    border-bottom: 1px solid #eeeeee;
-}
-
-.mobile-mega-toggle {
-    width: 100%;
-
-    padding: 14px 5px;
-
-    border: none;
-
-    background: transparent;
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: space-between;
-
-    color: #222222;
-
-    font-size: 17px;
-
-    font-family: inherit;
-
-    cursor: pointer;
-
-    text-align: left;
-}
-
-.mobile-mega-toggle i {
-    font-size: 11px;
-
-    transition: transform 0.3s ease;
-}
-
-
-/* MOBILE MENU */
-
-.mobile-mega-menu {
-    display: none;
-
-    padding: 5px 0 10px 15px;
-
-    background: #fafafa;
-}
-
-
-/* OPEN */
-
-.mobile-mega-dropdown.active
-.mobile-mega-menu {
-    display: block;
-}
-
-.mobile-mega-dropdown.active
-.mobile-mega-toggle {
-    color: #237b2b;
-}
-
-.mobile-mega-dropdown.active
-.mobile-mega-toggle i {
-    transform: rotate(180deg);
-}
-
-
-/* SECTION */
-
-.mobile-mega-section {
-    padding: 8px 0 12px;
-}
-
-.mobile-mega-section h6 {
-    margin: 0 0 5px;
-
-    color: #237b2b;
-
-    font-size: 13px;
-
-    text-transform: uppercase;
-
-    letter-spacing: 0.5px;
-}
-
-.mobile-mega-section a {
-    display: block;
-
-    padding: 9px 10px;
-
-    color: #555555;
-
-    font-size: 15px;
-
-    text-decoration: none;
-
-    border-bottom: 1px solid #eeeeee;
-}
-
-.mobile-mega-section a:hover {
-    color: #237b2b;
-
-    padding-left: 15px;
-}
-
-
-/* Desktop hide mobile version */
-
-@media (min-width: 992px) {
-
-    .mobile-mega-dropdown {
-        display: none;
-    }
-
-}
-
-
-/* Mobile hide desktop version */
-
-@media (max-width: 991px) {
-
-    .mega-dropdown {
-        display: none;
-    }
-
-}
-</style>
 </head>
 
 
@@ -7685,181 +7281,349 @@ body {
          MAIN NAVBAR
     ====================================== -->
 
-    <nav class="main-navbar">
+<nav class="main-navbar">
 
-        <div class="navbar-container">
+    <div class="navbar-container">
 
-            <div class="navbar-content">
+        <div class="navbar-content">
+
+            <!-- =========================
+                 LOGO
+            ========================== -->
+            <a href="https://ksandbox.in/diocese2/index" class="logo">
+
+                <img src="assets/img/Warangal-Diasoses-logo.png"
+                     alt="Diocese of Warangal">
+
+            </a>
 
 
-                <!-- LOGO -->
+            <!-- =========================
+                 DESKTOP MENU
+            ========================== -->
+            <div class="desktop-menu">
 
-                <a href="#" class="logo">
 
-                    <img src="assets/img/Warangal-Diasoses-logo.png"
-                        alt="Diocese of Warangal">
-
+                <!-- =========================
+                     HOME
+                ========================== -->
+                <a href="https://ksandbox.in/diocese2/index">
+                    Home
                 </a>
 
 
-                <!-- DESKTOP MENU -->
-
-                <div class="desktop-menu">
-
-                    <a href="#">Home</a>
-
+                <!-- =========================
+                     DIOCESE DROPDOWN
+                ========================== -->
                 <div class="nav-dropdown">
-    <a href="javascript:void(0);" class="nav-dropdown-toggle">
-        About us
-        <i class="fa-solid fa-chevron-down"></i>
-    </a>
 
-    <div class="nav-dropdown-menu">
-        <a href="#">About Diocese</a>
-        <a href="#">Our Bishop</a>
-        <a href="#">History</a>
-        <a href="#">Mission & Vision</a>
-        <a href="#">Administration</a>
-    </div>
-</div>
-                    <a href="#">Committees</a>
+                    <a href="javascript:void(0);"
+                       class="nav-dropdown-toggle">
 
-                   <div class="mega-dropdown">
+                        Diocese
 
-    <a href="javascript:void(0);" class="mega-dropdown-toggle">
-        About us
-        <i class="fa-solid fa-chevron-down"></i>
-    </a>
+                        <i class="fa-solid fa-chevron-down"></i>
 
-    <div class="mega-menu">
-
-        <div class="mega-menu-container">
-
-            <!-- COLUMN 1 -->
-            <div class="mega-column">
-
-                <h6>Diocese</h6>
-
-                <a href="#">
-                    <i class="fa-solid fa-church"></i>
-                    About Diocese
-                </a>
-
-                <a href="#">
-                    <i class="fa-solid fa-clock-rotate-left"></i>
-                    History
-                </a>
-
-                <a href="#">
-                    <i class="fa-solid fa-cross"></i>
-                    Mission & Vision
-                </a>
-
-            </div>
+                    </a>
 
 
-            <!-- COLUMN 2 -->
-            <div class="mega-column">
+                    <div class="nav-dropdown-menu">
 
-                <h6>Leadership</h6>
+                        <a href="https://ksandbox.in/diocese2/About_us">
+                            About Us
+                        </a>
 
-                <a href="#">
-                    <i class="fa-solid fa-user-tie"></i>
-                    Our Bishop
-                </a>
+                        <a href="https://ksandbox.in/diocese2/History">
+                            History
+                        </a>
 
-                <a href="#">
-                    <i class="fa-solid fa-users"></i>
-                    Committees
-                </a>
+                        <a href="https://ksandbox.in/diocese2/Diocese_curia">
+                            Diocesan Curia
+                        </a>
 
-                <a href="#">
-                    <i class="fa-solid fa-people-group"></i>
-                    Our Priests
-                </a>
+                        <a href="https://ksandbox.in/diocese2/College_Consultors">
+                            College of Consultors
+                        </a>
 
-            </div>
+                        <a href="https://ksandbox.in/diocese2/Senate_Members">
+                            Senate Members
+                        </a>
 
+                        <a href="https://ksandbox.in/diocese2/commissions">
+                            Commissions
+                        </a>
 
-            <!-- COLUMN 3 -->
-            <div class="mega-column">
+                        <a href="https://ksandbox.in/diocese2/Committees">
+                            Committees
+                        </a>
 
-                <h6>Administration</h6>
+                        <a href="https://ksandbox.in/diocese2/Marriage_tribunal">
+                            Marriage Tribunal
+                        </a>
 
-                <a href="#">
-                    <i class="fa-solid fa-building"></i>
-                    Diocesan Administration
-                </a>
+                        <!-- First Deaneries group -->
+                        <a href="#">
+                            Deaneries
+                        </a>
 
-                <a href="#">
-                    <i class="fa-solid fa-sitemap"></i>
-                    Departments
-                </a>
+                        <a href="#">
+                            Directress
+                        </a>
 
-                <a href="#">
-                    <i class="fa-solid fa-hand-holding-heart"></i>
-                    Pastoral Services
-                </a>
+                        <a href="#">
+                            Cathedral
+                        </a>
 
-            </div>
+                        <a href="https://ksandbox.in/diocese2/Diocesan_Shrines">
+                            Diocesan Shrines
+                        </a>
 
+                        <!-- Second Deaneries group -->
+                        <a href="#">
+                            Deaneries
+                        </a>
 
-            <!-- FEATURE BOX -->
-            <div class="mega-feature">
+                        <a href="#">
+                            Directress
+                        </a>
 
-                <div class="mega-feature-icon">
-                    <i class="fa-solid fa-church"></i>
-                </div>
+                        <a href="https://ksandbox.in/diocese2/parishes">
+                            Parishes
+                        </a>
 
-                <h5>Diocese of Warangal</h5>
+                        <a href="#">
+                            Cathedral
+                        </a>
 
-                <p>
-                    Serving the people with faith, love,
-                    education and compassion.
-                </p>
+                        <a href="#">
+                            Diocesan Shrines
+                        </a>
 
-                <a href="#">
-                    Discover More
-                    <i class="fa-solid fa-arrow-right"></i>
-                </a>
+                        <a href="https://ksandbox.in/diocese2/Seminarians">
+                            Seminarians
+                        </a>
 
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-                    <a href="#">Hospitals</a>
-
-                    <a href="#">Our Priests</a>
-
-                    <a href="#">Gallery</a>
-
-                    <a href="#">Contact Us</a>
+                    </div>
 
                 </div>
 
 
-                <!-- MOBILE MENU BUTTON -->
+                <!-- =========================
+                     BISHOP DROPDOWN
+                ========================== -->
+                <div class="nav-dropdown">
 
-                <button class="menu-button"
+                    <a href="javascript:void(0);"
+                       class="nav-dropdown-toggle">
+
+                        Bishop
+
+                        <i class="fa-solid fa-chevron-down"></i>
+
+                    </a>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="https://ksandbox.in/diocese2/Bishop">
+                            Bishop
+                        </a>
+
+                        <a href="#">
+                            Bishop's Message
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================
+                     INSTITUTIONS DROPDOWN
+                ========================== -->
+                <div class="nav-dropdown">
+
+                    <a href="javascript:void(0);"
+                       class="nav-dropdown-toggle">
+
+                        Institutions
+
+                        <i class="fa-solid fa-chevron-down"></i>
+
+                    </a>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="https://ksandbox.in/diocese2/institutions">
+                            Institutions
+                        </a>
+
+                        <a href="https://ksandbox.in/diocese2/education">
+                            Educational Institutions
+                        </a>
+
+                        <a href="#">
+                            Hospitals
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================
+                     PRIESTS & RELIGIOUS DROPDOWN
+                ========================== -->
+                <div class="nav-dropdown">
+
+                    <a href="javascript:void(0);"
+                       class="nav-dropdown-toggle">
+
+                        Priests & Religious
+
+                        <i class="fa-solid fa-chevron-down"></i>
+
+                    </a>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="https://ksandbox.in/diocese2/Diocesan_Priests">
+                            Diocesan Priests
+                        </a>
+
+                        <a href="https://ksandbox.in/diocese2/Religious_Priests">
+                            Religious Priests
+                        </a>
+
+                        <a href="#">
+                            Religious Sisters
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================
+                     CALENDARS DROPDOWN
+                ========================== -->
+                <div class="nav-dropdown">
+
+                    <a href="javascript:void(0);"
+                       class="nav-dropdown-toggle">
+
+                        Calendars
+
+                        <i class="fa-solid fa-chevron-down"></i>
+
+                    </a>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="https://ksandbox.in/diocese2/birthday_calender">
+                            Birthday Calendar
+                        </a>
+
+                        <a href="https://ksandbox.in/diocese2/birthday_calender">
+                            Ordination Calendar
+                        </a>
+
+                        <a href="https://ksandbox.in/diocese2/Necrology">
+                            Necrology
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================
+                     MEDIA DROPDOWN
+                ========================== -->
+                <div class="nav-dropdown">
+
+                    <a href="javascript:void(0);"
+                       class="nav-dropdown-toggle">
+
+                        Media
+
+                        <i class="fa-solid fa-chevron-down"></i>
+
+                    </a>
+
+
+                    <div class="nav-dropdown-menu">
+
+                        <a href="https://ksandbox.in/diocese2/news_events">
+                            News & Events
+                        </a>
+
+                        <a href="#">
+                            Articles
+                        </a>
+
+                        <a href="https://ksandbox.in/diocese2/Photo_Gallery">
+                            Photo Gallery
+                        </a>
+
+                        <a href="https://ksandbox.in/diocese2/Video_gallery">
+                            Video Gallery
+                        </a>
+
+                        <a href="https://ksandbox.in/diocese2/song_gallery">
+                            Songs Gallery
+                        </a>
+
+                        <a href="https://ksandbox.in/diocese2/news-letters/">
+                            Newsletters
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =========================
+                     FEEDBACK
+                ========================== -->
+                <a href="https://ksandbox.in/diocese2/feedback">
+                    Feedback
+                </a>
+
+
+                <!-- =========================
+                     CONTACT US
+                ========================== -->
+                <a href="https://ksandbox.in/diocese2/contact">
+                    Contact Us
+                </a>
+
+
+            </div>
+
+
+            <!-- =========================
+                 MOBILE MENU BUTTON
+            ========================== -->
+            <button class="menu-button"
                     type="button"
                     data-bs-toggle="offcanvas"
                     data-bs-target="#mobileMenu"
                     aria-controls="mobileMenu">
 
-                    <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-bars"></i>
 
-                </button>
+            </button>
 
-            </div>
 
         </div>
 
-    </nav>
+    </div>
 
+</nav>
 
     <!-- =====================================
          OFFCANVAS MOBILE MENU
@@ -7923,57 +7687,7 @@ body {
                 <a href="#">
                     Committees
                 </a>
-<div class="mobile-mega-dropdown">
-
-    <button
-        type="button"
-        class="mobile-mega-toggle">
-
-        <span>About us</span>
-
-        <i class="fa-solid fa-chevron-down"></i>
-
-    </button>
-
-
-    <div class="mobile-mega-menu">
-
-        <div class="mobile-mega-section">
-
-            <h6>Diocese</h6>
-
-            <a href="#">About Diocese</a>
-            <a href="#">History</a>
-            <a href="#">Mission & Vision</a>
-
-        </div>
-
-
-        <div class="mobile-mega-section">
-
-            <h6>Leadership</h6>
-
-            <a href="#">Our Bishop</a>
-            <a href="#">Committees</a>
-            <a href="#">Our Priests</a>
-
-        </div>
-
-
-        <div class="mobile-mega-section">
-
-            <h6>Administration</h6>
-
-            <a href="#">Diocesan Administration</a>
-            <a href="#">Departments</a>
-            <a href="#">Pastoral Services</a>
-
-        </div>
-
-    </div>
-
-</div>
-                <a href="#">
+         <a href="#">
                     Hospitals
                 </a>
 
@@ -8040,7 +7754,7 @@ body {
 
                 <div class="carousel-item active">
 
-                    <img src="assets/img/Catholic-Festival-Clergy-Portrait-new.png"
+                    <img src="assets/img/Catholic-Festival-Clergy-Portrait.webp"
                         alt="Banner 1">
 
                     <!-- <div class="carousel-caption">
