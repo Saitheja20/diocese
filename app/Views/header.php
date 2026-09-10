@@ -397,279 +397,218 @@
 <!-- =========================================
      MAIN NAVBAR
 ========================================= -->
-<nav class="main-navbar">
 
-    <div class="navbar-container">
-
-        <div class="navbar-content">
-
-            <!-- LOGO -->
-            <a href="<?= base_url('index'); ?>" class="logo">
-                <img src="<?= base_url('assets/img/logo2.png'); ?>"
-                     alt="Diocese of Warangal">
-            </a>
-
-
-            <!-- =========================================
-                 DESKTOP MENU
-            ========================================== -->
-            <div class="desktop-menu">
-
-                <!-- HOME -->
-                <a href="<?= base_url('index'); ?>">Home</a>
-
-
-                <!-- ===============================
-                     DIOCESE DROPDOWN
-                ================================= -->
-                <div class="nav-dropdown">
-
-                    <a href="javascript:void(0);" class="dropdown-trigger">
-                        Diocese
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </a>
-
-                    <div class="nav-dropdown-menu">
-
-                        <a href="<?= base_url('about_us'); ?>">
-                            About Us
-                        </a>
-
-                        <a href="<?= base_url('history'); ?>">
-                            History
-                        </a>
-
-                        <a href="<?= base_url('diocean'); ?>">
-                            Diocesan Curia
-                        </a>
-
-                        <a href="<?= base_url('college_commities'); ?>">
-                            College of Consultors
-                        </a>
-
-                        <a href="<?= base_url('deaneries'); ?>">
-                            Senate Members
-                        </a>
-
-                        <a href="<?= base_url('commisions'); ?>">
-                            Commissions
-                        </a>
-
-                        <a href="<?= base_url('commities'); ?>">
-                            Committees
-                        </a>
-
-                        <a href="<?= base_url('tribunal'); ?>">
-                            Marriage Tribunal
-                        </a>
-
-                        <a href="#">
-                            Deaneries
-                        </a>
-
-                        <a href="#">
-                            Directress
-                        </a>
-
-                        <a href="<?= base_url('parishes'); ?>">
-                            Parishes
-                        </a>
-
-                        <a href="#">
-                            Cathedral
-                        </a>
-
-                        <a href="<?= base_url('diocean'); ?>">
-                            Diocesan Shrines
-                        </a>
-
-                        <a href="<?= base_url('seminarians'); ?>">
-                            Seminarians
-                        </a>
-
-                    </div>
-                </div>
-
-
-                <!-- ===============================
-                     BISHOP DROPDOWN
-                ================================= -->
-                <div class="nav-dropdown">
-
-                    <a href="javascript:void(0);" class="dropdown-trigger">
-                        Bishop
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </a>
-
-                    <div class="nav-dropdown-menu">
-
-                        <a href="<?= base_url('Bishop'); ?>">
-                            Bishop
-                        </a>
-
-                        <a href="#">
-                            Bishop's Message
-                        </a>
-
-                    </div>
-                </div>
-
-
-                <!-- ===============================
-                     INSTITUTIONS DROPDOWN
-                ================================= -->
-                <div class="nav-dropdown">
-
-                    <a href="javascript:void(0);" class="dropdown-trigger">
-                        Institutions
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </a>
-
-                    <div class="nav-dropdown-menu">
-
-                        <a href="<?= base_url('institutions'); ?>">
-                            Institutions
-                        </a>
-
-                        <a href="<?= base_url('education'); ?>">
-                            Educational Institutions
-                        </a>
-
-                        <a href="#">
-                            Hospitals
-                        </a>
-
-                    </div>
-                </div>
-
-
-                <!-- ===============================
-                     PRIESTS & RELIGIOUS DROPDOWN
-                ================================= -->
-                <div class="nav-dropdown">
-
-                    <a href="javascript:void(0);" class="dropdown-trigger">
-                        Priests & Religious
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </a>
-
-                    <div class="nav-dropdown-menu">
-
-                        <a href="<?= base_url('diocesanpriests'); ?>">
-                            Diocesan Priests
-                        </a>
-
-                        <a href="<?= base_url('Religious_Priests'); ?>">
-                            Religious Priests
-                        </a>
-
-                        <a href="#">
-                            Religious Sisters
-                        </a>
-
-                    </div>
-                </div>
-
-
-                <!-- ===============================
-                     CALENDARS DROPDOWN
-                ================================= -->
-                <div class="nav-dropdown">
-
-                    <a href="javascript:void(0);" class="dropdown-trigger">
-                        Calendars
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </a>
-
-                    <div class="nav-dropdown-menu">
-
-                        <a href="<?= base_url('birthday_calender'); ?>">
-                            Birthday Calendar
-                        </a>
-
-                        <a href="<?= base_url('birthday_calender'); ?>">
-                            Ordination Calendar
-                        </a>
-
-                        <a href="<?= base_url('Necrology'); ?>">
-                            Necrology
-                        </a>
-
-                    </div>
-                </div>
-
-
-                <!-- ===============================
-                     MEDIA DROPDOWN
-                ================================= -->
-                <div class="nav-dropdown">
-
-                    <a href="javascript:void(0);" class="dropdown-trigger">
-                        Media
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </a>
-
-                    <div class="nav-dropdown-menu">
-
-                        <a href="<?= base_url('news_events'); ?>">
-                            News & Events
-                        </a>
-
-                        <a href="#">
-                            Articles
-                        </a>
-
-                        <a href="<?= base_url('Photo_Gallery'); ?>">
-                            Photo Gallery
-                        </a>
-
-                        <a href="<?= base_url('Video_gallery'); ?>">
-                            Video Gallery
-                        </a>
-
-                        <a href="<?= base_url('song_gallery'); ?>">
-                            Songs Gallery
-                        </a>
-
-                        <a href="<?= base_url('news-letters/'); ?>">
-                            Newsletters
-                        </a>
-
-                    </div>
-                </div>
-
-
-                <!-- FEEDBACK -->
-                <a href="<?= base_url('feedback'); ?>">
-                    Feedback
-                </a>
-
-
-                <!-- CONTACT -->
-                <a href="<?= base_url('contact'); ?>">
-                    Contact Us
-                </a>
-
-            </div>
-
-
-            <!-- =========================================
-                 MOBILE MENU BUTTON
-            ========================================== -->
-            <button class="menu-button"
-                    type="button"
-                    data-bs-toggle="offcanvas"
-                    data-bs-target="#mobileMenu"
-                    aria-controls="mobileMenu">
-
-                <i class="fa-solid fa-bars"></i>
-
-            </button>
-
-        </div>
-
-    </div>
-
+<nav class="main-navbar"> 
+ 
+    <div class="navbar-container"> 
+ 
+        <div class="navbar-content"> 
+ 
+            <!-- LOGO --> 
+            <a href="<?= base_url('index'); ?>" class="logo"> 
+                <img src="<?= base_url('assets/img/logo2.png'); ?>" 
+                     alt="Diocese of Warangal"> 
+            </a> 
+ 
+ 
+            <!-- ========================================= 
+                 DESKTOP MENU 
+            ========================================== --> 
+            <div class="desktop-menu"> 
+ 
+                <!-- HOME --> 
+                <a href="<?= base_url('index'); ?>">Home</a> 
+ 
+ 
+                <!-- =============================== 
+                     DIOCESE DROPDOWN 
+                ================================= --> 
+                <div class="nav-dropdown"> 
+ 
+                    <a href="javascript:void(0);" class="dropdown-trigger"> 
+                        Diocese 
+                        <i class="fa-solid fa-chevron-down"></i> 
+                    </a> 
+ 
+                    <div class="nav-dropdown-menu"> 
+ 
+                        <a href="<?= base_url('about_us'); ?>">About Us</a> 
+ 
+                        <a href="<?= base_url('history'); ?>">History</a> 
+ 
+                        <a href="<?= base_url('diocean'); ?>">Diocesan Curia</a> 
+ 
+                        <a href="<?= base_url('college_commities'); ?>">College of Consultors</a> 
+ 
+                        <a href="<?= base_url('deaneries'); ?>">Senate Members</a> 
+ 
+                        <a href="<?= base_url('commisions'); ?>">Commissions</a> 
+ 
+                        <a href="<?= base_url('commities'); ?>">Committees</a> 
+ 
+                        <a href="<?= base_url('tribunal'); ?>">Marriage Tribunal</a> 
+ 
+                        <a href="<?= base_url('deaneries'); ?>">Deaneries</a> 
+ 
+                        <a href="<?= base_url('directress'); ?>">Directress</a> 
+ 
+                        <a href="<?= base_url('parishes'); ?>">Parishes</a> 
+ 
+                        <a href="<?= base_url('cathedral'); ?>">Cathedral</a> 
+ 
+                        <a href="<?= base_url('dioceanshrine'); ?>">Diocesan Shrines</a> 
+ 
+                        <a href="<?= base_url('seminarians'); ?>">Seminarians</a> 
+ 
+                    </div> 
+                </div> 
+ 
+ 
+                <!-- =============================== 
+                     BISHOP DROPDOWN 
+                ================================= --> 
+                <div class="nav-dropdown"> 
+ 
+                    <a href="javascript:void(0);" class="dropdown-trigger"> 
+                        Bishop 
+                        <i class="fa-solid fa-chevron-down"></i> 
+                    </a> 
+ 
+                    <div class="nav-dropdown-menu"> 
+ 
+                        <a href="<?= base_url('bishop'); ?>">Bishop</a> 
+ 
+                        <a href="<?= base_url('bishop_message'); ?>">Bishop's Message</a> 
+ 
+                    </div> 
+                </div> 
+ 
+ 
+                <!-- =============================== 
+                     INSTITUTIONS DROPDOWN 
+                ================================= --> 
+                <div class="nav-dropdown"> 
+ 
+                    <a href="javascript:void(0);" class="dropdown-trigger"> 
+                        Institutions 
+                        <i class="fa-solid fa-chevron-down"></i> 
+                    </a> 
+ 
+                    <div class="nav-dropdown-menu"> 
+ 
+                        <a href="<?= base_url('institution'); ?>">Institutions</a> 
+ 
+                        <a href="<?= base_url('eduactionalinstitution'); ?>">Educational Institutions</a> 
+ 
+                        <a href="<?= base_url('hospitals'); ?>">Hospitals</a> 
+ 
+                    </div> 
+                </div> 
+ 
+ 
+                <!-- =============================== 
+                     PRIESTS & RELIGIOUS DROPDOWN 
+                ================================= --> 
+                <div class="nav-dropdown"> 
+ 
+                    <a href="javascript:void(0);" class="dropdown-trigger"> 
+                        Priests & Religious 
+                        <i class="fa-solid fa-chevron-down"></i> 
+                    </a> 
+ 
+                    <div class="nav-dropdown-menu"> 
+ 
+                        <a href="<?= base_url('dioceanpreiest'); ?>">Diocesan Priests</a> 
+ 
+                        <a href="<?= base_url('religiouspreiest'); ?>">Religious Priests</a> 
+ 
+                        <a href="<?= base_url('religioussisters'); ?>">Religious Sisters</a> 
+ 
+                    </div> 
+                </div> 
+ 
+ 
+                <!-- =============================== 
+                     CALENDARS DROPDOWN 
+                ================================= --> 
+                <div class="nav-dropdown"> 
+ 
+                    <a href="javascript:void(0);" class="dropdown-trigger"> 
+                        Calendars 
+                        <i class="fa-solid fa-chevron-down"></i> 
+                    </a> 
+ 
+                    <div class="nav-dropdown-menu"> 
+ 
+                        <a href="<?= base_url('birthdaycalender'); ?>">Birthday Calendar</a> 
+ 
+                        <a href="<?= base_url('ordinationcalender'); ?>">Ordination Calendar</a> 
+ 
+                        <a href="<?= base_url('necrology'); ?>">Necrology</a> 
+ 
+                    </div> 
+                </div> 
+ 
+ 
+                <!-- =============================== 
+                     MEDIA DROPDOWN 
+                ================================= --> 
+                <div class="nav-dropdown"> 
+ 
+                    <a href="javascript:void(0);" class="dropdown-trigger"> 
+                        Media 
+                        <i class="fa-solid fa-chevron-down"></i> 
+                    </a> 
+ 
+                    <div class="nav-dropdown-menu"> 
+ 
+                        <a href="<?= base_url('news'); ?>">News & Events</a> 
+ 
+                        <a href="<?= base_url('articles'); ?>">Articles</a> 
+ 
+                        <a href="<?= base_url('gallery'); ?>">Photo Gallery</a> 
+ 
+                        <a href="<?= base_url('vedio'); ?>">Video Gallery</a> 
+ 
+                        <a href="<?= base_url('songs'); ?>">Songs Gallery</a> 
+ 
+                        <a href="<?= base_url('newsletters'); ?>">Newsletters</a> 
+ 
+                    </div> 
+                </div> 
+ 
+ 
+                <!-- FEEDBACK --> 
+                <a href="<?= base_url('feedback'); ?>"> 
+                    Feedback 
+                </a> 
+ 
+ 
+                <!-- CONTACT --> 
+                <a href="<?= base_url('contact'); ?>"> 
+                    Contact Us 
+                </a> 
+ 
+            </div> 
+ 
+ 
+            <!-- ========================================= 
+                 MOBILE MENU BUTTON 
+            ========================================== --> 
+            <button class="menu-button" 
+                    type="button" 
+                    data-bs-toggle="offcanvas" 
+                    data-bs-target="#mobileMenu" 
+                    aria-controls="mobileMenu"> 
+ 
+                <i class="fa-solid fa-bars"></i> 
+ 
+            </button> 
+ 
+        </div> 
+ 
+    </div> 
+ 
 </nav>
 
 
@@ -677,6 +616,7 @@
 <!-- =========================================
      MOBILE OFFCANVAS MENU
 ========================================= -->
+
 <div class="offcanvas offcanvas-end"
      tabindex="-1"
      id="mobileMenu"
@@ -746,7 +686,7 @@
                         College of Consultors
                     </a>
 
-                    <a href="<?= base_url('Senate_Members'); ?>">
+                    <a href="<?= base_url('deaneries'); ?>">
                         Senate Members
                     </a>
 
@@ -754,7 +694,7 @@
                         Commissions
                     </a>
 
-                    <a href="<?= base_url('Committees'); ?>">
+                    <a href="<?= base_url('commities'); ?>">
                         Committees
                     </a>
 
@@ -762,11 +702,11 @@
                         Marriage Tribunal
                     </a>
 
-                    <a href="#">
+                    <a href="<?= base_url('deaneries'); ?>">
                         Deaneries
                     </a>
 
-                    <a href="#">
+                    <a href="<?= base_url('directress'); ?>">
                         Directress
                     </a>
 
@@ -774,11 +714,11 @@
                         Parishes
                     </a>
 
-                    <a href="#">
+                    <a href="<?= base_url('cathedral'); ?>">
                         Cathedral
                     </a>
 
-                    <a href="<?= base_url('Diocesan_Shrines'); ?>">
+                    <a href="<?= base_url('dioceanshrine'); ?>">
                         Diocesan Shrines
                     </a>
 
@@ -811,11 +751,11 @@
                 <div class="collapse mobile-submenu"
                      id="mobileBishop">
 
-                    <a href="<?= base_url('Bishop'); ?>">
+                    <a href="<?= base_url('bishop'); ?>">
                         Bishop
                     </a>
 
-                    <a href="#">
+                    <a href="<?= base_url('bishop_message'); ?>">
                         Bishop's Message
                     </a>
 
@@ -844,15 +784,15 @@
                 <div class="collapse mobile-submenu"
                      id="mobileInstitutions">
 
-                    <a href="<?= base_url('institutions'); ?>">
+                    <a href="<?= base_url('institution'); ?>">
                         Institutions
                     </a>
 
-                    <a href="<?= base_url('education'); ?>">
+                    <a href="<?= base_url('eduactionalinstitution'); ?>">
                         Educational Institutions
                     </a>
 
-                    <a href="#">
+                    <a href="<?= base_url('hospitals'); ?>">
                         Hospitals
                     </a>
 
@@ -881,15 +821,15 @@
                 <div class="collapse mobile-submenu"
                      id="mobilePriests">
 
-                    <a href="<?= base_url('diocesanpriests'); ?>">
+                    <a href="<?= base_url('dioceanpreiest'); ?>">
                         Diocesan Priests
                     </a>
 
-                    <a href="<?= base_url('Religious_Priests'); ?>">
+                    <a href="<?= base_url('religiouspreiest'); ?>">
                         Religious Priests
                     </a>
 
-                    <a href="#">
+                    <a href="<?= base_url('religioussisters'); ?>">
                         Religious Sisters
                     </a>
 
@@ -918,15 +858,15 @@
                 <div class="collapse mobile-submenu"
                      id="mobileCalendars">
 
-                    <a href="<?= base_url('birthday_calender'); ?>">
+                    <a href="<?= base_url('birthdaycalender'); ?>">
                         Birthday Calendar
                     </a>
 
-                    <a href="<?= base_url('birthday_calender'); ?>">
+                    <a href="<?= base_url('ordinationcalender'); ?>">
                         Ordination Calendar
                     </a>
 
-                    <a href="<?= base_url('Necrology'); ?>">
+                    <a href="<?= base_url('necrology'); ?>">
                         Necrology
                     </a>
 
@@ -955,27 +895,27 @@
                 <div class="collapse mobile-submenu"
                      id="mobileMedia">
 
-                    <a href="<?= base_url('news_events'); ?>">
+                    <a href="<?= base_url('news'); ?>">
                         News & Events
                     </a>
 
-                    <a href="#">
+                    <a href="<?= base_url('articles'); ?>">
                         Articles
                     </a>
 
-                    <a href="<?= base_url('Photo_Gallery'); ?>">
+                    <a href="<?= base_url('gallery'); ?>">
                         Photo Gallery
                     </a>
 
-                    <a href="<?= base_url('Video_gallery'); ?>">
+                    <a href="<?= base_url('vedio'); ?>">
                         Video Gallery
                     </a>
 
-                    <a href="<?= base_url('song_gallery'); ?>">
+                    <a href="<?= base_url('songs'); ?>">
                         Songs Gallery
                     </a>
 
-                    <a href="<?= base_url('news-letters/'); ?>">
+                    <a href="<?= base_url('newsletters'); ?>">
                         Newsletters
                     </a>
 
@@ -1000,6 +940,8 @@
     </div>
 
 </div>
+
+
 <script>
 document.addEventListener("DOMContentLoaded", function () {
 

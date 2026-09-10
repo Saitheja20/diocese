@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diocese of Warangal</title>
+    <?php include __DIR__ . '/header-links.php'; ?>
 
-    <title>Seminarians of Warangal Diocese – 2020-2021</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-        rel="stylesheet">
+        <?php include __DIR__ . '/header.php'; ?>
+
 
     <style>
         * {
@@ -527,4 +528,5 @@
 
 </body>
 
-</html>
+
+    <?php include __DIR__ . '/footer.php'; ?>

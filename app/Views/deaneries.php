@@ -2,18 +2,14 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diocese of Warangal</title>
+    <?php include __DIR__ . '/header-links.php'; ?>
 
-    <title>Diocesan Priests & Deaneries</title>
 
-    <!-- Bootstrap 5 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-        rel="stylesheet">
+        <?php include __DIR__ . '/header.php'; ?>
 
-    <link rel="stylesheet" href="assets/css/style.css">
-   
 
    
 <style>
@@ -1340,4 +1336,5 @@
 
 </body>
 
-</html>
+
+    <?php include __DIR__ . '/footer.php'; ?>

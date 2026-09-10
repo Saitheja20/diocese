@@ -16,5 +16,33 @@ $routes->get('seminarians','Home::seminarians');
 $routes->get('education','Home::education');
 $routes->get('institutions','Home::institutions');
 $routes->get('diocesanpriests','Home::diocesanpriests');
+$routes->get('necrology','Home::necrology');
+$routes->get('parishes','Home::parishes');
+$routes->get('dioceanshrine','Home::dioceanshrine');
+
+$routes->get('bishop','Home::bishop');
+$routes->get('institution','Home::institution');
+$routes->get('eduactionalinstitution','Home::eduactionalinstitution');
+$routes->get('dioceanpreiest','Home::dioceanpreiest');
+$routes->get('religiouspreiest','Home::religiouspreiest');
+$routes->get('birthdaycalender','Home::birthdaycalender');
+$routes->get('news','Home::news');
+$routes->get('gallery','Home::gallery');
+$routes->get('vedio','Home::vedio');
+$routes->get('songs','Home::songs');
+$routes->get('newsletters','Home::newsletters');
+$routes->get('feedback','Home::feedback');
+$routes->get('contact','Home::contact');
+
+
+
+
+
+
+
+
+
+
+
 
 
