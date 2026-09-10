@@ -28,7 +28,7 @@
  <a href="index.html" class="warangal-footer-logo-wrap">
 
                             <img
-                                src="assets/logo2.jpeg"
+                                src="assets/img/Warangal-Diasoses-logo.png"
                                 alt="Diocese of Warangal"
                                 class="warangal-footer-main-logo">
 
