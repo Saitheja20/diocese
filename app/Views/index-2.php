@@ -7290,7 +7290,7 @@ body {
             <!-- =========================
                  LOGO
             ========================== -->
-            <a href="https://ksandbox.in/diocese2/index" class="logo">
+            <a href="<?= base_url('/') ?>" class="logo">
 
                 <img src="assets/img/Warangal-Diasoses-logo.png"
                      alt="Diocese of Warangal">
@@ -7307,7 +7307,7 @@ body {
                 <!-- =========================
                      HOME
                 ========================== -->
-                <a href="https://ksandbox.in/diocese2/index">
+                <a href="<?= base_url('/') ?>">
                     Home
                 </a>
 
@@ -7329,77 +7329,63 @@ body {
 
                     <div class="nav-dropdown-menu">
 
-                        <a href="https://ksandbox.in/diocese2/About_us">
+                        <a href="<?= base_url('about-us') ?>">
                             About Us
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/History">
+                        <a href="<?= base_url('history') ?>">
                             History
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/Diocese_curia">
+                        <a href="<?= base_url('diocesan-curia') ?>">
                             Diocesan Curia
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/College_Consultors">
+                        <a href="<?= base_url('college-consultors') ?>">
                             College of Consultors
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/Senate_Members">
+                        <a href="<?= base_url('senate-members') ?>">
                             Senate Members
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/commissions">
+                        <a href="<?= base_url('commissions') ?>">
                             Commissions
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/Committees">
+                        <a href="<?= base_url('committees') ?>">
                             Committees
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/Marriage_tribunal">
+                        <a href="<?= base_url('marriage-tribunal') ?>">
                             Marriage Tribunal
                         </a>
 
                         <!-- First Deaneries group -->
-                        <a href="#">
-                            Deaneries
-                        </a>
+                        <a href="<?= base_url('parishes') ?>">Deaneries</a>
 
-                        <a href="#">
-                            Directress
-                        </a>
+                        <a href="<?= base_url('diocesan-curia') ?>">Directress</a>
 
-                        <a href="#">
-                            Cathedral
-                        </a>
+                        <a href="<?= base_url('parishes') ?>">Cathedral</a>
 
-                        <a href="https://ksandbox.in/diocese2/Diocesan_Shrines">
+                        <a href="<?= base_url('diocesan-shrines') ?>">
                             Diocesan Shrines
                         </a>
 
                         <!-- Second Deaneries group -->
-                        <a href="#">
-                            Deaneries
-                        </a>
+                        <a href="<?= base_url('parishes') ?>">Deaneries</a>
 
-                        <a href="#">
-                            Directress
-                        </a>
+                        <a href="<?= base_url('diocesan-curia') ?>">Directress</a>
 
-                        <a href="https://ksandbox.in/diocese2/parishes">
+                        <a href="<?= base_url('parishes') ?>">
                             Parishes
                         </a>
 
-                        <a href="#">
-                            Cathedral
-                        </a>
+                        <a href="<?= base_url('parishes') ?>">Cathedral</a>
 
-                        <a href="#">
-                            Diocesan Shrines
-                        </a>
+                        <a href="<?= base_url('diocesan-shrines') ?>">Diocesan Shrines</a>
 
-                        <a href="https://ksandbox.in/diocese2/Seminarians">
+                        <a href="<?= base_url('seminarians') ?>">
                             Seminarians
                         </a>
 
@@ -7425,13 +7411,11 @@ body {
 
                     <div class="nav-dropdown-menu">
 
-                        <a href="https://ksandbox.in/diocese2/Bishop">
+                        <a href="<?= base_url('bishop') ?>">
                             Bishop
                         </a>
 
-                        <a href="#">
-                            Bishop's Message
-                        </a>
+                        <a href="<?= base_url('bishop') ?>">Bishop's Message</a>
 
                     </div>
 
@@ -7455,17 +7439,15 @@ body {
 
                     <div class="nav-dropdown-menu">
 
-                        <a href="https://ksandbox.in/diocese2/institutions">
+                        <a href="<?= base_url('institutions') ?>">
                             Institutions
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/education">
+                        <a href="<?= base_url('education') ?>">
                             Educational Institutions
                         </a>
 
-                        <a href="#">
-                            Hospitals
-                        </a>
+                        <a href="<?= base_url('institutions') ?>">Hospitals</a>
 
                     </div>
 
@@ -7489,17 +7471,15 @@ body {
 
                     <div class="nav-dropdown-menu">
 
-                        <a href="https://ksandbox.in/diocese2/Diocesan_Priests">
+                        <a href="<?= base_url('diocesan-priests') ?>">
                             Diocesan Priests
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/Religious_Priests">
+                        <a href="<?= base_url('religious-priests') ?>">
                             Religious Priests
                         </a>
 
-                        <a href="#">
-                            Religious Sisters
-                        </a>
+                        <a href="<?= base_url('institute-women') ?>">Religious Sisters</a>
 
                     </div>
 
@@ -7523,15 +7503,15 @@ body {
 
                     <div class="nav-dropdown-menu">
 
-                        <a href="https://ksandbox.in/diocese2/birthday_calender">
+                        <a href="<?= base_url('birthday-calendar') ?>">
                             Birthday Calendar
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/birthday_calender">
+                        <a href="<?= base_url('birthday-calendar') ?>">
                             Ordination Calendar
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/Necrology">
+                        <a href="<?= base_url('necrology') ?>">
                             Necrology
                         </a>
 
@@ -7557,27 +7537,25 @@ body {
 
                     <div class="nav-dropdown-menu">
 
-                        <a href="https://ksandbox.in/diocese2/news_events">
+                        <a href="<?= base_url('newsletters') ?>">
                             News & Events
                         </a>
 
-                        <a href="#">
-                            Articles
-                        </a>
+                        <a href="<?= base_url('newsletters') ?>">Articles</a>
 
-                        <a href="https://ksandbox.in/diocese2/Photo_Gallery">
+                        <a href="<?= base_url('photo-gallery') ?>">
                             Photo Gallery
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/Video_gallery">
+                        <a href="<?= base_url('video-gallery') ?>">
                             Video Gallery
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/song_gallery">
+                        <a href="<?= base_url('songs-gallery') ?>">
                             Songs Gallery
                         </a>
 
-                        <a href="https://ksandbox.in/diocese2/news-letters/">
+                        <a href="<?= base_url('newsletters') ?>">
                             Newsletters
                         </a>
 
@@ -7589,7 +7567,7 @@ body {
                 <!-- =========================
                      FEEDBACK
                 ========================== -->
-                <a href="https://ksandbox.in/diocese2/feedback">
+                <a href="<?= base_url('about-us') ?>">
                     Feedback
                 </a>
 
@@ -7597,7 +7575,7 @@ body {
                 <!-- =========================
                      CONTACT US
                 ========================== -->
-                <a href="https://ksandbox.in/diocese2/contact">
+                <a href="mailto:wgldiocese@gmail.com">
                     Contact Us
                 </a>
 
@@ -7657,9 +7635,7 @@ body {
 
             <div class="mobile-menu">
 
-                <a href="#">
-                    Home
-                </a>
+                <a href="<?= base_url('/') ?>">Home</a>
 
                <div class="mobile-dropdown">
 
@@ -7670,38 +7646,28 @@ body {
 
     <div class="mobile-dropdown-menu">
 
-        <a href="#">About Diocese</a>
+        <a href="<?= base_url('about-us') ?>">About Diocese</a>
 
-        <a href="#">Our Bishop</a>
+        <a href="<?= base_url('bishop') ?>">Our Bishop</a>
 
-        <a href="#">History</a>
+        <a href="<?= base_url('history') ?>">History</a>
 
-        <a href="#">Mission & Vision</a>
+        <a href="<?= base_url('about-us') ?>">Mission &amp; Vision</a>
 
-        <a href="#">Administration</a>
+        <a href="<?= base_url('diocesan-curia') ?>">Administration</a>
 
     </div>
 
 </div>
 
-                <a href="#">
-                    Committees
-                </a>
-         <a href="#">
-                    Hospitals
-                </a>
+                <a href="<?= base_url('committees') ?>">Committees</a>
+         <a href="<?= base_url('institutions') ?>">Hospitals</a>
 
-                <a href="#">
-                    Our Priests
-                </a>
+                <a href="<?= base_url('diocesan-priests') ?>">Our Priests</a>
 
-                <a href="#">
-                    Gallery
-                </a>
+                <a href="<?= base_url('photo-gallery') ?>">Gallery</a>
 
-                <a href="#">
-                    Contact Us
-                </a>
+                <a href="mailto:wgldiocese@gmail.com">Contact Us</a>
 
             </div>
 
@@ -10815,7 +10781,7 @@ body {
                             </li>
 
                             <li>
-                                <a href="#">Bishop's Message</a>
+                                <a href="<?= base_url('bishop') ?>">Bishop's Message</a>
                             </li>
 
                             <li>
@@ -10827,7 +10793,7 @@ body {
                             </li>
 
                             <li>
-                                <a href="#">Deaneries</a>
+                                <a href="<?= base_url('parishes') ?>">Deaneries</a>
                             </li>
 
                             <li>
@@ -10835,7 +10801,7 @@ body {
                             </li>
 
                             <li>
-                                <a href="#">Contact Us</a>
+                                <a href="mailto:wgldiocese@gmail.com">Contact Us</a>
                             </li>
 
                         </ul>
@@ -11127,7 +11093,7 @@ body {
                     <div class="warangal-video-responsive">
 
                         <iframe
-                            src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3"
+                            src="https://www.youtube.com/embed/5BNGhmztq1g"
                             title="Video"
                             allowfullscreen>
                         </iframe>

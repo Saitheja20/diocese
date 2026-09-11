@@ -5,6 +5,460 @@
             background-color: #07559b;
         }
     
+/* =====================================================
+   MIGRATED DIOCESE PAGES
+===================================================== */
+:root {
+    --dio-primary: #12670d;
+    --dio-primary-2: #237b2b;
+    --dio-maroon: #a00000;
+    --dio-blue: #07559b;
+    --dio-cream: #fff1c9;
+    --dio-ink: #222222;
+    --dio-muted: #556575;
+    --dio-soft: #fff8e8;
+    --dio-border: rgba(7, 85, 155, 0.14);
+    --dio-shadow: 0 18px 45px rgba(34, 34, 34, 0.09);
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+a {
+    word-break: break-word;
+}
+
+.contact-details a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.dio-desktop-menu {
+    gap: 18px;
+}
+
+.dio-nav-dropdown {
+    position: relative;
+}
+
+.dio-nav-toggle {
+    border: 0;
+    background: transparent;
+    color: #222222;
+    font: inherit;
+    font-size: 16px;
+    white-space: nowrap;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 30px 0;
+    transition: color 0.25s ease;
+}
+
+.dio-nav-toggle:hover,
+.dio-nav-toggle:focus {
+    color: var(--dio-primary-2);
+}
+
+.dio-nav-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 235px;
+    padding: 10px;
+    background: #ffffff;
+    border-top: 3px solid var(--dio-primary);
+    box-shadow: var(--dio-shadow);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.22s ease;
+    z-index: 50;
+}
+
+.dio-nav-dropdown:hover .dio-nav-menu,
+.dio-nav-dropdown:focus-within .dio-nav-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.desktop-menu .dio-nav-menu a {
+    display: block;
+    padding: 10px 12px;
+    font-size: 14px;
+    white-space: normal;
+}
+
+.dio-mobile-group {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.dio-mobile-toggle {
+    width: 100%;
+    min-height: 48px;
+    border: 0;
+    background: transparent;
+    color: #222222;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 5px;
+    text-align: left;
+}
+
+.mobile-menu .dio-mobile-group a {
+    padding: 10px 12px 10px 18px;
+    font-size: 15px;
+    background: #fafafa;
+}
+
+.dio-page-hero {
+    background:
+        linear-gradient(90deg, rgba(255, 241, 201, 0.94), rgba(255, 255, 255, 0.97)),
+        url('../img/about-sec-logo.webp') center right / contain no-repeat;
+    border-top: 6px solid var(--dio-blue);
+    border-bottom: 1px solid var(--dio-border);
+    padding: clamp(28px, 5vw, 58px) 0;
+}
+
+.dio-breadcrumb {
+    margin: 0 0 18px;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+.dio-breadcrumb a {
+    color: var(--dio-primary);
+    text-decoration: none;
+}
+
+.dio-page-heading {
+    display: flex;
+    gap: 18px;
+    align-items: center;
+}
+
+.dio-cross-mark {
+    position: relative;
+    width: 46px;
+    height: 74px;
+    flex: 0 0 46px;
+}
+
+.dio-cross-mark::before,
+.dio-cross-mark::after {
+    content: "";
+    position: absolute;
+    background: var(--dio-maroon);
+    border-radius: 10px;
+}
+
+.dio-cross-mark::before {
+    width: 12px;
+    height: 70px;
+    left: 17px;
+    top: 2px;
+}
+
+.dio-cross-mark::after {
+    width: 44px;
+    height: 12px;
+    left: 1px;
+    top: 25px;
+}
+
+.dio-page-heading p {
+    margin: 0 0 4px;
+    color: var(--dio-primary);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.dio-page-heading h1 {
+    margin: 0;
+    color: var(--dio-maroon);
+    font-size: clamp(28px, 5vw, 46px);
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+.dio-content-section {
+    padding: clamp(34px, 6vw, 76px) 0;
+}
+
+.dio-content-shell {
+    color: var(--dio-ink);
+    font-size: 15px;
+    line-height: 1.75;
+}
+
+.dio-content-shell > section,
+.dio-content-shell > .container,
+.dio-content-shell > div.container {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 0 !important;
+}
+
+.dio-content-shell h1,
+.dio-content-shell h2,
+.dio-content-shell h3,
+.dio-content-shell h4,
+.dio-content-shell .heading h4,
+.dio-content-shell .section-title,
+.dio-content-shell .title {
+    color: var(--dio-maroon) !important;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.22;
+    letter-spacing: 0;
+}
+
+.dio-content-shell h1,
+.dio-content-shell h2,
+.dio-content-shell .section-title {
+    font-size: clamp(24px, 4vw, 34px);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.dio-content-shell h4,
+.dio-content-shell .heading h4 {
+    font-size: clamp(20px, 3vw, 27px);
+    font-weight: 700;
+}
+
+.dio-content-shell p,
+.dio-content-shell li,
+.dio-content-shell td,
+.dio-content-shell th {
+    overflow-wrap: anywhere;
+}
+
+.dio-content-shell .card,
+.dio-content-shell .history-card,
+.dio-content-shell .profile-card,
+.dio-content-shell .audio-card,
+.dio-content-shell .video-card,
+.dio-content-shell .gallery-card {
+    border: 1px solid var(--dio-border) !important;
+    border-radius: 8px !important;
+    box-shadow: var(--dio-shadow) !important;
+    overflow: hidden;
+}
+
+.dio-content-shell .card {
+    margin-bottom: 22px;
+}
+
+.dio-content-shell .card-title,
+.dio-content-shell h5 {
+    color: var(--dio-maroon);
+    font-weight: 700;
+}
+
+.dio-content-shell img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dio-content-shell .card img,
+.dio-content-shell .profile-img,
+.dio-content-shell .gallery-img,
+.dio-content-shell .audio-thumbnail img,
+.dio-content-shell .video-card img {
+    object-fit: cover;
+}
+
+.dio-content-shell .profile-img {
+    width: min(100%, 330px);
+    border-radius: 8px;
+}
+
+.dio-content-shell .row {
+    max-width: 100%;
+}
+
+.dio-content-shell table {
+    width: 100% !important;
+    min-width: 640px;
+    vertical-align: middle;
+}
+
+.dio-content-shell .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.dio-content-shell table:not(.table-responsive table) {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.dio-content-shell thead th {
+    background: var(--dio-primary) !important;
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.25) !important;
+}
+
+.dio-content-shell .btn,
+.dio-content-shell button.btn,
+.dio-content-shell .btn-read {
+    border-radius: 0 !important;
+    min-height: 42px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    white-space: normal;
+}
+
+.dio-content-shell .btn-primary,
+.dio-content-shell .btn-danger,
+.dio-content-shell .btn-read {
+    background: var(--dio-primary) !important;
+    border-color: var(--dio-primary) !important;
+    color: #ffffff !important;
+}
+
+.dio-content-shell .btn-primary:hover,
+.dio-content-shell .btn-danger:hover,
+.dio-content-shell .btn-read:hover {
+    background: var(--dio-maroon) !important;
+    border-color: var(--dio-maroon) !important;
+}
+
+.dio-content-shell .accordion {
+    --bs-accordion-border-color: var(--dio-border);
+    --bs-accordion-border-radius: 8px;
+    --bs-accordion-inner-border-radius: 8px;
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 0.2rem rgba(18, 103, 13, 0.18);
+}
+
+.dio-content-shell .accordion-item {
+    border: 1px solid var(--dio-border);
+    border-radius: 8px !important;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+
+.dio-content-shell .accordion-button {
+    color: var(--dio-ink);
+    font-weight: 700;
+    line-height: 1.35;
+}
+
+.dio-content-shell .accordion-button:not(.collapsed) {
+    background: var(--dio-soft);
+    color: var(--dio-maroon);
+}
+
+.dio-content-shell .modal-dialog {
+    max-width: min(900px, calc(100% - 24px));
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dio-content-shell iframe,
+.dio-content-shell video,
+.dio-content-shell audio,
+.warangal-footer iframe {
+    max-width: 100%;
+}
+
+.warangal-footer iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.warangal-footer-scroll-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width: 1199.98px) {
+    .dio-desktop-menu {
+        gap: 10px;
+    }
+
+    .dio-nav-toggle,
+    .desktop-menu a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .dio-page-heading {
+        align-items: flex-start;
+    }
+
+    .dio-content-shell .row > [class*="col-lg-"],
+    .dio-content-shell .row > [class*="col-md-"] {
+        margin-bottom: 16px;
+    }
+
+    .dio-content-shell .h-100 {
+        height: auto !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .dio-page-hero {
+        padding: 24px 0;
+        background-size: 220px auto;
+    }
+
+    .dio-page-heading {
+        gap: 12px;
+    }
+
+    .dio-cross-mark {
+        width: 32px;
+        height: 54px;
+        flex-basis: 32px;
+    }
+
+    .dio-cross-mark::before {
+        width: 9px;
+        height: 52px;
+        left: 12px;
+    }
+
+    .dio-cross-mark::after {
+        width: 32px;
+        height: 9px;
+        top: 19px;
+    }
+
+    .dio-page-heading p {
+        font-size: 11px;
+    }
+
+    .dio-content-shell {
+        font-size: 14px;
+    }
+
+    .dio-content-shell .card-body,
+    .dio-content-shell .accordion-body,
+    .dio-content-shell .modal-body {
+        padding: 1rem !important;
+    }
+
+    .dio-content-shell table {
+        min-width: 560px;
+    }
+
+    .offcanvas {
+        width: min(300px, 92vw) !important;
+    }
+}
 
         * {
             margin: 0;
