@@ -6,6 +6,8 @@
             background-color: #07559b;
         }
    
+    
+
         * {
             margin: 0;
             padding: 0;
@@ -569,7 +571,11 @@
             }
 
             .dow-about-main-image {
+<<<<<<< HEAD
                 height: 435px;
+=======
+                height: auto;
+>>>>>>> refs/remotes/origin/main
                 aspect-ratio: 0.9 / 1;
             }
 
@@ -633,7 +639,15 @@
             }
 
         }
+<<<<<<< HEAD
 
+=======
+    
+
+        /* ==========================================================
+   MAIN ROW
+========================================================== */
+>>>>>>> refs/remotes/origin/main
 
         .warangal-intention-main-row {
             display: flex;
@@ -642,6 +656,13 @@
         }
 
 
+<<<<<<< HEAD
+=======
+        /* ==========================================================
+   FIXED IMAGE COLUMN
+========================================================== */
+
+>>>>>>> refs/remotes/origin/main
         .warangal-bishop-column {
             flex: 0 0 220px;
             width: 220px;
@@ -655,6 +676,13 @@
         }
 
 
+<<<<<<< HEAD
+=======
+        /* ==========================================================
+                 FIXED IMAGE WRAPPER
+        ========================================================== */
+
+>>>>>>> refs/remotes/origin/main
         .warangal-bishop-image-wrapper {
             width: 220px;
             height: 282px;
@@ -770,7 +798,7 @@
 
             color: #556575;
 
-            font-size: 16px;
+            font-size: 14px;
             font-weight: 400;
 
             line-height: 1.75;
@@ -1146,6 +1174,7 @@
 
         }
    
+    
 
         /* =========================================================
    WARANGAL ENGAGEMENT BAR
@@ -3055,6 +3084,8 @@
 
         }
    
+    
+
         /* =========================================================
            GLOBAL
         ========================================================= */
@@ -3653,6 +3684,8 @@
 
         }
   
+    
+
         /* =========================================================
    COMMUNITIES & INSTITUTIONS
 ========================================================= */
@@ -3915,9 +3948,10 @@
             }
 
             .warangal-community-card {
-                   flex-basis: 320px;
-        width: 295px;
-        height: 230px;
+                flex-basis: 300px;
+
+                width: 300px;
+                height: 182px;
             }
 
         }
@@ -4105,7 +4139,7 @@
                 flex-basis: 195px;
 
                 width: 195px;
-                height: 150px;
+                height: 125px;
             }
 
             .warangal-community-label {
@@ -4136,11 +4170,12 @@
                 flex-basis: 175px;
 
                 width: 175px;
-                height: 125px;
+                height: 115px;
             }
 
         }
- 
+    
+
         /* =========================================================
    CONNECT / NEWSLETTER SECTION
 ========================================================= */
@@ -4744,6 +4779,8 @@
 
         }
    
+    
+
         /* =========================================================
    FOOTER
 ========================================================= */
@@ -5440,6 +5477,7 @@
 .warangal-footer-designed{
     text-align:left;
 }
+
         }
 
 
@@ -5475,6 +5513,7 @@
             }
 
         }
+    
 
         /* ======================================================
    BISHOP OF WARANGAL
@@ -6226,6 +6265,8 @@
         }
         /*  */
     
+    
+
         .banner-carousel {
             width: 100%;
             overflow: hidden;
@@ -6237,7 +6278,8 @@
 
         .banner-carousel img {
             width: 100%;
-            height: 100%;
+            /* height: 100%; */
+            height: 650px;
             object-fit: cover;
             display: block;
         }
@@ -6293,7 +6335,13 @@
             height: 5px;
             margin: 0 5px;
         }
+    
 
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         body {
             font-family: Arial, sans-serif;
@@ -6404,7 +6452,7 @@
         .desktop-menu {
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 31px;
         }
 
         .desktop-menu a {
@@ -6612,7 +6660,7 @@
             }
 
             .offcanvas {
-                width: 100% !important;
+                width: 280px !important;
             }
 
         }
@@ -9245,3 +9293,4 @@ body {
     }
 
 }
+    

@@ -28,7 +28,11 @@
  <a href="index.html" class="warangal-footer-logo-wrap">
 
                             <img
+
                                 src="assets/img/Warangal-Diasoses-logo.png"
+
+                                src="assets/logo2.jpeg"
+
                                 alt="Diocese of Warangal"
                                 class="warangal-footer-main-logo">
 
@@ -208,6 +212,103 @@
     </div>
 
 </div>
+                <div class="col-6 col-md-3 col-lg-2 offset-lg-1">
+
+                    <div class="warangal-footer-column">
+
+                        <h5 class="warangal-footer-heading">
+                            QUICK LINKS
+                        </h5>
+
+
+                        <ul class="warangal-footer-links">
+
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Bishop's Message</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Commissions</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Parishes</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Deaneries</a>
+                            </li>
+
+                            <li>
+                                <a href="#">News &amp; Events</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Contact Us</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- =================================================
+                 COLUMN 3
+                 USEFUL LINKS
+            ================================================== -->
+
+                <div class="col-6 col-md-3 col-lg-2">
+
+                    <div class="warangal-footer-column">
+
+                        <h5 class="warangal-footer-heading">
+                            USEFUL LINKS
+                        </h5>
+
+
+                        <ul class="warangal-footer-links">
+
+                            <li>
+                                <a href="#">Vatican</a>
+                            </li>
+
+                            <li>
+                                <a href="#">CBCI</a>
+                            </li>
+
+                            <li>
+                                <a href="#">CCBI</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Catholic Charities</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Catholic News</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Youth Ministry</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Catholic TV</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
 
 
                 <!-- =================================================
@@ -487,3 +588,7 @@
 </body>
 
 </html>
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/main

@@ -45,3 +45,5 @@ $routes->get('contact','Home::contact');
 
 
 
+$routes->get('index3', 'Home::index3');
+$routes->get('newsletters', 'Home::newsletters');

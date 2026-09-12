@@ -8,6 +8,7 @@ class Home extends BaseController
     {
         return view('index');
     }
+
        public function about_us(): string
     {
         return view('about_us');
@@ -141,3 +142,12 @@ class Home extends BaseController
     }
     }
 
+    public function index3(): string
+    {
+        return view('index3');
+    }
+    public function newsletters(): string
+    {
+        return view('news-letters');
+    }
+}
