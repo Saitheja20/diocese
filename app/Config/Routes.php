@@ -19,7 +19,6 @@ $routes->get('diocesanpriests','Home::diocesanpriests');
 $routes->get('necrology','Home::necrology');
 $routes->get('parishes','Home::parishes');
 $routes->get('dioceanshrine','Home::dioceanshrine');
-
 $routes->get('bishop','Home::bishop');
 $routes->get('institution','Home::institution');
 $routes->get('eduactionalinstitution','Home::eduactionalinstitution');

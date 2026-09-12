@@ -102,103 +102,112 @@
                  QUICK LINKS
             ================================================== -->
 
-                <div class="col-6 col-md-3 col-lg-2 offset-lg-1">
+             <!-- =================================================
+     COLUMN 2
+     QUICK LINKS
+================================================== -->
 
-                    <div class="warangal-footer-column">
+<div class="col-6 col-md-3 col-lg-2 offset-lg-1">
 
-                        <h5 class="warangal-footer-heading">
-                            QUICK LINKS
-                        </h5>
+    <div class="warangal-footer-column">
 
+        <h5 class="warangal-footer-heading">
+            QUICK LINKS
+        </h5>
 
-                        <ul class="warangal-footer-links">
+        <ul class="warangal-footer-links">
 
-                            <li>
-                                <a href="#">About Us</a>
-                            </li>
+            <li>
+                <a href="<?= base_url('about_us'); ?>">About Us</a>
+            </li>
 
-                            <li>
-                                <a href="#">Bishop's Message</a>
-                            </li>
+            <li>
+                <a href="<?= base_url('history'); ?>">History</a>
+            </li>
 
-                            <li>
-                                <a href="#">Commissions</a>
-                            </li>
+            <li>
+                <a href="<?= base_url('bishop_message'); ?>">Bishop's Message</a>
+            </li>
 
-                            <li>
-                                <a href="#">Parishes</a>
-                            </li>
+            <li>
+                <a href="<?= base_url('commisions'); ?>">Commissions</a>
+            </li>
 
-                            <li>
-                                <a href="#">Deaneries</a>
-                            </li>
+            <li>
+                <a href="<?= base_url('deaneries'); ?>">Deaneries</a>
+            </li>
 
-                            <li>
-                                <a href="#">News &amp; Events</a>
-                            </li>
+            <li>
+                <a href="<?= base_url('parishes'); ?>">Parishes</a>
+            </li>
 
-                            <li>
-                                <a href="#">Contact Us</a>
-                            </li>
+            <li>
+                <a href="<?= base_url('contact'); ?>">Contact Us</a>
+            </li>
 
-                        </ul>
+        </ul>
 
-                    </div>
+    </div>
 
-                </div>
-
-
-
-                <!-- =================================================
-                 COLUMN 3
-                 USEFUL LINKS
-            ================================================== -->
-
-                <div class="col-6 col-md-3 col-lg-2">
-
-                    <div class="warangal-footer-column">
-
-                        <h5 class="warangal-footer-heading">
-                            USEFUL LINKS
-                        </h5>
+</div>
 
 
-                        <ul class="warangal-footer-links">
+<!-- =================================================
+     COLUMN 3
+     USEFUL LINKS
+================================================== -->
 
-                            <li>
-                                <a href="#">Vatican</a>
-                            </li>
+<div class="col-6 col-md-3 col-lg-2">
 
-                            <li>
-                                <a href="#">CBCI</a>
-                            </li>
+    <div class="warangal-footer-column">
 
-                            <li>
-                                <a href="#">CCBI</a>
-                            </li>
+        <h5 class="warangal-footer-heading">
+            USEFUL LINKS
+        </h5>
 
-                            <li>
-                                <a href="#">Catholic Charities</a>
-                            </li>
+        <ul class="warangal-footer-links">
 
-                            <li>
-                                <a href="#">Catholic News</a>
-                            </li>
+            <li>
+                <a href="<?= base_url('institution'); ?>">Institutions</a>
+            </li>
 
-                            <li>
-                                <a href="#">Youth Ministry</a>
-                            </li>
+            <li>
+                <a href="<?= base_url('eduactionalinstitution'); ?>">
+                    Educational Institutions
+                </a>
+            </li>
 
-                            <li>
-                                <a href="#">Catholic TV</a>
-                            </li>
+            <li>
+                <a href="<?= base_url('hospitals'); ?>">Hospitals</a>
+            </li>
 
-                        </ul>
+            <li>
+                <a href="<?= base_url('dioceanpreiest'); ?>">
+                    Diocesan Priests
+                </a>
+            </li>
 
-                    </div>
+            <li>
+                <a href="<?= base_url('religiouspreiest'); ?>">
+                    Religious Priests
+                </a>
+            </li>
 
-                </div>
+            <li>
+                <a href="<?= base_url('religioussisters'); ?>">
+                    Religious Sisters
+                </a>
+            </li>
 
+            <li>
+                <a href="<?= base_url('feedback'); ?>">Feedback</a>
+            </li>
+
+        </ul>
+
+    </div>
+
+</div>
 
 
                 <!-- =================================================

@@ -78,6 +78,9 @@
             padding: 3px;
             margin-bottom: 15px;
             transition: 0.4s ease;
+            position: relative;
+    left: 66px;
+
         }
 
         .consultor-card:hover .consultor-img {
@@ -184,7 +187,10 @@
             .contact-info {
                 font-size: 13px;
             }
-
+                .consultor-img {
+                        position: relative;
+    left: 78px;
+                }
         }
 
 
@@ -231,7 +237,11 @@
             .contact-info {
                 font-size: 13px;
             }
-
+    .consultor-img {
+        
+    position: relative;
+    left: 100px;
+}
         }
 
 

@@ -46,7 +46,7 @@
 
                 <div class="wdh-history-card-image">
 
-                    <img src="assets/img/warangal-history-1.jpg"
+                    <img src="assets/udumula-bala.jpg"
                          alt="History Of Warangal Diocese">
 
                     <div class="wdh-history-card-number">
@@ -61,8 +61,8 @@
                     <div class="wdh-history-card-accent"></div>
 
                     <p>
-                        Jesus’ public ministry began with an invitation to all, <strong>“The Kingdom of God is near, repent and believe.”</strong> (Mk. 1:15) and after his death and resurrection, He commissioned His disciples to go to the whole world and proclaim the Good News of the Kingdom (Mk.16: 15). Following the command of their Master, the disciples spread into different directions of the world.
-                    </p>
+                       Name: Most Rev. Dr. Udumala Bala <br>
+Designation: Bishop   </p>
 
 
                 </div>
@@ -82,7 +82,7 @@
 
                 <div class="wdh-history-card-image">
 
-                    <img src="assets/img/warangal-history-2.jpg"
+                    <img src="assets/b1.jpg"
                          alt="History Of Warangal Diocese">
 
                     <div class="wdh-history-card-number">
@@ -97,8 +97,8 @@
                     <div class="wdh-history-card-accent"></div>
 
                     <p>
-                        It was one such Franciscan Missionary, Luis do Salvador, who made a dent into our Telugunadu, by entering Vijayanagar Kingdom and sowed the seeds of Christian faith. He faced severe opposition in expanding Christianity and was killed in 1510. He became the First Martyr of the Church in Andhra.
-                    </p>
+                       Name: Fr. Kommareddy Joseph Reddy<br>
+Designation: Chancellor cum Procurator   </p>
 
                   
                 </div>
@@ -118,7 +118,7 @@
 
                 <div class="wdh-history-card-image">
 
-                    <img src="assets/img/warangal-history-3.jpg"
+                    <img src="assets/b2.jpg"
                          alt="History Of Warangal Diocese">
 
                     <div class="wdh-history-card-number">
@@ -133,8 +133,7 @@
                     <div class="wdh-history-card-accent"></div>
 
                     <p>
-                        With the hard work of the MEP Missionaries’ the number of the Mission Centres increased and this necessitated Ecclesiastical reorganisation. In 1832, Madras was erected as a Vicariate, bringing under it the entire Telugu Mission. Later on, for further administrative facilities, Visakhapatnam and Hyderabad were bifurcated from Madras Vicariate and were erected into separate Vicariates in 1850 and 1851 respectively.
-                    </p>
+                       Name: Fr. Anukiran Gangarapu<br> Designation: Secretary      </p>
 
                 </div>
 

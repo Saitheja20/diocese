@@ -309,9 +309,267 @@
 
     </style>
 
+<style>
+
+/* =========================================
+   CHURCH PAGE BANNER
+========================================= */
+
+.church-page-banner {
+    position: relative;
+    width: 100%;
+    min-height: 330px;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url('<?= base_url('assets/img/banner-inner.webp') ?>');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+}
+
+/* Dark overlay */
+.church-banner-overlay {
+    position: absolute;
+    inset: 0;
+
+    /* background:
+        linear-gradient(
+            90deg,
+            rgba(86, 10, 20, 0.90),
+            rgba(0, 70, 45, 0.68)
+        ); */
+
+    z-index: 1;
+}
+
+/* Banner content */
+.church-banner-content {
+    position: relative;
+    z-index: 2;
+
+    padding: 85px 0 70px;
+}
+
+/* Main heading */
+.church-banner-content h1 {
+    margin: 0 0 22px;
+
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+
+    color: #ffffff;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* =========================================
+   BREADCRUMB
+========================================= */
+
+.church-breadcrumb {
+    display: inline-block;
+
+    padding: 11px 22px;
+
+    border-radius: 4px;
+
+    background: linear-gradient(
+        90deg,
+        #7b1024 0%,
+        #9b2436 45%,
+        #08734d 100%
+    );
+
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+}
+
+/* Remove Bootstrap default background */
+.church-breadcrumb .breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 0;
+}
+
+/* Breadcrumb links */
+.church-breadcrumb .breadcrumb-item a {
+    color: #ffffff;
+    text-decoration: none;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.church-breadcrumb .breadcrumb-item a:hover {
+    color: #f4d58d;
+}
+
+/* Active */
+.church-breadcrumb .breadcrumb-item.active {
+    color: #f4d58d;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Breadcrumb separator */
+.church-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    color: rgba(255, 255, 255, 0.75);
+
+    padding-right: 10px;
+    padding-left: 10px;
+
+    content: "/";
+}
+
+/* Home icon */
+.church-breadcrumb i {
+    margin-right: 6px;
+    font-size: 13px;
+}
+
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 991px) {
+
+    .church-page-banner {
+        min-height: 290px;
+    }
+
+    .church-banner-content {
+        padding: 70px 0 55px;
+    }
+
+    .church-banner-content h1 {
+        font-size: 40px;
+    }
+
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 767px) {
+
+    .church-page-banner {
+        min-height: 250px;
+
+        background-position: center center;
+    }
+
+    .church-banner-content {
+        padding: 60px 20px 45px;
+    }
+
+    .church-banner-content h1 {
+        font-size: 32px;
+        margin-bottom: 18px;
+    }
+
+    .church-breadcrumb {
+        padding: 9px 15px;
+        max-width: 100%;
+    }
+
+    .church-breadcrumb .breadcrumb-item a,
+    .church-breadcrumb .breadcrumb-item.active {
+        font-size: 13px;
+    }
+
+}
+
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+
+    .church-page-banner {
+        min-height: 220px;
+    }
+
+    .church-banner-content {
+        padding: 50px 15px 38px;
+    }
+
+    .church-banner-content h1 {
+        font-size: 27px;
+        letter-spacing: 0.5px;
+        margin-bottom: 15px;
+    }
+
+    .church-breadcrumb {
+        padding: 8px 12px;
+    }
+
+    .church-breadcrumb .breadcrumb-item a,
+    .church-breadcrumb .breadcrumb-item.active {
+        font-size: 12px;
+    }
+
+    .church-breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+
+}
+
+</style>
+
 
 <body>
     <?php include __DIR__ . '/header.php'; ?>
+
+
+<!-- =========================
+     CHURCH INNER PAGE BANNER
+========================= -->
+<section class="church-page-banner">
+
+    <div class="church-banner-overlay"></div>
+
+    <div class="container">
+        <div class="church-banner-content">
+
+            <h1>About Us</h1>
+
+            <!-- Breadcrumb -->
+            <nav class="church-breadcrumb" aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item">
+                        <a href="<?= base_url('/') ?>">
+                            <i class="fa-solid fa-house"></i> Home
+                        </a>
+                    </li>
+
+                    <li class="breadcrumb-item active" aria-current="page">
+                        About Us
+                    </li>
+                </ol>
+            </nav>
+
+        </div>
+    </div>
+
+</section>
+
 
 
     <!-- =========================================
@@ -330,7 +588,7 @@
                 ================================== -->
 
                 <div
-                    class="customhome-content-x91"
+                     class="dow-about-heading-text"
                     data-aos="fade-right"
                     data-aos-duration="1000"
                 >
@@ -338,7 +596,7 @@
                    
 
                     <h2
-                        class="customhome-heading-x91"
+                       
                         data-aos="fade-up"
                         data-aos-delay="200"
                     >
@@ -347,7 +605,7 @@
 
 
                     <p
-                        class="customhome-text-x91"
+                         class="about-custom-description"
                         data-aos="fade-up"
                         data-aos-delay="300"
                     >
@@ -357,7 +615,7 @@
 
 
                     <p
-                        class="customhome-text-x91"
+                         class="about-custom-description"
                         data-aos="fade-up"
                         data-aos-delay="400"
                     >
@@ -494,115 +752,6 @@
     </div>
 
 </section>
-
-  <section class="customhome-section-x91">
-
-        <div class="customhome-container-x91">
-
-            <div class="customhome-grid-x91">
-
-
-                <!-- =================================
-                     LEFT CONTENT
-                ================================== -->
-
-                <div
-                    class="customhome-content-x91"
-                    data-aos="fade-right"
-                    data-aos-duration="1000"
-                >
-
-                   
-
-
-                    <p
-                        class="customhome-text-x91"
-                        data-aos="fade-up"
-                        data-aos-delay="300"
-                    >
-                        After the bifurcation of Vijayawada Diocese, Hyderabad Diocese was left with Telangana Districts. Of these, let us restrict our view to those that formed Warangal Diocese. The Hyderabad-Vijayawada Railway-line-work had brought a good number of Catholic Employees to the main Railway Junctions / Stations like Kazipet, Dornakal and Khammam. The Baptism Register kept at Kazipet reveals the presence of Catholic Community there since 1887.
-
-                    </p>
-
-
-                    <p
-                        class="customhome-text-x91"
-                        data-aos="fade-up"
-                        data-aos-delay="400"
-                    >
-                        It was a mixed Community of Anglo-Indians, Telugus and Tamils, settled at the Railway Junction of Kazipet. Between 1890–1930 a good number of Catholic Families migrated from Guntur and other parts of Coastal Andhra to Telangana in search of good cultivable land for their livelihood. Wherever they found good black soil, they settled there
-
-                    </p>
-
-                </div>
-
-
-                <!-- =================================
-                     RIGHT IMAGE COLLAGE
-                ================================== -->
-
-                <div
-                    class="customhome-gallery-x91"
-                    data-aos="fade-left"
-                    data-aos-duration="1200"
-                >
-
-
-                    <!-- TOP LEFT -->
-
-                    <div
-                        class="customhome-image-x91 customhome-image-one-x91"
-                        data-aos="zoom-in"
-                        data-aos-delay="150"
-                    >
-
-                        <img
-                            src="assets/img/home-1.jpg"
-                            alt="Custom Home Exterior"
-                        >
-
-                    </div>
-
-
-                    <!-- BOTTOM LEFT -->
-
-                    <div
-                        class="customhome-image-x91 customhome-image-two-x91"
-                        data-aos="zoom-in"
-                        data-aos-delay="300"
-                    >
-
-                        <img
-                            src="assets/img/home-2.jpg"
-                            alt="Modern Custom Home"
-                        >
-
-                    </div>
-
-
-                    <!-- RIGHT TALL IMAGE -->
-
-                    <div
-                        class="customhome-image-x91 customhome-image-three-x91"
-                        data-aos="zoom-in"
-                        data-aos-delay="450"
-                    >
-
-                        <img
-                            src="assets/img/home-3.jpg"
-                            alt="Custom Home Interior"
-                        >
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
 
 
 

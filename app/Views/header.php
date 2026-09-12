@@ -417,7 +417,7 @@
             <div class="desktop-menu"> 
  
                 <!-- HOME --> 
-                <a href="<?= base_url('index'); ?>">Home</a> 
+                <a href="<?= base_url('/'); ?>">Home</a> 
  
  
                 <!-- =============================== 
@@ -645,7 +645,7 @@
 
 
             <!-- HOME -->
-            <a href="<?= base_url('index'); ?>">
+            <a href="<?= base_url('/'); ?>">
                 Home
             </a>
 
