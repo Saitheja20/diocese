@@ -250,6 +250,7 @@ a {
     border-radius: 8px !important;
     box-shadow: var(--dio-shadow) !important;
     overflow: hidden;
+    padding: 13px;
 }
 
 .dio-content-shell .card {
