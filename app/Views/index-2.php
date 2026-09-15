@@ -7243,28 +7243,29 @@ body {
             <div class="top-header-content">
 
                 <div class="contact-details">
-                    +91- 870- 2459128 | waldioabu@gmail.com
+                    <a href="tel:+918702459128">+91 870 245 9128</a> |
+                    <a href="mailto:wgldiocese@gmail.com">wgldiocese@gmail.com</a>
                 </div>
 
                 <div class="social-icons">
 
-                    <a href="#" aria-label="Instagram">
+                    <a href="https://www.instagram.com/" aria-label="Instagram">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
 
-                    <a href="#" aria-label="Facebook">
+                    <a href="https://www.facebook.com/" aria-label="Facebook">
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
 
-                    <a href="#" aria-label="X">
+                    <a href="https://x.com/" aria-label="X">
                         <i class="fa-brands fa-x-twitter"></i>
                     </a>
 
-                    <a href="#" aria-label="YouTube">
+                    <a href="https://www.youtube.com/" aria-label="YouTube">
                         <i class="fa-brands fa-youtube"></i>
                     </a>
 
-                    <a href="#" aria-label="LinkedIn">
+                    <a href="https://www.linkedin.com/" aria-label="LinkedIn">
                         <i class="fa-brands fa-linkedin-in"></i>
                     </a>
 
@@ -7361,29 +7362,19 @@ body {
                             Marriage Tribunal
                         </a>
 
-                        <!-- First Deaneries group -->
-                        <a href="<?= base_url('parishes') ?>">Deaneries</a>
+                        <a href="<?= base_url('deaneries') ?>">Deaneries</a>
 
-                        <a href="<?= base_url('diocesan-curia') ?>">Directress</a>
+                        <a href="<?= base_url('directory') ?>">Directory</a>
 
-                        <a href="<?= base_url('parishes') ?>">Cathedral</a>
+                        <a href="<?= base_url('cathedral') ?>">Cathedral</a>
 
                         <a href="<?= base_url('diocesan-shrines') ?>">
                             Diocesan Shrines
                         </a>
 
-                        <!-- Second Deaneries group -->
-                        <a href="<?= base_url('parishes') ?>">Deaneries</a>
-
-                        <a href="<?= base_url('diocesan-curia') ?>">Directress</a>
-
                         <a href="<?= base_url('parishes') ?>">
                             Parishes
                         </a>
-
-                        <a href="<?= base_url('parishes') ?>">Cathedral</a>
-
-                        <a href="<?= base_url('diocesan-shrines') ?>">Diocesan Shrines</a>
 
                         <a href="<?= base_url('seminarians') ?>">
                             Seminarians
@@ -7415,7 +7406,7 @@ body {
                             Bishop
                         </a>
 
-                        <a href="<?= base_url('bishop') ?>">Bishop's Message</a>
+                        <a href="<?= base_url('bishop-message') ?>">Bishop's Message</a>
 
                     </div>
 
@@ -7447,7 +7438,7 @@ body {
                             Educational Institutions
                         </a>
 
-                        <a href="<?= base_url('institutions') ?>">Hospitals</a>
+                        <a href="<?= base_url('hospitals') ?>">Hospitals</a>
 
                     </div>
 
@@ -7479,7 +7470,7 @@ body {
                             Religious Priests
                         </a>
 
-                        <a href="<?= base_url('institute-women') ?>">Religious Sisters</a>
+                        <a href="<?= base_url('religious-sisters') ?>">Religious Sisters</a>
 
                     </div>
 
@@ -7503,7 +7494,7 @@ body {
 
                     <div class="nav-dropdown-menu">
 
-                        <a href="<?= base_url('birthday-calendar') ?>">
+                        <a href="<?= base_url('ordination-calendar') ?>">
                             Birthday Calendar
                         </a>
 
@@ -7537,11 +7528,11 @@ body {
 
                     <div class="nav-dropdown-menu">
 
-                        <a href="<?= base_url('newsletters') ?>">
+                        <a href="<?= base_url('news-events') ?>">
                             News & Events
                         </a>
 
-                        <a href="<?= base_url('newsletters') ?>">Articles</a>
+                        <a href="<?= base_url('articles') ?>">Articles</a>
 
                         <a href="<?= base_url('photo-gallery') ?>">
                             Photo Gallery
@@ -7567,7 +7558,7 @@ body {
                 <!-- =========================
                      FEEDBACK
                 ========================== -->
-                <a href="<?= base_url('about-us') ?>">
+                <a href="<?= base_url('feedback') ?>">
                     Feedback
                 </a>
 
@@ -7575,7 +7566,7 @@ body {
                 <!-- =========================
                      CONTACT US
                 ========================== -->
-                <a href="mailto:wgldiocese@gmail.com">
+                <a href="<?= base_url('contact-us') ?>">
                     Contact Us
                 </a>
 
@@ -7661,13 +7652,17 @@ body {
 </div>
 
                 <a href="<?= base_url('committees') ?>">Committees</a>
-         <a href="<?= base_url('institutions') ?>">Hospitals</a>
+                <a href="<?= base_url('hospitals') ?>">Hospitals</a>
 
                 <a href="<?= base_url('diocesan-priests') ?>">Our Priests</a>
 
                 <a href="<?= base_url('photo-gallery') ?>">Gallery</a>
 
-                <a href="mailto:wgldiocese@gmail.com">Contact Us</a>
+                <a href="<?= base_url('religious-sisters') ?>">Religious Sisters</a>
+                <a href="<?= base_url('deaneries') ?>">Deaneries</a>
+                <a href="<?= base_url('ordination-calendar') ?>">Ordination Calendar</a>
+                <a href="<?= base_url('news-events') ?>">News &amp; Events</a>
+                <a href="<?= base_url('contact-us') ?>">Contact Us</a>
 
             </div>
 
@@ -7925,7 +7920,7 @@ body {
                             data-aos-delay="300"
                             data-aos-offset="70">
 
-                            <a href="#" class="dow-about-btn">
+                            <a href="<?= base_url('about-us') ?>" class="dow-about-btn">
 
                                 Learn more
 
@@ -8110,7 +8105,7 @@ body {
                     data-aos-duration="800"
                     data-aos-offset="40">
 
-                    <a href="#" class="warangal-engagement-link">
+                    <a href="<?= base_url('bishop') ?>" class="warangal-engagement-link">
                         Bishop's Engagements
                     </a>
 
@@ -8118,7 +8113,7 @@ body {
                         bishop's Upcoming Engagements
                     </a> -->
 
-                    <a href="#" class="warangal-click-button">
+                    <a href="<?= base_url('bishop-message') ?>" class="warangal-click-button">
                         CLICK HERE
                     </a>
 
@@ -8200,7 +8195,7 @@ body {
                             The Bishop of Warangal, entrusted with the pastoral leadership and spiritual guidance of the faithful in the Diocese. With deep faith, wisdom, and a strong commitment to service, he continues to guide the Diocese in its mission of proclaiming the Gospel and serving society.
                         </p>
 
-                        <a href="#" class="warangal-bishop-btn">
+                        <a href="<?= base_url('bishop-message') ?>" class="warangal-bishop-btn">
                             Bishop Message
                         </a>
 
@@ -8597,7 +8592,7 @@ body {
                                         </p>
 
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('cathedral') ?>" class="warangal-archive-link">
 
                                             DISCOVER
 
@@ -8653,7 +8648,7 @@ body {
                                         </p>
 
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('diocesan-shrines') ?>" class="warangal-archive-link">
 
                                             DISCOVER
 
@@ -8709,7 +8704,7 @@ body {
                                         </p>
 
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('institutions') ?>" class="warangal-archive-link">
 
                                             DISCOVER
 
@@ -8770,7 +8765,7 @@ body {
                                             education and service across the Diocese.
                                         </p>
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                             DISCOVER
                                             <span class="warangal-archive-arrow">→</span>
                                         </a>
@@ -8812,7 +8807,7 @@ body {
                                             the spiritual life of Warangal.
                                         </p>
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                             DISCOVER
                                             <span class="warangal-archive-arrow">→</span>
                                         </a>
@@ -8854,7 +8849,7 @@ body {
                                             through education, character and service.
                                         </p>
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                             DISCOVER
                                             <span class="warangal-archive-arrow">→</span>
                                         </a>
@@ -8909,7 +8904,7 @@ body {
                                             living heritage of the Diocese.
                                         </p>
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                             DISCOVER
                                             <span class="warangal-archive-arrow">→</span>
                                         </a>
@@ -8950,7 +8945,7 @@ body {
                                             with dignity, care and hope.
                                         </p>
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                             DISCOVER
                                             <span class="warangal-archive-arrow">→</span>
                                         </a>
@@ -8991,7 +8986,7 @@ body {
                                             inspire the Diocese today.
                                         </p>
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                             DISCOVER
                                             <span class="warangal-archive-arrow">→</span>
                                         </a>
@@ -9098,7 +9093,7 @@ body {
                                             for worship, celebration and the sacraments.
                                         </p>
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                             DISCOVER
                                             <span class="warangal-archive-arrow">→</span>
                                         </a>
@@ -9140,7 +9135,7 @@ body {
                                             built a strong compassionate local Church.
                                         </p>
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                             DISCOVER
                                             <span class="warangal-archive-arrow">→</span>
                                         </a>
@@ -9192,7 +9187,7 @@ body {
                                             faithful encounter Christ.
                                         </p>
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                             DISCOVER
                                             <span class="warangal-archive-arrow">→</span>
                                         </a>
@@ -9232,7 +9227,7 @@ body {
                                             service across the Diocese.
                                         </p>
 
-                                        <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                             DISCOVER
                                             <span class="warangal-archive-arrow">→</span>
                                         </a>
@@ -9320,7 +9315,7 @@ body {
                                     for worship, celebration and the sacraments.
                                 </p>
 
-                                <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                     DISCOVER
                                     <span class="warangal-archive-arrow">→</span>
                                 </a>
@@ -9364,7 +9359,7 @@ body {
                                     built a strong compassionate local Church.
                                 </p>
 
-                                <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                     DISCOVER
                                     <span class="warangal-archive-arrow">→</span>
                                 </a>
@@ -9408,7 +9403,7 @@ body {
                                     encounter Christ and one another.
                                 </p>
 
-                                <a href="#" class="warangal-archive-link">
+                                        <a href="<?= base_url('parishes') ?>" class="warangal-archive-link">
                                     DISCOVER
                                     <span class="warangal-archive-arrow">→</span>
                                 </a>
@@ -9494,7 +9489,7 @@ body {
                     data-aos="fade-up"
                     data-aos-duration="800">
 
-                    <a href="#" class="faith-action-card">
+                    <a href="<?= base_url('bishop-message') ?>" class="faith-action-card">
 
                         <img
                             src="assets/paual.jpeg"
@@ -9529,7 +9524,7 @@ body {
                     data-aos-duration="800"
                     data-aos-delay="100">
 
-                    <a href="#" class="faith-action-card">
+                    <a href="<?= base_url('newsletters') ?>" class="faith-action-card">
 
                         <img
                             src="assets/Shepherd’s-Call-diocesan-newsletter.png"
@@ -9564,7 +9559,7 @@ body {
                     data-aos-duration="800"
                     data-aos-delay="200">
 
-                    <a href="#" class="faith-action-card">
+                    <a href="<?= base_url('college-consultors') ?>" class="faith-action-card">
 
                         <img
                             src="https://images.unsplash.com/photo-1491396023581-4344e51fec5c?auto=format&fit=crop&w=900&q=80"
@@ -9598,7 +9593,7 @@ body {
                     data-aos="fade-up"
                     data-aos-duration="800">
 
-                    <a href="#" class="faith-action-card">
+                    <a href="<?= base_url('deaneries') ?>" class="faith-action-card">
 
                         <img
                             src="assets/leader.jpeg"
@@ -9633,7 +9628,7 @@ body {
                     data-aos-duration="800"
                     data-aos-delay="100">
 
-                    <a href="#" class="faith-action-card">
+                    <a href="<?= base_url('parishes') ?>" class="faith-action-card">
 
                         <img
                             src="assets/parish.jpeg"
@@ -9668,7 +9663,7 @@ body {
                     data-aos-duration="800"
                     data-aos-delay="200">
 
-                    <a href="#" class="faith-action-card">
+                    <a href="<?= base_url('commissions') ?>" class="faith-action-card">
 
                         <img
                             src="assets/youth.jpeg"
@@ -9699,7 +9694,7 @@ body {
                     data-aos="fade-up"
                     data-aos-duration="800">
 
-                    <a href="#" class="faith-action-card">
+                    <a href="<?= base_url('diocesan-priests') ?>" class="faith-action-card">
 
                         <img
                             src="assets/img/priests.png"
@@ -9734,7 +9729,7 @@ body {
                     data-aos-duration="800"
                     data-aos-delay="100">
 
-                    <a href="#" class="faith-action-card">
+                    <a href="<?= base_url('commissions') ?>" class="faith-action-card">
 
                         <img
                             src="assets/img/commissions.png"
@@ -9768,7 +9763,7 @@ body {
                     data-aos-duration="800"
                     data-aos-delay="100">
 
-                    <a href="#" class="faith-action-card">
+                    <a href="<?= base_url('education') ?>" class="faith-action-card">
 
                         <img
                             src="assets/img/institutions.png"
@@ -9826,7 +9821,7 @@ body {
                     class="col-12 col-md-6 col-lg-4"
                     data-aos="fade-up"
                     data-aos-duration="800">
-                    <a href="#" class="warangal-news-card">
+                    <a href="<?= base_url('gallery/jubilee-2025') ?>" class="warangal-news-card">
 
                         <div class="warangal-news-image-wrap">
 
@@ -9869,7 +9864,7 @@ body {
                     data-aos="fade-up"
                     data-aos-duration="800"
                     data-aos-delay="100">
-                    <a href="#" class="warangal-news-card">
+                    <a href="<?= base_url('news-events') ?>" class="warangal-news-card">
 
                         <div class="warangal-news-image-wrap">
 
@@ -9912,7 +9907,7 @@ body {
                     data-aos="fade-up"
                     data-aos-duration="800"
                     data-aos-delay="200">
-                    <a href="#" class="warangal-news-card">
+                    <a href="<?= base_url('photo-gallery') ?>" class="warangal-news-card">
 
                         <div class="warangal-news-image-wrap">
 
@@ -10154,7 +10149,7 @@ body {
 
 
                             <!-- CARD 1 -->
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1532798442725-41036acc7489?auto=format&fit=crop&w=700&q=78"
@@ -10169,7 +10164,7 @@ body {
 
 
                             <!-- CARD 2 -->
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=700&q=78"
@@ -10184,7 +10179,7 @@ body {
 
 
                             <!-- CARD 3 -->
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="assets/img/2.png"
@@ -10199,7 +10194,7 @@ body {
 
 
                             <!-- CARD 4 -->
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1590579491624-f98f36d4c763?auto=format&fit=crop&w=700&q=78"
@@ -10214,7 +10209,7 @@ body {
 
 
                             <!-- CARD 5 -->
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?auto=format&fit=crop&w=700&q=78"
@@ -10229,7 +10224,7 @@ body {
 
 
                             <!-- CARD 6 -->
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://www.warangaldiocese.com/images/gallery/5.png"
@@ -10254,7 +10249,7 @@ body {
                         <div class="warangal-community-group" aria-hidden="true">
 
 
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1532798442725-41036acc7489?auto=format&fit=crop&w=700&q=78"
@@ -10267,7 +10262,7 @@ body {
                             </a>
 
 
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=700&q=78"
@@ -10280,7 +10275,7 @@ body {
                             </a>
 
 
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="assets/img/2.png"
@@ -10293,7 +10288,7 @@ body {
                             </a>
 
 
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1590579491624-f98f36d4c763?auto=format&fit=crop&w=700&q=78"
@@ -10306,7 +10301,7 @@ body {
                             </a>
 
 
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1591123120675-6f7f1aae0e5b?auto=format&fit=crop&w=700&q=78"
@@ -10319,7 +10314,7 @@ body {
                             </a>
 
 
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://www.warangaldiocese.com/images/gallery/5.png"
@@ -10357,7 +10352,7 @@ body {
 
 
                             <!-- CARD 1 -->
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://www.warangaldiocese.com/images/gallery/9.jpg"
@@ -10372,7 +10367,7 @@ body {
 
 
                             <!-- CARD 2 -->
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="assets/img/3.png"
@@ -10387,7 +10382,7 @@ body {
 
 
                             <!-- CARD 3 -->
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1491396023581-4344e51fec5c?auto=format&fit=crop&w=700&q=78"
@@ -10402,7 +10397,7 @@ body {
 
 
                             <!-- CARD 4 -->
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="assets/paual.jpeg"
@@ -10417,7 +10412,7 @@ body {
 
 
                             <!-- CARD 5 -->
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=78"
@@ -10432,7 +10427,7 @@ body {
 
 
                             <!-- CARD 6 -->
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=700&q=78"
@@ -10454,7 +10449,7 @@ body {
                         <div class="warangal-community-group" aria-hidden="true">
 
 
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://www.warangaldiocese.com/images/gallery/9.jpg"
@@ -10467,7 +10462,7 @@ body {
                             </a>
 
 
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="assets/img/3.png"
@@ -10480,7 +10475,7 @@ body {
                             </a>
 
 
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1491396023581-4344e51fec5c?auto=format&fit=crop&w=700&q=78"
@@ -10493,7 +10488,7 @@ body {
                             </a>
 
 
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="assets/paual.jpeg"
@@ -10506,7 +10501,7 @@ body {
                             </a>
 
 
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=700&q=78"
@@ -10519,7 +10514,7 @@ body {
                             </a>
 
 
-                            <a href="#" class="warangal-community-card">
+                            <a href="<?= base_url('directory') ?>" class="warangal-community-card">
 
                                 <img
                                     src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?auto=format&fit=crop&w=700&q=78"
@@ -10587,12 +10582,12 @@ body {
 
                         <div class="warangal-connect-buttons">
 
-                            <a href="#" class="warangal-connect-btn warangal-connect-btn-red">
+                            <a href="<?= base_url('contact-us') ?>" class="warangal-connect-btn warangal-connect-btn-red">
                                 Join Us
                             </a>
 
-                            <a href="#" class="warangal-connect-btn warangal-connect-btn-blue">
-                                Donate Now
+                            <a href="<?= base_url('feedback') ?>" class="warangal-connect-btn warangal-connect-btn-blue">
+                                Send Feedback
                             </a>
 
                         </div>
@@ -10691,7 +10686,7 @@ body {
  <a href="index.html" class="warangal-footer-logo-wrap">
 
                             <img
-                                src="assets/img/Warangal-Diasoses-logo2.png"
+                                src="assets/img/Warangal-Diasoses-logo.png"
                                 alt="Diocese of Warangal"
                                 class="warangal-footer-main-logo">
 
@@ -10726,15 +10721,15 @@ body {
                         <!-- Social Icons -->
                         <div class="warangal-footer-social">
 
-                            <a href="#" aria-label="Facebook">
+                            <a href="https://www.facebook.com/" aria-label="Facebook">
                                 <i class="fa-brands fa-facebook-f"></i>
                             </a>
 
-                            <a href="#" aria-label="YouTube">
+                            <a href="https://www.youtube.com/" aria-label="YouTube">
                                 <i class="fa-brands fa-youtube"></i>
                             </a>
 
-                            <a href="#" aria-label="Instagram">
+                            <a href="https://www.instagram.com/" aria-label="Instagram">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
 
@@ -10777,31 +10772,31 @@ body {
                         <ul class="warangal-footer-links">
 
                             <li>
-                                <a href="#">About Us</a>
+                                <a href="<?= base_url('about-us') ?>">About Us</a>
                             </li>
 
                             <li>
-                                <a href="<?= base_url('bishop') ?>">Bishop's Message</a>
+                                <a href="<?= base_url('bishop-message') ?>">Bishop's Message</a>
                             </li>
 
                             <li>
-                                <a href="#">Commissions</a>
+                                <a href="<?= base_url('commissions') ?>">Commissions</a>
                             </li>
 
                             <li>
-                                <a href="#">Parishes</a>
+                                <a href="<?= base_url('parishes') ?>">Parishes</a>
                             </li>
 
                             <li>
-                                <a href="<?= base_url('parishes') ?>">Deaneries</a>
+                                <a href="<?= base_url('deaneries') ?>">Deaneries</a>
                             </li>
 
                             <li>
-                                <a href="#">News &amp; Events</a>
+                                <a href="<?= base_url('news-events') ?>">News &amp; Events</a>
                             </li>
 
                             <li>
-                                <a href="mailto:wgldiocese@gmail.com">Contact Us</a>
+                                <a href="<?= base_url('contact-us') ?>">Contact Us</a>
                             </li>
 
                         </ul>
@@ -10829,31 +10824,31 @@ body {
                         <ul class="warangal-footer-links">
 
                             <li>
-                                <a href="#">Vatican</a>
+                                <a href="https://www.vatican.va/" rel="noopener">Vatican</a>
                             </li>
 
                             <li>
-                                <a href="#">CBCI</a>
+                                <a href="https://www.cbci.in/" rel="noopener">CBCI</a>
                             </li>
 
                             <li>
-                                <a href="#">CCBI</a>
+                                <a href="https://ccbi.in/" rel="noopener">CCBI</a>
                             </li>
 
                             <li>
-                                <a href="#">Catholic Charities</a>
+                                <a href="<?= base_url('institutions') ?>">Works of Mercy</a>
                             </li>
 
                             <li>
-                                <a href="#">Catholic News</a>
+                                <a href="<?= base_url('news-events') ?>">Diocesan News</a>
                             </li>
 
                             <li>
-                                <a href="#">Youth Ministry</a>
+                                <a href="<?= base_url('commissions') ?>">Youth Ministry</a>
                             </li>
 
                             <li>
-                                <a href="#">Catholic TV</a>
+                                <a href="<?= base_url('video-gallery') ?>">Video Gallery</a>
                             </li>
 
                         </ul>

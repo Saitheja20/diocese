@@ -1,0 +1,4 @@
+<section class="dio-connect-page">
+    <div class="dio-lead-card"><span class="dio-kicker">We value your voice</span><h2>Share feedback with the Diocese</h2><p>For corrections, suggestions or questions about the diocesan website, send a message to the Bishop's House office. Please include the page or ministry your feedback concerns.</p><div class="d-flex flex-wrap gap-2"><a class="btn btn-primary" href="mailto:wgldiocese@gmail.com?subject=Website%20feedback%20-%20Diocese%20of%20Warangal">Email your feedback</a><a class="btn btn-outline-primary" href="<?= base_url('contact-us') ?>">View contact details</a></div></div>
+    <p class="dio-privacy-note"><i class="fa-solid fa-shield-heart"></i> Please do not send confidential sacramental, medical or financial information by ordinary email.</p>
+</section>

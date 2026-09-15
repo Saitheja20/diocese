@@ -4,6 +4,7 @@ $nav = [
         ['Origins and Formation', 'about-us'],
         ['History', 'history'],
         ['Bishop', 'bishop'],
+        ["Bishop's Message", 'bishop-message'],
         ['Diocesan Curia', 'diocesan-curia'],
         ['Marriage Tribunal', 'marriage-tribunal'],
     ],
@@ -16,12 +17,16 @@ $nav = [
     'Clergy' => [
         ['Diocesan Priests', 'diocesan-priests'],
         ['Religious Priests', 'religious-priests'],
+        ['Religious Sisters', 'religious-sisters'],
+        ['Deaneries', 'deaneries'],
         ['Seminarians', 'seminarians'],
         ['Necrology', 'necrology'],
         ['Birthday Calendar', 'birthday-calendar'],
+        ['Ordination Calendar', 'ordination-calendar'],
     ],
     'Parishes & Institutions' => [
         ['Parishes', 'parishes'],
+        ['Cathedral', 'cathedral'],
         ['Diocesan Shrines', 'diocesan-shrines'],
         ['Education', 'education'],
         ['Institutions', 'institutions'],
@@ -31,10 +36,16 @@ $nav = [
     ],
     'Media' => [
         ['Newsletters', 'newsletters'],
+        ['News & Events', 'news-events'],
+        ['Articles', 'articles'],
         ['Photo Gallery', 'photo-gallery'],
         ['Jubilee Gallery', 'gallery/jubilee-2025'],
         ['Video Gallery', 'video-gallery'],
         ['Songs Gallery', 'songs-gallery'],
+    ],
+    'Connect' => [
+        ['Feedback', 'feedback'],
+        ['Contact Us', 'contact-us'],
     ],
 ];
 ?>

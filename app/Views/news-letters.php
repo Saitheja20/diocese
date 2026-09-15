@@ -91,7 +91,7 @@
 
                             <p class="mb-2">
                                 <i class="fa-solid fa-cross"></i> Bishop :
-                                <a href="#" target="_blank" class="text-info ml-1">Most. Rev. Udumala Bala</a>
+                                <a href="<?= base_url('bishop') ?>" class="text-info ml-1">Bishop of Warangal</a>
                             </p>
 
                             <div class="card-group mb-3">
@@ -164,7 +164,7 @@
 
                             <p class="mb-2">
                                 <i class="fa-solid fa-cross"></i> Bishop :
-                                <a href="#" target="_blank" class="text-info ml-1">Most. Rev. Udumala Bala</a>
+                                <a href="<?= base_url('bishop') ?>" class="text-info ml-1">Bishop of Warangal</a>
                             </p>
 
                             <div class="card-group mb-3">
@@ -359,7 +359,7 @@
 
                             <p class="mb-2">
                                 <i class="fa-solid fa-cross"></i> Bishop :
-                                <a href="#" target="_blank" class="text-info ml-1">Most. Rev. Udumala Bala</a>
+                                <a href="<?= base_url('bishop') ?>" class="text-info ml-1">Bishop of Warangal</a>
                             </p>
 
                             <div class="card-group mb-3">

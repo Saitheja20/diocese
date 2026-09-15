@@ -5,6 +5,7 @@ use CodeIgniter\Router\RouteCollection;
 /** @var RouteCollection $routes */
 $routes->get('/', 'Home::index');
 $routes->get('index3', 'Home::index3');
+$routes->get('home-alt', 'Home::index3');
 $routes->get('news-letters', 'Pages::show/newsletters');
 $routes->get('newsletters', 'Pages::show/newsletters');
 $routes->get('gallery/gallery_1', 'Pages::jubilee');
@@ -34,3 +35,24 @@ $routes->get('photo-gallery', 'Pages::show/photo-gallery');
 $routes->get('gallery/jubilee-2025', 'Pages::jubilee');
 $routes->get('video-gallery', 'Pages::show/video-gallery');
 $routes->get('songs-gallery', 'Pages::show/songs-gallery');
+$routes->get('bishop-message', 'Pages::show/bishop-message');
+$routes->get('religious-sisters', 'Pages::show/religious-sisters');
+$routes->get('deaneries', 'Pages::show/deaneries');
+$routes->get('directory', 'Pages::show/directory');
+$routes->get('ordination-calendar', 'Pages::show/ordination-calendar');
+$routes->get('cathedral', 'Pages::show/cathedral');
+$routes->get('news-events', 'Pages::show/news-events');
+$routes->get('articles', 'Pages::show/articles');
+$routes->get('feedback', 'Pages::show/feedback');
+$routes->get('contact-us', 'Pages::show/contact-us');
+
+// Historical category URLs now resolve to their consolidated redesigned directories.
+$routes->get('colleges', 'Pages::show/education');
+$routes->get('high-schools', 'Pages::show/education');
+$routes->get('upper-primary-schools', 'Pages::show/education');
+$routes->get('primary-schools', 'Pages::show/education');
+$routes->get('technical-schools', 'Pages::show/education');
+$routes->get('training-institutes', 'Pages::show/education');
+$routes->get('hospitals', 'Pages::show/institutions');
+$routes->get('men-religious-formation-houses', 'Pages::show/institute-men');
+$routes->get('women-religious-formation-houses', 'Pages::show/institute-women');

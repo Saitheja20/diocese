@@ -28,6 +28,7 @@
                         <li><a href="<?= base_url('commissions') ?>">Commissions</a></li>
                         <li><a href="<?= base_url('parishes') ?>">Parishes</a></li>
                         <li><a href="<?= base_url('newsletters') ?>">Newsletters</a></li>
+                        <li><a href="<?= base_url('contact-us') ?>">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
@@ -40,6 +41,7 @@
                         <li><a href="<?= base_url('institutions') ?>">Institutions</a></li>
                         <li><a href="<?= base_url('diocesan-shrines') ?>">Shrines</a></li>
                         <li><a href="<?= base_url('photo-gallery') ?>">Gallery</a></li>
+                        <li><a href="<?= base_url('deaneries') ?>">Deaneries</a></li>
                     </ul>
                 </div>
             </div>
@@ -72,11 +74,13 @@
 document.addEventListener('DOMContentLoaded', function () {
     if (window.AOS) AOS.init({ duration: 800, easing: 'ease-in-out', once: true, offset: 80 });
     document.querySelectorAll('.dio-content-shell img').forEach((img) => {
-        img.addEventListener('error', () => {
+        const useFallback = () => {
             img.onerror = null;
             img.src = '<?= base_url('assets/img/about-sec-logo.webp') ?>';
             img.alt = img.alt || 'Diocese of Warangal';
-        });
+        };
+        img.addEventListener('error', useFallback, { once: true });
+        if (img.complete && !img.naturalWidth) useFallback();
     });
     const btn = document.getElementById('warangalScrollTop');
     if (btn) {

@@ -1,0 +1,4 @@
+/writable/debugbar/*.json
+/writable/cache/*
+!/writable/cache/index.html
+/writable/logs/*.log
