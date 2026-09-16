@@ -17,7 +17,7 @@
         <!-- search box -->
 
         <div class="col-lg-12 mb-5 mt-5">
-            <h5 class="font-weight-bold mb-4">Find News-Letters</h5>
+            <h5 class="font-weight-bold mb-4">Find News-Letters.......</h5>
 
             <!-- <div class="row">
                 <div class="col-sm-10  position-relative p-1 pl-3 pr-3 mb-2">

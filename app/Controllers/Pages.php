@@ -41,6 +41,8 @@ class Pages extends BaseController
         'articles' => ['Articles & Resources', 'Media', 'pages/articles'],
         'feedback' => ['Feedback', 'Connect', 'pages/feedback'],
         'contact-us' => ['Contact Us', 'Connect', 'pages/contact'],
+        'indx2' => ['indx', 'Connect', 'legacy/index'],
+        'indx' => ['indx', 'Connect', 'legacy/index-2'],
     ];
 
     public function show(string $slug = ''): string

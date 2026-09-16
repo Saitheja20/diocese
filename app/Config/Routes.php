@@ -10,6 +10,7 @@ $routes->get('news-letters', 'Pages::show/newsletters');
 $routes->get('newsletters', 'Pages::show/newsletters');
 $routes->get('gallery/gallery_1', 'Pages::jubilee');
 
+$routes->get('indx', 'Pages::show/indx');
 $routes->get('about-us', 'Pages::show/about-us');
 $routes->get('history', 'Pages::show/history');
 $routes->get('bishop', 'Pages::show/bishop');
