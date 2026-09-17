@@ -46,7 +46,8 @@
 
       <!-- Read More button -->
        <div class="btn_readmore">
-       <a href="https://www.warangaldiocese.com/images/Aboutus.pdf" class="btn-read ">Read More.</a>
+       <a href="https://www.warangaldiocese.com/images/Aboutus.pdf" class="btn-read " target="_blank" >Read More.</a>
        </div>
+       
     </div>
   </div>

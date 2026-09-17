@@ -3,14 +3,16 @@
 use CodeIgniter\Router\RouteCollection;
 
 /** @var RouteCollection $routes */
-$routes->get('/', 'Home::index');
+// $routes->get('/', 'Home::index');
+$routes->get('index2', 'Home::index');
 $routes->get('index3', 'Home::index3');
 $routes->get('home-alt', 'Home::index3');
 $routes->get('news-letters', 'Pages::show/newsletters');
 $routes->get('newsletters', 'Pages::show/newsletters');
 $routes->get('gallery/gallery_1', 'Pages::jubilee');
-
-$routes->get('indx', 'Pages::show/indx');
+$routes->get('/', 'Pages::indx/indx');
+$routes->get('indx', 'Pages::indx/indx');
+$routes->get('index', 'Pages::indx/indx');
 $routes->get('about-us', 'Pages::show/about-us');
 $routes->get('history', 'Pages::show/history');
 $routes->get('bishop', 'Pages::show/bishop');

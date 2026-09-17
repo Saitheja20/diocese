@@ -1,8 +1,8 @@
 
         .warangal-blue-line {
-            width: 100%;
-            height: 6px;
-            background-color: #07559b;
+            /* width: 100%; */
+            /* height: 6px; */
+            /* background-color: #07559b; */
         }
     
 /* =====================================================
@@ -308,7 +308,53 @@ a {
     color: #ffffff !important;
     border-color: rgba(255, 255, 255, 0.25) !important;
 }
+@media (max-width: 575.98px) {
 
+    .dio-content-shell {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .dio-content-shell .table-responsive {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .dio-content-shell table {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100%;
+        table-layout: fixed;
+    }
+
+    .dio-content-shell table td,
+    .dio-content-shell table th {
+        white-space: normal !important;
+        word-break: normal;
+        overflow-wrap: anywhere;
+        font-size: 14px;
+        padding: 8px 6px;
+    }
+
+    .dio-content-shell table th:first-child,
+    .dio-content-shell table td:first-child {
+        width: 30%;
+    }
+
+    .dio-content-shell table th:nth-child(2),
+    .dio-content-shell table td:nth-child(2) {
+        width: 5%;
+        text-align: center;
+    }
+
+    .dio-content-shell table th:last-child,
+    .dio-content-shell table td:last-child {
+        width: 65%;
+    }
+}
 .dio-content-shell .btn,
 .dio-content-shell button.btn,
 .dio-content-shell .btn-read {
@@ -319,6 +365,7 @@ a {
     justify-content: center;
     gap: 6px;
     white-space: normal;
+    padding: 12px  ;
 }
 
 .dio-content-shell .btn-primary,
@@ -327,6 +374,7 @@ a {
     background: var(--dio-primary) !important;
     border-color: var(--dio-primary) !important;
     color: #ffffff !important;
+        text-decoration: none;
 }
 
 .dio-content-shell .btn-primary:hover,
@@ -7272,7 +7320,71 @@ a {
 
         }
 
+@media (max-width: 575.98px) {
 
+    /* Main content */
+    .dio-content-shell {
+        width: 100%;
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow-x: hidden;
+    }
+
+    /* Religious communities table */
+    .communities-table {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+    .communities-table table {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100%;
+        table-layout: fixed;
+        margin: 0;
+    }
+
+    /* Column widths */
+    .communities-table th:nth-child(1),
+    .communities-table td:nth-child(1) {
+        width: 16% !important;
+        text-align: center;
+    }
+
+    .communities-table th:nth-child(2),
+    .communities-table td:nth-child(2) {
+        width: 60% !important;
+        text-align: center;
+    }
+
+    .communities-table th:nth-child(3),
+    .communities-table td:nth-child(3) {
+        width: 24% !important;
+        text-align: center;
+    }
+
+    /* Table cells */
+    .communities-table th,
+    .communities-table td {
+        padding: 8px 4px !important;
+        font-size: 14px !important;
+        line-height: 1.4;
+        white-space: normal !important;
+        word-break: normal;
+        overflow-wrap: anywhere;
+        vertical-align: middle;
+    }
+
+    /* Header */
+    .communities-table thead th {
+        font-size: 13px !important;
+        line-height: 1.3;
+        padding: 9px 4px !important;
+    }
+
+}
         /* =========================
            SMALL MOBILE
         ========================= */
@@ -7281,6 +7393,7 @@ a {
 
             .top-header {
                 padding: 7px 0;
+                display: none;
             }
 
             .top-header-container {
@@ -7622,3 +7735,7 @@ a {
 
         }
     
+.modal-backdrop {
+    z-index: -1 !important;
+    background-color: #fff !important;
+}

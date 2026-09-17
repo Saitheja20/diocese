@@ -152,11 +152,6 @@
 </section> -->
 
 
-<section id="diocese_curia mb-2 mt-2 " style="min-height: auto;">
-  <div class="container">
-    <div class="heading">
-    <h4 class="section-title text-center my-4">Warangal Diocese Curia</h4>
-    </div>
 
 
 <section id="diocese_curia mb-2 mt-2 ">

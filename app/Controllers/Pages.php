@@ -42,7 +42,7 @@ class Pages extends BaseController
         'feedback' => ['Feedback', 'Connect', 'pages/feedback'],
         'contact-us' => ['Contact Us', 'Connect', 'pages/contact'],
         'indx2' => ['indx', 'Connect', 'legacy/index'],
-        'indx' => ['indx', 'Connect', 'legacy/index-2'],
+        'indx' => ['Home', 'index', 'legacy/index-2'],
     ];
 
     public function show(string $slug = ''): string
@@ -54,9 +54,24 @@ class Pages extends BaseController
         [$heading, $section, $legacyView] = $this->pages[$slug];
 
         return view('pages/legacy_page', [
-            'title' => $heading . ' | Diocese of Warangal',
-            'heading' => $heading,
-            'section' => $section,
+            // 'title' => $heading . ' | Diocese of Warangal',
+            // 'heading' => $heading,
+            // 'section' => $section,
+            'legacyView' => $legacyView,
+        ]);
+    }
+    public function indx(string $slug = ''): string
+    {
+        if (! isset($this->pages[$slug])) {
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound($slug);
+        }
+
+        [$heading, $section, $legacyView] = $this->pages[$slug];
+
+        return view('pages/legacy_page_index', [
+            // 'title' => $heading . ' | Diocese of Warangal',
+            // 'heading' => $heading,
+            // 'section' => $section,
             'legacyView' => $legacyView,
         ]);
     }

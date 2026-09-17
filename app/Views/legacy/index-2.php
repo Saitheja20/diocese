@@ -1,8 +1,16 @@
   <style>
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl
+    {
+        --bs-gutter-x: 0 rem !important;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-right: auto;
+        margin-left: auto;
+    }
         .warangal-blue-line {
-            width: 100%;
-            height: 6px;
-            background-color: #07559b;
+            /* width: 100%; */
+            /* height: 6px; */
+            /* background-color: #07559b; */
         }
     </style>
 
@@ -10170,3 +10178,278 @@ body {
         </div>
 
     </section>
+
+      <!-- =========================================================
+     VIDEO MODAL 1
+========================================================= -->
+
+    <div
+        class="modal fade warangal-video-modal"
+        id="warangalVideoModal1"
+        tabindex="-1"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+
+                </div>
+
+
+                <div class="modal-body">
+
+                    <div class="warangal-video-responsive">
+
+                        <iframe
+                            src="https://www.youtube.com/embed/v5eIjhomKPE?si=upPEGa7BZGb5MA0K"
+                            title="Video"
+                            allowfullscreen>
+                        </iframe>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================================
+     VIDEO MODAL 2
+========================================================= -->
+
+    <div
+        class="modal fade warangal-video-modal"
+        id="warangalVideoModal2"
+        tabindex="-1"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+
+                </div>
+
+
+                <div class="modal-body">
+
+                    <div class="warangal-video-responsive">
+
+                        <iframe
+                            src="https://www.youtube.com/embed/hLNn0_eYGhk?si=t4rlCIkxJgoMs5DC"
+                            title="Video"
+                            allowfullscreen>
+                        </iframe>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- =========================================================
+     VIDEO MODAL 3
+========================================================= -->
+
+    <div
+        class="modal fade warangal-video-modal"
+        id="warangalVideoModal3"
+        tabindex="-1"
+        aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+
+            <div class="modal-content">
+
+                <div class="modal-header">
+
+                    <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+
+                </div>
+
+
+                <div class="modal-body">
+
+                    <div class="warangal-video-responsive">
+
+                        <iframe
+                            src="https://www.youtube.com/embed/5BNGhmztq1g"
+                            title="Video"
+                            allowfullscreen>
+                        </iframe>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+
+    <!-- AOS JS -->
+    <script
+        src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+
+
+    <script>
+        AOS.init({
+
+            duration: 1000,
+
+            easing: 'ease-in-out',
+
+            once: false,
+
+            mirror: true,
+
+            offset: 100
+
+        });
+    </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const dropdown = document.querySelector(".nav-dropdown");
+    const toggle = document.querySelector(".nav-dropdown-toggle");
+
+    if (toggle && dropdown) {
+
+        toggle.addEventListener("click", function (e) {
+
+            e.preventDefault();
+
+            dropdown.classList.toggle("active");
+
+        });
+
+    }
+
+    /* Close when clicking outside */
+    document.addEventListener("click", function (e) {
+
+        if (dropdown && !dropdown.contains(e.target)) {
+            dropdown.classList.remove("active");
+        }
+
+    });
+
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const mobileDropdown = document.querySelector(".mobile-dropdown");
+    const mobileToggle = document.querySelector(".mobile-dropdown-toggle");
+
+    if (mobileDropdown && mobileToggle) {
+
+        mobileToggle.addEventListener("click", function () {
+
+            mobileDropdown.classList.toggle("active");
+
+        });
+
+    }
+
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const megaDropdown =
+        document.querySelector(".mega-dropdown");
+
+    const megaToggle =
+        document.querySelector(".mega-dropdown-toggle");
+
+
+    if (megaToggle && megaDropdown) {
+
+        megaToggle.addEventListener("click", function (e) {
+
+            e.preventDefault();
+
+            megaDropdown.classList.toggle("active");
+
+        });
+
+
+        /* Close when clicking outside */
+
+        document.addEventListener("click", function (e) {
+
+            if (!megaDropdown.contains(e.target)) {
+
+                megaDropdown.classList.remove("active");
+
+            }
+
+        });
+
+    }
+
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const mobileMega =
+        document.querySelector(".mobile-mega-dropdown");
+
+    const mobileToggle =
+        document.querySelector(".mobile-mega-toggle");
+
+
+    if (mobileToggle && mobileMega) {
+
+        mobileToggle.addEventListener("click", function () {
+
+            mobileMega.classList.toggle("active");
+
+        });
+
+    }
+
+});
+</script>

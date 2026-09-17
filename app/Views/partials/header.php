@@ -21,7 +21,7 @@ $nav = [
         ['Deaneries', 'deaneries'],
         ['Seminarians', 'seminarians'],
         ['Necrology', 'necrology'],
-        ['Birthday Calendar', 'birthday-calendar'],
+        // ['Birthday Calendar', 'birthday-calendar'],
         ['Ordination Calendar', 'ordination-calendar'],
     ],
     'Parishes & Institutions' => [
@@ -46,6 +46,7 @@ $nav = [
     'Connect' => [
         ['Feedback', 'feedback'],
         ['Contact Us', 'contact-us'],
+        
     ],
 ];
 ?>

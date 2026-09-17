@@ -2601,6 +2601,7 @@
 <script>
     AOS.init();
 </script>
+
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         const buttons = document.querySelectorAll('#academicTab button');
